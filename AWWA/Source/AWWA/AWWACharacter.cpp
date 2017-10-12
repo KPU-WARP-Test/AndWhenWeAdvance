@@ -42,7 +42,6 @@ AAWWACharacter::AAWWACharacter()
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
-
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 }
@@ -74,6 +73,10 @@ void AAWWACharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInpu
 
 	// VR headset functionality
 	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &AAWWACharacter::OnResetVR);
+
+	// New!
+	//PlayerInputComponent->BindAction("Run", IE_Pressed, this, &AAWWACharacter::Run);
+	//PlayerInputComponent->BindAction("Run", IE_Released, this, &AAWWACharacter::StopRun);
 }
 
 
@@ -85,6 +88,7 @@ void AAWWACharacter::OnResetVR()
 void AAWWACharacter::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)
 {
 		Jump();
+		AddMovementInput({ 0,0,0 }, 0);
 }
 
 void AAWWACharacter::TouchStopped(ETouchIndex::Type FingerIndex, FVector Location)
@@ -132,3 +136,6 @@ void AAWWACharacter::MoveRight(float Value)
 		AddMovementInput(Direction, Value);
 	}
 }
+
+
+// New!
