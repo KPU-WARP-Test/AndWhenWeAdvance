@@ -1,4 +1,4 @@
-﻿Log file open, 04/16/18 00:35:27
+﻿Log file open, 04/17/18 20:03:05
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: AWWA
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-931494908) SRandInit(-931494907).
+LogInit: Display: RandInit(-1155282110) SRandInit(-1155282110).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.229308
+LogStats: Stats thread started at 0.759588
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -197,485 +197,702 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.04.15-15.35.29:255][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.15-15.35.29:255][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.04.15-15.35.29:265][  0]LogInit: Computer: DESKTOP-SFT0388
-[2018.04.15-15.35.29:265][  0]LogInit: User: korea
-[2018.04.15-15.35.29:265][  0]LogInit: CPU Page size=4096, Cores=6
-[2018.04.15-15.35.29:265][  0]LogInit: High frequency timer resolution =3.609380 MHz
-[2018.04.15-15.35.29:265][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.04.15-15.35.29:265][  0]LogMemory: Platform Memory Stats for Windows
-[2018.04.15-15.35.29:265][  0]LogMemory: Process Physical Memory: 275.43 MB used, 275.43 MB peak
-[2018.04.15-15.35.29:265][  0]LogMemory: Process Virtual Memory: 272.24 MB used, 272.24 MB peak
-[2018.04.15-15.35.29:265][  0]LogMemory: Physical Memory: 4703.14 MB used,  11614.87 MB free, 16318.00 MB total
-[2018.04.15-15.35.29:265][  0]LogMemory: Virtual Memory: 684.66 MB used,  11614.87 MB free, 134217728.00 MB total
-[2018.04.15-15.35.29:470][  0]LogInit: Using OS detected language (ko-KR).
-[2018.04.15-15.35.29:470][  0]LogInit: Using OS detected locale (ko-KR).
-[2018.04.15-15.35.29:473][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
-[2018.04.15-15.35.29:598][  0]LogInit: Setting process to per monitor DPI aware
-[2018.04.15-15.35.29:889][  0]LogD3D11RHI: D3D11 adapters:
-[2018.04.15-15.35.29:931][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070 Ti' (Feature Level 11_0)
-[2018.04.15-15.35.29:931][  0]LogD3D11RHI:       8080/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.04.15-15.35.29:933][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.04.15-15.35.29:933][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.04.15-15.35.29:933][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.04.15-15.35.29:937][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.04.15-15.35.29:937][  0]LogD3D11RHI:     GPU DeviceId: 0x1b82 (for the marketing name, search the web for "GPU Device Id")
-[2018.04.15-15.35.29:937][  0]LogWindows: EnumDisplayDevices:
-[2018.04.15-15.35.29:938][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070 Ti' (P:1 D:1)
-[2018.04.15-15.35.29:938][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:1)
-[2018.04.15-15.35.29:939][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
-[2018.04.15-15.35.29:939][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
-[2018.04.15-15.35.29:939][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.04.15-15.35.29:939][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070 Ti
-[2018.04.15-15.35.29:939][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.04.15-15.35.29:939][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.04.15-15.35.29:939][  0]LogRHI: Texture pool is 5656 MB (70% of 8080 MB)
-[2018.04.15-15.35.29:964][  0]LogD3D11RHI: Async texture creation enabled
-[2018.04.15-15.35.29:980][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.04.15-15.35.30:078][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Intermediate/Shaders/WorkingDirectory/948/).
-[2018.04.15-15.35.30:078][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/korea/AppData/Local/Temp/UnrealShaderWorkingDir/C477E154410AED505CE54D81EA679558/'.
-[2018.04.15-15.35.30:078][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.04.15-15.35.30:885][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.04.15-15.35.30:948][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.04.15-15.35.31:012][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.04.15-15.35.31:074][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.04.15-15.35.31:137][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.04.15-15.35.31:206][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.04.15-15.35.31:269][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.04.15-15.35.31:332][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.04.15-15.35.31:389][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.04.15-15.35.31:451][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.04.15-15.35.31:514][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.04.15-15.35.31:575][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.04.15-15.35.31:636][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.04.15-15.35.31:700][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.04.15-15.35.31:824][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.04.15-15.35.31:824][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.04.15-15.35.31:886][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.04.15-15.35.31:940][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.04.15-15.35.32:050][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.04.15-15.35.32:082][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.04.15-15.35.32:144][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.04.15-15.35.32:207][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.04.15-15.35.32:271][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.04.15-15.35.32:337][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.04.15-15.35.32:337][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.04.15-15.35.32:951][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.04.15-15.35.33:001][  0]LogDerivedDataCache: Loaded boot cache 0.05s 75MB C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.04.15-15.35.33:001][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.04.15-15.35.33:001][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.04.15-15.35.33:001][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.04.15-15.35.33:001][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.04.15-15.35.33:001][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.04.15-15.35.33:012][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.04.15-15.35.33:025][  0]LogDerivedDataCache: Using Local data cache path C:/Users/korea/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.04.15-15.35.33:037][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.04.15-15.35.33:037][  0]LogSlate: Using Freetype 2.6.0
-[2018.04.15-15.35.33:037][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.15-15.35.33:037][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.15-15.35.33:361][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.15-15.35.33:731][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.04.15-15.35.33:787][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.04.15-15.35.33:787][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.04.15-15.35.33:787][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.04.15-15.35.33:787][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.04.15-15.35.33:787][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.04.15-15.35.33:820][  0]LogNetVersion: AWWA , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3043977046)
-[2018.04.15-15.35.33:982][  0]LogAssetRegistry: FAssetRegistry took 0.0249 seconds to start up
-[2018.04.15-15.35.34:423][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.059311 seconds
-[2018.04.15-15.35.34:426][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.04.15-15.35.34:426][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.04.15-15.35.34:426][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.04.15-15.35.34:499][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.04.15-15.35.37:586][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.04.15-15.35.37:639][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.04.15-15.35.38:806][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.04.15-15.35.39:321][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.04.15-15.35.39:321][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.04.15-15.35.39:390][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.04.15-15.35.39:460][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.04.15-15.35.40:535][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.04.15-15.35.40:893][  0]LogOcInput: OculusInput pre-init called
-[2018.04.15-15.35.41:236][  0]LogEngine: Initializing Engine...
-[2018.04.15-15.35.41:238][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.04.15-15.35.41:381][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.04.15-15.35.41:381][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.04.15-15.35.41:554][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.04.15-15.35.41:580][  0]LogInit: XAudio2 using '스피커(USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.15-15.35.41:623][  0]LogInit: FAudioDevice initialized.
-[2018.04.15-15.35.41:712][  0]LogDerivedDataCache: Saved boot cache 0.09s 75MB C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.04.15-15.35.41:721][  0]LogInit: Texture streaming: Enabled
-[2018.04.15-15.35.41:859][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.04.15-15.35.42:033][  0]LogInit: Transaction tracking system initialized
-[2018.04.15-15.35.42:465][  0]BlueprintLog: New page: 에디터 로드
-[2018.04.15-15.35.43:870][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
-[2018.04.15-15.35.44:869][  0]LogConsoleResponse: Display: 
-[2018.04.15-15.35.45:029][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.04.15-15.35.45:029][  0]LogCook: Display: Mobile HDR setting 1
-[2018.04.15-15.35.45:029][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.04.15-15.35.45:579][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/' took 0.03s
-[2018.04.15-15.35.46:616][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.04.15-15.35.46:616][  0]Cmd: MAP LOAD FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Maps/World.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.15-15.35.46:616][  0]LightingResults: New page: 라이팅 빌드
-[2018.04.15-15.35.46:672][  0]MapCheck: New page: 맵 체크
-[2018.04.15-15.35.46:672][  0]LightingResults: New page: 라이팅 빌드
-[2018.04.15-15.35.50:760][  0]LogAIModule: Creating AISystem for world World
-[2018.04.15-15.35.51:739][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.04.15-15.35.51:839][  0]MapCheck: /Game/Maps/World 레벨의 39 개 컴포넌트에 대해 칠해진 버텍스 컬러 수리에 0.0s 걸렸습니다. 맵을 다시 저장하면 확정됩니다. 
-[2018.04.15-15.35.51:839][  0]MapCheck: Warning: 스태틱 메시 리임포트로 인해 칠해진 버텍스 컬러를 고치는 데 시간이 0.0s 만큼 걸렸습니다. 맵을 다시 저장하기 전까지는 로드할 때마다 이 작업이 실행됩니다. 
-[2018.04.15-15.35.51:839][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.04.15-15.35.52:059][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 1 회, 소요 시간 219.75ms.
-[2018.04.15-15.35.52:078][  0]LogFileHelpers: Loading map 'World' took 5.463
-[2018.04.15-15.35.52:151][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
-[2018.04.15-15.35.52:215][  0]LogCollectionManager: Loaded 0 collections in 0.001636 seconds
-[2018.04.15-15.35.52:328][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Collections/' took 0.01s
-[2018.04.15-15.35.52:328][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Developers/korea/Collections/' took 0.01s
-[2018.04.15-15.35.52:328][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Collections/' took 0.01s
-[2018.04.15-15.35.52:328][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.04.15-15.35.52:334][  0]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 2365 classes and 521 folders.
-[2018.04.15-15.35.52:439][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.04.15-15.35.52:485][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.04.15-15.35.52:550][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2018.04.15-15.35.52:599][  0]LogSlate: Took 0.000297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.04.15-15.35.52:602][  0]LogSlate: Took 0.001715 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
-[2018.04.15-15.35.52:603][  0]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.04.15-15.35.52:605][  0]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.04.15-15.35.52:691][  0]LogRenderer: Reallocating scene render targets to support 1940x636 Format 10 NumSamples 1 (Frame:1).
-[2018.04.15-15.35.52:879][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2018.04.15-15.35.52:879][  0]LogLoad: (Engine Initialization) Total time: 26.70 seconds
-[2018.04.15-15.35.52:879][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.04.15-15.35.52:879][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.04.15-15.35.52:905][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.04.15-15.35.52:992][  1]LogAssetRegistry: Asset discovery search completed in 19.0324 seconds
-[2018.04.15-15.35.52:996][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.04.15-15.35.52:996][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
-[2018.04.15-15.35.53:919][ 68]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.15-15.35.56:494][369]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.15-15.35.56:629][369]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2018.04.15-15.35.56:783][369]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2018.04.15-15.35.57:022][369]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 116 classes and 0 folders.
-[2018.04.15-15.35.57:477][369]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_2:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2018.04.15-15.35.57:992][369]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
-[2018.04.15-15.35.58:026][369]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_5:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
-[2018.04.15-15.35.58:225][369]LogSlate: Took 0.000326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.04.15-15.35.58:973][369]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0007 seconds. Added 1 classes and 0 folders.
-[2018.04.15-15.35.58:979][369]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2018.04.15-15.35.59:007][370]LogSlate: Took 0.000338 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.04.15-15.36.02:385][539]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2018.04.15-15.36.04:851][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/World" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Maps/World.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.04.15-15.36.10:757][808]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.04.15-15.36.13:998][808]LogSavePackage: Save=9062.12ms
-[2018.04.15-15.36.13:998][808]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/World0D6C4F254FD2F3E93DEE2283F8F3CCA2.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Maps/World.umap'
-[2018.04.15-15.36.14:009][808]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Maps/World.umap
-[2018.04.15-15.36.14:042][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/World_BuiltData" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Maps/World_BuiltData.uasset" SILENT=true
-[2018.04.15-15.36.14:052][808]LogSavePackage: Save=3.92ms
-[2018.04.15-15.36.14:052][808]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/World_BuiltData4D54CAEA45C99ADE5A84C69A02D4BCE6.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Maps/World_BuiltData.uasset'
-[2018.04.15-15.36.14:053][808]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Maps/World_BuiltData.uasset
-[2018.04.15-15.36.18:837][912]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/EDIT_Main_Anim" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/EDIT_Main_Anim.uasset" SILENT=true
-[2018.04.15-15.36.19:098][912]LogSavePackage: Save=252.53ms
-[2018.04.15-15.36.19:098][912]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Main_Anim43DFC80C45CBBA7E7A14518068BDFAFD.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/EDIT_Main_Anim.uasset'
-[2018.04.15-15.36.19:101][912]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/EDIT_Main_Anim.uasset
-[2018.04.15-15.36.19:139][912]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
-[2018.04.15-15.36.19:230][913]Cmd: QUIT_EDITOR
-[2018.04.15-15.36.19:275][913]LogExit: Preparing to exit.
-[2018.04.15-15.36.19:703][913]LogDirectoryWatcher: A directory notification failed for 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/', and we were unable to create a new request.
-[2018.04.15-15.36.19:845][913]LogExit: Editor shut down
-[2018.04.15-15.36.19:846][913]LogExit: Transaction tracking system shut down
-[2018.04.15-15.36.20:047][913]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.04.15-15.36.20:047][913]LogDirectoryWatcher: A directory notification for '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/' was aborted.
-[2018.04.15-15.36.20:047][913]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.04.15-15.36.20:047][913]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.04.15-15.36.20:047][913]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.04.15-15.36.20:047][913]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.04.15-15.36.20:047][913]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.04.15-15.36.20:152][913]LogExit: Object subsystem successfully closed.
-[2018.04.15-15.36.20:276][913]LogD3D11RHI: Shutdown
-[2018.04.15-15.36.20:276][913]LogD3D11RHI: CleanupD3DDevice
-[2018.04.15-15.36.20:338][913]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.04.15-15.36.20:353][913]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (560)
-[2018.04.15-15.36.20:354][913]LogModuleManager: Shutting down and abandoning module AnimationEditor (558)
-[2018.04.15-15.36.20:354][913]LogModuleManager: Shutting down and abandoning module BlueprintGraph (556)
-[2018.04.15-15.36.20:354][913]LogModuleManager: Shutting down and abandoning module SkeletonEditor (554)
-[2018.04.15-15.36.20:354][913]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (552)
-[2018.04.15-15.36.20:354][913]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (550)
-[2018.04.15-15.36.20:354][913]LogModuleManager: Shutting down and abandoning module DesktopPlatform (548)
-[2018.04.15-15.36.20:354][913]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
-[2018.04.15-15.36.20:354][913]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
-[2018.04.15-15.36.20:354][913]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
-[2018.04.15-15.36.20:354][913]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
-[2018.04.15-15.36.20:354][913]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
-[2018.04.15-15.36.20:354][913]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
-[2018.04.15-15.36.20:354][913]LogDirectoryWatcher: A directory notification for 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Collections/' was aborted.
-[2018.04.15-15.36.20:354][913]LogDirectoryWatcher: A directory notification for 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Developers/korea/Collections/' was aborted.
-[2018.04.15-15.36.20:354][913]LogDirectoryWatcher: A directory notification for 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Collections/' was aborted.
-[2018.04.15-15.36.20:354][913]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
-[2018.04.15-15.36.20:354][913]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
-[2018.04.15-15.36.20:354][913]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
-[2018.04.15-15.36.20:354][913]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
-[2018.04.15-15.36.20:354][913]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
-[2018.04.15-15.36.20:354][913]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
-[2018.04.15-15.36.20:354][913]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
-[2018.04.15-15.36.20:354][913]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
-[2018.04.15-15.36.20:354][913]LogModuleManager: Shutting down and abandoning module BspMode (520)
-[2018.04.15-15.36.20:354][913]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
-[2018.04.15-15.36.20:354][913]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
-[2018.04.15-15.36.20:354][913]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
-[2018.04.15-15.36.20:355][913]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
-[2018.04.15-15.36.20:355][913]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
-[2018.04.15-15.36.20:355][913]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
-[2018.04.15-15.36.20:355][913]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
-[2018.04.15-15.36.20:355][913]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
-[2018.04.15-15.36.20:355][913]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
-[2018.04.15-15.36.20:355][913]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
-[2018.04.15-15.36.20:355][913]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
-[2018.04.15-15.36.20:355][913]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
-[2018.04.15-15.36.20:355][913]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
-[2018.04.15-15.36.20:355][913]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
-[2018.04.15-15.36.20:355][913]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
-[2018.04.15-15.36.20:355][913]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
-[2018.04.15-15.36.20:355][913]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
-[2018.04.15-15.36.20:355][913]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
-[2018.04.15-15.36.20:355][913]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
-[2018.04.15-15.36.20:355][913]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
-[2018.04.15-15.36.20:355][913]LogModuleManager: Shutting down and abandoning module SessionServices (478)
-[2018.04.15-15.36.20:355][913]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
-[2018.04.15-15.36.20:355][913]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
-[2018.04.15-15.36.20:355][913]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
-[2018.04.15-15.36.20:355][913]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
-[2018.04.15-15.36.20:355][913]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
-[2018.04.15-15.36.20:355][913]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
-[2018.04.15-15.36.20:355][913]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
-[2018.04.15-15.36.20:355][913]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
-[2018.04.15-15.36.20:355][913]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
-[2018.04.15-15.36.20:355][913]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
-[2018.04.15-15.36.20:355][913]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
-[2018.04.15-15.36.20:403][913]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
-[2018.04.15-15.36.20:403][913]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
-[2018.04.15-15.36.20:403][913]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
-[2018.04.15-15.36.20:403][913]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
-[2018.04.15-15.36.20:403][913]LogModuleManager: Shutting down and abandoning module MergeActors (446)
-[2018.04.15-15.36.20:403][913]LogModuleManager: Shutting down and abandoning module SizeMap (444)
-[2018.04.15-15.36.20:403][913]LogModuleManager: Shutting down and abandoning module TreeMap (442)
-[2018.04.15-15.36.20:403][913]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
-[2018.04.15-15.36.20:403][913]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
-[2018.04.15-15.36.20:403][913]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
-[2018.04.15-15.36.20:403][913]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
-[2018.04.15-15.36.20:403][913]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
-[2018.04.15-15.36.20:403][913]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
-[2018.04.15-15.36.20:403][913]LogModuleManager: Shutting down and abandoning module XmlParser (428)
-[2018.04.15-15.36.20:403][913]LogModuleManager: Shutting down and abandoning module Blutility (426)
-[2018.04.15-15.36.20:403][913]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
-[2018.04.15-15.36.20:403][913]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
-[2018.04.15-15.36.20:403][913]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
-[2018.04.15-15.36.20:403][913]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
-[2018.04.15-15.36.20:403][913]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
-[2018.04.15-15.36.20:403][913]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
-[2018.04.15-15.36.20:403][913]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
-[2018.04.15-15.36.20:404][913]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
-[2018.04.15-15.36.20:404][913]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
-[2018.04.15-15.36.20:460][913]LogModuleManager: Shutting down and abandoning module AutomationController (406)
-[2018.04.15-15.36.20:460][913]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
-[2018.04.15-15.36.20:460][913]LogModuleManager: Shutting down and abandoning module Layers (402)
-[2018.04.15-15.36.20:460][913]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
-[2018.04.15-15.36.20:460][913]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
-[2018.04.15-15.36.20:460][913]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
-[2018.04.15-15.36.20:460][913]LogModuleManager: Shutting down and abandoning module Persona (394)
-[2018.04.15-15.36.20:460][913]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
-[2018.04.15-15.36.20:460][913]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
-[2018.04.15-15.36.20:460][913]LogModuleManager: Shutting down and abandoning module Kismet (388)
-[2018.04.15-15.36.20:466][913]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
-[2018.04.15-15.36.20:466][913]LogModuleManager: Shutting down and abandoning module Toolbox (384)
-[2018.04.15-15.36.20:466][913]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
-[2018.04.15-15.36.20:466][913]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
-[2018.04.15-15.36.20:466][913]LogModuleManager: Shutting down and abandoning module OutputLog (378)
-[2018.04.15-15.36.20:466][913]LogModuleManager: Shutting down and abandoning module GammaUI (376)
-[2018.04.15-15.36.20:466][913]LogModuleManager: Shutting down and abandoning module Documentation (374)
-[2018.04.15-15.36.20:467][913]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
-[2018.04.15-15.36.20:467][913]LogModuleManager: Shutting down and abandoning module MovieScene (370)
-[2018.04.15-15.36.20:467][913]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
-[2018.04.15-15.36.20:467][913]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
-[2018.04.15-15.36.20:467][913]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
-[2018.04.15-15.36.20:467][913]LogModuleManager: Shutting down and abandoning module PortalServices (362)
-[2018.04.15-15.36.20:467][913]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
-[2018.04.15-15.36.20:467][913]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
-[2018.04.15-15.36.20:467][913]LogModuleManager: Shutting down and abandoning module AIModule (356)
-[2018.04.15-15.36.20:467][913]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
-[2018.04.15-15.36.20:467][913]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
-[2018.04.15-15.36.20:467][913]LogModuleManager: Shutting down and abandoning module ProfilerService (350)
-[2018.04.15-15.36.20:503][913]LogModuleManager: Shutting down and abandoning module TaskGraph (348)
-[2018.04.15-15.36.20:503][913]LogModuleManager: Shutting down and abandoning module SteamVRController (346)
-[2018.04.15-15.36.20:503][913]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (344)
-[2018.04.15-15.36.20:503][913]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (342)
-[2018.04.15-15.36.20:503][913]LogModuleManager: Shutting down and abandoning module OculusInput (340)
-[2018.04.15-15.36.20:503][913]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (338)
-[2018.04.15-15.36.20:503][913]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (336)
-[2018.04.15-15.36.20:503][913]LogModuleManager: Shutting down and abandoning module CableComponent (334)
-[2018.04.15-15.36.20:503][913]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (332)
-[2018.04.15-15.36.20:503][913]LogModuleManager: Shutting down and abandoning module AndroidPermission (330)
-[2018.04.15-15.36.20:503][913]LogModuleManager: Shutting down and abandoning module ActorSequence (326)
-[2018.04.15-15.36.20:503][913]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (324)
-[2018.04.15-15.36.20:503][913]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (322)
-[2018.04.15-15.36.20:503][913]LogModuleManager: Shutting down and abandoning module MediaCompositing (320)
-[2018.04.15-15.36.20:503][913]LogModuleManager: Shutting down and abandoning module HTML5Networking (318)
-[2018.04.15-15.36.20:503][913]LogModuleManager: Shutting down and abandoning module AlembicImporter (316)
-[2018.04.15-15.36.20:503][913]LogModuleManager: Shutting down and abandoning module AlembicLibrary (315)
-[2018.04.15-15.36.20:503][913]LogModuleManager: Shutting down and abandoning module GeometryCache (314)
-[2018.04.15-15.36.20:503][913]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (313)
-[2018.04.15-15.36.20:503][913]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (308)
-[2018.04.15-15.36.20:503][913]LogModuleManager: Shutting down and abandoning module PluginBrowser (306)
-[2018.04.15-15.36.20:503][913]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (304)
-[2018.04.15-15.36.20:503][913]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (302)
-[2018.04.15-15.36.20:503][913]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (300)
-[2018.04.15-15.36.20:503][913]LogModuleManager: Shutting down and abandoning module UObjectPlugin (298)
-[2018.04.15-15.36.20:503][913]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (296)
-[2018.04.15-15.36.20:503][913]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (294)
-[2018.04.15-15.36.20:503][913]LogModuleManager: Shutting down and abandoning module GitSourceControl (292)
-[2018.04.15-15.36.20:503][913]LogModuleManager: Shutting down and abandoning module SourceControl (291)
-[2018.04.15-15.36.20:504][913]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (288)
-[2018.04.15-15.36.20:504][913]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (286)
-[2018.04.15-15.36.20:504][913]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (284)
-[2018.04.15-15.36.20:504][913]LogModuleManager: Shutting down and abandoning module Paper2DEditor (282)
-[2018.04.15-15.36.20:504][913]LogModuleManager: Shutting down and abandoning module MeshPaint (281)
-[2018.04.15-15.36.20:504][913]LogModuleManager: Shutting down and abandoning module LevelEditor (279)
-[2018.04.15-15.36.20:504][913]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (278)
-[2018.04.15-15.36.20:504][913]LogModuleManager: Shutting down and abandoning module MainFrame (276)
-[2018.04.15-15.36.20:504][913]LogModuleManager: Shutting down and abandoning module HotReload (275)
-[2018.04.15-15.36.20:504][913]LogDirectoryWatcher: A directory notification for 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Binaries/Win64' was aborted.
-[2018.04.15-15.36.20:505][913]LogModuleManager: Shutting down and abandoning module AWWA (270)
-[2018.04.15-15.36.20:505][913]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
-[2018.04.15-15.36.20:505][913]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
-[2018.04.15-15.36.20:505][913]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
-[2018.04.15-15.36.20:505][913]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
-[2018.04.15-15.36.20:505][913]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
-[2018.04.15-15.36.20:505][913]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
-[2018.04.15-15.36.20:505][913]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
-[2018.04.15-15.36.20:505][913]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
-[2018.04.15-15.36.20:606][913]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
-[2018.04.15-15.36.20:707][913]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
-[2018.04.15-15.36.20:707][913]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
-[2018.04.15-15.36.20:707][913]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
-[2018.04.15-15.36.20:707][913]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
-[2018.04.15-15.36.20:707][913]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
-[2018.04.15-15.36.20:707][913]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
-[2018.04.15-15.36.20:707][913]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
-[2018.04.15-15.36.20:707][913]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2018.04.15-15.36.20:707][913]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2018.04.15-15.36.20:707][913]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2018.04.15-15.36.20:709][913]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
-[2018.04.15-15.36.20:709][913]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2018.04.15-15.36.20:709][913]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2018.04.15-15.36.20:709][913]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2018.04.15-15.36.20:709][913]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2018.04.15-15.36.20:709][913]LogModuleManager: Shutting down and abandoning module Media (221)
-[2018.04.15-15.36.20:715][913]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2018.04.15-15.36.20:715][913]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2018.04.15-15.36.20:715][913]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2018.04.15-15.36.20:715][913]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2018.04.15-15.36.20:715][913]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2018.04.15-15.36.20:715][913]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2018.04.15-15.36.20:715][913]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2018.04.15-15.36.20:715][913]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2018.04.15-15.36.20:715][913]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2018.04.15-15.36.20:715][913]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2018.04.15-15.36.20:715][913]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2018.04.15-15.36.20:715][913]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2018.04.15-15.36.20:715][913]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2018.04.15-15.36.20:715][913]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2018.04.15-15.36.20:715][913]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2018.04.15-15.36.20:715][913]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2018.04.15-15.36.20:717][913]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2018.04.15-15.36.20:717][913]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2018.04.15-15.36.20:717][913]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2018.04.15-15.36.20:717][913]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2018.04.15-15.36.20:717][913]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2018.04.15-15.36.20:717][913]LogModuleManager: Shutting down and abandoning module Core (172)
-[2018.04.15-15.36.20:717][913]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2018.04.15-15.36.20:717][913]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
-[2018.04.15-15.36.20:717][913]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2018.04.15-15.36.20:717][913]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2018.04.15-15.36.20:718][913]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2018.04.15-15.36.20:718][913]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2018.04.15-15.36.20:718][913]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2018.04.15-15.36.20:718][913]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2018.04.15-15.36.20:718][913]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2018.04.15-15.36.20:718][913]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2018.04.15-15.36.20:718][913]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2018.04.15-15.36.21:052][913]LogDerivedDataCache: Shutdown
-[2018.04.15-15.36.21:052][913]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
-[2018.04.15-15.36.21:052][913]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
-[2018.04.15-15.36.21:052][913]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
-[2018.04.15-15.36.21:052][913]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
-[2018.04.15-15.36.21:052][913]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
-[2018.04.15-15.36.21:052][913]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
-[2018.04.15-15.36.21:052][913]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
-[2018.04.15-15.36.21:052][913]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
-[2018.04.15-15.36.21:052][913]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
-[2018.04.15-15.36.21:052][913]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
-[2018.04.15-15.36.21:052][913]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
-[2018.04.15-15.36.21:052][913]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
-[2018.04.15-15.36.21:052][913]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module Messaging (105)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.04.15-15.36.21:053][913]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.04.15-15.36.21:053][913]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.04.15-15.36.21:053][913]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B147F87D2-4AE4-5F9D-AE2A-79BA4D373F72%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=55832f984f74ebaf57a7f9833892d821%7Cef51c8e639504ffea9ead583847e62e8%7C8d202eb2-2a8f-4d86-926b-e80ac7e5882d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.04.15-15.36.21:053][913]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
-[2018.04.15-15.36.21:557][913]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.04.15-15.36.21:557][913]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.04.15-15.36.21:557][913]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.04.15-15.36.21:558][913]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.04.15-15.36.21:558][913]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.04.15-15.36.21:558][913]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.04.15-15.36.21:558][913]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.04.15-15.36.21:558][913]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.04.15-15.36.21:559][913]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.04.15-15.36.21:559][913]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.04.15-15.36.21:559][913]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.04.15-15.36.21:559][913]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.04.15-15.36.21:559][913]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.04.15-15.36.21:559][913]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.04.15-15.36.21:559][913]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.04.15-15.36.21:559][913]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.04.15-15.36.21:559][913]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.04.15-15.36.21:559][913]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.04.15-15.36.21:559][913]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.04.15-15.36.21:564][913]LogExit: Exiting.
-[2018.04.15-15.36.21:582][913]Log file closed, 04/16/18 00:36:21
+[2018.04.17-11.03.07:493][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.17-11.03.07:493][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.17-11.03.07:520][  0]LogInit: Computer: DESKTOP-SFT0388
+[2018.04.17-11.03.07:520][  0]LogInit: User: korea
+[2018.04.17-11.03.07:520][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.04.17-11.03.07:520][  0]LogInit: High frequency timer resolution =3.609368 MHz
+[2018.04.17-11.03.07:520][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.04.17-11.03.07:520][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.17-11.03.07:520][  0]LogMemory: Process Physical Memory: 275.28 MB used, 275.28 MB peak
+[2018.04.17-11.03.07:520][  0]LogMemory: Process Virtual Memory: 272.32 MB used, 272.32 MB peak
+[2018.04.17-11.03.07:520][  0]LogMemory: Physical Memory: 4399.65 MB used,  11918.36 MB free, 16318.00 MB total
+[2018.04.17-11.03.07:520][  0]LogMemory: Virtual Memory: 684.66 MB used,  11918.36 MB free, 134217728.00 MB total
+[2018.04.17-11.03.07:958][  0]LogInit: Using OS detected language (ko-KR).
+[2018.04.17-11.03.07:958][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.04.17-11.03.07:986][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.04.17-11.03.08:163][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.17-11.03.09:865][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.17-11.03.09:910][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070 Ti' (Feature Level 11_0)
+[2018.04.17-11.03.09:910][  0]LogD3D11RHI:       8080/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.04.17-11.03.09:912][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.17-11.03.09:912][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.17-11.03.09:912][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.17-11.03.09:916][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.17-11.03.09:916][  0]LogD3D11RHI:     GPU DeviceId: 0x1b82 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.17-11.03.09:916][  0]LogWindows: EnumDisplayDevices:
+[2018.04.17-11.03.09:917][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070 Ti' (P:1 D:1)
+[2018.04.17-11.03.09:917][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:1)
+[2018.04.17-11.03.09:917][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2018.04.17-11.03.09:917][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2018.04.17-11.03.09:918][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.17-11.03.09:918][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070 Ti
+[2018.04.17-11.03.09:918][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.17-11.03.09:918][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.17-11.03.09:918][  0]LogRHI: Texture pool is 5656 MB (70% of 8080 MB)
+[2018.04.17-11.03.09:944][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.17-11.03.09:983][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.04.17-11.03.10:091][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Intermediate/Shaders/WorkingDirectory/5732/).
+[2018.04.17-11.03.10:091][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/korea/AppData/Local/Temp/UnrealShaderWorkingDir/E67BEEBD4839E2C1126DC3BDD83511A0/'.
+[2018.04.17-11.03.10:092][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.17-11.03.12:127][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.17-11.03.12:202][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.17-11.03.12:269][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.17-11.03.12:334][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.17-11.03.12:402][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.17-11.03.12:472][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.17-11.03.12:538][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.17-11.03.12:606][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.17-11.03.12:666][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.17-11.03.12:731][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.17-11.03.12:793][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.17-11.03.12:857][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.17-11.03.12:920][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.17-11.03.12:985][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.17-11.03.13:112][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.17-11.03.13:112][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.17-11.03.13:178][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.17-11.03.13:235][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.17-11.03.13:353][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.17-11.03.13:387][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.17-11.03.13:453][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.17-11.03.13:518][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.17-11.03.13:585][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.17-11.03.13:653][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.17-11.03.13:653][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.17-11.03.14:436][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.17-11.03.14:976][  0]LogDerivedDataCache: Loaded boot cache 0.54s 75MB C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.17-11.03.14:977][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.04.17-11.03.14:977][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.17-11.03.14:977][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.17-11.03.14:977][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.17-11.03.14:977][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.17-11.03.14:999][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.17-11.03.15:011][  0]LogDerivedDataCache: Using Local data cache path C:/Users/korea/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.17-11.03.15:024][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.17-11.03.15:032][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.17-11.03.15:037][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.17-11.03.15:037][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.17-11.03.16:076][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.17-11.03.16:717][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.17-11.03.16:777][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.17-11.03.16:777][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.17-11.03.16:777][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.17-11.03.16:777][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.17-11.03.16:777][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.17-11.03.16:860][  0]LogNetVersion: AWWA , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3043977046)
+[2018.04.17-11.03.17:299][  0]LogAssetRegistry: FAssetRegistry took 0.0285 seconds to start up
+[2018.04.17-11.03.18:424][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.080655 seconds
+[2018.04.17-11.03.18:429][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.04.17-11.03.18:429][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.04.17-11.03.18:429][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.17-11.03.18:507][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.17-11.03.24:110][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.17-11.03.24:164][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.17-11.03.25:886][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.17-11.03.26:538][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.04.17-11.03.26:539][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.04.17-11.03.26:627][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.04.17-11.03.26:706][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.04.17-11.03.27:939][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.17-11.03.28:329][  0]LogOcInput: OculusInput pre-init called
+[2018.04.17-11.03.28:731][  0]LogEngine: Initializing Engine...
+[2018.04.17-11.03.28:737][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.17-11.03.29:051][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.17-11.03.29:051][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.17-11.03.29:248][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.17-11.03.29:288][  0]LogInit: XAudio2 using '스피커(USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.17-11.03.29:311][  0]LogInit: FAudioDevice initialized.
+[2018.04.17-11.03.29:395][  0]LogDerivedDataCache: Saved boot cache 0.08s 75MB C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.17-11.03.29:403][  0]LogInit: Texture streaming: Enabled
+[2018.04.17-11.03.29:543][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.17-11.03.29:776][  0]LogInit: Transaction tracking system initialized
+[2018.04.17-11.03.30:274][  0]BlueprintLog: New page: 에디터 로드
+[2018.04.17-11.03.31:831][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.04.17-11.03.32:958][  0]LogConsoleResponse: Display: 
+[2018.04.17-11.03.33:464][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.17-11.03.33:464][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.17-11.03.33:464][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.17-11.03.34:191][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/' took 0.03s
+[2018.04.17-11.03.35:279][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.04.17-11.03.35:283][  0]Cmd: MAP LOAD FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Maps/World.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.17-11.03.35:287][  0]LightingResults: New page: 라이팅 빌드
+[2018.04.17-11.03.35:354][  0]MapCheck: New page: 맵 체크
+[2018.04.17-11.03.35:354][  0]LightingResults: New page: 라이팅 빌드
+[2018.04.17-11.03.52:769][  0]LogAIModule: Creating AISystem for world World
+[2018.04.17-11.04.08:100][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.17-11.04.08:214][  0]MapCheck: /Game/Maps/World 레벨의 39 개 컴포넌트에 대해 칠해진 버텍스 컬러 수리에 0.0s 걸렸습니다. 맵을 다시 저장하면 확정됩니다. 
+[2018.04.17-11.04.08:214][  0]MapCheck: Warning: 스태틱 메시 리임포트로 인해 칠해진 버텍스 컬러를 고치는 데 시간이 0.0s 만큼 걸렸습니다. 맵을 다시 저장하기 전까지는 로드할 때마다 이 작업이 실행됩니다. 
+[2018.04.17-11.04.08:216][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.17-11.04.08:449][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 1 회, 소요 시간 232.065ms.
+[2018.04.17-11.04.08:477][  0]LogFileHelpers: Loading map 'World' took 33.196
+[2018.04.17-11.04.08:718][  0]LogCollectionManager: Loaded 0 collections in 0.001640 seconds
+[2018.04.17-11.04.08:862][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Collections/' took 0.01s
+[2018.04.17-11.04.08:862][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Developers/korea/Collections/' took 0.01s
+[2018.04.17-11.04.08:862][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Collections/' took 0.01s
+[2018.04.17-11.04.08:862][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.04.17-11.04.08:873][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2365 classes and 521 folders.
+[2018.04.17-11.04.08:998][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.04.17-11.04.09:328][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.04.17-11.04.09:404][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.04.17-11.04.09:529][  0]LogSlate: Took 0.007636 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.17-11.04.09:548][  0]LogSlate: Took 0.018272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.04.17-11.04.09:554][  0]LogSlate: Took 0.004463 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.17-11.04.09:563][  0]LogSlate: Took 0.005515 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.17-11.04.09:747][  0]LogRenderer: Reallocating scene render targets to support 1940x636 Format 10 NumSamples 1 (Frame:1).
+[2018.04.17-11.04.09:970][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.04.17-11.04.09:970][  0]LogLoad: (Engine Initialization) Total time: 67.72 seconds
+[2018.04.17-11.04.09:970][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.17-11.04.09:971][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.04.17-11.04.10:329][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.17-11.04.10:669][  1]LogAssetRegistry: Asset discovery search completed in 53.3918 seconds
+[2018.04.17-11.04.10:673][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.04.17-11.04.10:673][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000049 seconds (updated 0 objects)
+[2018.04.17-11.14.11:666][804]LogSlate: Took 0.006315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.17-11.14.11:676][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/World" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Maps/World.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.17-11.14.17:781][804]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.17-11.14.21:059][804]LogSavePackage: Save=9133.04ms
+[2018.04.17-11.14.21:059][804]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/WorldBCA25429487EF743D42AA9A1ADF0C430.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Maps/World.umap'
+[2018.04.17-11.14.21:068][804]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Maps/World.umap
+[2018.04.17-11.14.21:186][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/World_BuiltData" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Maps/World_BuiltData.uasset" SILENT=true
+[2018.04.17-11.14.21:194][804]LogSavePackage: Save=3.93ms
+[2018.04.17-11.14.21:194][804]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/World_BuiltDataF746744B47719FCA75BED5B7CA59E8A7.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Maps/World_BuiltData.uasset'
+[2018.04.17-11.14.21:195][804]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Maps/World_BuiltData.uasset
+[2018.04.17-11.37.25:731][353]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/korea/Downloads/EDIT_HM_Climbing_Stretch.fbx)
+[2018.04.17-11.37.25:775][353]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.04.17-11.37.25:775][353]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.04.17-11.37.25:775][353]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.04.17-11.37.25:775][353]LogFbx: ItemName: NodeAttribute, ItemCount : 114
+[2018.04.17-11.37.25:775][353]LogFbx: ItemName: Model, ItemCount : 114
+[2018.04.17-11.37.25:775][353]LogFbx: ItemName: AnimationCurveNode, ItemCount : 277
+[2018.04.17-11.37.25:775][353]LogFbx: ItemName: AnimationCurve, ItemCount : 180
+[2018.04.17-11.37.25:784][353]LogFbx: Loading FBX Scene from ../../../../../../Users/korea/Downloads/EDIT_HM_Climbing_Stretch.fbx
+[2018.04.17-11.37.25:817][353]LogFbx: FBX Scene Loaded Succesfully
+[2018.04.17-11.37.26:774][353]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.17-11.37.30:607][353]LogFbx: Loading FBX Scene from ../../../../../../Users/korea/Downloads/EDIT_HM_Climbing_Stretch.fbx
+[2018.04.17-11.37.30:636][353]LogFbx: FBX Scene Loaded Succesfully
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(0) Root
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(1) Hips
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(2) Spine
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(3) Spine1
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(4) Spine2
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(5) Neck
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(6) Neck1
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(7) Head
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(8) HeadTop_End
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(9) L_Ear
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(10) Jaw
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(11) TongueBack
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(12) TongueMid
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(13) TongueTip
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(14) Chin
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(15) LowerChin
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(16) L_Temple
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(17) L_IOuterBrow
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(18) L_MidBrow
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(19) L_InnerBrow
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(20) L_Eye
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(21) L_EyelidLower
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(22) L_EyelidUpper
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(23) L_InnerCheek
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(24) L_LowerCheek
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(25) L_LipLower
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(26) L_LipUpper
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(27) LipMidLower
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(28) LipMidUpper
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(29) L_CheekFold
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(30) L_Nostril
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(31) Scalp
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(32) L_OuterCheek
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(33) R_LipLower
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(34) RightNostril
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(35) R_CheekFold
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(36) R_LowerCheek
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(37) R_LipUpper
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(38) R_OuterCheek
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(39) MidBrows
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(40) R_InnerBrow
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(41) R_MidBrow
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(42) R_IOuterBrow
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(43) R_Eye
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(44) R_EyelidLower
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(45) R_EyelidUpper
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(46) R_Temple
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(47) R_Ear
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(48) R_InnerCheek
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(49) L_LipCorner
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(50) L_LipCornerLowTweak
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(51) L_LipCornerUpTweak
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(52) R_gLipCorner
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(53) R_gLipCornerUpTweak
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(54) R_gLipCornerLowTweak
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(55) Throat
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(56) LeftShoulder
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(57) LeftArm
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(58) LeftForeArm
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(59) LeftHand
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(60) LeftHandThumb1
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(61) LeftHandThumb2
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(62) LeftHandThumb3
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(63) LeftHandThumb4
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(64) LeftHandMiddle1
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(65) LeftHandMiddle2
+[2018.04.17-11.37.30:641][353]LogFbx: SortedLinks :(66) LeftHandMiddle3
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(67) LeftHandMiddle4
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(68) LeftHandIndex1
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(69) LeftHandIndex2
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(70) LeftHandIndex3
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(71) LeftHandIndex4
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(72) LeftHandRing1
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(73) LeftHandRing2
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(74) LeftHandRing3
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(75) LeftHandRing4
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(76) LeftHandPinky1
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(77) LeftHandPinky2
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(78) LeftHandPinky3
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(79) LeftHandPinky4
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(80) RightShoulder
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(81) RightArm
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(82) RightForeArm
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(83) RightHand
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(84) RightHandThumb1
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(85) RightHandThumb2
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(86) RightHandThumb3
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(87) RightHandThumb4
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(88) RightHandIndex1
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(89) RightHandIndex2
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(90) RightHandIndex3
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(91) RightHandIndex4
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(92) RightHandMiddle1
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(93) RightHandMiddle2
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(94) RightHandMiddle3
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(95) RightHandMiddle4
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(96) RightHandRing1
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(97) RightHandRing2
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(98) RightHandRing3
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(99) RightHandRing4
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(100) RightHandPinky1
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(101) RightHandPinky2
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(102) RightHandPinky3
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(103) RightHandPinky4
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(104) LeftUpLeg
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(105) LeftLeg
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(106) LeftFoot
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(107) LeftToeBase
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(108) LeftFootToeBase_End
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(109) RightUpLeg
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(110) RightLeg
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(111) RightFoot
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(112) RightToeBase
+[2018.04.17-11.37.30:642][353]LogFbx: SortedLinks :(113) RightFootToeBase_End
+[2018.04.17-11.37.30:643][353]LogFbx: Parsing AnimStack Take 001
+[2018.04.17-11.37.30:648][353]LogLinker: '/Game/Character/MainSkeletonAnimation/EDIT_HM_Climbing_Stretch' 파일을 찾을 수 없습니다.
+[2018.04.17-11.37.30:649][353]LogLinker: '/Game/Character/MainSkeletonAnimation/EDIT_HM_Climbing_Stretch' 파일을 찾을 수 없습니다.
+[2018.04.17-11.37.31:414][353]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/MainSkeletonAnimation/EDIT_HM_Climbing_Stretch.EDIT_HM_Climbing_Stretch
+[2018.04.17-11.37.31:415][353]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.EDIT_HM_Climbing_Stretch) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.04.17-11.37.51:575][595]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.04.17-11.37.51:933][595]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.17-11.37.51:999][595]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.04.17-11.37.52:478][595]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0007 seconds. Added 1 classes and 0 folders.
+[2018.04.17-11.37.52:484][595]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.04.17-11.38.12:099][834]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/World" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Maps/World.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.17-11.38.20:650][834]LogSavePackage: Save=8461.14ms
+[2018.04.17-11.38.20:650][834]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/WorldBB6C30C6434B0E88611D37B734A28497.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Maps/World.umap'
+[2018.04.17-11.38.20:662][834]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Maps/World.umap
+[2018.04.17-11.38.20:710][834]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/World_BuiltData" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Maps/World_BuiltData.uasset" SILENT=true
+[2018.04.17-11.38.20:719][834]LogSavePackage: Save=3.07ms
+[2018.04.17-11.38.20:719][834]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/World_BuiltDataEBE3F897424F74458C4A059A9FA79D25.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Maps/World_BuiltData.uasset'
+[2018.04.17-11.38.20:720][834]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Maps/World_BuiltData.uasset
+[2018.04.17-11.38.22:590][ 33]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2018.04.17-11.38.22:611][ 33]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2018.04.17-11.38.22:848][ 33]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.04.17-11.38.27:241][527]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_2.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2018.04.17-11.38.27:277][527]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.Actor_2.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2018.04.17-11.38.27:507][527]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.04.17-11.38.43:711][415]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_3.DebugSkelMeshComponent_8) Already registered. Aborting.
+[2018.04.17-11.38.43:747][415]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.Actor_3.DebugSkelMeshComponent_8) - call TermArticulated first.
+[2018.04.17-11.38.43:961][415]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.04.17-11.39.17:944][406]LogSavePackage: Save=13.63ms
+[2018.04.17-11.39.17:944][406]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_HM_Climbing_StretchD9B4784543A63BD9C262199DD93B14DA.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/MainSkeletonAnimation/EDIT_HM_Climbing_Stretch.uasset'
+[2018.04.17-11.39.17:949][406]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/MainSkeletonAnimation/EDIT_HM_Climbing_Stretch.uasset
+[2018.04.17-11.39.17:972][406]LogSavePackage: Save=11.12ms
+[2018.04.17-11.39.17:972][406]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_HM_Climbing_Stretch_MontageEE451A224D95A97681474FBEE3F4DAAA.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/MainSkeletonAnimation/EDIT_HM_Climbing_Stretch_Montage.uasset'
+[2018.04.17-11.39.17:974][406]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/MainSkeletonAnimation/EDIT_HM_Climbing_Stretch_Montage.uasset
+[2018.04.17-11.39.20:413][677]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.17-11.40.19:485][121]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
+[2018.04.17-11.40.20:087][121]LogSlate: Took 0.004803 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.17-11.40.20:836][122]LogSlate: Took 0.004135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.17-11.40.48:381][342]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.04.17-11.40.49:444][447]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.17-11.40.49:447][447]PIE: New page: PIE 세션: World (2018. 4. 18. 오전 5:40:49)
+[2018.04.17-11.40.49:447][447]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_World
+[2018.04.17-11.40.49:823][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.375804s)
+[2018.04.17-11.40.49:824][447]LogAIModule: Creating AISystem for world World
+[2018.04.17-11.40.49:824][447]LogPlayLevel: PIE: World Init took: (0.000743s)
+[2018.04.17-11.40.49:825][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/World.World to /Game/Maps/UEDPIE_0_World.World (0.377549s)
+[2018.04.17-11.40.49:872][447]LogInit: XAudio2 using '스피커(USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.17-11.40.49:885][447]LogInit: FAudioDevice initialized.
+[2018.04.17-11.40.49:934][447]LogLoad: Game class is 'AWWAGameMode'
+[2018.04.17-11.40.50:076][447]LogWorld: Bringing World /Game/Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.04.17-20.40.50
+[2018.04.17-11.40.50:081][447]LogWorld: Bringing up level for play took: 0.145173
+[2018.04.17-11.40.50:138][447]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2018.04.17-11.40.50:145][447]PIE: /Game/Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 1.136
+[2018.04.17-11.40.52:047][657]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] true
+[2018.04.17-11.40.56:107][119]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] true
+[2018.04.17-11.40.57:257][257]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] true
+[2018.04.17-11.40.58:149][364]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] true
+[2018.04.17-11.40.58:857][449]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] true
+[2018.04.17-11.40.59:432][518]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] true
+[2018.04.17-11.41.04:240][ 87]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] true
+[2018.04.17-11.41.05:384][218]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] true
+[2018.04.17-11.41.06:118][306]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] true
+[2018.04.17-11.41.09:584][722]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] false
+[2018.04.17-11.41.24:668][532]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] false
+[2018.04.17-11.41.30:810][269]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] true
+[2018.04.17-11.41.36:164][911]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] true
+[2018.04.17-11.41.40:756][462]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] true
+[2018.04.17-11.41.44:398][899]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] true
+[2018.04.17-11.44.16:812][125]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_4.DebugSkelMeshComponent_10) Already registered. Aborting.
+[2018.04.17-11.44.16:983][125]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_19:PersistentLevel.Actor_4.DebugSkelMeshComponent_10) - call TermArticulated first.
+[2018.04.17-11.44.17:299][125]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.04.17-11.49.18:294][ 44]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/World' took 0.021
+[2018.04.17-11.49.18:296][ 44]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/EDIT_Main_Anim] ([1] browsable assets)...
+[2018.04.17-11.49.18:305][ 44]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Character/EDIT_Main_Anim.EDIT_Main_Anim]
+[2018.04.17-11.49.18:305][ 44]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/EDIT_Main_Anim]
+[2018.04.17-11.49.18:562][ 44]LogSavePackage: Save=249.18ms
+[2018.04.17-11.49.18:562][ 44]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Main_Anim_Auto19E97817E42D433EA6029F3BD250643B0.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/EDIT_Main_Anim_Auto1.uasset'
+[2018.04.17-11.49.18:567][ 44]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/EDIT_Main_Anim_Auto1.uasset
+[2018.04.17-11.49.18:567][ 44]LogFileHelpers: Auto-saving content packages took 0.272
+[2018.04.17-11.51.48:410][523]LogSlate: Took 0.005749 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.04.17-11.53.30:185][531]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2018.04.17-11.53.31:637][564]LogSavePackage: Save=548.68ms
+[2018.04.17-11.53.31:637][564]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacterC5ABE92E47B7966D18080DBF34EA2100.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset'
+[2018.04.17-11.53.31:641][564]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset
+[2018.04.17-11.59.19:092][145]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/World' took 0.023
+[2018.04.17-11.59.19:094][145]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Character/AWWA_MainCharacter] ([1] browsable assets)...
+[2018.04.17-11.59.19:094][145]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/AWWA_MainCharacter]
+[2018.04.17-11.59.19:661][145]LogSavePackage: Save=544.57ms
+[2018.04.17-11.59.19:661][145]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter_Auto2938B56F84970B9BB911C66B4FB67E341.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/AWWA_MainCharacter_Auto2.uasset'
+[2018.04.17-11.59.19:667][145]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/AWWA_MainCharacter_Auto2.uasset
+[2018.04.17-11.59.19:667][145]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/EDIT_Main_Anim] ([1] browsable assets)...
+[2018.04.17-11.59.19:681][145]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Character/EDIT_Main_Anim.EDIT_Main_Anim]
+[2018.04.17-11.59.19:681][145]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/EDIT_Main_Anim]
+[2018.04.17-11.59.19:936][145]LogSavePackage: Save=248.98ms
+[2018.04.17-11.59.19:936][145]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Main_Anim_Auto2DCB169234E6BA219CDCA56BB019901AD.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/EDIT_Main_Anim_Auto2.uasset'
+[2018.04.17-11.59.19:940][145]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/EDIT_Main_Anim_Auto2.uasset
+[2018.04.17-11.59.19:941][145]LogFileHelpers: Auto-saving content packages took 0.848
+[2018.04.17-12.17.05:068][996]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2018.04.17-12.17.06:512][ 35]LogSavePackage: Save=548.16ms
+[2018.04.17-12.17.06:512][ 35]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacterA77DB5F840A030FA8EB08DA2D4F8E269.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset'
+[2018.04.17-12.17.06:518][ 35]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset
+[2018.04.17-12.17.43:361][583]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/World' took 0.021
+[2018.04.17-12.17.43:363][583]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/AWWA_MainCharacter] ([1] browsable assets)...
+[2018.04.17-12.17.43:377][583]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Character/AWWA_MainCharacter.AWWA_MainCharacter]
+[2018.04.17-12.17.43:377][583]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/AWWA_MainCharacter]
+[2018.04.17-12.17.43:934][583]LogSavePackage: Save=553.81ms
+[2018.04.17-12.17.43:934][583]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter_Auto322C511894712AC588DE4A780B6349574.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/AWWA_MainCharacter_Auto3.uasset'
+[2018.04.17-12.17.43:939][583]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/AWWA_MainCharacter_Auto3.uasset
+[2018.04.17-12.17.43:940][583]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/EDIT_Main_Anim] ([1] browsable assets)...
+[2018.04.17-12.17.43:952][583]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Character/EDIT_Main_Anim.EDIT_Main_Anim]
+[2018.04.17-12.17.43:952][583]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/EDIT_Main_Anim]
+[2018.04.17-12.17.44:210][583]LogSavePackage: Save=251.14ms
+[2018.04.17-12.17.44:210][583]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Main_Anim_Auto3956EF82B4068CE6A9507D2BB194B03D4.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/EDIT_Main_Anim_Auto3.uasset'
+[2018.04.17-12.17.44:216][583]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/EDIT_Main_Anim_Auto3.uasset
+[2018.04.17-12.17.44:216][583]LogFileHelpers: Auto-saving content packages took 0.854
+[2018.04.17-12.27.57:570][424]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2018.04.17-12.27.59:793][555]LogSavePackage: Save=549.88ms
+[2018.04.17-12.27.59:793][555]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter3E485B0E410CDD3A51BB37AA8F481FAD.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset'
+[2018.04.17-12.27.59:799][555]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset
+[2018.04.17-12.28.34:630][634]BlueprintLog: New page: TraceInterface 컴파일
+[2018.04.17-12.28.35:289][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Functions/TraceInterface" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/BP_Functions/TraceInterface.uasset" SILENT=true
+[2018.04.17-12.28.35:305][706]LogSavePackage: Save=9.60ms
+[2018.04.17-12.28.35:305][706]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/TraceInterface3466DEF54F2619B568254E893C00A59E.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/BP_Functions/TraceInterface.uasset'
+[2018.04.17-12.28.35:308][706]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/BP_Functions/TraceInterface.uasset
+[2018.04.17-12.30.23:633][519]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/World' took 0.026
+[2018.04.17-12.30.23:635][519]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/AWWA_MainCharacter] ([1] browsable assets)...
+[2018.04.17-12.30.23:650][519]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Character/AWWA_MainCharacter.AWWA_MainCharacter]
+[2018.04.17-12.30.23:650][519]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/AWWA_MainCharacter]
+[2018.04.17-12.30.24:214][519]LogSavePackage: Save=559.11ms
+[2018.04.17-12.30.24:214][519]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter_Auto46D144ABA4531028040FA70B5EBDC13EE.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/AWWA_MainCharacter_Auto4.uasset'
+[2018.04.17-12.30.24:219][519]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/AWWA_MainCharacter_Auto4.uasset
+[2018.04.17-12.30.24:220][519]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/EDIT_Main_Anim] ([1] browsable assets)...
+[2018.04.17-12.30.24:232][519]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Character/EDIT_Main_Anim.EDIT_Main_Anim]
+[2018.04.17-12.30.24:232][519]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/EDIT_Main_Anim]
+[2018.04.17-12.30.24:488][519]LogSavePackage: Save=248.68ms
+[2018.04.17-12.30.24:488][519]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Main_Anim_Auto4B6E4B1CF40C8D32B3532A5A1E2E7103D.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/EDIT_Main_Anim_Auto4.uasset'
+[2018.04.17-12.30.24:494][519]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/EDIT_Main_Anim_Auto4.uasset
+[2018.04.17-12.30.24:494][519]LogFileHelpers: Auto-saving content packages took 0.860
+[2018.04.17-12.37.37:525][356]BlueprintLog: New page: EDIT_Main_Anim 컴파일
+[2018.04.17-12.38.13:725][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/EDIT_Main_Anim" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/EDIT_Main_Anim.uasset" SILENT=true
+[2018.04.17-12.38.13:988][639]LogSavePackage: Save=254.79ms
+[2018.04.17-12.38.13:988][639]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Main_Anim09DE22B949B7D4CE2BF2CC80872480BE.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/EDIT_Main_Anim.uasset'
+[2018.04.17-12.38.13:994][639]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/EDIT_Main_Anim.uasset
+[2018.04.17-12.38.54:266][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/EDIT_Main_Anim" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/EDIT_Main_Anim.uasset" SILENT=true
+[2018.04.17-12.38.54:516][487]LogSavePackage: Save=246.42ms
+[2018.04.17-12.38.54:516][487]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Main_AnimCDF662B5474B76CE9A0AADAD3BF31D8B.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/EDIT_Main_Anim.uasset'
+[2018.04.17-12.38.54:518][487]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/EDIT_Main_Anim.uasset
+[2018.04.17-12.39.27:957][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/EDIT_Main_Anim" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/EDIT_Main_Anim.uasset" SILENT=true
+[2018.04.17-12.39.28:205][454]LogSavePackage: Save=245.44ms
+[2018.04.17-12.39.28:205][454]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Main_Anim51D6A4CB47FB94785199EE9510CB4224.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/EDIT_Main_Anim.uasset'
+[2018.04.17-12.39.28:207][454]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/EDIT_Main_Anim.uasset
+[2018.04.17-12.40.37:941][761]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2018.04.17-12.40.38:157][761]LogBlueprint: Warning: [Compiler EDIT_Main_Anim] HM_Hanging_Buffer -> HM_Hanging_Bend  will never be taken, please connect something to  Can Enter Transition
+[2018.04.17-12.40.38:176][761]LogBlueprint: Error: [Compiler AWWA_MainCharacter] In use pin  Climbing Style  no longer exists on node  Can Grab
+SKEL_TraceInterface_C 인터페이스 사용 . Please refresh node or break links to remove pin.
+[2018.04.17-12.40.38:205][761]LogBlueprint: Warning: [Compiler EDIT_Main_Anim] [5855.95] EDIT_Main_Anim 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 176 ms] (/Game/Character/EDIT_Main_Anim.EDIT_Main_Anim)
+[2018.04.17-12.40.38:527][761]LogBlueprint: Warning: [Compiler AWWA_MainCharacter] [5856.27] AWWA_MainCharacter 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 585 ms] (/Game/Character/AWWA_MainCharacter.AWWA_MainCharacter)
+[2018.04.17-12.40.39:465][803]LogSavePackage: Save=532.06ms
+[2018.04.17-12.40.39:465][803]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacterA84F78444CFE8ACFB5C82EB377B4FC71.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset'
+[2018.04.17-12.40.39:470][803]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset
+[2018.04.17-12.41.15:725][ 74]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2018.04.17-12.41.17:172][113]LogSavePackage: Save=549.66ms
+[2018.04.17-12.41.17:172][113]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacterACA9F0594B30DD34EBB3AFA2F9663D46.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset'
+[2018.04.17-12.41.17:177][113]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset
+[2018.04.17-12.42.01:215][385]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/World' took 0.020
+[2018.04.17-12.42.01:216][385]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/EDIT_Main_Anim] ([1] browsable assets)...
+[2018.04.17-12.42.01:225][385]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Character/EDIT_Main_Anim.EDIT_Main_Anim]
+[2018.04.17-12.42.01:225][385]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/EDIT_Main_Anim]
+[2018.04.17-12.42.01:479][385]LogSavePackage: Save=250.03ms
+[2018.04.17-12.42.01:479][385]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Main_Anim_Auto5988CA7384ECD535CCF12B88D401520BE.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/EDIT_Main_Anim_Auto5.uasset'
+[2018.04.17-12.42.01:484][385]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/EDIT_Main_Anim_Auto5.uasset
+[2018.04.17-12.42.01:484][385]LogFileHelpers: Auto-saving content packages took 0.268
+[2018.04.17-13.19.03:260][726]BlueprintLog: New page: EDIT_Main_Anim 컴파일
+[2018.04.17-13.19.03:313][726]LogBlueprint: Warning: [Compiler EDIT_Main_Anim] HM_Hanging_Buffer -> HM_Hanging_Bend  will never be taken, please connect something to  Can Enter Transition
+[2018.04.17-13.19.03:446][726]LogBlueprint: Warning: [Compiler EDIT_Main_Anim] [8161.19] EDIT_Main_Anim 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 185 ms] (/Game/Character/EDIT_Main_Anim.EDIT_Main_Anim)
+[2018.04.17-13.19.03:797][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/EDIT_Main_Anim" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/EDIT_Main_Anim.uasset" SILENT=true
+[2018.04.17-13.19.04:056][763]LogSavePackage: Save=250.62ms
+[2018.04.17-13.19.04:056][763]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Main_Anim0200A8914B8C919DEB5A02BC0D43BD42.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/EDIT_Main_Anim.uasset'
+[2018.04.17-13.19.04:060][763]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/EDIT_Main_Anim.uasset
+[2018.04.17-13.20.12:799][923]BlueprintLog: New page: EDIT_Main_Anim 컴파일
+[2018.04.17-13.20.13:342][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/EDIT_Main_Anim" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/EDIT_Main_Anim.uasset" SILENT=true
+[2018.04.17-13.20.13:599][963]LogSavePackage: Save=252.76ms
+[2018.04.17-13.20.13:599][963]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Main_Anim38566391426BE72CF99D4CB856DF7CAE.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/EDIT_Main_Anim.uasset'
+[2018.04.17-13.20.13:602][963]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/EDIT_Main_Anim.uasset
+[2018.04.17-13.20.43:754][538]BlueprintLog: New page: EDIT_Main_Anim 컴파일
+[2018.04.17-13.20.44:373][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/EDIT_Main_Anim" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/EDIT_Main_Anim.uasset" SILENT=true
+[2018.04.17-13.20.44:628][587]LogSavePackage: Save=252.32ms
+[2018.04.17-13.20.44:628][587]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Main_AnimEFF8C1BB42C4F21B17A2E0AA121A2501.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/EDIT_Main_Anim.uasset'
+[2018.04.17-13.20.44:632][587]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/EDIT_Main_Anim.uasset
+[2018.04.17-13.20.50:149][243]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/EDIT_Main_Anim" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/EDIT_Main_Anim.uasset" SILENT=true
+[2018.04.17-13.20.50:399][243]LogSavePackage: Save=247.06ms
+[2018.04.17-13.20.50:399][243]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Main_Anim568AD071435414BA96549CAE9855B8AD.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/EDIT_Main_Anim.uasset'
+[2018.04.17-13.20.50:401][243]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/EDIT_Main_Anim.uasset
+[2018.04.17-13.20.54:555][673]LogSavePackage: Save=546.22ms
+[2018.04.17-13.20.54:555][673]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter327118354559D5E54F5C349A012FB996.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset'
+[2018.04.17-13.20.54:559][673]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset
+[2018.04.17-13.23.15:710][  8]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/World' took 0.024
+[2018.04.17-13.23.15:712][  8]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/AWWA_MainCharacter] ([1] browsable assets)...
+[2018.04.17-13.23.15:725][  8]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Character/AWWA_MainCharacter.AWWA_MainCharacter]
+[2018.04.17-13.23.15:725][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/AWWA_MainCharacter]
+[2018.04.17-13.23.16:286][  8]LogSavePackage: Save=557.12ms
+[2018.04.17-13.23.16:286][  8]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter_Auto65EA972B144EAF45E9FF481AB141F1BB4.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/AWWA_MainCharacter_Auto6.uasset'
+[2018.04.17-13.23.16:291][  8]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/AWWA_MainCharacter_Auto6.uasset
+[2018.04.17-13.23.16:291][  8]LogFileHelpers: Auto-saving content packages took 0.580
+[2018.04.17-13.24.30:986][505]LogEditorTransaction: Undo 노드 이동
+[2018.04.17-13.24.31:110][505]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_4.DebugSkelMeshComponent_10) Already registered. Aborting.
+[2018.04.17-13.24.31:950][601]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2018.04.17-13.24.32:055][601]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_4.DebugSkelMeshComponent_10) Already registered. Aborting.
+[2018.04.17-13.25.03:988][387]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2018.04.17-13.25.05:400][419]LogSavePackage: Save=544.54ms
+[2018.04.17-13.25.05:400][419]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter890F5B184E053490185DF3837993F33A.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset'
+[2018.04.17-13.25.05:404][419]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset
+[2018.04.17-13.25.10:858][ 64]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2018.04.17-13.25.12:282][ 99]LogSavePackage: Save=547.26ms
+[2018.04.17-13.25.12:282][ 99]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacterD5C391FE48DAF2A05C3200A2D967931A.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset'
+[2018.04.17-13.25.12:286][ 99]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset
+[2018.04.17-13.25.15:629][492]LogRenderer: Reallocating scene render targets to support 1940x696 Format 10 NumSamples 1 (Frame:1).
+[2018.04.17-13.25.17:425][693]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.04.17-13.25.18:443][780]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.17-13.25.18:443][780]PIE: New page: PIE 세션: World (2018. 4. 18. 오전 7:25:18)
+[2018.04.17-13.25.18:443][780]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_World
+[2018.04.17-13.25.18:856][780]LogPlayLevel: PIE: StaticDuplicateObject took: (0.412416s)
+[2018.04.17-13.25.18:856][780]LogAIModule: Creating AISystem for world World
+[2018.04.17-13.25.18:857][780]LogPlayLevel: PIE: World Init took: (0.000741s)
+[2018.04.17-13.25.18:858][780]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/World.World to /Game/Maps/UEDPIE_0_World.World (0.414284s)
+[2018.04.17-13.25.18:900][780]LogInit: XAudio2 using '스피커(USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.17-13.25.18:913][780]LogInit: FAudioDevice initialized.
+[2018.04.17-13.25.18:945][780]LogLoad: Game class is 'AWWAGameMode'
+[2018.04.17-13.25.19:073][780]LogWorld: Bringing World /Game/Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.04.17-22.25.19
+[2018.04.17-13.25.19:078][780]LogWorld: Bringing up level for play took: 0.131378
+[2018.04.17-13.25.19:082][780]PIE: /Game/Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.073
+[2018.04.17-13.28.17:659][111]LogEditorViewport: Clicking on Actor (context menu): Small_House_Prefab_01_C (Small_House_Prefab_01)
+[2018.04.17-13.28.18:643][214]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.17-13.28.18:643][214]PIE: New page: PIE 세션: World (2018. 4. 18. 오전 7:28:18)
+[2018.04.17-13.28.18:643][214]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_World
+[2018.04.17-13.28.19:011][214]LogPlayLevel: PIE: StaticDuplicateObject took: (0.367959s)
+[2018.04.17-13.28.19:012][214]LogAIModule: Creating AISystem for world World
+[2018.04.17-13.28.19:012][214]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2018.04.17-13.28.19:013][214]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/World.World to /Game/Maps/UEDPIE_0_World.World (0.369661s)
+[2018.04.17-13.28.19:054][214]LogInit: XAudio2 using '스피커(USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.17-13.28.19:066][214]LogInit: FAudioDevice initialized.
+[2018.04.17-13.28.19:103][214]LogLoad: Game class is 'AWWAGameMode'
+[2018.04.17-13.28.19:224][214]LogWorld: Bringing World /Game/Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.04.17-22.28.19
+[2018.04.17-13.28.19:230][214]LogWorld: Bringing up level for play took: 0.125714
+[2018.04.17-13.28.19:234][214]PIE: /Game/Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.225
+[2018.04.17-13.29.51:844][756]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2018.04.17-13.29.53:337][798]LogSavePackage: Save=544.50ms
+[2018.04.17-13.29.53:337][798]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter251E10E142296691D806A8A45EB1BC8E.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset'
+[2018.04.17-13.29.53:341][798]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset
+[2018.04.17-13.29.58:499][416]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.04.17-13.29.59:421][511]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.17-13.29.59:421][511]PIE: New page: PIE 세션: World (2018. 4. 18. 오전 7:29:59)
+[2018.04.17-13.29.59:422][511]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_World
+[2018.04.17-13.29.59:783][511]LogPlayLevel: PIE: StaticDuplicateObject took: (0.361777s)
+[2018.04.17-13.29.59:783][511]LogAIModule: Creating AISystem for world World
+[2018.04.17-13.29.59:784][511]LogPlayLevel: PIE: World Init took: (0.000562s)
+[2018.04.17-13.29.59:784][511]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/World.World to /Game/Maps/UEDPIE_0_World.World (0.363383s)
+[2018.04.17-13.29.59:827][511]LogInit: XAudio2 using '스피커(USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.17-13.29.59:839][511]LogInit: FAudioDevice initialized.
+[2018.04.17-13.29.59:871][511]LogLoad: Game class is 'AWWAGameMode'
+[2018.04.17-13.29.59:984][511]LogWorld: Bringing World /Game/Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.04.17-22.29.59
+[2018.04.17-13.29.59:989][511]LogWorld: Bringing up level for play took: 0.117643
+[2018.04.17-13.29.59:994][511]PIE: /Game/Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.984
+[2018.04.17-13.47.30:394][385]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.17-13.47.32:123][550]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.04.17-13.47.32:946][623]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.17-13.47.32:946][623]PIE: New page: PIE 세션: World (2018. 4. 18. 오전 7:47:32)
+[2018.04.17-13.47.32:946][623]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_World
+[2018.04.17-13.47.33:305][623]LogPlayLevel: PIE: StaticDuplicateObject took: (0.359462s)
+[2018.04.17-13.47.33:306][623]LogAIModule: Creating AISystem for world World
+[2018.04.17-13.47.33:306][623]LogPlayLevel: PIE: World Init took: (0.000786s)
+[2018.04.17-13.47.33:307][623]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/World.World to /Game/Maps/UEDPIE_0_World.World (0.361223s)
+[2018.04.17-13.47.33:349][623]LogInit: XAudio2 using '스피커(USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.17-13.47.33:361][623]LogInit: FAudioDevice initialized.
+[2018.04.17-13.47.33:393][623]LogLoad: Game class is 'AWWAGameMode'
+[2018.04.17-13.47.33:499][623]LogWorld: Bringing World /Game/Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.04.17-22.47.33
+[2018.04.17-13.47.33:504][623]LogWorld: Bringing up level for play took: 0.110383
+[2018.04.17-13.47.33:509][623]PIE: /Game/Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.499
+[2018.04.17-13.50.10:201][697]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.04.17-13.50.11:140][778]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.17-13.50.11:140][778]PIE: New page: PIE 세션: World (2018. 4. 18. 오전 7:50:11)
+[2018.04.17-13.50.11:140][778]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_World
+[2018.04.17-13.50.11:500][778]LogPlayLevel: PIE: StaticDuplicateObject took: (0.360470s)
+[2018.04.17-13.50.11:501][778]LogAIModule: Creating AISystem for world World
+[2018.04.17-13.50.11:501][778]LogPlayLevel: PIE: World Init took: (0.000517s)
+[2018.04.17-13.50.11:502][778]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/World.World to /Game/Maps/UEDPIE_0_World.World (0.361926s)
+[2018.04.17-13.50.11:544][778]LogInit: XAudio2 using '스피커(USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.17-13.50.11:556][778]LogInit: FAudioDevice initialized.
+[2018.04.17-13.50.11:585][778]LogLoad: Game class is 'AWWAGameMode'
+[2018.04.17-13.50.11:692][778]LogWorld: Bringing World /Game/Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.04.17-22.50.11
+[2018.04.17-13.50.11:697][778]LogWorld: Bringing up level for play took: 0.111103
+[2018.04.17-13.50.11:701][778]PIE: /Game/Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.692
+[2018.04.17-13.54.34:916][616]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.04.17-13.54.35:879][684]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.17-13.54.35:879][684]PIE: New page: PIE 세션: World (2018. 4. 18. 오전 7:54:35)
+[2018.04.17-13.54.35:879][684]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_World
+[2018.04.17-13.54.36:238][684]LogPlayLevel: PIE: StaticDuplicateObject took: (0.358794s)
+[2018.04.17-13.54.36:239][684]LogAIModule: Creating AISystem for world World
+[2018.04.17-13.54.36:239][684]LogPlayLevel: PIE: World Init took: (0.000702s)
+[2018.04.17-13.54.36:240][684]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/World.World to /Game/Maps/UEDPIE_0_World.World (0.360519s)
+[2018.04.17-13.54.36:282][684]LogInit: XAudio2 using '스피커(USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.17-13.54.36:292][684]LogInit: FAudioDevice initialized.
+[2018.04.17-13.54.36:323][684]LogLoad: Game class is 'AWWAGameMode'
+[2018.04.17-13.54.36:452][684]LogWorld: Bringing World /Game/Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.04.17-22.54.36
+[2018.04.17-13.54.36:457][684]LogWorld: Bringing up level for play took: 0.132721
+[2018.04.17-13.54.36:461][684]PIE: /Game/Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 1.452
+[2018.04.17-13.54.40:268][ 35]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] 5,230
+[2018.04.17-13.54.40:279][ 36]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] 5,230
+[2018.04.17-13.54.40:290][ 37]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] 5,230
+[2018.04.17-13.54.40:300][ 38]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] 5,230
+[2018.04.17-13.54.40:311][ 39]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] 5,230
+[2018.04.17-13.54.40:321][ 40]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] 5,230
+[2018.04.17-13.54.40:333][ 41]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] 5,227.002
+[2018.04.17-13.54.53:732][286]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] 5,209
+[2018.04.17-13.54.56:110][514]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] 5,209
+[2018.04.17-13.54.57:885][683]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] 5,209
+[2018.04.17-13.55.00:185][900]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] 5,209
+[2018.04.17-13.55.10:719][904]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] 5,209
+[2018.04.17-13.55.29:525][300]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2018.04.17-13.55.30:778][301]LogSavePackage: Save=591.27ms
+[2018.04.17-13.55.30:778][301]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacterF70F03F94015FD9D4B85F299F15060B3.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset'
+[2018.04.17-13.55.30:782][301]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset
+[2018.04.17-14.03.08:080][644]LogSavePackage: Save=540.71ms
+[2018.04.17-14.03.08:080][644]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter0AE0CCD04652FE2606F5A98A8D8C5764.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset'
+[2018.04.17-14.03.08:083][644]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset
+[2018.04.17-14.03.11:001][904]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.04.17-14.03.11:868][954]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.17-14.03.11:868][954]PIE: New page: PIE 세션: World (2018. 4. 18. 오전 8:03:11)
+[2018.04.17-14.03.11:868][954]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_World
+[2018.04.17-14.03.12:231][954]LogPlayLevel: PIE: StaticDuplicateObject took: (0.363085s)
+[2018.04.17-14.03.12:232][954]LogAIModule: Creating AISystem for world World
+[2018.04.17-14.03.12:232][954]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2018.04.17-14.03.12:233][954]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/World.World to /Game/Maps/UEDPIE_0_World.World (0.364778s)
+[2018.04.17-14.03.12:276][954]LogInit: XAudio2 using '스피커(USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.17-14.03.12:288][954]LogInit: FAudioDevice initialized.
+[2018.04.17-14.03.12:319][954]LogLoad: Game class is 'AWWAGameMode'
+[2018.04.17-14.03.12:427][954]LogWorld: Bringing World /Game/Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.04.17-23.03.12
+[2018.04.17-14.03.12:432][954]LogWorld: Bringing up level for play took: 0.112342
+[2018.04.17-14.03.12:436][954]PIE: /Game/Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 1.427
+[2018.04.17-14.06.13:225][590]BlueprintLog: New page: EDIT_Main_Anim 컴파일
+[2018.04.17-14.06.13:893][637]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/EDIT_Main_Anim" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/EDIT_Main_Anim.uasset" SILENT=true
+[2018.04.17-14.06.14:158][637]LogSavePackage: Save=256.76ms
+[2018.04.17-14.06.14:158][637]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Main_Anim3E1AE85345A97DB7B2DC07B9AAC288BB.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/EDIT_Main_Anim.uasset'
+[2018.04.17-14.06.14:161][637]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/EDIT_Main_Anim.uasset
+[2018.04.17-14.10.01:609][153]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.04.17-14.10.13:585][878]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.04.17-14.10.14:600][953]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.17-14.10.14:600][953]PIE: New page: PIE 세션: World (2018. 4. 18. 오전 8:10:14)
+[2018.04.17-14.10.14:600][953]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_World
+[2018.04.17-14.10.14:966][953]LogPlayLevel: PIE: StaticDuplicateObject took: (0.366046s)
+[2018.04.17-14.10.14:966][953]LogAIModule: Creating AISystem for world World
+[2018.04.17-14.10.14:967][953]LogPlayLevel: PIE: World Init took: (0.000688s)
+[2018.04.17-14.10.14:967][953]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/World.World to /Game/Maps/UEDPIE_0_World.World (0.367685s)
+[2018.04.17-14.10.15:011][953]LogInit: XAudio2 using '스피커(USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.17-14.10.15:023][953]LogInit: FAudioDevice initialized.
+[2018.04.17-14.10.15:051][953]LogLoad: Game class is 'AWWAGameMode'
+[2018.04.17-14.10.15:163][953]LogWorld: Bringing World /Game/Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.04.17-23.10.15
+[2018.04.17-14.10.15:168][953]LogWorld: Bringing up level for play took: 0.116318
+[2018.04.17-14.10.15:172][953]PIE: /Game/Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.163
+[2018.04.17-14.10.40:225][507]BlueprintLog: New page: EDIT_Main_Anim 컴파일
+[2018.04.17-14.10.40:778][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/EDIT_Main_Anim" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/EDIT_Main_Anim.uasset" SILENT=true
+[2018.04.17-14.10.41:038][540]LogSavePackage: Save=256.87ms
+[2018.04.17-14.10.41:038][540]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Main_Anim4CAB0CD64AC7ECAFE245D8AF7E02AF41.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/EDIT_Main_Anim.uasset'
+[2018.04.17-14.10.41:052][540]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/EDIT_Main_Anim.uasset
+[2018.04.17-14.10.41:812][618]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.04.17-14.10.42:827][691]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.17-14.10.42:827][691]PIE: New page: PIE 세션: World (2018. 4. 18. 오전 8:10:42)
+[2018.04.17-14.10.42:827][691]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_World
+[2018.04.17-14.10.43:185][691]LogPlayLevel: PIE: StaticDuplicateObject took: (0.357496s)
+[2018.04.17-14.10.43:185][691]LogAIModule: Creating AISystem for world World
+[2018.04.17-14.10.43:185][691]LogPlayLevel: PIE: World Init took: (0.000654s)
+[2018.04.17-14.10.43:186][691]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/World.World to /Game/Maps/UEDPIE_0_World.World (0.359142s)
+[2018.04.17-14.10.43:229][691]LogInit: XAudio2 using '스피커(USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.17-14.10.43:241][691]LogInit: FAudioDevice initialized.
+[2018.04.17-14.10.43:273][691]LogLoad: Game class is 'AWWAGameMode'
+[2018.04.17-14.10.43:385][691]LogWorld: Bringing World /Game/Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.04.17-23.10.43
+[2018.04.17-14.10.43:390][691]LogWorld: Bringing up level for play took: 0.116150
+[2018.04.17-14.10.43:395][691]PIE: /Game/Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.385
+[2018.04.17-14.11.56:019][509]LogSavePackage: Save=8809.76ms
+[2018.04.17-14.11.56:019][509]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/World_Auto7A2A7A4FC48DBBEB393E66CADBF7B4B36.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Maps/World_Auto7.umap'
+[2018.04.17-14.11.56:027][509]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Maps/World_Auto7.umap
+[2018.04.17-14.11.56:031][509]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/World' took 8.901
+[2018.04.17-14.11.56:031][509]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 8.901
+[2018.04.17-14.27.41:087][774]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.04.17-14.27.41:881][822]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.17-14.27.41:881][822]PIE: New page: PIE 세션: World (2018. 4. 18. 오전 8:27:41)
+[2018.04.17-14.27.41:881][822]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_World
+[2018.04.17-14.27.42:242][822]LogPlayLevel: PIE: StaticDuplicateObject took: (0.361474s)
+[2018.04.17-14.27.42:243][822]LogAIModule: Creating AISystem for world World
+[2018.04.17-14.27.42:243][822]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2018.04.17-14.27.42:244][822]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/World.World to /Game/Maps/UEDPIE_0_World.World (0.363290s)
+[2018.04.17-14.27.42:288][822]LogInit: XAudio2 using '스피커(USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.17-14.27.42:300][822]LogInit: FAudioDevice initialized.
+[2018.04.17-14.27.42:331][822]LogLoad: Game class is 'AWWAGameMode'
+[2018.04.17-14.27.42:439][822]LogWorld: Bringing World /Game/Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.04.17-23.27.42
+[2018.04.17-14.27.42:443][822]LogWorld: Bringing up level for play took: 0.111080
+[2018.04.17-14.27.42:448][822]PIE: /Game/Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 1.438
+[2018.04.17-14.33.48:430][ 56]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2018.04.17-14.33.49:860][ 78]LogSavePackage: Save=549.87ms
+[2018.04.17-14.33.49:860][ 78]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter1CA74AF746F9949295FDF68409C0E85C.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset'
+[2018.04.17-14.33.49:864][ 78]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset
+[2018.04.17-14.51.45:459][802]LogSavePackage: Save=546.87ms
+[2018.04.17-14.51.45:459][802]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacterB1A16B0947FFDBFC97E63B8374C62E23.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset'
+[2018.04.17-14.51.45:462][802]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset
+[2018.04.17-14.54.08:030][927]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/World' took 0.036
+[2018.04.17-14.54.08:032][927]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Character/AWWA_MainCharacter] ([1] browsable assets)...
+[2018.04.17-14.54.08:032][927]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/AWWA_MainCharacter]
+[2018.04.17-14.54.08:583][927]LogSavePackage: Save=547.70ms
+[2018.04.17-14.54.08:583][927]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter_Auto82A73F04B4A4AC00FA94E1F9AF8D951FD.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/AWWA_MainCharacter_Auto8.uasset'
+[2018.04.17-14.54.08:588][927]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/AWWA_MainCharacter_Auto8.uasset
+[2018.04.17-14.54.08:588][927]LogFileHelpers: Auto-saving content packages took 0.557
