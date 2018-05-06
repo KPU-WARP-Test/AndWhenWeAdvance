@@ -4,6 +4,8 @@
 #include "AWWACharacter.h"
 #include "UObject/ConstructorHelpers.h"
 
+#include "AWWAHUD.h"
+
 AAWWAGameMode::AAWWAGameMode()
 {
 	// set default pawn class to our Blueprinted character
@@ -14,4 +16,6 @@ AAWWAGameMode::AAWWAGameMode()
 	{
 		DefaultPawnClass = PlayerPawnBPClass.Class;
 	}
+
+	HUDClass = AAWWAHUD::StaticClass();
 }
