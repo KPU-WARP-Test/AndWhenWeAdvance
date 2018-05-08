@@ -1,4 +1,4 @@
-﻿Log file open, 05/08/18 01:37:10
+﻿Log file open, 05/08/18 21:31:59
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: AWWA
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1961925473) SRandInit(-1961925473).
+LogInit: Display: RandInit(-777041574) SRandInit(-777041574).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.226600
+LogStats: Stats thread started at 0.224560
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -77,7 +77,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Binaries/Win64/UE4Editor-AWWA-5533.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Binaries/Win64/UE4Editor-AWWA.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
@@ -192,1603 +192,167 @@ LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line: 
+LogInit: Command line:  -skipcompile
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.05.07-16.37.12:609][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.07-16.37.12:609][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.05.07-16.37.12:620][  0]LogInit: Computer: DESKTOP-SFT0388
-[2018.05.07-16.37.12:620][  0]LogInit: User: korea
-[2018.05.07-16.37.12:620][  0]LogInit: CPU Page size=4096, Cores=6
-[2018.05.07-16.37.12:620][  0]LogInit: High frequency timer resolution =3.609376 MHz
-[2018.05.07-16.37.12:620][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.05.07-16.37.12:620][  0]LogMemory: Platform Memory Stats for Windows
-[2018.05.07-16.37.12:620][  0]LogMemory: Process Physical Memory: 275.39 MB used, 275.39 MB peak
-[2018.05.07-16.37.12:620][  0]LogMemory: Process Virtual Memory: 272.26 MB used, 272.26 MB peak
-[2018.05.07-16.37.12:620][  0]LogMemory: Physical Memory: 5594.78 MB used,  10723.22 MB free, 16318.00 MB total
-[2018.05.07-16.37.12:620][  0]LogMemory: Virtual Memory: 684.66 MB used,  10723.22 MB free, 134217728.00 MB total
-[2018.05.07-16.37.12:837][  0]LogInit: Using OS detected language (ko-KR).
-[2018.05.07-16.37.12:837][  0]LogInit: Using OS detected locale (ko-KR).
-[2018.05.07-16.37.12:840][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
-[2018.05.07-16.37.12:970][  0]LogInit: Setting process to per monitor DPI aware
-[2018.05.07-16.37.13:273][  0]LogD3D11RHI: D3D11 adapters:
-[2018.05.07-16.37.13:324][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070 Ti' (Feature Level 11_0)
-[2018.05.07-16.37.13:324][  0]LogD3D11RHI:       8080/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.05.07-16.37.13:326][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.05.07-16.37.13:326][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.05.07-16.37.13:326][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.05.07-16.37.13:331][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.05.07-16.37.13:331][  0]LogD3D11RHI:     GPU DeviceId: 0x1b82 (for the marketing name, search the web for "GPU Device Id")
-[2018.05.07-16.37.13:331][  0]LogWindows: EnumDisplayDevices:
-[2018.05.07-16.37.13:332][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070 Ti' (P:1 D:1)
-[2018.05.07-16.37.13:332][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:1)
-[2018.05.07-16.37.13:332][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
-[2018.05.07-16.37.13:333][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
-[2018.05.07-16.37.13:333][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.05.07-16.37.13:333][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070 Ti
-[2018.05.07-16.37.13:333][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.05.07-16.37.13:333][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.05.07-16.37.13:333][  0]LogRHI: Texture pool is 5656 MB (70% of 8080 MB)
-[2018.05.07-16.37.13:358][  0]LogD3D11RHI: Async texture creation enabled
-[2018.05.07-16.37.13:373][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.05.07-16.37.13:471][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Intermediate/Shaders/WorkingDirectory/15260/).
-[2018.05.07-16.37.13:471][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/korea/AppData/Local/Temp/UnrealShaderWorkingDir/9C371B1B4F6C5B25F9791E912681A7E7/'.
-[2018.05.07-16.37.13:471][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.05.07-16.37.14:308][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.05.07-16.37.14:374][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.05.07-16.37.14:442][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.05.07-16.37.14:511][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.05.07-16.37.14:576][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.05.07-16.37.14:640][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.05.07-16.37.14:705][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.05.07-16.37.14:769][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.05.07-16.37.14:828][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.05.07-16.37.14:891][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.05.07-16.37.14:953][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.05.07-16.37.15:016][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.05.07-16.37.15:077][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.05.07-16.37.15:139][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.05.07-16.37.15:267][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.05.07-16.37.15:267][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.05.07-16.37.15:330][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.05.07-16.37.15:384][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.05.07-16.37.15:498][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.05.07-16.37.15:531][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.05.07-16.37.15:592][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.05.07-16.37.15:655][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.05.07-16.37.15:718][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.05.07-16.37.15:779][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.05.07-16.37.15:779][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.05.07-16.37.16:417][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.05.07-16.37.16:476][  0]LogDerivedDataCache: Loaded boot cache 0.06s 89MB C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.05.07-16.37.16:476][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.05.07-16.37.16:476][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.05.07-16.37.16:476][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.05.07-16.37.16:476][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.05.07-16.37.16:476][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.05.07-16.37.16:487][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.05.07-16.37.16:499][  0]LogDerivedDataCache: Using Local data cache path C:/Users/korea/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.05.07-16.37.16:506][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.05.07-16.37.16:506][  0]LogSlate: Using Freetype 2.6.0
-[2018.05.07-16.37.16:507][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.07-16.37.16:507][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.07-16.37.16:814][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.07-16.37.17:193][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.05.07-16.37.17:250][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.05.07-16.37.17:250][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.05.07-16.37.17:250][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.05.07-16.37.17:250][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.05.07-16.37.17:250][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.05.07-16.37.17:281][  0]LogNetVersion: AWWA , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3043977046)
-[2018.05.07-16.37.17:442][  0]LogAssetRegistry: FAssetRegistry took 0.0244 seconds to start up
-[2018.05.07-16.37.17:891][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.059341 seconds
-[2018.05.07-16.37.17:896][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.05.07-16.37.17:896][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.05.07-16.37.17:896][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.05.07-16.37.17:967][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.05.07-16.37.21:197][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.05.07-16.37.21:258][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.05.07-16.37.22:999][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.05.07-16.37.23:541][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.05.07-16.37.23:541][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.05.07-16.37.23:621][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.05.07-16.37.23:696][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.05.07-16.37.24:793][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.05.07-16.37.25:161][  0]LogOcInput: OculusInput pre-init called
-[2018.05.07-16.37.25:505][  0]LogEngine: Initializing Engine...
-[2018.05.07-16.37.25:508][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.05.07-16.37.25:659][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.07-16.37.25:659][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.07-16.37.25:839][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.05.07-16.37.25:859][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.07-16.37.25:883][  0]LogInit: FAudioDevice initialized.
-[2018.05.07-16.37.25:980][  0]LogDerivedDataCache: Saved boot cache 0.10s 89MB C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.05.07-16.37.25:990][  0]LogInit: Texture streaming: Enabled
-[2018.05.07-16.37.26:130][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.05.07-16.37.26:307][  0]LogInit: Transaction tracking system initialized
-[2018.05.07-16.37.26:737][  0]BlueprintLog: New page: 에디터 로드
-[2018.05.07-16.37.28:235][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
-[2018.05.07-16.37.29:239][  0]LogConsoleResponse: Display: 
-[2018.05.07-16.37.29:406][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.05.07-16.37.29:406][  0]LogCook: Display: Mobile HDR setting 1
-[2018.05.07-16.37.29:406][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.05.07-16.37.30:138][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/' took 0.03s
-[2018.05.07-16.37.31:087][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.05.07-16.37.31:087][  0]Cmd: MAP LOAD FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Maps/World.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.05.07-16.37.31:088][  0]LightingResults: New page: 라이팅 빌드
-[2018.05.07-16.37.31:147][  0]MapCheck: New page: 맵 체크
-[2018.05.07-16.37.31:148][  0]LightingResults: New page: 라이팅 빌드
-[2018.05.07-16.37.35:455][  0]LogAIModule: Creating AISystem for world World
-[2018.05.07-16.37.36:467][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.05.07-16.37.36:567][  0]MapCheck: /Game/Maps/World 레벨의 39 개 컴포넌트에 대해 칠해진 버텍스 컬러 수리에 0.0s 걸렸습니다. 맵을 다시 저장하면 확정됩니다. 
-[2018.05.07-16.37.36:567][  0]MapCheck: Warning: 스태틱 메시 리임포트로 인해 칠해진 버텍스 컬러를 고치는 데 시간이 0.0s 만큼 걸렸습니다. 맵을 다시 저장하기 전까지는 로드할 때마다 이 작업이 실행됩니다. 
-[2018.05.07-16.37.36:567][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.05.07-16.37.36:804][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 1 회, 소요 시간 237.435ms.
-[2018.05.07-16.37.36:826][  0]LogFileHelpers: Loading map 'World' took 5.739
-[2018.05.07-16.37.36:900][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
-[2018.05.07-16.37.37:150][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.05.07-16.37.37:890][  0]LogCollectionManager: Loaded 0 collections in 0.001697 seconds
-[2018.05.07-16.37.37:991][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.AWWA
-[2018.05.07-16.37.37:991][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
-[2018.05.07-16.37.37:991][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
-[2018.05.07-16.37.37:991][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
-[2018.05.07-16.37.37:991][  0]LogTemp: BranchPath = DESKTOP-SFT0388/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = DESKTOP-SFT0388/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
-[2018.05.07-16.37.37:991][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Collections/' took 0.01s
-[2018.05.07-16.37.37:991][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\korea\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.05.07-16.37.37:991][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Developers/korea/Collections/' took 0.01s
-[2018.05.07-16.37.37:991][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Collections/' took 0.01s
-[2018.05.07-16.37.37:991][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.05.07-16.37.37:998][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 2366 classes and 522 folders.
-[2018.05.07-16.37.38:093][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
-[2018.05.07-16.37.38:145][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2018.05.07-16.37.38:208][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2018.05.07-16.37.38:257][  0]LogSlate: Took 0.000244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.07-16.37.38:259][  0]LogSlate: Took 0.002176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
-[2018.05.07-16.37.38:262][  0]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.05.07-16.37.38:264][  0]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.05.07-16.37.38:372][  0]LogRenderer: Reallocating scene render targets to support 1900x636 Format 10 NumSamples 1 (Frame:1).
-[2018.05.07-16.37.38:538][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
-[2018.05.07-16.37.38:538][  0]LogLoad: (Engine Initialization) Total time: 29.29 seconds
-[2018.05.07-16.37.38:538][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.05.07-16.37.38:539][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.05.07-16.37.38:569][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.05.07-16.37.38:660][  1]LogAssetRegistry: Asset discovery search completed in 21.2396 seconds
-[2018.05.07-16.37.38:663][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.05.07-16.37.38:663][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000037 seconds (updated 0 objects)
-[2018.05.07-16.39.43:898][167]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
-[2018.05.07-16.39.44:921][264]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.07-16.39.44:921][264]PIE: New page: PIE 세션: World (2018. 5. 8. 오전 10:39:44)
-[2018.05.07-16.39.44:921][264]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_World
-[2018.05.07-16.39.45:507][264]LogPlayLevel: PIE: StaticDuplicateObject took: (0.585612s)
-[2018.05.07-16.39.45:508][264]LogAIModule: Creating AISystem for world World
-[2018.05.07-16.39.45:508][264]LogPlayLevel: PIE: World Init took: (0.001054s)
-[2018.05.07-16.39.45:510][264]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/World.World to /Game/Maps/UEDPIE_0_World.World (0.588151s)
-[2018.05.07-16.39.45:542][264]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.07-16.39.45:557][264]LogInit: FAudioDevice initialized.
-[2018.05.07-16.39.45:597][264]LogLoad: Game class is 'AWWAGameMode'
-[2018.05.07-16.39.45:716][264]LogWorld: Bringing World /Game/Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.05.08-01.39.45
-[2018.05.07-16.39.45:721][264]LogWorld: Bringing up level for play took: 0.122638
-[2018.05.07-16.39.45:778][264]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
-[2018.05.07-16.39.45:782][264]PIE: /Game/Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.546
-[2018.05.07-16.40.19:903][336]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=208.93 Y=-559.56 Z=0.00 Location: X=120917.38 Y=39071.99 Z=5026.15 Normal: X=-1.00 Y=-0.00 Z=-0.00 PenetrationDepth:39.875 Actor:Cube46 Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
-[2018.05.07-16.40.31:937][780]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-740.10 Y=-672.49 Z=0.00 Location: X=120919.41 Y=39070.02 Z=5026.15 Normal: X=1.00 Y=0.00 Z=0.00 PenetrationDepth:11.094 Actor:Cube47 Component:StaticMeshComponent0 BoneName:None (2 other events since notify)
-[2018.05.07-16.45.57:957][276]LogSlate: Took 0.006835 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.07-16.45.57:970][276]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/korea/Downloads/EDIT_Rifle_WalkBackward.fbx)
-[2018.05.07-16.45.58:014][276]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2018.05.07-16.45.58:014][276]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2018.05.07-16.45.58:014][276]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2018.05.07-16.45.58:014][276]LogFbx: ItemName: NodeAttribute, ItemCount : 114
-[2018.05.07-16.45.58:014][276]LogFbx: ItemName: Model, ItemCount : 114
-[2018.05.07-16.45.58:014][276]LogFbx: ItemName: AnimationCurveNode, ItemCount : 274
-[2018.05.07-16.45.58:014][276]LogFbx: ItemName: AnimationCurve, ItemCount : 177
-[2018.05.07-16.45.58:023][276]LogFbx: Loading FBX Scene from ../../../../../../Users/korea/Downloads/EDIT_Rifle_WalkBackward.fbx
-[2018.05.07-16.45.58:057][276]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.07-16.46.02:533][276]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.07-16.46.07:060][276]LogFbx: Loading FBX Scene from ../../../../../../Users/korea/Downloads/EDIT_Rifle_WalkBackward.fbx
-[2018.05.07-16.46.07:089][276]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(0) Root
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(1) Hips
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(2) Spine
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(3) Spine1
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(4) Spine2
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(5) Neck
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(6) Neck1
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(7) Head
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(8) HeadTop_End
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(9) L_Ear
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(10) Jaw
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(11) TongueBack
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(12) TongueMid
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(13) TongueTip
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(14) Chin
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(15) LowerChin
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(16) L_Temple
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(17) L_IOuterBrow
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(18) L_MidBrow
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(19) L_InnerBrow
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(20) L_Eye
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(21) L_EyelidLower
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(22) L_EyelidUpper
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(23) L_InnerCheek
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(24) L_LowerCheek
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(25) L_LipLower
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(26) L_LipUpper
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(27) LipMidLower
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(28) LipMidUpper
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(29) L_CheekFold
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(30) L_Nostril
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(31) Scalp
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(32) L_OuterCheek
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(33) R_LipLower
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(34) RightNostril
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(35) R_CheekFold
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(36) R_LowerCheek
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(37) R_LipUpper
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(38) R_OuterCheek
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(39) MidBrows
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(40) R_InnerBrow
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(41) R_MidBrow
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(42) R_IOuterBrow
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(43) R_Eye
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(44) R_EyelidLower
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(45) R_EyelidUpper
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(46) R_Temple
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(47) R_Ear
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(48) R_InnerCheek
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(49) L_LipCorner
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(50) L_LipCornerLowTweak
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(51) L_LipCornerUpTweak
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(52) R_gLipCorner
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(53) R_gLipCornerUpTweak
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(54) R_gLipCornerLowTweak
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(55) Throat
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(56) LeftShoulder
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(57) LeftArm
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(58) LeftForeArm
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(59) LeftHand
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(60) LeftHandThumb1
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(61) LeftHandThumb2
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(62) LeftHandThumb3
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(63) LeftHandThumb4
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(64) LeftHandMiddle1
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(65) LeftHandMiddle2
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(66) LeftHandMiddle3
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(67) LeftHandMiddle4
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(68) LeftHandIndex1
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(69) LeftHandIndex2
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(70) LeftHandIndex3
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(71) LeftHandIndex4
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(72) LeftHandRing1
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(73) LeftHandRing2
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(74) LeftHandRing3
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(75) LeftHandRing4
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(76) LeftHandPinky1
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(77) LeftHandPinky2
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(78) LeftHandPinky3
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(79) LeftHandPinky4
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(80) RightShoulder
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(81) RightArm
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(82) RightForeArm
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(83) RightHand
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(84) RightHandThumb1
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(85) RightHandThumb2
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(86) RightHandThumb3
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(87) RightHandThumb4
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(88) RightHandIndex1
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(89) RightHandIndex2
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(90) RightHandIndex3
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(91) RightHandIndex4
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(92) RightHandMiddle1
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(93) RightHandMiddle2
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(94) RightHandMiddle3
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(95) RightHandMiddle4
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(96) RightHandRing1
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(97) RightHandRing2
-[2018.05.07-16.46.07:094][276]LogFbx: SortedLinks :(98) RightHandRing3
-[2018.05.07-16.46.07:095][276]LogFbx: SortedLinks :(99) RightHandRing4
-[2018.05.07-16.46.07:095][276]LogFbx: SortedLinks :(100) RightHandPinky1
-[2018.05.07-16.46.07:095][276]LogFbx: SortedLinks :(101) RightHandPinky2
-[2018.05.07-16.46.07:095][276]LogFbx: SortedLinks :(102) RightHandPinky3
-[2018.05.07-16.46.07:095][276]LogFbx: SortedLinks :(103) RightHandPinky4
-[2018.05.07-16.46.07:095][276]LogFbx: SortedLinks :(104) LeftUpLeg
-[2018.05.07-16.46.07:095][276]LogFbx: SortedLinks :(105) LeftLeg
-[2018.05.07-16.46.07:095][276]LogFbx: SortedLinks :(106) LeftFoot
-[2018.05.07-16.46.07:095][276]LogFbx: SortedLinks :(107) LeftToeBase
-[2018.05.07-16.46.07:095][276]LogFbx: SortedLinks :(108) LeftFootToeBase_End
-[2018.05.07-16.46.07:095][276]LogFbx: SortedLinks :(109) RightUpLeg
-[2018.05.07-16.46.07:095][276]LogFbx: SortedLinks :(110) RightLeg
-[2018.05.07-16.46.07:095][276]LogFbx: SortedLinks :(111) RightFoot
-[2018.05.07-16.46.07:095][276]LogFbx: SortedLinks :(112) RightToeBase
-[2018.05.07-16.46.07:095][276]LogFbx: SortedLinks :(113) RightFootToeBase_End
-[2018.05.07-16.46.07:096][276]LogFbx: Parsing AnimStack Take 001
-[2018.05.07-16.46.07:100][276]LogLinker: '/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_WalkBackward' 파일을 찾을 수 없습니다.
-[2018.05.07-16.46.07:100][276]LogLinker: '/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_WalkBackward' 파일을 찾을 수 없습니다.
-[2018.05.07-16.46.07:392][276]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_WalkBackward.EDIT_Rifle_WalkBackward
-[2018.05.07-16.46.07:392][276]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.EDIT_Rifle_WalkBackward) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2018.05.07-16.46.07:410][276]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../../Users/korea/Downloads/EDIT_Rifle_Crouch_WalkBackward.fbx)
-[2018.05.07-16.46.07:417][276]LogFbx: Loading FBX Scene from ../../../../../../Users/korea/Downloads/EDIT_Rifle_Crouch_WalkBackward.fbx
-[2018.05.07-16.46.07:446][276]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(0) Root
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(1) Hips
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(2) Spine
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(3) Spine1
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(4) Spine2
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(5) Neck
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(6) Neck1
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(7) Head
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(8) HeadTop_End
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(9) L_Ear
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(10) Jaw
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(11) TongueBack
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(12) TongueMid
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(13) TongueTip
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(14) Chin
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(15) LowerChin
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(16) L_Temple
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(17) L_IOuterBrow
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(18) L_MidBrow
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(19) L_InnerBrow
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(20) L_Eye
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(21) L_EyelidLower
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(22) L_EyelidUpper
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(23) L_InnerCheek
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(24) L_LowerCheek
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(25) L_LipLower
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(26) L_LipUpper
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(27) LipMidLower
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(28) LipMidUpper
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(29) L_CheekFold
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(30) L_Nostril
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(31) Scalp
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(32) L_OuterCheek
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(33) R_LipLower
-[2018.05.07-16.46.07:449][276]LogFbx: SortedLinks :(34) RightNostril
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(35) R_CheekFold
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(36) R_LowerCheek
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(37) R_LipUpper
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(38) R_OuterCheek
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(39) MidBrows
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(40) R_InnerBrow
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(41) R_MidBrow
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(42) R_IOuterBrow
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(43) R_Eye
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(44) R_EyelidLower
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(45) R_EyelidUpper
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(46) R_Temple
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(47) R_Ear
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(48) R_InnerCheek
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(49) L_LipCorner
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(50) L_LipCornerLowTweak
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(51) L_LipCornerUpTweak
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(52) R_gLipCorner
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(53) R_gLipCornerUpTweak
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(54) R_gLipCornerLowTweak
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(55) Throat
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(56) LeftShoulder
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(57) LeftArm
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(58) LeftForeArm
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(59) LeftHand
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(60) LeftHandThumb1
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(61) LeftHandThumb2
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(62) LeftHandThumb3
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(63) LeftHandThumb4
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(64) LeftHandMiddle1
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(65) LeftHandMiddle2
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(66) LeftHandMiddle3
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(67) LeftHandMiddle4
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(68) LeftHandIndex1
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(69) LeftHandIndex2
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(70) LeftHandIndex3
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(71) LeftHandIndex4
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(72) LeftHandRing1
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(73) LeftHandRing2
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(74) LeftHandRing3
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(75) LeftHandRing4
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(76) LeftHandPinky1
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(77) LeftHandPinky2
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(78) LeftHandPinky3
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(79) LeftHandPinky4
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(80) RightShoulder
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(81) RightArm
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(82) RightForeArm
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(83) RightHand
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(84) RightHandThumb1
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(85) RightHandThumb2
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(86) RightHandThumb3
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(87) RightHandThumb4
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(88) RightHandIndex1
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(89) RightHandIndex2
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(90) RightHandIndex3
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(91) RightHandIndex4
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(92) RightHandMiddle1
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(93) RightHandMiddle2
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(94) RightHandMiddle3
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(95) RightHandMiddle4
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(96) RightHandRing1
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(97) RightHandRing2
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(98) RightHandRing3
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(99) RightHandRing4
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(100) RightHandPinky1
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(101) RightHandPinky2
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(102) RightHandPinky3
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(103) RightHandPinky4
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(104) LeftUpLeg
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(105) LeftLeg
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(106) LeftFoot
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(107) LeftToeBase
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(108) LeftFootToeBase_End
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(109) RightUpLeg
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(110) RightLeg
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(111) RightFoot
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(112) RightToeBase
-[2018.05.07-16.46.07:450][276]LogFbx: SortedLinks :(113) RightFootToeBase_End
-[2018.05.07-16.46.07:451][276]LogFbx: Parsing AnimStack Take 001
-[2018.05.07-16.46.07:453][276]LogLinker: '/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Crouch_WalkBackward' 파일을 찾을 수 없습니다.
-[2018.05.07-16.46.07:453][276]LogLinker: '/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Crouch_WalkBackward' 파일을 찾을 수 없습니다.
-[2018.05.07-16.46.07:889][276]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Crouch_WalkBackward.EDIT_Rifle_Crouch_WalkBackward
-[2018.05.07-16.46.07:889][276]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.EDIT_Rifle_Crouch_WalkBackward) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2018.05.07-16.46.07:903][276]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../../Users/korea/Downloads/EDIT_Rifle_Crouch_WalkForward.fbx)
-[2018.05.07-16.46.07:911][276]LogFbx: Loading FBX Scene from ../../../../../../Users/korea/Downloads/EDIT_Rifle_Crouch_WalkForward.fbx
-[2018.05.07-16.46.07:939][276]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.07-16.46.07:942][276]LogFbx: SortedLinks :(0) Root
-[2018.05.07-16.46.07:942][276]LogFbx: SortedLinks :(1) Hips
-[2018.05.07-16.46.07:942][276]LogFbx: SortedLinks :(2) Spine
-[2018.05.07-16.46.07:942][276]LogFbx: SortedLinks :(3) Spine1
-[2018.05.07-16.46.07:942][276]LogFbx: SortedLinks :(4) Spine2
-[2018.05.07-16.46.07:942][276]LogFbx: SortedLinks :(5) Neck
-[2018.05.07-16.46.07:942][276]LogFbx: SortedLinks :(6) Neck1
-[2018.05.07-16.46.07:942][276]LogFbx: SortedLinks :(7) Head
-[2018.05.07-16.46.07:942][276]LogFbx: SortedLinks :(8) HeadTop_End
-[2018.05.07-16.46.07:942][276]LogFbx: SortedLinks :(9) L_Ear
-[2018.05.07-16.46.07:942][276]LogFbx: SortedLinks :(10) Jaw
-[2018.05.07-16.46.07:942][276]LogFbx: SortedLinks :(11) TongueBack
-[2018.05.07-16.46.07:942][276]LogFbx: SortedLinks :(12) TongueMid
-[2018.05.07-16.46.07:942][276]LogFbx: SortedLinks :(13) TongueTip
-[2018.05.07-16.46.07:942][276]LogFbx: SortedLinks :(14) Chin
-[2018.05.07-16.46.07:942][276]LogFbx: SortedLinks :(15) LowerChin
-[2018.05.07-16.46.07:942][276]LogFbx: SortedLinks :(16) L_Temple
-[2018.05.07-16.46.07:942][276]LogFbx: SortedLinks :(17) L_IOuterBrow
-[2018.05.07-16.46.07:942][276]LogFbx: SortedLinks :(18) L_MidBrow
-[2018.05.07-16.46.07:942][276]LogFbx: SortedLinks :(19) L_InnerBrow
-[2018.05.07-16.46.07:942][276]LogFbx: SortedLinks :(20) L_Eye
-[2018.05.07-16.46.07:942][276]LogFbx: SortedLinks :(21) L_EyelidLower
-[2018.05.07-16.46.07:942][276]LogFbx: SortedLinks :(22) L_EyelidUpper
-[2018.05.07-16.46.07:942][276]LogFbx: SortedLinks :(23) L_InnerCheek
-[2018.05.07-16.46.07:942][276]LogFbx: SortedLinks :(24) L_LowerCheek
-[2018.05.07-16.46.07:942][276]LogFbx: SortedLinks :(25) L_LipLower
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(26) L_LipUpper
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(27) LipMidLower
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(28) LipMidUpper
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(29) L_CheekFold
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(30) L_Nostril
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(31) Scalp
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(32) L_OuterCheek
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(33) R_LipLower
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(34) RightNostril
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(35) R_CheekFold
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(36) R_LowerCheek
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(37) R_LipUpper
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(38) R_OuterCheek
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(39) MidBrows
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(40) R_InnerBrow
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(41) R_MidBrow
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(42) R_IOuterBrow
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(43) R_Eye
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(44) R_EyelidLower
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(45) R_EyelidUpper
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(46) R_Temple
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(47) R_Ear
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(48) R_InnerCheek
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(49) L_LipCorner
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(50) L_LipCornerLowTweak
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(51) L_LipCornerUpTweak
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(52) R_gLipCorner
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(53) R_gLipCornerUpTweak
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(54) R_gLipCornerLowTweak
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(55) Throat
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(56) LeftShoulder
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(57) LeftArm
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(58) LeftForeArm
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(59) LeftHand
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(60) LeftHandThumb1
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(61) LeftHandThumb2
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(62) LeftHandThumb3
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(63) LeftHandThumb4
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(64) LeftHandMiddle1
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(65) LeftHandMiddle2
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(66) LeftHandMiddle3
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(67) LeftHandMiddle4
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(68) LeftHandIndex1
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(69) LeftHandIndex2
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(70) LeftHandIndex3
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(71) LeftHandIndex4
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(72) LeftHandRing1
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(73) LeftHandRing2
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(74) LeftHandRing3
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(75) LeftHandRing4
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(76) LeftHandPinky1
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(77) LeftHandPinky2
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(78) LeftHandPinky3
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(79) LeftHandPinky4
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(80) RightShoulder
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(81) RightArm
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(82) RightForeArm
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(83) RightHand
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(84) RightHandThumb1
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(85) RightHandThumb2
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(86) RightHandThumb3
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(87) RightHandThumb4
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(88) RightHandIndex1
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(89) RightHandIndex2
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(90) RightHandIndex3
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(91) RightHandIndex4
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(92) RightHandMiddle1
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(93) RightHandMiddle2
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(94) RightHandMiddle3
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(95) RightHandMiddle4
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(96) RightHandRing1
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(97) RightHandRing2
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(98) RightHandRing3
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(99) RightHandRing4
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(100) RightHandPinky1
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(101) RightHandPinky2
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(102) RightHandPinky3
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(103) RightHandPinky4
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(104) LeftUpLeg
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(105) LeftLeg
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(106) LeftFoot
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(107) LeftToeBase
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(108) LeftFootToeBase_End
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(109) RightUpLeg
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(110) RightLeg
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(111) RightFoot
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(112) RightToeBase
-[2018.05.07-16.46.07:943][276]LogFbx: SortedLinks :(113) RightFootToeBase_End
-[2018.05.07-16.46.07:944][276]LogFbx: Parsing AnimStack Take 001
-[2018.05.07-16.46.07:946][276]LogLinker: '/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Crouch_WalkForward' 파일을 찾을 수 없습니다.
-[2018.05.07-16.46.07:946][276]LogLinker: '/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Crouch_WalkForward' 파일을 찾을 수 없습니다.
-[2018.05.07-16.46.08:372][276]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Crouch_WalkForward.EDIT_Rifle_Crouch_WalkForward
-[2018.05.07-16.46.08:372][276]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.EDIT_Rifle_Crouch_WalkForward) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2018.05.07-16.46.08:385][276]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../../Users/korea/Downloads/EDIT_Rifle_RunForward.fbx)
-[2018.05.07-16.46.08:393][276]LogFbx: Loading FBX Scene from ../../../../../../Users/korea/Downloads/EDIT_Rifle_RunForward.fbx
-[2018.05.07-16.46.08:420][276]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(0) Root
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(1) Hips
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(2) Spine
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(3) Spine1
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(4) Spine2
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(5) Neck
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(6) Neck1
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(7) Head
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(8) HeadTop_End
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(9) L_Ear
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(10) Jaw
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(11) TongueBack
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(12) TongueMid
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(13) TongueTip
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(14) Chin
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(15) LowerChin
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(16) L_Temple
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(17) L_IOuterBrow
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(18) L_MidBrow
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(19) L_InnerBrow
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(20) L_Eye
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(21) L_EyelidLower
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(22) L_EyelidUpper
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(23) L_InnerCheek
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(24) L_LowerCheek
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(25) L_LipLower
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(26) L_LipUpper
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(27) LipMidLower
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(28) LipMidUpper
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(29) L_CheekFold
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(30) L_Nostril
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(31) Scalp
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(32) L_OuterCheek
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(33) R_LipLower
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(34) RightNostril
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(35) R_CheekFold
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(36) R_LowerCheek
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(37) R_LipUpper
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(38) R_OuterCheek
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(39) MidBrows
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(40) R_InnerBrow
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(41) R_MidBrow
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(42) R_IOuterBrow
-[2018.05.07-16.46.08:423][276]LogFbx: SortedLinks :(43) R_Eye
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(44) R_EyelidLower
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(45) R_EyelidUpper
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(46) R_Temple
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(47) R_Ear
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(48) R_InnerCheek
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(49) L_LipCorner
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(50) L_LipCornerLowTweak
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(51) L_LipCornerUpTweak
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(52) R_gLipCorner
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(53) R_gLipCornerUpTweak
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(54) R_gLipCornerLowTweak
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(55) Throat
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(56) LeftShoulder
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(57) LeftArm
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(58) LeftForeArm
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(59) LeftHand
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(60) LeftHandThumb1
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(61) LeftHandThumb2
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(62) LeftHandThumb3
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(63) LeftHandThumb4
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(64) LeftHandMiddle1
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(65) LeftHandMiddle2
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(66) LeftHandMiddle3
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(67) LeftHandMiddle4
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(68) LeftHandIndex1
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(69) LeftHandIndex2
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(70) LeftHandIndex3
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(71) LeftHandIndex4
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(72) LeftHandRing1
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(73) LeftHandRing2
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(74) LeftHandRing3
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(75) LeftHandRing4
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(76) LeftHandPinky1
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(77) LeftHandPinky2
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(78) LeftHandPinky3
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(79) LeftHandPinky4
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(80) RightShoulder
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(81) RightArm
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(82) RightForeArm
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(83) RightHand
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(84) RightHandThumb1
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(85) RightHandThumb2
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(86) RightHandThumb3
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(87) RightHandThumb4
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(88) RightHandIndex1
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(89) RightHandIndex2
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(90) RightHandIndex3
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(91) RightHandIndex4
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(92) RightHandMiddle1
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(93) RightHandMiddle2
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(94) RightHandMiddle3
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(95) RightHandMiddle4
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(96) RightHandRing1
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(97) RightHandRing2
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(98) RightHandRing3
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(99) RightHandRing4
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(100) RightHandPinky1
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(101) RightHandPinky2
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(102) RightHandPinky3
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(103) RightHandPinky4
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(104) LeftUpLeg
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(105) LeftLeg
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(106) LeftFoot
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(107) LeftToeBase
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(108) LeftFootToeBase_End
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(109) RightUpLeg
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(110) RightLeg
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(111) RightFoot
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(112) RightToeBase
-[2018.05.07-16.46.08:424][276]LogFbx: SortedLinks :(113) RightFootToeBase_End
-[2018.05.07-16.46.08:425][276]LogFbx: Parsing AnimStack Take 001
-[2018.05.07-16.46.08:426][276]LogLinker: '/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_RunForward' 파일을 찾을 수 없습니다.
-[2018.05.07-16.46.08:426][276]LogLinker: '/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_RunForward' 파일을 찾을 수 없습니다.
-[2018.05.07-16.46.08:600][276]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_RunForward.EDIT_Rifle_RunForward
-[2018.05.07-16.46.08:600][276]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.EDIT_Rifle_RunForward) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2018.05.07-16.46.08:612][276]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../../Users/korea/Downloads/EDIT_Rifle_WalkForward.fbx)
-[2018.05.07-16.46.08:619][276]LogFbx: Loading FBX Scene from ../../../../../../Users/korea/Downloads/EDIT_Rifle_WalkForward.fbx
-[2018.05.07-16.46.08:647][276]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.07-16.46.08:650][276]LogFbx: SortedLinks :(0) Root
-[2018.05.07-16.46.08:650][276]LogFbx: SortedLinks :(1) Hips
-[2018.05.07-16.46.08:650][276]LogFbx: SortedLinks :(2) Spine
-[2018.05.07-16.46.08:650][276]LogFbx: SortedLinks :(3) Spine1
-[2018.05.07-16.46.08:650][276]LogFbx: SortedLinks :(4) Spine2
-[2018.05.07-16.46.08:650][276]LogFbx: SortedLinks :(5) Neck
-[2018.05.07-16.46.08:650][276]LogFbx: SortedLinks :(6) Neck1
-[2018.05.07-16.46.08:650][276]LogFbx: SortedLinks :(7) Head
-[2018.05.07-16.46.08:650][276]LogFbx: SortedLinks :(8) HeadTop_End
-[2018.05.07-16.46.08:650][276]LogFbx: SortedLinks :(9) L_Ear
-[2018.05.07-16.46.08:650][276]LogFbx: SortedLinks :(10) Jaw
-[2018.05.07-16.46.08:650][276]LogFbx: SortedLinks :(11) TongueBack
-[2018.05.07-16.46.08:650][276]LogFbx: SortedLinks :(12) TongueMid
-[2018.05.07-16.46.08:650][276]LogFbx: SortedLinks :(13) TongueTip
-[2018.05.07-16.46.08:650][276]LogFbx: SortedLinks :(14) Chin
-[2018.05.07-16.46.08:650][276]LogFbx: SortedLinks :(15) LowerChin
-[2018.05.07-16.46.08:650][276]LogFbx: SortedLinks :(16) L_Temple
-[2018.05.07-16.46.08:650][276]LogFbx: SortedLinks :(17) L_IOuterBrow
-[2018.05.07-16.46.08:650][276]LogFbx: SortedLinks :(18) L_MidBrow
-[2018.05.07-16.46.08:650][276]LogFbx: SortedLinks :(19) L_InnerBrow
-[2018.05.07-16.46.08:650][276]LogFbx: SortedLinks :(20) L_Eye
-[2018.05.07-16.46.08:650][276]LogFbx: SortedLinks :(21) L_EyelidLower
-[2018.05.07-16.46.08:650][276]LogFbx: SortedLinks :(22) L_EyelidUpper
-[2018.05.07-16.46.08:650][276]LogFbx: SortedLinks :(23) L_InnerCheek
-[2018.05.07-16.46.08:650][276]LogFbx: SortedLinks :(24) L_LowerCheek
-[2018.05.07-16.46.08:650][276]LogFbx: SortedLinks :(25) L_LipLower
-[2018.05.07-16.46.08:650][276]LogFbx: SortedLinks :(26) L_LipUpper
-[2018.05.07-16.46.08:650][276]LogFbx: SortedLinks :(27) LipMidLower
-[2018.05.07-16.46.08:650][276]LogFbx: SortedLinks :(28) LipMidUpper
-[2018.05.07-16.46.08:650][276]LogFbx: SortedLinks :(29) L_CheekFold
-[2018.05.07-16.46.08:650][276]LogFbx: SortedLinks :(30) L_Nostril
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(31) Scalp
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(32) L_OuterCheek
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(33) R_LipLower
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(34) RightNostril
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(35) R_CheekFold
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(36) R_LowerCheek
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(37) R_LipUpper
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(38) R_OuterCheek
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(39) MidBrows
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(40) R_InnerBrow
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(41) R_MidBrow
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(42) R_IOuterBrow
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(43) R_Eye
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(44) R_EyelidLower
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(45) R_EyelidUpper
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(46) R_Temple
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(47) R_Ear
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(48) R_InnerCheek
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(49) L_LipCorner
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(50) L_LipCornerLowTweak
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(51) L_LipCornerUpTweak
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(52) R_gLipCorner
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(53) R_gLipCornerUpTweak
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(54) R_gLipCornerLowTweak
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(55) Throat
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(56) LeftShoulder
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(57) LeftArm
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(58) LeftForeArm
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(59) LeftHand
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(60) LeftHandThumb1
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(61) LeftHandThumb2
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(62) LeftHandThumb3
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(63) LeftHandThumb4
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(64) LeftHandMiddle1
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(65) LeftHandMiddle2
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(66) LeftHandMiddle3
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(67) LeftHandMiddle4
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(68) LeftHandIndex1
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(69) LeftHandIndex2
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(70) LeftHandIndex3
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(71) LeftHandIndex4
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(72) LeftHandRing1
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(73) LeftHandRing2
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(74) LeftHandRing3
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(75) LeftHandRing4
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(76) LeftHandPinky1
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(77) LeftHandPinky2
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(78) LeftHandPinky3
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(79) LeftHandPinky4
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(80) RightShoulder
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(81) RightArm
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(82) RightForeArm
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(83) RightHand
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(84) RightHandThumb1
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(85) RightHandThumb2
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(86) RightHandThumb3
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(87) RightHandThumb4
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(88) RightHandIndex1
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(89) RightHandIndex2
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(90) RightHandIndex3
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(91) RightHandIndex4
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(92) RightHandMiddle1
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(93) RightHandMiddle2
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(94) RightHandMiddle3
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(95) RightHandMiddle4
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(96) RightHandRing1
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(97) RightHandRing2
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(98) RightHandRing3
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(99) RightHandRing4
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(100) RightHandPinky1
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(101) RightHandPinky2
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(102) RightHandPinky3
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(103) RightHandPinky4
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(104) LeftUpLeg
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(105) LeftLeg
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(106) LeftFoot
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(107) LeftToeBase
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(108) LeftFootToeBase_End
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(109) RightUpLeg
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(110) RightLeg
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(111) RightFoot
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(112) RightToeBase
-[2018.05.07-16.46.08:651][276]LogFbx: SortedLinks :(113) RightFootToeBase_End
-[2018.05.07-16.46.08:652][276]LogFbx: Parsing AnimStack Take 001
-[2018.05.07-16.46.08:654][276]LogLinker: '/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_WalkForward' 파일을 찾을 수 없습니다.
-[2018.05.07-16.46.08:654][276]LogLinker: '/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_WalkForward' 파일을 찾을 수 없습니다.
-[2018.05.07-16.46.08:948][276]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_WalkForward.EDIT_Rifle_WalkForward
-[2018.05.07-16.46.08:948][276]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.EDIT_Rifle_WalkForward) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2018.05.07-16.48.50:826][857]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/World' took 0.015
-[2018.05.07-16.48.50:828][857]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_WalkBackward] ([1] browsable assets)...
-[2018.05.07-16.48.50:846][857]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_WalkBackward.EDIT_Rifle_WalkBackward]
-[2018.05.07-16.48.50:846][857]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_WalkBackward]
-[2018.05.07-16.48.50:866][857]LogSavePackage: Save=16.71ms
-[2018.05.07-16.48.50:866][857]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Rifle_WalkBackward_Auto15CE0728F4CBC57E20C86E89AE999C5D6.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_WalkBackward_Auto1.uasset'
-[2018.05.07-16.48.50:868][857]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_WalkBackward_Auto1.uasset
-[2018.05.07-16.48.50:868][857]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Crouch_WalkBackward] ([1] browsable assets)...
-[2018.05.07-16.48.50:882][857]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Crouch_WalkBackward.EDIT_Rifle_Crouch_WalkBackward]
-[2018.05.07-16.48.50:882][857]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Crouch_WalkBackward]
-[2018.05.07-16.48.50:898][857]LogSavePackage: Save=13.90ms
-[2018.05.07-16.48.50:898][857]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Rifle_Crouch_WalkBackward_A024D87AF41B7854184FB458ECE5B4682.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Crouch_WalkBackward_Auto1.uasset'
-[2018.05.07-16.48.50:899][857]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Crouch_WalkBackward_Auto1.uasset
-[2018.05.07-16.48.50:900][857]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Crouch_WalkForward] ([1] browsable assets)...
-[2018.05.07-16.48.50:914][857]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Crouch_WalkForward.EDIT_Rifle_Crouch_WalkForward]
-[2018.05.07-16.48.50:914][857]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Crouch_WalkForward]
-[2018.05.07-16.48.50:929][857]LogSavePackage: Save=13.35ms
-[2018.05.07-16.48.50:930][857]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Rifle_Crouch_WalkForward_Au6D3C47144753257B6DEACF8C64C26216.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Crouch_WalkForward_Auto1.uasset'
-[2018.05.07-16.48.50:932][857]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Crouch_WalkForward_Auto1.uasset
-[2018.05.07-16.48.50:932][857]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_RunForward] ([1] browsable assets)...
-[2018.05.07-16.48.50:947][857]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_RunForward.EDIT_Rifle_RunForward]
-[2018.05.07-16.48.50:947][857]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_RunForward]
-[2018.05.07-16.48.50:963][857]LogSavePackage: Save=13.46ms
-[2018.05.07-16.48.50:963][857]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Rifle_RunForward_Auto17F25B51D4057C89D59C1159C74D1903E.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_RunForward_Auto1.uasset'
-[2018.05.07-16.48.50:964][857]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_RunForward_Auto1.uasset
-[2018.05.07-16.48.50:965][857]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_WalkForward] ([1] browsable assets)...
-[2018.05.07-16.48.50:980][857]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_WalkForward.EDIT_Rifle_WalkForward]
-[2018.05.07-16.48.50:980][857]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_WalkForward]
-[2018.05.07-16.48.50:996][857]LogSavePackage: Save=13.91ms
-[2018.05.07-16.48.50:996][857]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Rifle_WalkForward_Auto1CF55BD234A066ACC10754BAA0647DCD7.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_WalkForward_Auto1.uasset'
-[2018.05.07-16.48.50:998][857]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_WalkForward_Auto1.uasset
-[2018.05.07-16.48.50:998][857]LogFileHelpers: Auto-saving content packages took 0.171
-[2018.05.07-17.02.51:791][380]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
-[2018.05.07-17.02.52:901][477]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.07-17.02.52:901][477]PIE: New page: PIE 세션: World (2018. 5. 8. 오전 11:02:52)
-[2018.05.07-17.02.52:901][477]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_World
-[2018.05.07-17.02.53:271][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.370007s)
-[2018.05.07-17.02.53:271][477]LogAIModule: Creating AISystem for world World
-[2018.05.07-17.02.53:272][477]LogPlayLevel: PIE: World Init took: (0.000744s)
-[2018.05.07-17.02.53:272][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/World.World to /Game/Maps/UEDPIE_0_World.World (0.371761s)
-[2018.05.07-17.02.53:307][477]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.07-17.02.53:323][477]LogInit: FAudioDevice initialized.
-[2018.05.07-17.02.53:351][477]LogLoad: Game class is 'AWWAGameMode'
-[2018.05.07-17.02.53:462][477]LogWorld: Bringing World /Game/Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.05.08-02.02.53
-[2018.05.07-17.02.53:467][477]LogWorld: Bringing up level for play took: 0.115108
-[2018.05.07-17.02.53:471][477]PIE: /Game/Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.235
-[2018.05.07-17.04.59:705][634]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/korea/Downloads/EDIT_Rifle_Idle_2.fbx)
-[2018.05.07-17.04.59:712][634]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2018.05.07-17.04.59:712][634]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2018.05.07-17.04.59:712][634]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2018.05.07-17.04.59:712][634]LogFbx: ItemName: NodeAttribute, ItemCount : 114
-[2018.05.07-17.04.59:712][634]LogFbx: ItemName: Model, ItemCount : 114
-[2018.05.07-17.04.59:712][634]LogFbx: ItemName: AnimationCurveNode, ItemCount : 274
-[2018.05.07-17.04.59:712][634]LogFbx: ItemName: AnimationCurve, ItemCount : 177
-[2018.05.07-17.04.59:715][634]LogFbx: Loading FBX Scene from ../../../../../../Users/korea/Downloads/EDIT_Rifle_Idle_2.fbx
-[2018.05.07-17.04.59:747][634]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.07-17.05.04:138][634]LogFbx: Loading FBX Scene from ../../../../../../Users/korea/Downloads/EDIT_Rifle_Idle_2.fbx
-[2018.05.07-17.05.04:169][634]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(0) Root
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(1) Hips
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(2) Spine
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(3) Spine1
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(4) Spine2
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(5) Neck
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(6) Neck1
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(7) Head
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(8) HeadTop_End
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(9) L_Ear
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(10) Jaw
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(11) TongueBack
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(12) TongueMid
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(13) TongueTip
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(14) Chin
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(15) LowerChin
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(16) L_Temple
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(17) L_IOuterBrow
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(18) L_MidBrow
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(19) L_InnerBrow
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(20) L_Eye
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(21) L_EyelidLower
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(22) L_EyelidUpper
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(23) L_InnerCheek
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(24) L_LowerCheek
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(25) L_LipLower
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(26) L_LipUpper
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(27) LipMidLower
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(28) LipMidUpper
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(29) L_CheekFold
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(30) L_Nostril
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(31) Scalp
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(32) L_OuterCheek
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(33) R_LipLower
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(34) RightNostril
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(35) R_CheekFold
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(36) R_LowerCheek
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(37) R_LipUpper
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(38) R_OuterCheek
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(39) MidBrows
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(40) R_InnerBrow
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(41) R_MidBrow
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(42) R_IOuterBrow
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(43) R_Eye
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(44) R_EyelidLower
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(45) R_EyelidUpper
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(46) R_Temple
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(47) R_Ear
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(48) R_InnerCheek
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(49) L_LipCorner
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(50) L_LipCornerLowTweak
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(51) L_LipCornerUpTweak
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(52) R_gLipCorner
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(53) R_gLipCornerUpTweak
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(54) R_gLipCornerLowTweak
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(55) Throat
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(56) LeftShoulder
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(57) LeftArm
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(58) LeftForeArm
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(59) LeftHand
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(60) LeftHandThumb1
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(61) LeftHandThumb2
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(62) LeftHandThumb3
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(63) LeftHandThumb4
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(64) LeftHandMiddle1
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(65) LeftHandMiddle2
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(66) LeftHandMiddle3
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(67) LeftHandMiddle4
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(68) LeftHandIndex1
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(69) LeftHandIndex2
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(70) LeftHandIndex3
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(71) LeftHandIndex4
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(72) LeftHandRing1
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(73) LeftHandRing2
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(74) LeftHandRing3
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(75) LeftHandRing4
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(76) LeftHandPinky1
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(77) LeftHandPinky2
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(78) LeftHandPinky3
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(79) LeftHandPinky4
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(80) RightShoulder
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(81) RightArm
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(82) RightForeArm
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(83) RightHand
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(84) RightHandThumb1
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(85) RightHandThumb2
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(86) RightHandThumb3
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(87) RightHandThumb4
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(88) RightHandIndex1
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(89) RightHandIndex2
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(90) RightHandIndex3
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(91) RightHandIndex4
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(92) RightHandMiddle1
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(93) RightHandMiddle2
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(94) RightHandMiddle3
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(95) RightHandMiddle4
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(96) RightHandRing1
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(97) RightHandRing2
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(98) RightHandRing3
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(99) RightHandRing4
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(100) RightHandPinky1
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(101) RightHandPinky2
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(102) RightHandPinky3
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(103) RightHandPinky4
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(104) LeftUpLeg
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(105) LeftLeg
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(106) LeftFoot
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(107) LeftToeBase
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(108) LeftFootToeBase_End
-[2018.05.07-17.05.04:172][634]LogFbx: SortedLinks :(109) RightUpLeg
-[2018.05.07-17.05.04:173][634]LogFbx: SortedLinks :(110) RightLeg
-[2018.05.07-17.05.04:173][634]LogFbx: SortedLinks :(111) RightFoot
-[2018.05.07-17.05.04:173][634]LogFbx: SortedLinks :(112) RightToeBase
-[2018.05.07-17.05.04:173][634]LogFbx: SortedLinks :(113) RightFootToeBase_End
-[2018.05.07-17.05.04:173][634]LogFbx: Parsing AnimStack Take 001
-[2018.05.07-17.05.04:177][634]LogLinker: '/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Idle_2' 파일을 찾을 수 없습니다.
-[2018.05.07-17.05.04:177][634]LogLinker: '/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Idle_2' 파일을 찾을 수 없습니다.
-[2018.05.07-17.05.04:650][634]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.07-17.05.06:207][634]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Idle_2.EDIT_Rifle_Idle_2
-[2018.05.07-17.05.06:208][634]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.EDIT_Rifle_Idle_2) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2018.05.07-17.05.06:232][634]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../../Users/korea/Downloads/EDIT_Rifle_Idle_1.fbx)
-[2018.05.07-17.05.06:239][634]LogFbx: Loading FBX Scene from ../../../../../../Users/korea/Downloads/EDIT_Rifle_Idle_1.fbx
-[2018.05.07-17.05.06:267][634]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.07-17.05.06:270][634]LogFbx: SortedLinks :(0) Root
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(1) Hips
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(2) Spine
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(3) Spine1
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(4) Spine2
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(5) Neck
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(6) Neck1
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(7) Head
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(8) HeadTop_End
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(9) L_Ear
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(10) Jaw
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(11) TongueBack
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(12) TongueMid
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(13) TongueTip
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(14) Chin
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(15) LowerChin
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(16) L_Temple
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(17) L_IOuterBrow
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(18) L_MidBrow
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(19) L_InnerBrow
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(20) L_Eye
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(21) L_EyelidLower
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(22) L_EyelidUpper
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(23) L_InnerCheek
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(24) L_LowerCheek
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(25) L_LipLower
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(26) L_LipUpper
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(27) LipMidLower
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(28) LipMidUpper
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(29) L_CheekFold
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(30) L_Nostril
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(31) Scalp
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(32) L_OuterCheek
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(33) R_LipLower
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(34) RightNostril
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(35) R_CheekFold
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(36) R_LowerCheek
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(37) R_LipUpper
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(38) R_OuterCheek
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(39) MidBrows
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(40) R_InnerBrow
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(41) R_MidBrow
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(42) R_IOuterBrow
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(43) R_Eye
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(44) R_EyelidLower
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(45) R_EyelidUpper
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(46) R_Temple
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(47) R_Ear
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(48) R_InnerCheek
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(49) L_LipCorner
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(50) L_LipCornerLowTweak
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(51) L_LipCornerUpTweak
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(52) R_gLipCorner
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(53) R_gLipCornerUpTweak
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(54) R_gLipCornerLowTweak
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(55) Throat
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(56) LeftShoulder
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(57) LeftArm
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(58) LeftForeArm
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(59) LeftHand
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(60) LeftHandThumb1
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(61) LeftHandThumb2
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(62) LeftHandThumb3
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(63) LeftHandThumb4
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(64) LeftHandMiddle1
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(65) LeftHandMiddle2
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(66) LeftHandMiddle3
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(67) LeftHandMiddle4
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(68) LeftHandIndex1
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(69) LeftHandIndex2
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(70) LeftHandIndex3
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(71) LeftHandIndex4
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(72) LeftHandRing1
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(73) LeftHandRing2
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(74) LeftHandRing3
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(75) LeftHandRing4
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(76) LeftHandPinky1
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(77) LeftHandPinky2
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(78) LeftHandPinky3
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(79) LeftHandPinky4
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(80) RightShoulder
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(81) RightArm
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(82) RightForeArm
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(83) RightHand
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(84) RightHandThumb1
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(85) RightHandThumb2
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(86) RightHandThumb3
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(87) RightHandThumb4
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(88) RightHandIndex1
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(89) RightHandIndex2
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(90) RightHandIndex3
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(91) RightHandIndex4
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(92) RightHandMiddle1
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(93) RightHandMiddle2
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(94) RightHandMiddle3
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(95) RightHandMiddle4
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(96) RightHandRing1
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(97) RightHandRing2
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(98) RightHandRing3
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(99) RightHandRing4
-[2018.05.07-17.05.06:271][634]LogFbx: SortedLinks :(100) RightHandPinky1
-[2018.05.07-17.05.06:272][634]LogFbx: SortedLinks :(101) RightHandPinky2
-[2018.05.07-17.05.06:272][634]LogFbx: SortedLinks :(102) RightHandPinky3
-[2018.05.07-17.05.06:272][634]LogFbx: SortedLinks :(103) RightHandPinky4
-[2018.05.07-17.05.06:272][634]LogFbx: SortedLinks :(104) LeftUpLeg
-[2018.05.07-17.05.06:272][634]LogFbx: SortedLinks :(105) LeftLeg
-[2018.05.07-17.05.06:272][634]LogFbx: SortedLinks :(106) LeftFoot
-[2018.05.07-17.05.06:272][634]LogFbx: SortedLinks :(107) LeftToeBase
-[2018.05.07-17.05.06:272][634]LogFbx: SortedLinks :(108) LeftFootToeBase_End
-[2018.05.07-17.05.06:272][634]LogFbx: SortedLinks :(109) RightUpLeg
-[2018.05.07-17.05.06:272][634]LogFbx: SortedLinks :(110) RightLeg
-[2018.05.07-17.05.06:272][634]LogFbx: SortedLinks :(111) RightFoot
-[2018.05.07-17.05.06:272][634]LogFbx: SortedLinks :(112) RightToeBase
-[2018.05.07-17.05.06:272][634]LogFbx: SortedLinks :(113) RightFootToeBase_End
-[2018.05.07-17.05.06:272][634]LogFbx: Parsing AnimStack Take 001
-[2018.05.07-17.05.06:275][634]LogLinker: '/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Idle_1' 파일을 찾을 수 없습니다.
-[2018.05.07-17.05.06:275][634]LogLinker: '/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Idle_1' 파일을 찾을 수 없습니다.
-[2018.05.07-17.05.07:251][634]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Idle_1.EDIT_Rifle_Idle_1
-[2018.05.07-17.05.07:251][634]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.EDIT_Rifle_Idle_1) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2018.05.07-17.05.07:269][634]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../../Users/korea/Downloads/EDIT_Rifle_Idle_0.fbx)
-[2018.05.07-17.05.07:276][634]LogFbx: Loading FBX Scene from ../../../../../../Users/korea/Downloads/EDIT_Rifle_Idle_0.fbx
-[2018.05.07-17.05.07:305][634]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(0) Root
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(1) Hips
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(2) Spine
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(3) Spine1
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(4) Spine2
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(5) Neck
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(6) Neck1
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(7) Head
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(8) HeadTop_End
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(9) L_Ear
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(10) Jaw
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(11) TongueBack
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(12) TongueMid
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(13) TongueTip
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(14) Chin
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(15) LowerChin
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(16) L_Temple
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(17) L_IOuterBrow
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(18) L_MidBrow
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(19) L_InnerBrow
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(20) L_Eye
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(21) L_EyelidLower
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(22) L_EyelidUpper
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(23) L_InnerCheek
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(24) L_LowerCheek
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(25) L_LipLower
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(26) L_LipUpper
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(27) LipMidLower
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(28) LipMidUpper
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(29) L_CheekFold
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(30) L_Nostril
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(31) Scalp
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(32) L_OuterCheek
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(33) R_LipLower
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(34) RightNostril
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(35) R_CheekFold
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(36) R_LowerCheek
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(37) R_LipUpper
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(38) R_OuterCheek
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(39) MidBrows
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(40) R_InnerBrow
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(41) R_MidBrow
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(42) R_IOuterBrow
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(43) R_Eye
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(44) R_EyelidLower
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(45) R_EyelidUpper
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(46) R_Temple
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(47) R_Ear
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(48) R_InnerCheek
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(49) L_LipCorner
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(50) L_LipCornerLowTweak
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(51) L_LipCornerUpTweak
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(52) R_gLipCorner
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(53) R_gLipCornerUpTweak
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(54) R_gLipCornerLowTweak
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(55) Throat
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(56) LeftShoulder
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(57) LeftArm
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(58) LeftForeArm
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(59) LeftHand
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(60) LeftHandThumb1
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(61) LeftHandThumb2
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(62) LeftHandThumb3
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(63) LeftHandThumb4
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(64) LeftHandMiddle1
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(65) LeftHandMiddle2
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(66) LeftHandMiddle3
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(67) LeftHandMiddle4
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(68) LeftHandIndex1
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(69) LeftHandIndex2
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(70) LeftHandIndex3
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(71) LeftHandIndex4
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(72) LeftHandRing1
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(73) LeftHandRing2
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(74) LeftHandRing3
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(75) LeftHandRing4
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(76) LeftHandPinky1
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(77) LeftHandPinky2
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(78) LeftHandPinky3
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(79) LeftHandPinky4
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(80) RightShoulder
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(81) RightArm
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(82) RightForeArm
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(83) RightHand
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(84) RightHandThumb1
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(85) RightHandThumb2
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(86) RightHandThumb3
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(87) RightHandThumb4
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(88) RightHandIndex1
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(89) RightHandIndex2
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(90) RightHandIndex3
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(91) RightHandIndex4
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(92) RightHandMiddle1
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(93) RightHandMiddle2
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(94) RightHandMiddle3
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(95) RightHandMiddle4
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(96) RightHandRing1
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(97) RightHandRing2
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(98) RightHandRing3
-[2018.05.07-17.05.07:309][634]LogFbx: SortedLinks :(99) RightHandRing4
-[2018.05.07-17.05.07:310][634]LogFbx: SortedLinks :(100) RightHandPinky1
-[2018.05.07-17.05.07:310][634]LogFbx: SortedLinks :(101) RightHandPinky2
-[2018.05.07-17.05.07:310][634]LogFbx: SortedLinks :(102) RightHandPinky3
-[2018.05.07-17.05.07:310][634]LogFbx: SortedLinks :(103) RightHandPinky4
-[2018.05.07-17.05.07:310][634]LogFbx: SortedLinks :(104) LeftUpLeg
-[2018.05.07-17.05.07:310][634]LogFbx: SortedLinks :(105) LeftLeg
-[2018.05.07-17.05.07:310][634]LogFbx: SortedLinks :(106) LeftFoot
-[2018.05.07-17.05.07:310][634]LogFbx: SortedLinks :(107) LeftToeBase
-[2018.05.07-17.05.07:310][634]LogFbx: SortedLinks :(108) LeftFootToeBase_End
-[2018.05.07-17.05.07:310][634]LogFbx: SortedLinks :(109) RightUpLeg
-[2018.05.07-17.05.07:310][634]LogFbx: SortedLinks :(110) RightLeg
-[2018.05.07-17.05.07:310][634]LogFbx: SortedLinks :(111) RightFoot
-[2018.05.07-17.05.07:310][634]LogFbx: SortedLinks :(112) RightToeBase
-[2018.05.07-17.05.07:310][634]LogFbx: SortedLinks :(113) RightFootToeBase_End
-[2018.05.07-17.05.07:310][634]LogFbx: Parsing AnimStack Take 001
-[2018.05.07-17.05.07:313][634]LogLinker: '/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Idle_0' 파일을 찾을 수 없습니다.
-[2018.05.07-17.05.07:313][634]LogLinker: '/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Idle_0' 파일을 찾을 수 없습니다.
-[2018.05.07-17.05.08:922][634]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Idle_0.EDIT_Rifle_Idle_0
-[2018.05.07-17.05.08:923][634]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.EDIT_Rifle_Idle_0) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
-[2018.05.07-17.05.10:127][774]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
-[2018.05.07-17.05.11:988][987]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/World' took 0.015
-[2018.05.07-17.05.11:990][987]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Idle_2] ([1] browsable assets)...
-[2018.05.07-17.05.11:998][987]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Idle_2.EDIT_Rifle_Idle_2]
-[2018.05.07-17.05.11:998][987]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Idle_2]
-[2018.05.07-17.05.12:014][987]LogSavePackage: Save=13.45ms
-[2018.05.07-17.05.12:014][987]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Rifle_Idle_2_Auto2D42DA54649262952F191D38238853C5F.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Idle_2_Auto2.uasset'
-[2018.05.07-17.05.12:016][987]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Idle_2_Auto2.uasset
-[2018.05.07-17.05.12:017][987]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Idle_1] ([1] browsable assets)...
-[2018.05.07-17.05.12:025][987]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Idle_1.EDIT_Rifle_Idle_1]
-[2018.05.07-17.05.12:025][987]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Idle_1]
-[2018.05.07-17.05.12:039][987]LogSavePackage: Save=12.38ms
-[2018.05.07-17.05.12:039][987]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Rifle_Idle_1_Auto295ED0E09416AF26242AFD7AB34B5BF57.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Idle_1_Auto2.uasset'
-[2018.05.07-17.05.12:041][987]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Idle_1_Auto2.uasset
-[2018.05.07-17.05.12:041][987]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Idle_0] ([1] browsable assets)...
-[2018.05.07-17.05.12:050][987]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Idle_0.EDIT_Rifle_Idle_0]
-[2018.05.07-17.05.12:050][987]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Idle_0]
-[2018.05.07-17.05.12:064][987]LogSavePackage: Save=12.82ms
-[2018.05.07-17.05.12:065][987]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Rifle_Idle_0_Auto26310B75848476A2ED51B4FB6C9192349.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Idle_0_Auto2.uasset'
-[2018.05.07-17.05.12:066][987]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Idle_0_Auto2.uasset
-[2018.05.07-17.05.12:066][987]LogFileHelpers: Auto-saving content packages took 0.077
-[2018.05.07-17.12.02:994][398]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 116 classes and 0 folders.
-[2018.05.07-17.12.03:675][398]LogSlate: Took 0.005192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.05.07-17.12.03:859][399]LogSlate: Took 0.004444 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.05.07-17.20.39:386][339]BlueprintLog: New page: AWWA_MainCharacter 컴파일
-[2018.05.07-17.20.41:930][356]LogSavePackage: Save=1348.35ms
-[2018.05.07-17.20.41:930][356]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacterB4AFC2874BF2E3F4EA88F39DECA1E7DB.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset'
-[2018.05.07-17.20.41:934][356]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset
-[2018.05.07-17.22.14:899][406]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/World' took 0.022
-[2018.05.07-17.22.14:902][406]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/AWWA_MainCharacter] ([1] browsable assets)...
-[2018.05.07-17.22.14:915][406]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Character/AWWA_MainCharacter.AWWA_MainCharacter]
-[2018.05.07-17.22.14:915][406]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/AWWA_MainCharacter]
-[2018.05.07-17.22.16:271][406]LogSavePackage: Save=1351.71ms
-[2018.05.07-17.22.16:271][406]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter_Auto3698DDE764E35FE9EC9A7E1A252BD9087.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/AWWA_MainCharacter_Auto3.uasset'
-[2018.05.07-17.22.16:277][406]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/AWWA_MainCharacter_Auto3.uasset
-[2018.05.07-17.22.16:277][406]LogFileHelpers: Auto-saving content packages took 1.377
-[2018.05.07-17.32.16:844][ 42]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/World' took 0.041
-[2018.05.07-17.32.16:847][ 42]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/AWWA_MainCharacter] ([1] browsable assets)...
-[2018.05.07-17.32.16:863][ 42]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Character/AWWA_MainCharacter.AWWA_MainCharacter]
-[2018.05.07-17.32.16:863][ 42]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/AWWA_MainCharacter]
-[2018.05.07-17.32.18:251][ 42]LogSavePackage: Save=1377.60ms
-[2018.05.07-17.32.18:251][ 42]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter_Auto421E45E214B6DAA1A530807A4FD6BF9CA.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/AWWA_MainCharacter_Auto4.uasset'
-[2018.05.07-17.32.18:258][ 42]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/Character/AWWA_MainCharacter_Auto4.uasset
-[2018.05.07-17.32.18:258][ 42]LogFileHelpers: Auto-saving content packages took 1.413
-[2018.05.07-18.17.18:878][203]BlueprintLog: New page: AWWA_MainCharacter 컴파일
-[2018.05.07-18.17.21:994][252]LogSavePackage: Save=1343.86ms
-[2018.05.07-18.17.21:994][252]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter59B6BB53426E2206635AF99FCDB6C32D.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset'
-[2018.05.07-18.17.22:002][252]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset
-[2018.05.07-18.18.24:074][672]LogSavePackage: Save=1434.65ms
-[2018.05.07-18.18.24:074][672]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter91E007B441E83FE3B6EF37BB4846DFEC.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset'
-[2018.05.07-18.18.24:078][672]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/AWWA_MainCharacter.uasset
-[2018.05.07-18.18.59:654][ 73]LogSavePackage: Save=13.10ms
-[2018.05.07-18.18.59:654][ 73]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Rifle_Crouch_WalkBackwardFB1577DD43109E53E3270B845C632380.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Crouch_WalkBackward.uasset'
-[2018.05.07-18.18.59:660][ 73]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Crouch_WalkBackward.uasset
-[2018.05.07-18.18.59:688][ 73]LogSavePackage: Save=12.92ms
-[2018.05.07-18.18.59:688][ 73]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Rifle_Crouch_WalkForward2A2E8DE74A78B9BF02F4E5BD2D51074F.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Crouch_WalkForward.uasset'
-[2018.05.07-18.18.59:694][ 73]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Crouch_WalkForward.uasset
-[2018.05.07-18.18.59:723][ 73]LogSavePackage: Save=15.35ms
-[2018.05.07-18.18.59:723][ 73]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Rifle_Idle_0380DD59C4C129CCC6E6986A1EBAA5E21.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Idle_0.uasset'
-[2018.05.07-18.18.59:729][ 73]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Idle_0.uasset
-[2018.05.07-18.18.59:758][ 73]LogSavePackage: Save=13.58ms
-[2018.05.07-18.18.59:758][ 73]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Rifle_Idle_17B2B38A949CE2BA6F48C31B86A06B0F9.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Idle_1.uasset'
-[2018.05.07-18.18.59:764][ 73]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Idle_1.uasset
-[2018.05.07-18.18.59:793][ 73]LogSavePackage: Save=15.47ms
-[2018.05.07-18.18.59:793][ 73]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Rifle_Idle_2E5B5C49B4AC098DB28893CB6ACA086B0.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Idle_2.uasset'
-[2018.05.07-18.18.59:800][ 73]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_Idle_2.uasset
-[2018.05.07-18.18.59:826][ 73]LogSavePackage: Save=12.45ms
-[2018.05.07-18.18.59:826][ 73]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Rifle_RunForward16FD0A9A4BBC5C0A6D9A0497D1FCFD17.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_RunForward.uasset'
-[2018.05.07-18.18.59:832][ 73]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_RunForward.uasset
-[2018.05.07-18.18.59:858][ 73]LogSavePackage: Save=12.82ms
-[2018.05.07-18.18.59:859][ 73]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Rifle_WalkBackward98C893DC4E4CD940F3173193D92E587E.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_WalkBackward.uasset'
-[2018.05.07-18.18.59:864][ 73]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_WalkBackward.uasset
-[2018.05.07-18.18.59:890][ 73]LogSavePackage: Save=12.78ms
-[2018.05.07-18.18.59:890][ 73]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Rifle_WalkForward1DDF649B4FBA38C64464FBA0C577D72F.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_WalkForward.uasset'
-[2018.05.07-18.18.59:894][ 73]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Character/MainSkeletonAnimation/Weapon/WithRifle/EDIT_Rifle_WalkForward.uasset
-[2018.05.07-18.19.00:472][ 74]Cmd: QUIT_EDITOR
-[2018.05.07-18.19.01:227][ 74]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
-[2018.05.07-18.19.01:243][ 74]LogExit: Preparing to exit.
-[2018.05.07-18.19.02:378][ 74]LogDirectoryWatcher: A directory notification failed for 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/', and we were unable to create a new request.
-[2018.05.07-18.19.02:648][ 74]LogExit: Editor shut down
-[2018.05.07-18.19.02:669][ 74]LogExit: Transaction tracking system shut down
-[2018.05.07-18.19.02:945][ 74]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.05.07-18.19.02:945][ 74]LogDirectoryWatcher: A directory notification for '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/' was aborted.
-[2018.05.07-18.19.02:945][ 74]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.05.07-18.19.02:945][ 74]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.05.07-18.19.02:945][ 74]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.05.07-18.19.02:946][ 74]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.05.07-18.19.02:946][ 74]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.05.07-18.19.03:475][ 74]LogExit: Object subsystem successfully closed.
-[2018.05.07-18.19.03:762][ 74]LogD3D11RHI: Shutdown
-[2018.05.07-18.19.03:762][ 74]LogD3D11RHI: CleanupD3DDevice
-[2018.05.07-18.19.03:770][ 74]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.05.07-18.19.03:787][ 74]LogModuleManager: Shutting down and abandoning module BlueprintGraph (556)
-[2018.05.07-18.19.03:787][ 74]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (554)
-[2018.05.07-18.19.03:787][ 74]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (552)
-[2018.05.07-18.19.03:787][ 74]LogModuleManager: Shutting down and abandoning module DesktopPlatform (550)
-[2018.05.07-18.19.03:787][ 74]LogModuleManager: Shutting down and abandoning module SceneOutliner (548)
-[2018.05.07-18.19.03:787][ 74]LogModuleManager: Shutting down and abandoning module AddContentDialog (546)
-[2018.05.07-18.19.03:787][ 74]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
-[2018.05.07-18.19.03:791][ 74]LogModuleManager: Shutting down and abandoning module WidgetCarousel (545)
-[2018.05.07-18.19.03:791][ 74]LogModuleManager: Shutting down and abandoning module EditorWidgets (542)
-[2018.05.07-18.19.03:791][ 74]LogModuleManager: Shutting down and abandoning module CollectionManager (540)
-[2018.05.07-18.19.03:791][ 74]LogDirectoryWatcher: A directory notification for 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Collections/' was aborted.
-[2018.05.07-18.19.03:791][ 74]LogDirectoryWatcher: A directory notification for 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Developers/korea/Collections/' was aborted.
-[2018.05.07-18.19.03:791][ 74]LogDirectoryWatcher: A directory notification for 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Collections/' was aborted.
-[2018.05.07-18.19.03:791][ 74]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (538)
-[2018.05.07-18.19.03:791][ 74]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
-[2018.05.07-18.19.03:791][ 74]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
-[2018.05.07-18.19.03:791][ 74]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
-[2018.05.07-18.19.03:791][ 74]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
-[2018.05.07-18.19.03:791][ 74]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
-[2018.05.07-18.19.03:791][ 74]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
-[2018.05.07-18.19.03:791][ 74]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
-[2018.05.07-18.19.03:791][ 74]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
-[2018.05.07-18.19.03:791][ 74]LogModuleManager: Shutting down and abandoning module BspMode (520)
-[2018.05.07-18.19.03:791][ 74]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
-[2018.05.07-18.19.03:791][ 74]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
-[2018.05.07-18.19.03:791][ 74]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
-[2018.05.07-18.19.03:791][ 74]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
-[2018.05.07-18.19.03:791][ 74]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
-[2018.05.07-18.19.03:791][ 74]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
-[2018.05.07-18.19.03:792][ 74]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
-[2018.05.07-18.19.03:792][ 74]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
-[2018.05.07-18.19.03:792][ 74]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
-[2018.05.07-18.19.03:792][ 74]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
-[2018.05.07-18.19.03:792][ 74]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
-[2018.05.07-18.19.03:792][ 74]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
-[2018.05.07-18.19.03:792][ 74]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
-[2018.05.07-18.19.03:792][ 74]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
-[2018.05.07-18.19.03:792][ 74]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
-[2018.05.07-18.19.03:792][ 74]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
-[2018.05.07-18.19.03:792][ 74]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
-[2018.05.07-18.19.03:792][ 74]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
-[2018.05.07-18.19.03:792][ 74]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
-[2018.05.07-18.19.03:792][ 74]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
-[2018.05.07-18.19.03:792][ 74]LogModuleManager: Shutting down and abandoning module SessionServices (478)
-[2018.05.07-18.19.03:792][ 74]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
-[2018.05.07-18.19.03:792][ 74]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
-[2018.05.07-18.19.03:792][ 74]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
-[2018.05.07-18.19.03:792][ 74]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
-[2018.05.07-18.19.03:792][ 74]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
-[2018.05.07-18.19.03:792][ 74]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
-[2018.05.07-18.19.03:792][ 74]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
-[2018.05.07-18.19.03:792][ 74]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
-[2018.05.07-18.19.03:792][ 74]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
-[2018.05.07-18.19.03:792][ 74]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
-[2018.05.07-18.19.03:792][ 74]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
-[2018.05.07-18.19.04:002][ 74]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
-[2018.05.07-18.19.04:002][ 74]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
-[2018.05.07-18.19.04:002][ 74]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
-[2018.05.07-18.19.04:002][ 74]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
-[2018.05.07-18.19.04:002][ 74]LogModuleManager: Shutting down and abandoning module MergeActors (446)
-[2018.05.07-18.19.04:002][ 74]LogModuleManager: Shutting down and abandoning module SizeMap (444)
-[2018.05.07-18.19.04:002][ 74]LogModuleManager: Shutting down and abandoning module TreeMap (442)
-[2018.05.07-18.19.04:002][ 74]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
-[2018.05.07-18.19.04:002][ 74]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
-[2018.05.07-18.19.04:002][ 74]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
-[2018.05.07-18.19.04:002][ 74]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
-[2018.05.07-18.19.04:002][ 74]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
-[2018.05.07-18.19.04:002][ 74]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
-[2018.05.07-18.19.04:002][ 74]LogModuleManager: Shutting down and abandoning module XmlParser (428)
-[2018.05.07-18.19.04:002][ 74]LogModuleManager: Shutting down and abandoning module Blutility (426)
-[2018.05.07-18.19.04:002][ 74]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
-[2018.05.07-18.19.04:002][ 74]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
-[2018.05.07-18.19.04:002][ 74]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
-[2018.05.07-18.19.04:002][ 74]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
-[2018.05.07-18.19.04:002][ 74]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
-[2018.05.07-18.19.04:002][ 74]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
-[2018.05.07-18.19.04:002][ 74]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
-[2018.05.07-18.19.04:002][ 74]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
-[2018.05.07-18.19.04:002][ 74]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
-[2018.05.07-18.19.04:055][ 74]LogModuleManager: Shutting down and abandoning module AutomationController (406)
-[2018.05.07-18.19.04:055][ 74]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
-[2018.05.07-18.19.04:055][ 74]LogModuleManager: Shutting down and abandoning module Layers (402)
-[2018.05.07-18.19.04:055][ 74]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
-[2018.05.07-18.19.04:055][ 74]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
-[2018.05.07-18.19.04:055][ 74]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
-[2018.05.07-18.19.04:055][ 74]LogModuleManager: Shutting down and abandoning module Persona (394)
-[2018.05.07-18.19.04:055][ 74]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
-[2018.05.07-18.19.04:055][ 74]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
-[2018.05.07-18.19.04:055][ 74]LogModuleManager: Shutting down and abandoning module Kismet (388)
-[2018.05.07-18.19.04:064][ 74]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
-[2018.05.07-18.19.04:064][ 74]LogModuleManager: Shutting down and abandoning module Toolbox (384)
-[2018.05.07-18.19.04:064][ 74]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
-[2018.05.07-18.19.04:064][ 74]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
-[2018.05.07-18.19.04:064][ 74]LogModuleManager: Shutting down and abandoning module OutputLog (378)
-[2018.05.07-18.19.04:064][ 74]LogModuleManager: Shutting down and abandoning module GammaUI (376)
-[2018.05.07-18.19.04:064][ 74]LogModuleManager: Shutting down and abandoning module Documentation (374)
-[2018.05.07-18.19.04:064][ 74]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
-[2018.05.07-18.19.04:064][ 74]LogModuleManager: Shutting down and abandoning module MovieScene (370)
-[2018.05.07-18.19.04:064][ 74]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
-[2018.05.07-18.19.04:064][ 74]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
-[2018.05.07-18.19.04:064][ 74]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
-[2018.05.07-18.19.04:064][ 74]LogModuleManager: Shutting down and abandoning module PortalServices (362)
-[2018.05.07-18.19.04:064][ 74]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
-[2018.05.07-18.19.04:064][ 74]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
-[2018.05.07-18.19.04:064][ 74]LogModuleManager: Shutting down and abandoning module AIModule (356)
-[2018.05.07-18.19.04:064][ 74]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
-[2018.05.07-18.19.04:064][ 74]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
-[2018.05.07-18.19.04:064][ 74]LogModuleManager: Shutting down and abandoning module ProfilerService (350)
-[2018.05.07-18.19.04:282][ 74]LogModuleManager: Shutting down and abandoning module TaskGraph (348)
-[2018.05.07-18.19.04:282][ 74]LogModuleManager: Shutting down and abandoning module SteamVRController (346)
-[2018.05.07-18.19.04:282][ 74]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (344)
-[2018.05.07-18.19.04:282][ 74]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (342)
-[2018.05.07-18.19.04:282][ 74]LogModuleManager: Shutting down and abandoning module OculusInput (340)
-[2018.05.07-18.19.04:282][ 74]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (338)
-[2018.05.07-18.19.04:282][ 74]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (336)
-[2018.05.07-18.19.04:282][ 74]LogModuleManager: Shutting down and abandoning module CableComponent (334)
-[2018.05.07-18.19.04:282][ 74]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (332)
-[2018.05.07-18.19.04:282][ 74]LogModuleManager: Shutting down and abandoning module AndroidPermission (330)
-[2018.05.07-18.19.04:282][ 74]LogModuleManager: Shutting down and abandoning module ActorSequence (326)
-[2018.05.07-18.19.04:282][ 74]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (324)
-[2018.05.07-18.19.04:282][ 74]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (322)
-[2018.05.07-18.19.04:282][ 74]LogModuleManager: Shutting down and abandoning module MediaCompositing (320)
-[2018.05.07-18.19.04:282][ 74]LogModuleManager: Shutting down and abandoning module HTML5Networking (318)
-[2018.05.07-18.19.04:282][ 74]LogModuleManager: Shutting down and abandoning module AlembicImporter (316)
-[2018.05.07-18.19.04:282][ 74]LogModuleManager: Shutting down and abandoning module AlembicLibrary (315)
-[2018.05.07-18.19.04:282][ 74]LogModuleManager: Shutting down and abandoning module GeometryCache (314)
-[2018.05.07-18.19.04:282][ 74]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (313)
-[2018.05.07-18.19.04:282][ 74]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (308)
-[2018.05.07-18.19.04:282][ 74]LogModuleManager: Shutting down and abandoning module PluginBrowser (306)
-[2018.05.07-18.19.04:283][ 74]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (304)
-[2018.05.07-18.19.04:283][ 74]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (302)
-[2018.05.07-18.19.04:283][ 74]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (300)
-[2018.05.07-18.19.04:283][ 74]LogModuleManager: Shutting down and abandoning module UObjectPlugin (298)
-[2018.05.07-18.19.04:283][ 74]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (296)
-[2018.05.07-18.19.04:283][ 74]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (294)
-[2018.05.07-18.19.04:283][ 74]LogModuleManager: Shutting down and abandoning module GitSourceControl (292)
-[2018.05.07-18.19.04:283][ 74]LogModuleManager: Shutting down and abandoning module SourceControl (291)
-[2018.05.07-18.19.04:283][ 74]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (288)
-[2018.05.07-18.19.04:283][ 74]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (286)
-[2018.05.07-18.19.04:283][ 74]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (284)
-[2018.05.07-18.19.04:283][ 74]LogModuleManager: Shutting down and abandoning module Paper2DEditor (282)
-[2018.05.07-18.19.04:283][ 74]LogModuleManager: Shutting down and abandoning module MeshPaint (281)
-[2018.05.07-18.19.04:283][ 74]LogModuleManager: Shutting down and abandoning module LevelEditor (279)
-[2018.05.07-18.19.04:285][ 74]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (278)
-[2018.05.07-18.19.04:285][ 74]LogModuleManager: Shutting down and abandoning module MainFrame (276)
-[2018.05.07-18.19.04:285][ 74]LogModuleManager: Shutting down and abandoning module HotReload (275)
-[2018.05.07-18.19.04:285][ 74]LogDirectoryWatcher: A directory notification for 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Binaries/Win64' was aborted.
-[2018.05.07-18.19.04:285][ 74]LogModuleManager: Shutting down and abandoning module AWWA (270)
-[2018.05.07-18.19.04:285][ 74]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
-[2018.05.07-18.19.04:285][ 74]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
-[2018.05.07-18.19.04:285][ 74]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
-[2018.05.07-18.19.04:285][ 74]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
-[2018.05.07-18.19.04:285][ 74]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
-[2018.05.07-18.19.04:285][ 74]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
-[2018.05.07-18.19.04:285][ 74]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
-[2018.05.07-18.19.04:285][ 74]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
-[2018.05.07-18.19.04:386][ 74]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
-[2018.05.07-18.19.04:486][ 74]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
-[2018.05.07-18.19.04:486][ 74]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
-[2018.05.07-18.19.04:486][ 74]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
-[2018.05.07-18.19.04:486][ 74]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
-[2018.05.07-18.19.04:486][ 74]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
-[2018.05.07-18.19.04:486][ 74]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
-[2018.05.07-18.19.04:488][ 74]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
-[2018.05.07-18.19.04:488][ 74]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2018.05.07-18.19.04:488][ 74]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2018.05.07-18.19.04:488][ 74]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2018.05.07-18.19.04:490][ 74]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
-[2018.05.07-18.19.04:490][ 74]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2018.05.07-18.19.04:490][ 74]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2018.05.07-18.19.04:490][ 74]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2018.05.07-18.19.04:490][ 74]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2018.05.07-18.19.04:490][ 74]LogModuleManager: Shutting down and abandoning module Media (221)
-[2018.05.07-18.19.04:495][ 74]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2018.05.07-18.19.04:496][ 74]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2018.05.07-18.19.04:496][ 74]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2018.05.07-18.19.04:496][ 74]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2018.05.07-18.19.04:496][ 74]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2018.05.07-18.19.04:496][ 74]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2018.05.07-18.19.04:496][ 74]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2018.05.07-18.19.04:496][ 74]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2018.05.07-18.19.04:496][ 74]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2018.05.07-18.19.04:496][ 74]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2018.05.07-18.19.04:496][ 74]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2018.05.07-18.19.04:496][ 74]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2018.05.07-18.19.04:496][ 74]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2018.05.07-18.19.04:496][ 74]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2018.05.07-18.19.04:496][ 74]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2018.05.07-18.19.04:496][ 74]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2018.05.07-18.19.04:498][ 74]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2018.05.07-18.19.04:498][ 74]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2018.05.07-18.19.04:498][ 74]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2018.05.07-18.19.04:498][ 74]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2018.05.07-18.19.04:498][ 74]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2018.05.07-18.19.04:498][ 74]LogModuleManager: Shutting down and abandoning module Core (172)
-[2018.05.07-18.19.04:499][ 74]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2018.05.07-18.19.04:499][ 74]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
-[2018.05.07-18.19.04:504][ 74]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2018.05.07-18.19.04:504][ 74]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2018.05.07-18.19.04:504][ 74]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2018.05.07-18.19.04:504][ 74]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2018.05.07-18.19.04:504][ 74]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2018.05.07-18.19.04:504][ 74]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2018.05.07-18.19.04:504][ 74]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2018.05.07-18.19.04:505][ 74]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2018.05.07-18.19.04:505][ 74]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2018.05.07-18.19.04:604][ 74]LogDerivedDataCache: Shutdown
-[2018.05.07-18.19.04:604][ 74]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
-[2018.05.07-18.19.04:604][ 74]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
-[2018.05.07-18.19.04:604][ 74]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module Messaging (105)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2018.05.07-18.19.04:605][ 74]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2018.05.07-18.19.04:606][ 74]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2018.05.07-18.19.04:606][ 74]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2018.05.07-18.19.04:606][ 74]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.05.07-18.19.04:606][ 74]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.05.07-18.19.04:606][ 74]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.05.07-18.19.04:606][ 74]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.05.07-18.19.04:606][ 74]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.05.07-18.19.04:606][ 74]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.05.07-18.19.04:606][ 74]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEB721EED-49B3-0093-7632-DB8C3719E853%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=55832f984f74ebaf57a7f9833892d821%7Cef51c8e639504ffea9ead583847e62e8%7C8d202eb2-2a8f-4d86-926b-e80ac7e5882d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.05.07-18.19.04:612][ 74]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.05.07-18.19.04:614][ 74]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.05.07-18.19.04:614][ 74]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.05.07-18.19.04:614][ 74]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.05.07-18.19.04:614][ 74]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.05.07-18.19.04:614][ 74]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.05.07-18.19.04:614][ 74]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.05.07-18.19.04:614][ 74]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.05.07-18.19.04:624][ 74]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.05.07-18.19.04:624][ 74]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.05.07-18.19.04:624][ 74]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.05.07-18.19.04:624][ 74]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.05.07-18.19.04:624][ 74]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.05.07-18.19.04:624][ 74]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.05.07-18.19.04:624][ 74]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.05.07-18.19.04:624][ 74]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.05.07-18.19.04:624][ 74]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.05.07-18.19.04:624][ 74]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.05.07-18.19.04:624][ 74]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.05.07-18.19.04:628][ 74]LogExit: Exiting.
-[2018.05.07-18.19.04:646][ 74]Log file closed, 05/08/18 03:19:04
+[2018.05.08-12.32.01:285][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.08-12.32.01:285][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.08-12.32.01:295][  0]LogInit: Computer: DESKTOP-SFT0388
+[2018.05.08-12.32.01:295][  0]LogInit: User: korea
+[2018.05.08-12.32.01:295][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.05.08-12.32.01:295][  0]LogInit: High frequency timer resolution =3.609371 MHz
+[2018.05.08-12.32.01:296][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.05.08-12.32.01:296][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.08-12.32.01:296][  0]LogMemory: Process Physical Memory: 275.41 MB used, 275.41 MB peak
+[2018.05.08-12.32.01:296][  0]LogMemory: Process Virtual Memory: 272.41 MB used, 272.41 MB peak
+[2018.05.08-12.32.01:296][  0]LogMemory: Physical Memory: 6832.23 MB used,  9485.77 MB free, 16318.00 MB total
+[2018.05.08-12.32.01:296][  0]LogMemory: Virtual Memory: 684.66 MB used,  9485.77 MB free, 134217728.00 MB total
+[2018.05.08-12.32.01:516][  0]LogInit: Using OS detected language (ko-KR).
+[2018.05.08-12.32.01:516][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.05.08-12.32.01:520][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.05.08-12.32.01:648][  0]LogInit: Setting process to per monitor DPI aware
+[2018.05.08-12.32.01:971][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.08-12.32.02:018][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070 Ti' (Feature Level 11_0)
+[2018.05.08-12.32.02:018][  0]LogD3D11RHI:       8080/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.05.08-12.32.02:021][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.08-12.32.02:021][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.08-12.32.02:021][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.08-12.32.02:027][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.08-12.32.02:027][  0]LogD3D11RHI:     GPU DeviceId: 0x1b82 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.08-12.32.02:027][  0]LogWindows: EnumDisplayDevices:
+[2018.05.08-12.32.02:028][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070 Ti' (P:1 D:1)
+[2018.05.08-12.32.02:028][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:1)
+[2018.05.08-12.32.02:028][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2018.05.08-12.32.02:029][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2018.05.08-12.32.02:029][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.08-12.32.02:029][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070 Ti
+[2018.05.08-12.32.02:029][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.08-12.32.02:029][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.08-12.32.02:029][  0]LogRHI: Texture pool is 5656 MB (70% of 8080 MB)
+[2018.05.08-12.32.02:054][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.08-12.32.02:070][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.05.08-12.32.02:166][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Intermediate/Shaders/WorkingDirectory/636/).
+[2018.05.08-12.32.02:166][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/korea/AppData/Local/Temp/UnrealShaderWorkingDir/8D0887A4407293B58162F69A12F86AF4/'.
+[2018.05.08-12.32.02:166][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.08-12.32.03:007][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.08-12.32.03:074][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.08-12.32.03:140][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.08-12.32.03:205][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.08-12.32.03:277][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.08-12.32.03:343][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.08-12.32.03:412][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.08-12.32.03:480][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.08-12.32.03:545][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.08-12.32.03:613][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.08-12.32.03:680][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.08-12.32.03:747][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.08-12.32.03:815][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.08-12.32.03:885][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.08-12.32.04:018][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.08-12.32.04:018][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.08-12.32.04:093][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.08-12.32.04:154][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.08-12.32.04:273][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.08-12.32.04:307][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.08-12.32.04:375][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.08-12.32.04:444][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.08-12.32.04:511][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.08-12.32.04:586][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.08-12.32.04:586][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.08-12.32.05:264][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.08-12.32.05:320][  0]LogDerivedDataCache: Loaded boot cache 0.06s 89MB C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.05.08-12.32.05:320][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.05.08-12.32.05:320][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.08-12.32.05:320][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.08-12.32.05:320][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.08-12.32.05:320][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.08-12.32.05:332][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.08-12.32.05:344][  0]LogDerivedDataCache: Using Local data cache path C:/Users/korea/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.08-12.32.05:352][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.08-12.32.05:352][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.08-12.32.05:352][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.08-12.32.05:352][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.08-12.32.05:688][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.08-12.32.06:090][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.08-12.32.06:148][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.08-12.32.06:148][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.08-12.32.06:149][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.08-12.32.06:149][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.08-12.32.06:149][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.08-12.32.06:181][  0]LogNetVersion: AWWA , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3043977046)
+[2018.05.08-12.32.06:346][  0]LogAssetRegistry: FAssetRegistry took 0.0247 seconds to start up
+[2018.05.08-12.32.06:825][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.067077 seconds
+[2018.05.08-12.32.06:829][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.05.08-12.32.06:829][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.05.08-12.32.06:829][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.08-12.32.06:912][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.05.08-12.32.10:243][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.08-12.32.10:298][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.08-12.32.11:994][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.05.08-12.32.12:580][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.05.08-12.32.12:580][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.05.08-12.32.12:667][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.05.08-12.32.12:746][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.05.08-12.32.13:921][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.08-12.32.14:306][  0]LogOcInput: OculusInput pre-init called
+[2018.05.08-12.32.14:670][  0]LogEngine: Initializing Engine...
+[2018.05.08-12.32.14:672][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.05.08-12.32.14:822][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.08-12.32.14:822][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.08-12.32.15:015][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.08-12.32.15:036][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.08-12.32.15:063][  0]LogInit: FAudioDevice initialized.
+[2018.05.08-12.32.15:151][  0]LogDerivedDataCache: Saved boot cache 0.09s 76MB C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.05.08-12.32.15:162][  0]LogInit: Texture streaming: Enabled
+[2018.05.08-12.32.15:309][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.08-12.32.15:504][  0]LogInit: Transaction tracking system initialized
+[2018.05.08-12.32.15:987][  0]BlueprintLog: New page: 에디터 로드
+[2018.05.08-12.32.17:601][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.05.08-12.32.18:713][  0]LogConsoleResponse: Display: 
+[2018.05.08-12.32.18:883][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.08-12.32.18:883][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.08-12.32.18:883][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.08-12.32.19:901][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/' took 0.03s
+[2018.05.08-12.32.20:597][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.05.08-12.32.20:598][  0]Cmd: MAP LOAD FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.08-12.32.20:598][  0]LightingResults: New page: 라이팅 빌드
+[2018.05.08-12.32.20:658][  0]MapCheck: New page: 맵 체크
+[2018.05.08-12.32.20:659][  0]LightingResults: New page: 라이팅 빌드
+[2018.05.08-12.32.37:832][  0]LogAIModule: Creating AISystem for world World
+[2018.05.08-12.32.53:378][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.08-12.32.53:475][  0]MapCheck: /Game/_Maps/World 레벨의 39 개 컴포넌트에 대해 칠해진 버텍스 컬러 수리에 0.0s 걸렸습니다. 맵을 다시 저장하면 확정됩니다. 
+[2018.05.08-12.32.53:475][  0]MapCheck: Warning: 스태틱 메시 리임포트로 인해 칠해진 버텍스 컬러를 고치는 데 시간이 0.0s 만큼 걸렸습니다. 맵을 다시 저장하기 전까지는 로드할 때마다 이 작업이 실행됩니다. 
+[2018.05.08-12.32.53:475][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.08-12.32.53:727][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 1 회, 소요 시간 251.725ms.
+[2018.05.08-12.32.53:749][  0]LogFileHelpers: Loading map 'World' took 33.152
+[2018.05.08-12.32.54:083][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.05.08-12.32.54:871][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.AWWA
+[2018.05.08-12.32.54:871][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.05.08-12.32.54:871][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
+[2018.05.08-12.32.54:871][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.05.08-12.32.54:871][  0]LogTemp: BranchPath = DESKTOP-SFT0388/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = DESKTOP-SFT0388/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
+[2018.05.08-12.32.54:871][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\korea\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.05.08-12.32.54:871][  0]LogCollectionManager: Loaded 0 collections in 0.002352 seconds
+[2018.05.08-12.32.54:979][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Collections/' took 0.01s
+[2018.05.08-12.32.54:979][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Developers/korea/Collections/' took 0.01s
+[2018.05.08-12.32.54:979][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Collections/' took 0.01s
+[2018.05.08-12.32.54:979][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.05.08-12.32.54:986][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 2367 classes and 522 folders.
+[2018.05.08-12.32.55:091][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.05.08-12.32.55:144][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2018.05.08-12.32.55:225][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2018.05.08-12.32.55:282][  0]LogSlate: Took 0.000292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.08-12.32.55:286][  0]LogSlate: Took 0.003434 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.05.08-12.32.55:288][  0]LogSlate: Took 0.000246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.08-12.32.55:290][  0]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.08-12.32.55:390][  0]LogRenderer: Reallocating scene render targets to support 1900x592 Format 10 NumSamples 1 (Frame:1).
+[2018.05.08-12.32.55:574][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2018.05.08-12.32.55:574][  0]LogLoad: (Engine Initialization) Total time: 57.58 seconds
+[2018.05.08-12.32.55:574][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.08-12.32.55:574][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.05.08-12.32.55:935][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.08-12.32.56:265][  1]LogAssetRegistry: Asset discovery search completed in 49.9412 seconds
+[2018.05.08-12.32.56:268][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.05.08-12.32.56:268][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000057 seconds (updated 0 objects)

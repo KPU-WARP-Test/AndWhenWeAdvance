@@ -15,8 +15,8 @@ AAWWAHUD::AAWWAHUD()
 	//, AWWADemoUI2Center(20.0f, 20.0f)
 	
 {
-	static ConstructorHelpers::FObjectFinder<UTexture2D> AWWADemoUITexObj(TEXT("/Game/UI/DevUI/HM_AWWADemoUI_001"));
-	static ConstructorHelpers::FObjectFinder<UTexture2D> AWWADemoUI2TexObj(TEXT("/Game/UI/DevUI/HM_AWWADemoUI_002"));
+	static ConstructorHelpers::FObjectFinder<UTexture2D> AWWADemoUITexObj(TEXT("/Game/_UI/DevUI/HM_AWWADemoUI_001"));
+	static ConstructorHelpers::FObjectFinder<UTexture2D> AWWADemoUI2TexObj(TEXT("/Game/_UI/DevUI/HM_AWWADemoUI_002"));
 
 	AWWADemoUITex = AWWADemoUITexObj.Object;
 	AWWADemoUI2Tex = AWWADemoUI2TexObj.Object;
@@ -33,7 +33,7 @@ void AAWWAHUD::DrawHUD()
 void AAWWAHUD::DrawAWWADemoUI() 
 {
 	const FVector2D AWWADemoUICenter(Canvas->ClipX * 0.5f, Canvas->ClipY * 0.5f);
-	const FVector2D AWWADemoUIPosition((20.0f), (20.0f));
+	const FVector2D AWWADemoUIPosition((20.0f), (10.0f));
 
 	FCanvasTileItem TileItem(AWWADemoUIPosition, AWWADemoUITex->Resource, FLinearColor::White);
 	TileItem.BlendMode = SE_BLEND_Translucent;
