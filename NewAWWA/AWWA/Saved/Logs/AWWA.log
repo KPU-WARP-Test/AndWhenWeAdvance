@@ -1,4 +1,4 @@
-﻿Log file open, 05/08/18 21:31:59
+﻿Log file open, 05/08/18 22:35:31
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: AWWA
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-777041574) SRandInit(-777041574).
+LogInit: Display: RandInit(98976438) SRandInit(98976438).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.224560
+LogStats: Stats thread started at 0.220120
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -77,7 +77,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Binaries/Win64/UE4Editor-AWWA.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Binaries/Win64/UE4Editor-AWWA-6658.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
@@ -192,167 +192,782 @@ LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line:  -skipcompile
+LogInit: Command line: 
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.05.08-12.32.01:285][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.08-12.32.01:285][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.05.08-12.32.01:295][  0]LogInit: Computer: DESKTOP-SFT0388
-[2018.05.08-12.32.01:295][  0]LogInit: User: korea
-[2018.05.08-12.32.01:295][  0]LogInit: CPU Page size=4096, Cores=6
-[2018.05.08-12.32.01:295][  0]LogInit: High frequency timer resolution =3.609371 MHz
-[2018.05.08-12.32.01:296][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.05.08-12.32.01:296][  0]LogMemory: Platform Memory Stats for Windows
-[2018.05.08-12.32.01:296][  0]LogMemory: Process Physical Memory: 275.41 MB used, 275.41 MB peak
-[2018.05.08-12.32.01:296][  0]LogMemory: Process Virtual Memory: 272.41 MB used, 272.41 MB peak
-[2018.05.08-12.32.01:296][  0]LogMemory: Physical Memory: 6832.23 MB used,  9485.77 MB free, 16318.00 MB total
-[2018.05.08-12.32.01:296][  0]LogMemory: Virtual Memory: 684.66 MB used,  9485.77 MB free, 134217728.00 MB total
-[2018.05.08-12.32.01:516][  0]LogInit: Using OS detected language (ko-KR).
-[2018.05.08-12.32.01:516][  0]LogInit: Using OS detected locale (ko-KR).
-[2018.05.08-12.32.01:520][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
-[2018.05.08-12.32.01:648][  0]LogInit: Setting process to per monitor DPI aware
-[2018.05.08-12.32.01:971][  0]LogD3D11RHI: D3D11 adapters:
-[2018.05.08-12.32.02:018][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070 Ti' (Feature Level 11_0)
-[2018.05.08-12.32.02:018][  0]LogD3D11RHI:       8080/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.05.08-12.32.02:021][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.05.08-12.32.02:021][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.05.08-12.32.02:021][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.05.08-12.32.02:027][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.05.08-12.32.02:027][  0]LogD3D11RHI:     GPU DeviceId: 0x1b82 (for the marketing name, search the web for "GPU Device Id")
-[2018.05.08-12.32.02:027][  0]LogWindows: EnumDisplayDevices:
-[2018.05.08-12.32.02:028][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070 Ti' (P:1 D:1)
-[2018.05.08-12.32.02:028][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:1)
-[2018.05.08-12.32.02:028][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
-[2018.05.08-12.32.02:029][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
-[2018.05.08-12.32.02:029][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.05.08-12.32.02:029][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070 Ti
-[2018.05.08-12.32.02:029][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.05.08-12.32.02:029][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.05.08-12.32.02:029][  0]LogRHI: Texture pool is 5656 MB (70% of 8080 MB)
-[2018.05.08-12.32.02:054][  0]LogD3D11RHI: Async texture creation enabled
-[2018.05.08-12.32.02:070][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.05.08-12.32.02:166][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Intermediate/Shaders/WorkingDirectory/636/).
-[2018.05.08-12.32.02:166][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/korea/AppData/Local/Temp/UnrealShaderWorkingDir/8D0887A4407293B58162F69A12F86AF4/'.
-[2018.05.08-12.32.02:166][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.05.08-12.32.03:007][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.05.08-12.32.03:074][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.05.08-12.32.03:140][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.05.08-12.32.03:205][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.05.08-12.32.03:277][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.05.08-12.32.03:343][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.05.08-12.32.03:412][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.05.08-12.32.03:480][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.05.08-12.32.03:545][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.05.08-12.32.03:613][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.05.08-12.32.03:680][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.05.08-12.32.03:747][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.05.08-12.32.03:815][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.05.08-12.32.03:885][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.05.08-12.32.04:018][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.05.08-12.32.04:018][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.05.08-12.32.04:093][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.05.08-12.32.04:154][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.05.08-12.32.04:273][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.05.08-12.32.04:307][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.05.08-12.32.04:375][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.05.08-12.32.04:444][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.05.08-12.32.04:511][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.05.08-12.32.04:586][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.05.08-12.32.04:586][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.05.08-12.32.05:264][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.05.08-12.32.05:320][  0]LogDerivedDataCache: Loaded boot cache 0.06s 89MB C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.05.08-12.32.05:320][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.05.08-12.32.05:320][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.05.08-12.32.05:320][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.05.08-12.32.05:320][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.05.08-12.32.05:320][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.05.08-12.32.05:332][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.05.08-12.32.05:344][  0]LogDerivedDataCache: Using Local data cache path C:/Users/korea/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.05.08-12.32.05:352][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.05.08-12.32.05:352][  0]LogSlate: Using Freetype 2.6.0
-[2018.05.08-12.32.05:352][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.08-12.32.05:352][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.08-12.32.05:688][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.08-12.32.06:090][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.05.08-12.32.06:148][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.05.08-12.32.06:148][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.05.08-12.32.06:149][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.05.08-12.32.06:149][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.05.08-12.32.06:149][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.05.08-12.32.06:181][  0]LogNetVersion: AWWA , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3043977046)
-[2018.05.08-12.32.06:346][  0]LogAssetRegistry: FAssetRegistry took 0.0247 seconds to start up
-[2018.05.08-12.32.06:825][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.067077 seconds
-[2018.05.08-12.32.06:829][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.05.08-12.32.06:829][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
-[2018.05.08-12.32.06:829][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.05.08-12.32.06:912][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.05.08-12.32.10:243][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.05.08-12.32.10:298][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.05.08-12.32.11:994][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.05.08-12.32.12:580][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.05.08-12.32.12:580][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.05.08-12.32.12:667][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.05.08-12.32.12:746][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.05.08-12.32.13:921][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.05.08-12.32.14:306][  0]LogOcInput: OculusInput pre-init called
-[2018.05.08-12.32.14:670][  0]LogEngine: Initializing Engine...
-[2018.05.08-12.32.14:672][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.05.08-12.32.14:822][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.08-12.32.14:822][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.08-12.32.15:015][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.05.08-12.32.15:036][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.08-12.32.15:063][  0]LogInit: FAudioDevice initialized.
-[2018.05.08-12.32.15:151][  0]LogDerivedDataCache: Saved boot cache 0.09s 76MB C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.05.08-12.32.15:162][  0]LogInit: Texture streaming: Enabled
-[2018.05.08-12.32.15:309][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.05.08-12.32.15:504][  0]LogInit: Transaction tracking system initialized
-[2018.05.08-12.32.15:987][  0]BlueprintLog: New page: 에디터 로드
-[2018.05.08-12.32.17:601][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
-[2018.05.08-12.32.18:713][  0]LogConsoleResponse: Display: 
-[2018.05.08-12.32.18:883][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.05.08-12.32.18:883][  0]LogCook: Display: Mobile HDR setting 1
-[2018.05.08-12.32.18:883][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.05.08-12.32.19:901][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/' took 0.03s
-[2018.05.08-12.32.20:597][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.05.08-12.32.20:598][  0]Cmd: MAP LOAD FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.05.08-12.32.20:598][  0]LightingResults: New page: 라이팅 빌드
-[2018.05.08-12.32.20:658][  0]MapCheck: New page: 맵 체크
-[2018.05.08-12.32.20:659][  0]LightingResults: New page: 라이팅 빌드
-[2018.05.08-12.32.37:832][  0]LogAIModule: Creating AISystem for world World
-[2018.05.08-12.32.53:378][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.05.08-12.32.53:475][  0]MapCheck: /Game/_Maps/World 레벨의 39 개 컴포넌트에 대해 칠해진 버텍스 컬러 수리에 0.0s 걸렸습니다. 맵을 다시 저장하면 확정됩니다. 
-[2018.05.08-12.32.53:475][  0]MapCheck: Warning: 스태틱 메시 리임포트로 인해 칠해진 버텍스 컬러를 고치는 데 시간이 0.0s 만큼 걸렸습니다. 맵을 다시 저장하기 전까지는 로드할 때마다 이 작업이 실행됩니다. 
-[2018.05.08-12.32.53:475][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.05.08-12.32.53:727][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 1 회, 소요 시간 251.725ms.
-[2018.05.08-12.32.53:749][  0]LogFileHelpers: Loading map 'World' took 33.152
-[2018.05.08-12.32.54:083][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.05.08-12.32.54:871][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.AWWA
-[2018.05.08-12.32.54:871][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
-[2018.05.08-12.32.54:871][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
-[2018.05.08-12.32.54:871][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
-[2018.05.08-12.32.54:871][  0]LogTemp: BranchPath = DESKTOP-SFT0388/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = DESKTOP-SFT0388/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
-[2018.05.08-12.32.54:871][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\korea\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.05.08-12.32.54:871][  0]LogCollectionManager: Loaded 0 collections in 0.002352 seconds
-[2018.05.08-12.32.54:979][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Collections/' took 0.01s
-[2018.05.08-12.32.54:979][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Developers/korea/Collections/' took 0.01s
-[2018.05.08-12.32.54:979][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Collections/' took 0.01s
-[2018.05.08-12.32.54:979][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.05.08-12.32.54:986][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 2367 classes and 522 folders.
-[2018.05.08-12.32.55:091][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2018.05.08-12.32.55:144][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
-[2018.05.08-12.32.55:225][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
-[2018.05.08-12.32.55:282][  0]LogSlate: Took 0.000292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.08-12.32.55:286][  0]LogSlate: Took 0.003434 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
-[2018.05.08-12.32.55:288][  0]LogSlate: Took 0.000246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.05.08-12.32.55:290][  0]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.05.08-12.32.55:390][  0]LogRenderer: Reallocating scene render targets to support 1900x592 Format 10 NumSamples 1 (Frame:1).
-[2018.05.08-12.32.55:574][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
-[2018.05.08-12.32.55:574][  0]LogLoad: (Engine Initialization) Total time: 57.58 seconds
-[2018.05.08-12.32.55:574][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.05.08-12.32.55:574][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.05.08-12.32.55:935][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.05.08-12.32.56:265][  1]LogAssetRegistry: Asset discovery search completed in 49.9412 seconds
-[2018.05.08-12.32.56:268][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.05.08-12.32.56:268][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000057 seconds (updated 0 objects)
+[2018.05.08-13.35.33:741][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.08-13.35.33:741][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.08-13.35.33:752][  0]LogInit: Computer: DESKTOP-SFT0388
+[2018.05.08-13.35.33:752][  0]LogInit: User: korea
+[2018.05.08-13.35.33:752][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.05.08-13.35.33:752][  0]LogInit: High frequency timer resolution =3.609371 MHz
+[2018.05.08-13.35.33:752][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.05.08-13.35.33:752][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.08-13.35.33:752][  0]LogMemory: Process Physical Memory: 275.61 MB used, 275.61 MB peak
+[2018.05.08-13.35.33:752][  0]LogMemory: Process Virtual Memory: 277.45 MB used, 277.45 MB peak
+[2018.05.08-13.35.33:752][  0]LogMemory: Physical Memory: 6380.67 MB used,  9937.33 MB free, 16318.00 MB total
+[2018.05.08-13.35.33:752][  0]LogMemory: Virtual Memory: 689.66 MB used,  9937.33 MB free, 134217728.00 MB total
+[2018.05.08-13.35.33:952][  0]LogInit: Using OS detected language (ko-KR).
+[2018.05.08-13.35.33:952][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.05.08-13.35.33:955][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.05.08-13.35.34:079][  0]LogInit: Setting process to per monitor DPI aware
+[2018.05.08-13.35.34:380][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.08-13.35.34:437][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070 Ti' (Feature Level 11_0)
+[2018.05.08-13.35.34:437][  0]LogD3D11RHI:       8080/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.05.08-13.35.34:439][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.08-13.35.34:440][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.08-13.35.34:440][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.08-13.35.34:444][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.08-13.35.34:444][  0]LogD3D11RHI:     GPU DeviceId: 0x1b82 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.08-13.35.34:444][  0]LogWindows: EnumDisplayDevices:
+[2018.05.08-13.35.34:445][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070 Ti' (P:1 D:1)
+[2018.05.08-13.35.34:445][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:1)
+[2018.05.08-13.35.34:445][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2018.05.08-13.35.34:446][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2018.05.08-13.35.34:446][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.08-13.35.34:446][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070 Ti
+[2018.05.08-13.35.34:446][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.08-13.35.34:446][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.08-13.35.34:446][  0]LogRHI: Texture pool is 5656 MB (70% of 8080 MB)
+[2018.05.08-13.35.34:470][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.08-13.35.34:487][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.05.08-13.35.34:583][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Intermediate/Shaders/WorkingDirectory/5984/).
+[2018.05.08-13.35.34:583][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/korea/AppData/Local/Temp/UnrealShaderWorkingDir/723EBD69491A077BB4A517BF28B9CFCC/'.
+[2018.05.08-13.35.34:583][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.08-13.35.35:415][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.08-13.35.35:490][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.08-13.35.35:556][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.08-13.35.35:626][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.08-13.35.35:693][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.08-13.35.35:765][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.08-13.35.35:840][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.08-13.35.35:903][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.08-13.35.35:960][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.08-13.35.36:023][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.08-13.35.36:084][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.08-13.35.36:145][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.08-13.35.36:208][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.08-13.35.36:269][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.08-13.35.36:393][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.08-13.35.36:393][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.08-13.35.36:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.08-13.35.36:510][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.08-13.35.36:620][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.08-13.35.36:651][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.08-13.35.36:713][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.08-13.35.36:775][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.08-13.35.36:841][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.08-13.35.36:905][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.08-13.35.36:905][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.08-13.35.37:538][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.08-13.35.37:597][  0]LogDerivedDataCache: Loaded boot cache 0.06s 89MB C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.05.08-13.35.37:597][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.05.08-13.35.37:597][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.08-13.35.37:597][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.08-13.35.37:597][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.08-13.35.37:597][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.08-13.35.37:608][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.08-13.35.37:621][  0]LogDerivedDataCache: Using Local data cache path C:/Users/korea/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.08-13.35.37:628][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.08-13.35.37:629][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.08-13.35.37:629][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.08-13.35.37:629][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.08-13.35.37:942][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.08-13.35.38:325][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.08-13.35.38:384][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.08-13.35.38:384][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.08-13.35.38:384][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.08-13.35.38:384][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.08-13.35.38:384][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.08-13.35.38:415][  0]LogNetVersion: AWWA , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3043977046)
+[2018.05.08-13.35.38:570][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2018.05.08-13.35.39:020][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.062484 seconds
+[2018.05.08-13.35.39:025][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.05.08-13.35.39:025][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.05.08-13.35.39:025][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.08-13.35.39:095][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.05.08-13.35.42:150][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.08-13.35.42:202][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.08-13.35.43:889][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.05.08-13.35.44:409][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.05.08-13.35.44:409][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.05.08-13.35.44:480][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.05.08-13.35.44:552][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.05.08-13.35.45:702][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.08-13.35.46:081][  0]LogOcInput: OculusInput pre-init called
+[2018.05.08-13.35.46:434][  0]LogEngine: Initializing Engine...
+[2018.05.08-13.35.46:436][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.05.08-13.35.46:587][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.08-13.35.46:587][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.08-13.35.46:764][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.08-13.35.46:784][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.08-13.35.46:810][  0]LogInit: FAudioDevice initialized.
+[2018.05.08-13.35.46:920][  0]LogDerivedDataCache: Saved boot cache 0.11s 89MB C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.05.08-13.35.46:931][  0]LogInit: Texture streaming: Enabled
+[2018.05.08-13.35.47:066][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.08-13.35.47:240][  0]LogInit: Transaction tracking system initialized
+[2018.05.08-13.35.47:680][  0]BlueprintLog: New page: 에디터 로드
+[2018.05.08-13.35.49:234][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.05.08-13.35.50:224][  0]LogConsoleResponse: Display: 
+[2018.05.08-13.35.50:389][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.08-13.35.50:389][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.08-13.35.50:389][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.08-13.35.50:652][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/' took 0.03s
+[2018.05.08-13.35.52:063][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.05.08-13.35.52:063][  0]Cmd: MAP LOAD FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.08-13.35.52:064][  0]LightingResults: New page: 라이팅 빌드
+[2018.05.08-13.35.52:119][  0]MapCheck: New page: 맵 체크
+[2018.05.08-13.35.52:119][  0]LightingResults: New page: 라이팅 빌드
+[2018.05.08-13.35.56:357][  0]LogAIModule: Creating AISystem for world World
+[2018.05.08-13.35.57:402][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.08-13.35.57:501][  0]MapCheck: /Game/_Maps/World 레벨의 39 개 컴포넌트에 대해 칠해진 버텍스 컬러 수리에 0.0s 걸렸습니다. 맵을 다시 저장하면 확정됩니다. 
+[2018.05.08-13.35.57:502][  0]MapCheck: Warning: 스태틱 메시 리임포트로 인해 칠해진 버텍스 컬러를 고치는 데 시간이 0.0s 만큼 걸렸습니다. 맵을 다시 저장하기 전까지는 로드할 때마다 이 작업이 실행됩니다. 
+[2018.05.08-13.35.57:502][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.08-13.35.57:763][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 1 회, 소요 시간 260.673ms.
+[2018.05.08-13.35.57:783][  0]LogFileHelpers: Loading map 'World' took 5.719
+[2018.05.08-13.35.58:101][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.05.08-13.35.58:879][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.AWWA
+[2018.05.08-13.35.58:879][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.05.08-13.35.58:879][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
+[2018.05.08-13.35.58:879][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.05.08-13.35.58:879][  0]LogCollectionManager: Loaded 0 collections in 0.001803 seconds
+[2018.05.08-13.35.58:984][  0]LogTemp: BranchPath = DESKTOP-SFT0388/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = DESKTOP-SFT0388/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
+[2018.05.08-13.35.58:984][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Collections/' took 0.01s
+[2018.05.08-13.35.58:984][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\korea\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.05.08-13.35.58:985][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Developers/korea/Collections/' took 0.01s
+[2018.05.08-13.35.58:985][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Collections/' took 0.01s
+[2018.05.08-13.35.58:985][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.05.08-13.35.58:991][  0]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 2367 classes and 522 folders.
+[2018.05.08-13.35.59:099][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.05.08-13.35.59:149][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.05.08-13.35.59:220][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.05.08-13.35.59:270][  0]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.08-13.35.59:274][  0]LogSlate: Took 0.002930 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.05.08-13.35.59:277][  0]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.08-13.35.59:279][  0]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.08-13.35.59:377][  0]LogRenderer: Reallocating scene render targets to support 1900x592 Format 10 NumSamples 1 (Frame:1).
+[2018.05.08-13.35.59:573][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.05.08-13.35.59:573][  0]LogLoad: (Engine Initialization) Total time: 29.02 seconds
+[2018.05.08-13.35.59:573][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.08-13.35.59:573][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.05.08-13.35.59:934][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.08-13.36.00:586][  2]LogAssetRegistry: Asset discovery search completed in 22.0383 seconds
+[2018.05.08-13.36.00:589][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.05.08-13.36.00:589][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
+[2018.05.08-13.37.20:524][609]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.08-13.37.20:592][609]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.05.08-13.37.20:759][609]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.05.08-13.37.20:802][609]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.05.08-13.37.21:063][609]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0009 seconds. Added 1 classes and 0 folders.
+[2018.05.08-13.37.21:069][609]LogRenderer: Reallocating scene render targets to support 1900x888 Format 10 NumSamples 1 (Frame:1).
+[2018.05.08-13.37.53:773][331]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.05.08-13.37.54:835][438]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.08-13.37.54:835][438]PIE: New page: PIE 세션: World (2018. 5. 9. 오전 7:37:54)
+[2018.05.08-13.37.54:835][438]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.05.08-13.37.55:435][438]LogPlayLevel: PIE: StaticDuplicateObject took: (0.599156s)
+[2018.05.08-13.37.55:436][438]LogAIModule: Creating AISystem for world World
+[2018.05.08-13.37.55:436][438]LogPlayLevel: PIE: World Init took: (0.000937s)
+[2018.05.08-13.37.55:437][438]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.601472s)
+[2018.05.08-13.37.55:470][438]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.08-13.37.55:484][438]LogInit: FAudioDevice initialized.
+[2018.05.08-13.37.55:526][438]LogLoad: Game class is 'AWWAGameMode'
+[2018.05.08-13.37.55:647][438]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.05.08-22.37.55
+[2018.05.08-13.37.55:652][438]LogWorld: Bringing up level for play took: 0.125278
+[2018.05.08-13.37.55:713][438]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2018.05.08-13.37.55:718][438]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.601
+[2018.05.08-13.38.07:760][864]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-0.97 Y=17.04 Z=0.00 Location: X=121306.77 Y=40397.71 Z=5312.23 Normal: X=-0.61 Y=-0.24 Z=-0.76 PenetrationDepth:19.645 Actor:Cube91 Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
+[2018.05.08-13.38.08:760][984]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-408.88 Y=-541.25 Z=0.00 Location: X=121306.77 Y=40397.71 Z=5312.23 Normal: X=-0.61 Y=-0.24 Z=-0.76 PenetrationDepth:19.645 Actor:Cube91 Component:StaticMeshComponent0 BoneName:None (119 other events since notify)
+[2018.05.08-13.38.39:966][306]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 116 classes and 0 folders.
+[2018.05.08-13.38.40:466][306]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.08-13.38.40:620][306]LogSlate: Took 0.005323 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.05.08-13.38.41:981][307]LogSlate: Took 0.004166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.08-13.42.59:367][427]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.05.08-13.44.43:902][306]LogSavePackage: Save=9.18ms
+[2018.05.08-13.44.43:902][306]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_passive_marker_man_SkeletonF61B55954F08BF988D8549868C93C55C.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/Buffer/EDIT_MarkerMan/EDIT_passive_marker_man_Skeleton.uasset'
+[2018.05.08-13.44.43:903][306]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/Buffer/EDIT_MarkerMan/EDIT_passive_marker_man_Skeleton.uasset
+[2018.05.08-13.44.49:068][876]LogSavePackage: Save=8.15ms
+[2018.05.08-13.44.49:069][876]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_passive_marker_man_Skeleton156F37544FBB9C4BEC069DA0BCC6D7A9.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/Buffer/EDIT_MarkerMan/EDIT_passive_marker_man_Skeleton.uasset'
+[2018.05.08-13.44.49:073][876]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/Buffer/EDIT_MarkerMan/EDIT_passive_marker_man_Skeleton.uasset
+[2018.05.08-13.46.03:688][566]LogSavePackage: Save=8.46ms
+[2018.05.08-13.46.03:688][566]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_passive_marker_man_Skeleton81B775C44BAAD57D32448ABAE6383F71.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/Buffer/EDIT_MarkerMan/EDIT_passive_marker_man_Skeleton.uasset'
+[2018.05.08-13.46.03:692][566]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/Buffer/EDIT_MarkerMan/EDIT_passive_marker_man_Skeleton.uasset
+[2018.05.08-13.46.12:330][239]LogSavePackage: Save=1369.93ms
+[2018.05.08-13.46.12:330][239]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacterB28F00FA43F541AEF5271CB1BE5814EF.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
+[2018.05.08-13.46.12:334][239]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
+[2018.05.08-13.46.40:673][583]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2018.05.08-13.46.43:434][630]LogSavePackage: Save=1355.27ms
+[2018.05.08-13.46.43:434][630]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacterC3347DB644554A664499F4A5AB0D0851.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
+[2018.05.08-13.46.43:439][630]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
+[2018.05.08-13.46.45:894][922]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.05.08-13.46.47:171][ 60]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.08-13.46.47:172][ 60]PIE: New page: PIE 세션: World (2018. 5. 9. 오전 7:46:47)
+[2018.05.08-13.46.47:172][ 60]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.05.08-13.46.47:533][ 60]LogPlayLevel: PIE: StaticDuplicateObject took: (0.360822s)
+[2018.05.08-13.46.47:533][ 60]LogAIModule: Creating AISystem for world World
+[2018.05.08-13.46.47:533][ 60]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2018.05.08-13.46.47:534][ 60]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.362417s)
+[2018.05.08-13.46.47:574][ 60]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.08-13.46.47:588][ 60]LogInit: FAudioDevice initialized.
+[2018.05.08-13.46.47:623][ 60]LogLoad: Game class is 'AWWAGameMode'
+[2018.05.08-13.46.47:729][ 60]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.05.08-22.46.47
+[2018.05.08-13.46.47:734][ 60]LogWorld: Bringing up level for play took: 0.110968
+[2018.05.08-13.46.47:739][ 60]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.622
+[2018.05.08-13.46.48:161][101]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-25.57 Y=-22.59 Z=0.00 Location: X=121348.80 Y=39113.20 Z=5024.38 Normal: X=-0.67 Y=-0.74 Z=-0.05 PenetrationDepth:22.497 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_magMesh BoneName:None (0 other events since notify)
+[2018.05.08-13.46.49:161][219]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-523.62 Y=292.96 Z=0.00 Location: X=120977.24 Y=39131.57 Z=5024.35 Normal: X=-0.01 Y=0.40 Z=-0.92 PenetrationDepth:29.600 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_pullMesh BoneName:None (101 other events since notify)
+[2018.05.08-13.46.55:509][980]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=93.51 Y=-99.49 Z=0.00 Location: X=120657.63 Y=39825.91 Z=5024.03 Normal: X=0.65 Y=-0.75 Z=-0.12 PenetrationDepth:24.829 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_pullMesh BoneName:None (60 other events since notify)
+[2018.05.08-13.46.56:509][100]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-14.59 Y=151.88 Z=0.00 Location: X=120837.13 Y=39956.61 Z=5026.15 Normal: X=0.93 Y=0.34 Z=-0.12 PenetrationDepth:24.790 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_pullMesh BoneName:None (47 other events since notify)
+[2018.05.08-13.46.57:512][220]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-430.66 Y=-417.77 Z=0.00 Location: X=120833.28 Y=39967.32 Z=5024.01 Normal: X=0.49 Y=0.86 Z=-0.15 PenetrationDepth:31.676 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_bodyMesh BoneName:None (117 other events since notify)
+[2018.05.08-13.46.58:948][371]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.05.08-13.47.00:395][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.08-13.47.00:395][527]PIE: New page: PIE 세션: World (2018. 5. 9. 오전 7:47:00)
+[2018.05.08-13.47.00:395][527]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.05.08-13.47.00:752][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.357681s)
+[2018.05.08-13.47.00:753][527]LogAIModule: Creating AISystem for world World
+[2018.05.08-13.47.00:753][527]LogPlayLevel: PIE: World Init took: (0.000819s)
+[2018.05.08-13.47.00:754][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.359565s)
+[2018.05.08-13.47.00:793][527]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.08-13.47.00:807][527]LogInit: FAudioDevice initialized.
+[2018.05.08-13.47.00:839][527]LogLoad: Game class is 'AWWAGameMode'
+[2018.05.08-13.47.00:948][527]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.05.08-22.47.00
+[2018.05.08-13.47.00:953][527]LogWorld: Bringing up level for play took: 0.113183
+[2018.05.08-13.47.00:957][527]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: -0.16
+[2018.05.08-13.47.05:764][ 80]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-47.11 Y=145.63 Z=0.00 Location: X=119421.19 Y=39315.08 Z=5024.03 Normal: X=-0.48 Y=0.87 Z=-0.11 PenetrationDepth:25.716 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_magMesh BoneName:None (0 other events since notify)
+[2018.05.08-13.47.06:770][198]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=583.93 Y=137.94 Z=0.00 Location: X=119005.98 Y=39274.13 Z=5024.15 Normal: X=0.37 Y=-0.31 Z=-0.87 PenetrationDepth:32.004 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_pullMesh BoneName:None (103 other events since notify)
+[2018.05.08-13.47.08:924][448]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=5.67 Y=18.45 Z=0.00 Location: X=118992.47 Y=39574.15 Z=5025.63 Normal: X=0.34 Y=0.92 Z=-0.19 PenetrationDepth:26.487 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_pullMesh BoneName:None (4 other events since notify)
+[2018.05.08-13.47.09:931][564]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=462.41 Y=382.33 Z=0.00 Location: X=118619.38 Y=39348.31 Z=5024.11 Normal: X=-0.53 Y=0.85 Z=-0.06 PenetrationDepth:33.483 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_magMesh BoneName:None (99 other events since notify)
+[2018.05.08-13.47.10:931][684]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=495.82 Y=-337.88 Z=0.00 Location: X=119139.86 Y=39901.89 Z=5024.11 Normal: X=0.86 Y=0.46 Z=-0.22 PenetrationDepth:29.606 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_magMesh BoneName:None (82 other events since notify)
+[2018.05.08-13.47.38:398][ 71]LogHotReload: New module detected: UE4Editor-AWWA-1539.dll
+[2018.05.08-13.47.38:742][ 73]LogHotReload: Starting Hot-Reload from IDE
+[2018.05.08-13.47.39:233][ 73]LogHotReload: Re-instancing BaseWeaponRifle after hot-reload.
+[2018.05.08-13.47.39:771][ 73]LogContentBrowser: Native class hierarchy updated for 'AWWA' in 0.0011 seconds. Added 4 classes and 3 folders.
+[2018.05.08-13.47.39:774][ 73]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.05.08-13.47.40:074][ 73]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2370 classes and 528 folders.
+[2018.05.08-13.47.40:606][ 73]Display: HotReload took  1.9s.
+[2018.05.08-13.48.13:308][405]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.05.08-13.48.14:413][521]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.08-13.48.14:413][521]PIE: New page: PIE 세션: World (2018. 5. 9. 오전 7:48:14)
+[2018.05.08-13.48.14:413][521]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.05.08-13.48.14:784][521]LogPlayLevel: PIE: StaticDuplicateObject took: (0.370654s)
+[2018.05.08-13.48.14:784][521]LogAIModule: Creating AISystem for world World
+[2018.05.08-13.48.14:784][521]LogPlayLevel: PIE: World Init took: (0.000498s)
+[2018.05.08-13.48.14:786][521]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.372303s)
+[2018.05.08-13.48.14:839][521]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.08-13.48.14:853][521]LogInit: FAudioDevice initialized.
+[2018.05.08-13.48.14:883][521]LogLoad: Game class is 'AWWAGameMode'
+[2018.05.08-13.48.14:990][521]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.05.08-22.48.14
+[2018.05.08-13.48.14:995][521]LogWorld: Bringing up level for play took: 0.112582
+[2018.05.08-13.48.15:000][521]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: -0.117
+[2018.05.08-13.48.17:064][762]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=17.03 Y=-1.10 Z=0.00 Location: X=122499.48 Y=39993.18 Z=5024.74 Normal: X=1.00 Y=0.02 Z=-0.04 PenetrationDepth:22.632 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_magMesh BoneName:None (0 other events since notify)
+[2018.05.08-13.48.18:064][882]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=559.34 Y=-217.12 Z=0.00 Location: X=122316.43 Y=40360.36 Z=5024.27 Normal: X=0.10 Y=-0.40 Z=-0.91 PenetrationDepth:29.389 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_pullMesh BoneName:None (95 other events since notify)
+[2018.05.08-13.48.19:145][ 11]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-548.06 Y=244.18 Z=0.00 Location: X=122240.53 Y=40275.57 Z=5024.13 Normal: X=-0.87 Y=-0.45 Z=-0.19 PenetrationDepth:29.889 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_magMesh BoneName:None (104 other events since notify)
+[2018.05.08-13.48.20:145][131]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-584.74 Y=-134.44 Z=0.00 Location: X=121999.75 Y=39879.22 Z=5024.14 Normal: X=-0.33 Y=-0.44 Z=-0.83 PenetrationDepth:29.657 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_pullMesh BoneName:None (98 other events since notify)
+[2018.05.08-13.48.27:282][962]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2018.05.08-13.48.29:922][995]LogSavePackage: Save=1345.64ms
+[2018.05.08-13.48.29:922][995]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter403D72AC4F5E5CBCB5C1B28BFFA22282.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
+[2018.05.08-13.48.29:926][995]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
+[2018.05.08-13.48.30:914][112]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.05.08-13.48.31:707][192]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.08-13.48.31:707][192]PIE: New page: PIE 세션: World (2018. 5. 9. 오전 7:48:31)
+[2018.05.08-13.48.31:707][192]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.05.08-13.48.32:076][192]LogPlayLevel: PIE: StaticDuplicateObject took: (0.369041s)
+[2018.05.08-13.48.32:076][192]LogAIModule: Creating AISystem for world World
+[2018.05.08-13.48.32:077][192]LogPlayLevel: PIE: World Init took: (0.000510s)
+[2018.05.08-13.48.32:078][192]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.370662s)
+[2018.05.08-13.48.32:120][192]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.08-13.48.32:134][192]LogInit: FAudioDevice initialized.
+[2018.05.08-13.48.32:166][192]LogLoad: Game class is 'AWWAGameMode'
+[2018.05.08-13.48.32:275][192]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.05.08-22.48.32
+[2018.05.08-13.48.32:280][192]LogWorld: Bringing up level for play took: 0.113261
+[2018.05.08-13.48.32:284][192]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 1.167
+[2018.05.08-13.48.39:991][ 74]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.05.08-13.48.47:482][967]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2018.05.08-13.48.50:175][  5]LogSavePackage: Save=1364.91ms
+[2018.05.08-13.48.50:175][  5]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter73D8B3F94ABE494240B20E83DDE2EF9F.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
+[2018.05.08-13.48.50:179][  5]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
+[2018.05.08-13.48.54:006][463]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.05.08-13.48.54:988][559]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.08-13.48.54:988][559]PIE: New page: PIE 세션: World (2018. 5. 9. 오전 7:48:54)
+[2018.05.08-13.48.54:988][559]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.05.08-13.48.55:354][559]LogPlayLevel: PIE: StaticDuplicateObject took: (0.365839s)
+[2018.05.08-13.48.55:355][559]LogAIModule: Creating AISystem for world World
+[2018.05.08-13.48.55:355][559]LogPlayLevel: PIE: World Init took: (0.000521s)
+[2018.05.08-13.48.55:356][559]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.367571s)
+[2018.05.08-13.48.55:399][559]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.08-13.48.55:413][559]LogInit: FAudioDevice initialized.
+[2018.05.08-13.48.55:444][559]LogLoad: Game class is 'AWWAGameMode'
+[2018.05.08-13.48.55:554][559]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.05.08-22.48.55
+[2018.05.08-13.48.55:559][559]LogWorld: Bringing up level for play took: 0.113987
+[2018.05.08-13.48.55:564][559]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.447
+[2018.05.08-13.48.59:982][ 83]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-151.84 Y=-23.21 Z=0.00 Location: X=122908.30 Y=39566.27 Z=5024.02 Normal: X=-0.99 Y=-0.11 Z=-0.12 PenetrationDepth:24.896 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_pullMesh BoneName:None (0 other events since notify)
+[2018.05.08-13.49.00:982][203]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-551.91 Y=235.36 Z=0.00 Location: X=122622.23 Y=39128.31 Z=5024.35 Normal: X=0.11 Y=0.44 Z=-0.89 PenetrationDepth:31.574 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_pullMesh BoneName:None (102 other events since notify)
+[2018.05.08-13.49.01:999][324]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-305.90 Y=516.16 Z=0.00 Location: X=121853.69 Y=39119.96 Z=5024.02 Normal: X=-0.99 Y=0.02 Z=-0.17 PenetrationDepth:29.985 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_magMesh BoneName:None (85 other events since notify)
+[2018.05.08-13.49.05:374][723]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-132.80 Y=29.74 Z=0.00 Location: X=121749.85 Y=39416.61 Z=5024.04 Normal: X=-0.95 Y=0.31 Z=-0.11 PenetrationDepth:24.427 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_pullMesh BoneName:None (79 other events since notify)
+[2018.05.08-13.49.06:379][841]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-579.87 Y=154.12 Z=0.00 Location: X=121496.17 Y=39113.23 Z=5024.15 Normal: X=-0.02 Y=0.44 Z=-0.90 PenetrationDepth:31.413 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_pullMesh BoneName:None (103 other events since notify)
+[2018.05.08-13.49.07:385][959]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=156.65 Y=579.19 Z=0.00 Location: X=121274.11 Y=39113.45 Z=5026.15 Normal: X=-0.37 Y=-0.93 Z=-0.00 PenetrationDepth:29.801 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_magMesh BoneName:None (46 other events since notify)
+[2018.05.08-13.49.08:385][ 79]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=156.48 Y=579.24 Z=0.00 Location: X=121230.02 Y=39112.57 Z=5024.14 Normal: X=-0.68 Y=-0.69 Z=-0.26 PenetrationDepth:26.674 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_magMesh BoneName:None (108 other events since notify)
+[2018.05.08-13.49.10:574][338]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-115.83 Y=72.30 Z=0.00 Location: X=121147.24 Y=39277.71 Z=5024.02 Normal: X=-0.87 Y=0.47 Z=-0.11 PenetrationDepth:25.024 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_magMesh BoneName:None (67 other events since notify)
+[2018.05.08-13.49.12:868][611]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-186.65 Y=20.17 Z=0.00 Location: X=122576.23 Y=40113.61 Z=5024.01 Normal: X=1.00 Y=-0.00 Z=-0.09 PenetrationDepth:1.021 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_bodyMesh BoneName:None (21 other events since notify)
+[2018.05.08-13.49.14:152][765]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=152.97 Y=-13.85 Z=0.00 Location: X=122843.40 Y=40108.04 Z=5024.03 Normal: X=0.98 Y=-0.12 Z=-0.13 PenetrationDepth:25.230 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_pullMesh BoneName:None (9 other events since notify)
+[2018.05.08-13.49.15:794][962]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=13.64 Y=10.26 Z=0.00 Location: X=122213.41 Y=39535.36 Z=5024.01 Normal: X=-0.78 Y=-0.63 Z=-0.05 PenetrationDepth:1.656 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_pullMesh BoneName:None (22 other events since notify)
+[2018.05.08-13.49.34:644][562]LogHotReload: New module detected: UE4Editor-AWWA-6144.dll
+[2018.05.08-13.49.35:322][565]LogHotReload: Starting Hot-Reload from IDE
+[2018.05.08-13.49.35:792][565]LogContentBrowser: Native class hierarchy updated for 'AWWA' in 0.0010 seconds. Added 4 classes and 3 folders.
+[2018.05.08-13.49.35:795][565]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.05.08-13.49.36:042][565]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2370 classes and 528 folders.
+[2018.05.08-13.49.36:050][565]Display: HotReload took  0.7s.
+[2018.05.08-13.49.41:204][103]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.05.08-13.49.41:210][103]Candidate modules for hot reload:
+[2018.05.08-13.49.41:210][103]  AWWA
+[2018.05.08-13.49.41:210][103]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe AWWA -ModuleWithSuffix AWWA 7849 Win64 Development -editorrecompile -canskiplink "C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/AWWA.uproject" ]
+[2018.05.08-13.49.41:212][103]Warning: Starting HotReload took  0.0s.
+[2018.05.08-13.49.47:670][875]CompilerResultsLog: New page: 컴파일 - 2018. 5. 9. 오전 7:49:47
+[2018.05.08-13.49.47:670][875]CompilerResultsLog: Creating makefile for hot reloading AWWA (modules to compile have changed)
+[2018.05.08-13.49.47:670][875]CompilerResultsLog: Compiling game modules for hot reload
+[2018.05.08-13.49.47:670][875]CompilerResultsLog: Target is up to date
+[2018.05.08-13.49.47:670][875]CompilerResultsLog: Total build time: 6.29 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.05.08-13.49.47:671][875]LogMainFrame: MainFrame: Module compiling took 6.467 seconds
+[2018.05.08-13.49.47:909][875]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2370 classes and 528 folders.
+[2018.05.08-13.49.47:909][875]Display: HotReload took  6.7s.
+[2018.05.08-13.49.50:104][138]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.05.08-13.49.51:290][259]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.08-13.49.51:290][259]PIE: New page: PIE 세션: World (2018. 5. 9. 오전 7:49:51)
+[2018.05.08-13.49.51:290][259]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.05.08-13.49.51:668][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.378464s)
+[2018.05.08-13.49.51:669][259]LogAIModule: Creating AISystem for world World
+[2018.05.08-13.49.51:669][259]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2018.05.08-13.49.51:670][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.380156s)
+[2018.05.08-13.49.51:751][259]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.08-13.49.51:766][259]LogInit: FAudioDevice initialized.
+[2018.05.08-13.49.51:800][259]LogLoad: Game class is 'AWWAGameMode'
+[2018.05.08-13.49.51:908][259]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.05.08-22.49.51
+[2018.05.08-13.49.51:913][259]LogWorld: Bringing up level for play took: 0.112217
+[2018.05.08-13.49.51:918][259]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.801
+[2018.05.08-13.49.56:335][763]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-153.32 Y=9.30 Z=0.00 Location: X=122392.63 Y=40562.93 Z=5024.02 Normal: X=-0.99 Y=0.09 Z=-0.12 PenetrationDepth:24.893 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_pullMesh BoneName:None (0 other events since notify)
+[2018.05.08-13.49.57:344][884]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=9.17 Y=-14.40 Z=0.00 Location: X=122348.47 Y=40450.72 Z=5024.46 Normal: X=-0.28 Y=-0.41 Z=-0.87 PenetrationDepth:32.128 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_pullMesh BoneName:None (99 other events since notify)
+[2018.05.08-13.49.58:343][  4]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-70.61 Y=-595.83 Z=0.00 Location: X=123141.10 Y=40383.69 Z=5024.02 Normal: X=0.87 Y=-0.47 Z=-0.16 PenetrationDepth:30.006 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_magMesh BoneName:None (90 other events since notify)
+[2018.05.08-13.49.59:343][124]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-232.72 Y=-553.03 Z=0.00 Location: X=123488.77 Y=39943.99 Z=5024.02 Normal: X=0.17 Y=-0.52 Z=-0.84 PenetrationDepth:29.414 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_pullMesh BoneName:None (99 other events since notify)
+[2018.05.08-13.50.00:343][244]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-334.25 Y=-498.27 Z=0.00 Location: X=123695.02 Y=39317.33 Z=5024.35 Normal: X=-0.58 Y=0.65 Z=-0.50 PenetrationDepth:34.139 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_pullMesh BoneName:None (95 other events since notify)
+[2018.05.08-13.50.01:869][427]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=153.71 Y=74.17 Z=0.00 Location: X=123582.39 Y=38637.39 Z=5025.38 Normal: X=-0.85 Y=-0.52 Z=-0.09 PenetrationDepth:25.029 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_bodyMesh BoneName:None (98 other events since notify)
+[2018.05.08-13.50.07:651][ 94]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.05.08-13.50.42:086][244]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2018.05.08-13.50.43:974][346]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.05.08-13.50.44:859][438]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.08-13.50.44:859][438]PIE: New page: PIE 세션: World (2018. 5. 9. 오전 7:50:44)
+[2018.05.08-13.50.44:859][438]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.05.08-13.50.45:240][438]LogPlayLevel: PIE: StaticDuplicateObject took: (0.381237s)
+[2018.05.08-13.50.45:241][438]LogAIModule: Creating AISystem for world World
+[2018.05.08-13.50.45:241][438]LogPlayLevel: PIE: World Init took: (0.000569s)
+[2018.05.08-13.50.45:242][438]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.382920s)
+[2018.05.08-13.50.45:286][438]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.08-13.50.45:301][438]LogInit: FAudioDevice initialized.
+[2018.05.08-13.50.45:330][438]LogLoad: Game class is 'AWWAGameMode'
+[2018.05.08-13.50.45:438][438]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.05.08-22.50.45
+[2018.05.08-13.50.45:445][438]LogWorld: Bringing up level for play took: 0.115104
+[2018.05.08-13.50.45:451][438]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.334
+[2018.05.08-13.50.59:063][ 19]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.05.08-13.51.05:924][837]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2018.05.08-13.51.08:003][965]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.05.08-13.51.09:095][ 73]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.08-13.51.09:096][ 73]PIE: New page: PIE 세션: World (2018. 5. 9. 오전 7:51:09)
+[2018.05.08-13.51.09:096][ 73]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.05.08-13.51.09:487][ 73]LogPlayLevel: PIE: StaticDuplicateObject took: (0.391076s)
+[2018.05.08-13.51.09:487][ 73]LogAIModule: Creating AISystem for world World
+[2018.05.08-13.51.09:487][ 73]LogPlayLevel: PIE: World Init took: (0.000584s)
+[2018.05.08-13.51.09:488][ 73]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.392839s)
+[2018.05.08-13.51.09:532][ 73]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.08-13.51.09:546][ 73]LogInit: FAudioDevice initialized.
+[2018.05.08-13.51.09:577][ 73]LogLoad: Game class is 'AWWAGameMode'
+[2018.05.08-13.51.09:687][ 73]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.05.08-22.51.09
+[2018.05.08-13.51.09:692][ 73]LogWorld: Bringing up level for play took: 0.115020
+[2018.05.08-13.51.09:697][ 73]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.58
+[2018.05.08-13.51.20:516][326]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.05.08-13.51.54:504][352]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_Weapon_Rifle_AK_47_C_CHILDACTOR_3436.m_bodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-13.51.54:505][352]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Weapon_Rifle_AK_47_C_CHILDACTOR_3438.m_bodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-13.51.54:509][352]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_Weapon_Rifle_AK_47_C_CHILDACTOR_3449.m_bodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-13.51.54:510][352]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Weapon_Rifle_AK_47_C_CHILDACTOR_3451.m_bodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-13.51.59:629][966]BlueprintLog: New page: Weapon_Rifle_AK_47 컴파일
+[2018.05.08-13.52.00:242][966]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_Weapon_Rifle_AK_47_C_CHILDACTOR_3419.m_bodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-13.52.00:243][966]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Weapon_Rifle_AK_47_C_CHILDACTOR_3422.m_bodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-13.52.00:696][ 12]LogSavePackage: Save=16.33ms
+[2018.05.08-13.52.00:696][ 12]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Weapon_Rifle_AK_473723EFC44E68F685F0DB0EAB79909FD8.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/Rifle/AK_47/Weapon_Rifle_AK_47.uasset'
+[2018.05.08-13.52.00:699][ 12]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/Rifle/AK_47/Weapon_Rifle_AK_47.uasset
+[2018.05.08-13.52.03:043][292]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.05.08-13.52.04:007][386]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2018.05.08-13.52.04:243][386]LogPlayLevel: [PlayLevel] Compiling AWWA_MainCharacter before play...
+[2018.05.08-13.52.04:999][386]LogPlayLevel: PlayLevel: Blueprint regeneration took 991 ms (1 blueprints)
+[2018.05.08-13.52.04:999][386]PIE: New page: PIE 세션: World (2018. 5. 9. 오전 7:52:04)
+[2018.05.08-13.52.04:999][386]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.05.08-13.52.05:375][386]LogPlayLevel: PIE: StaticDuplicateObject took: (0.376323s)
+[2018.05.08-13.52.05:376][386]LogAIModule: Creating AISystem for world World
+[2018.05.08-13.52.05:376][386]LogPlayLevel: PIE: World Init took: (0.000715s)
+[2018.05.08-13.52.05:377][386]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.378571s)
+[2018.05.08-13.52.05:420][386]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.08-13.52.05:434][386]LogInit: FAudioDevice initialized.
+[2018.05.08-13.52.05:461][386]LogLoad: Game class is 'AWWAGameMode'
+[2018.05.08-13.52.05:571][386]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.05.08-22.52.05
+[2018.05.08-13.52.05:576][386]LogWorld: Bringing up level for play took: 0.114233
+[2018.05.08-13.52.05:580][386]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 2.463
+[2018.05.08-13.52.12:343][158]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-151.54 Y=25.10 Z=0.00 Location: X=121247.95 Y=40808.72 Z=5024.01 Normal: X=0.99 Y=-0.08 Z=-0.09 PenetrationDepth:0.464 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_bodyMesh BoneName:None (0 other events since notify)
+[2018.05.08-13.52.13:343][278]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-582.53 Y=143.75 Z=0.00 Location: X=122353.73 Y=40933.66 Z=5024.05 Normal: X=0.99 Y=0.03 Z=-0.12 PenetrationDepth:31.976 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_bodyMesh BoneName:None (90 other events since notify)
+[2018.05.08-13.52.15:326][513]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-64.38 Y=120.41 Z=0.00 Location: X=123475.08 Y=40674.58 Z=5024.03 Normal: X=-0.58 Y=0.80 Z=-0.11 PenetrationDepth:24.979 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_magMesh BoneName:None (79 other events since notify)
+[2018.05.08-13.52.16:326][633]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-597.76 Y=51.79 Z=0.00 Location: X=123156.84 Y=40248.65 Z=5024.35 Normal: X=-0.12 Y=0.42 Z=-0.90 PenetrationDepth:31.220 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_pullMesh BoneName:None (102 other events since notify)
+[2018.05.08-13.52.18:584][904]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-104.03 Y=88.43 Z=0.00 Location: X=122759.12 Y=39213.08 Z=5024.03 Normal: X=-0.74 Y=0.66 Z=-0.12 PenetrationDepth:24.624 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_pullMesh BoneName:None (28 other events since notify)
+[2018.05.08-13.52.19:585][ 24]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-599.28 Y=-29.42 Z=0.00 Location: X=122492.11 Y=39112.88 Z=5024.09 Normal: X=-0.17 Y=0.40 Z=-0.90 PenetrationDepth:31.220 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_pullMesh BoneName:None (104 other events since notify)
+[2018.05.08-13.52.20:584][144]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-595.80 Y=70.88 Z=0.00 Location: X=122472.17 Y=39112.71 Z=5024.01 Normal: X=-0.61 Y=-0.75 Z=-0.26 PenetrationDepth:28.996 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_magMesh BoneName:None (111 other events since notify)
+[2018.05.08-13.53.00:364][995]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/World' took 0.024
+[2018.05.08-13.53.00:366][995]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_Character/AWWA_MainCharacter] ([1] browsable assets)...
+[2018.05.08-13.53.00:375][995]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter]
+[2018.05.08-13.53.00:375][995]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Character/AWWA_MainCharacter]
+[2018.05.08-13.53.01:805][995]LogSavePackage: Save=1418.26ms
+[2018.05.08-13.53.01:805][995]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter_Auto1C462256942A336855947218026770783.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Character/AWWA_MainCharacter_Auto1.uasset'
+[2018.05.08-13.53.01:807][995]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Character/AWWA_MainCharacter_Auto1.uasset
+[2018.05.08-13.53.01:808][995]LogFileHelpers: Auto-saving content packages took 1.443
+[2018.05.08-13.53.41:467][729]BlueprintLog: New page: Weapon_Rifle_AK_47 컴파일
+[2018.05.08-13.53.42:197][729]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Weapon_Rifle_AK_47_C_CHILDACTOR_3422.m_bodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-13.53.42:198][729]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_Weapon_Rifle_AK_47_C_CHILDACTOR_3427.m_bodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-13.53.42:199][729]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_Weapon_Rifle_AK_47_C_CHILDACTOR_3437.m_bodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-13.53.43:333][856]LogSavePackage: Save=17.85ms
+[2018.05.08-13.53.43:334][856]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Weapon_Rifle_AK_47692242564D9B0C442629A69B6D0B7D79.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/Rifle/AK_47/Weapon_Rifle_AK_47.uasset'
+[2018.05.08-13.53.43:337][856]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/Rifle/AK_47/Weapon_Rifle_AK_47.uasset
+[2018.05.08-13.53.45:977][171]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.05.08-13.53.46:982][275]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.08-13.53.46:983][275]PIE: New page: PIE 세션: World (2018. 5. 9. 오전 7:53:46)
+[2018.05.08-13.53.46:983][275]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.05.08-13.53.47:363][275]LogPlayLevel: PIE: StaticDuplicateObject took: (0.380185s)
+[2018.05.08-13.53.47:363][275]LogAIModule: Creating AISystem for world World
+[2018.05.08-13.53.47:364][275]LogPlayLevel: PIE: World Init took: (0.000657s)
+[2018.05.08-13.53.47:365][275]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.382558s)
+[2018.05.08-13.53.47:411][275]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.08-13.53.47:427][275]LogInit: FAudioDevice initialized.
+[2018.05.08-13.53.47:457][275]LogLoad: Game class is 'AWWAGameMode'
+[2018.05.08-13.53.47:576][275]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.05.08-22.53.47
+[2018.05.08-13.53.47:581][275]LogWorld: Bringing up level for play took: 0.123518
+[2018.05.08-13.53.47:586][275]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.469
+[2018.05.08-13.53.53:614][971]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=58.64 Y=123.31 Z=0.00 Location: X=121721.76 Y=40878.67 Z=5024.02 Normal: X=0.28 Y=0.95 Z=-0.11 PenetrationDepth:24.667 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_magMesh BoneName:None (0 other events since notify)
+[2018.05.08-13.53.57:284][398]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=122.39 Y=60.50 Z=0.00 Location: X=121621.23 Y=41444.86 Z=5380.02 Normal: X=0.83 Y=0.54 Z=-0.11 PenetrationDepth:25.019 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_magMesh BoneName:None (31 other events since notify)
+[2018.05.08-13.53.58:284][518]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=586.65 Y=-125.87 Z=0.00 Location: X=121509.70 Y=41867.22 Z=5380.02 Normal: X=0.03 Y=-0.43 Z=-0.90 PenetrationDepth:31.222 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_pullMesh BoneName:None (106 other events since notify)
+[2018.05.08-13.53.59:850][706]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=399.78 Y=-447.41 Z=0.00 Location: X=122483.23 Y=40249.81 Z=5024.12 Normal: X=0.56 Y=-0.11 Z=-0.82 PenetrationDepth:34.386 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_bodyMesh BoneName:None (90 other events since notify)
+[2018.05.08-13.54.00:851][826]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=441.20 Y=-406.62 Z=0.00 Location: X=123102.09 Y=40410.73 Z=5024.35 Normal: X=-0.75 Y=-0.43 Z=-0.49 PenetrationDepth:33.352 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_pullMesh BoneName:None (92 other events since notify)
+[2018.05.08-13.54.01:851][946]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=414.50 Y=-433.80 Z=0.00 Location: X=123631.43 Y=40542.90 Z=5024.35 Normal: X=-0.14 Y=-0.56 Z=-0.82 PenetrationDepth:29.978 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_pullMesh BoneName:None (99 other events since notify)
+[2018.05.08-13.54.03:243][113]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-136.20 Y=-9.56 Z=0.00 Location: X=123935.70 Y=40579.43 Z=5024.03 Normal: X=-0.97 Y=-0.20 Z=-0.11 PenetrationDepth:24.990 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_magMesh BoneName:None (33 other events since notify)
+[2018.05.08-13.54.04:251][234]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-599.76 Y=16.89 Z=0.00 Location: X=123638.56 Y=40135.36 Z=5024.35 Normal: X=-0.15 Y=0.43 Z=-0.89 PenetrationDepth:31.571 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_pullMesh BoneName:None (103 other events since notify)
+[2018.05.08-13.54.05:259][355]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-599.75 Y=17.39 Z=0.00 Location: X=123129.33 Y=39283.29 Z=5024.02 Normal: X=-0.39 Y=-0.91 Z=-0.16 PenetrationDepth:30.008 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_magMesh BoneName:None (84 other events since notify)
+[2018.05.08-13.54.06:268][476]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=562.99 Y=-16.32 Z=0.00 Location: X=122708.72 Y=39218.19 Z=5024.01 Normal: X=-0.96 Y=-0.26 Z=-0.12 PenetrationDepth:31.978 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_bodyMesh BoneName:None (85 other events since notify)
+[2018.05.08-13.54.07:293][599]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=17.06 Y=-0.49 Z=0.00 Location: X=122039.71 Y=39111.84 Z=5025.79 Normal: X=-0.99 Y=-0.14 Z=-0.00 PenetrationDepth:32.254 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_bodyMesh BoneName:None (78 other events since notify)
+[2018.05.08-13.54.08:301][720]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=119.95 Y=-3.48 Z=0.00 Location: X=121908.78 Y=39112.54 Z=5024.01 Normal: X=-0.98 Y=0.10 Z=-0.18 PenetrationDepth:31.377 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_bodyMesh BoneName:None (108 other events since notify)
+[2018.05.08-13.54.09:310][841]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-19.10 Y=118.47 Z=0.00 Location: X=121595.64 Y=39817.95 Z=5026.11 Normal: X=-0.29 Y=0.96 Z=-0.00 PenetrationDepth:23.369 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_magMesh BoneName:None (28 other events since notify)
+[2018.05.08-13.54.11:652][122]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=57.76 Y=105.19 Z=0.00 Location: X=122946.85 Y=41064.55 Z=5025.55 Normal: X=0.63 Y=0.78 Z=-0.03 PenetrationDepth:23.113 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_bodyMesh BoneName:None (54 other events since notify)
+[2018.05.08-13.54.12:785][258]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-16.92 Y=-2.27 Z=0.00 Location: X=123574.66 Y=39112.52 Z=5026.13 Normal: X=-1.00 Y=-0.09 Z=-0.00 PenetrationDepth:24.172 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_bodyMesh BoneName:None (22 other events since notify)
+[2018.05.08-13.54.13:793][379]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-79.22 Y=-90.14 Z=0.00 Location: X=122593.61 Y=39868.33 Z=5025.93 Normal: X=-0.51 Y=-0.86 Z=-0.05 PenetrationDepth:23.606 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_magMesh BoneName:None (68 other events since notify)
+[2018.05.08-13.54.15:843][625]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-120.00 Y=0.04 Z=0.00 Location: X=119057.91 Y=39112.61 Z=5025.67 Normal: X=-0.99 Y=-0.11 Z=-0.05 PenetrationDepth:23.402 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_magMesh BoneName:None (45 other events since notify)
+[2018.05.08-13.54.20:260][155]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=0.70 Y=17.05 Z=0.00 Location: X=122721.63 Y=37755.68 Z=5025.91 Normal: X=-0.07 Y=1.00 Z=-0.00 PenetrationDepth:23.306 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_magMesh BoneName:None (74 other events since notify)
+[2018.05.08-13.54.21:843][345]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=16.37 Y=4.84 Z=0.00 Location: X=123396.34 Y=39020.67 Z=5025.90 Normal: X=0.91 Y=0.42 Z=-0.00 PenetrationDepth:22.991 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_magMesh BoneName:None (22 other events since notify)
+[2018.05.08-13.54.22:843][465]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=171.89 Y=-574.85 Z=0.00 Location: X=123406.91 Y=39019.68 Z=5024.36 Normal: X=0.02 Y=1.00 Z=-0.00 PenetrationDepth:28.481 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_magMesh BoneName:None (118 other events since notify)
+[2018.05.08-13.57.54:433][708]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.08-13.58.44:511][640]BlueprintLog: New page: BP_Weapon_Rifle_AK47 컴파일
+[2018.05.08-14.03.09:827][782]BlueprintLog: New page: BP_Weapon_Rifle_AK47 컴파일
+[2018.05.08-14.03.11:359][908]LogSavePackage: Save=17.63ms
+[2018.05.08-14.03.11:359][908]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/BP_Weapon_Rifle_AK47A21EA67C44051097AD3213A711526A98.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/Rifle/AK_47/BP_Weapon_Rifle_AK47.uasset'
+[2018.05.08-14.03.11:364][908]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/Rifle/AK_47/BP_Weapon_Rifle_AK47.uasset
+[2018.05.08-14.03.26:815][751]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.05.08-14.04.00:435][196]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/World' took 0.036
+[2018.05.08-14.04.00:437][196]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_Character/AWWA_MainCharacter] ([1] browsable assets)...
+[2018.05.08-14.04.00:451][196]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter]
+[2018.05.08-14.04.00:451][196]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Character/AWWA_MainCharacter]
+[2018.05.08-14.04.01:878][196]LogSavePackage: Save=1414.86ms
+[2018.05.08-14.04.01:878][196]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter_Auto2B10F209E4F932663DEEC62839BB90719.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Character/AWWA_MainCharacter_Auto2.uasset'
+[2018.05.08-14.04.01:880][196]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Character/AWWA_MainCharacter_Auto2.uasset
+[2018.05.08-14.04.01:880][196]LogFileHelpers: Auto-saving content packages took 1.444
+[2018.05.08-14.04.07:696][254]LogSavePackage: Save=1385.74ms
+[2018.05.08-14.04.07:696][254]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacterDB8662F9492A12C0D6ED448C977F45D8.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
+[2018.05.08-14.04.07:701][254]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
+[2018.05.08-14.04.08:712][369]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.05.08-14.04.09:558][450]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2018.05.08-14.04.09:807][450]LogPlayLevel: [PlayLevel] Compiling AWWA_MainCharacter before play...
+[2018.05.08-14.04.10:731][450]LogPlayLevel: PlayLevel: Blueprint regeneration took 1172 ms (1 blueprints)
+[2018.05.08-14.04.10:731][450]PIE: New page: PIE 세션: World (2018. 5. 9. 오전 8:04:10)
+[2018.05.08-14.04.10:732][450]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.05.08-14.04.11:112][450]LogPlayLevel: PIE: StaticDuplicateObject took: (0.380109s)
+[2018.05.08-14.04.11:112][450]LogAIModule: Creating AISystem for world World
+[2018.05.08-14.04.11:113][450]LogPlayLevel: PIE: World Init took: (0.000838s)
+[2018.05.08-14.04.11:114][450]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.382156s)
+[2018.05.08-14.04.11:157][450]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.08-14.04.11:172][450]LogInit: FAudioDevice initialized.
+[2018.05.08-14.04.11:199][450]LogLoad: Game class is 'AWWAGameMode'
+[2018.05.08-14.04.11:327][450]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.05.08-23.04.11
+[2018.05.08-14.04.11:332][450]LogWorld: Bringing up level for play took: 0.132556
+[2018.05.08-14.04.11:337][450]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 2.22
+[2018.05.08-14.04.12:077][524]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-90.41 Y=102.30 Z=0.00 Location: X=123627.69 Y=39439.14 Z=5024.03 Normal: X=-0.78 Y=0.61 Z=-0.11 PenetrationDepth:24.938 Actor:WeaponBack_GEN_VARIABLE_BP_Weapon_Rifle_AK47_C_CAT_0 Component:MagMesh BoneName:None (0 other events since notify)
+[2018.05.08-14.04.13:751][717]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=23.93 Y=134.42 Z=0.00 Location: X=123254.61 Y=39282.62 Z=5024.03 Normal: X=0.03 Y=0.99 Z=-0.12 PenetrationDepth:24.927 Actor:WeaponBack_GEN_VARIABLE_BP_Weapon_Rifle_AK47_C_CAT_0 Component:MagMesh BoneName:None (66 other events since notify)
+[2018.05.08-14.04.14:751][837]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=141.84 Y=561.77 Z=0.00 Location: X=122822.47 Y=39782.00 Z=5024.53 Normal: X=0.44 Y=0.12 Z=-0.89 PenetrationDepth:31.127 Actor:WeaponBack_GEN_VARIABLE_BP_Weapon_Rifle_AK47_C_CAT_0 Component:PullMesh BoneName:None (95 other events since notify)
+[2018.05.08-14.04.15:757][957]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=374.95 Y=-468.42 Z=0.00 Location: X=123487.98 Y=39918.80 Z=5024.17 Normal: X=0.63 Y=-0.05 Z=-0.78 PenetrationDepth:28.565 Actor:WeaponBack_GEN_VARIABLE_BP_Weapon_Rifle_AK47_C_CAT_0 Component:PullMesh BoneName:None (60 other events since notify)
+[2018.05.08-14.04.16:757][ 77]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-598.19 Y=-46.52 Z=0.00 Location: X=123727.85 Y=39319.38 Z=5024.08 Normal: X=-0.93 Y=0.15 Z=-0.34 PenetrationDepth:33.698 Actor:WeaponBack_GEN_VARIABLE_BP_Weapon_Rifle_AK47_C_CAT_0 Component:PullMesh BoneName:None (95 other events since notify)
+[2018.05.08-14.04.19:899][454]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=28.06 Y=116.13 Z=0.00 Location: X=123290.91 Y=39151.64 Z=5024.01 Normal: X=-0.98 Y=0.15 Z=-0.09 PenetrationDepth:24.275 Actor:WeaponBack_GEN_VARIABLE_BP_Weapon_Rifle_AK47_C_CAT_0 Component:MagMesh BoneName:None (73 other events since notify)
+[2018.05.08-14.04.20:898][574]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=129.31 Y=585.90 Z=0.00 Location: X=123266.55 Y=39112.60 Z=5024.00 Normal: X=-0.72 Y=-0.65 Z=-0.26 PenetrationDepth:31.718 Actor:WeaponBack_GEN_VARIABLE_BP_Weapon_Rifle_AK47_C_CAT_0 Component:MagMesh BoneName:None (118 other events since notify)
+[2018.05.08-14.04.21:899][694]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-302.03 Y=518.44 Z=0.00 Location: X=123266.03 Y=39112.57 Z=5024.00 Normal: X=-0.61 Y=-0.79 Z=-0.00 PenetrationDepth:28.356 Actor:WeaponBack_GEN_VARIABLE_BP_Weapon_Rifle_AK47_C_CAT_0 Component:MagMesh BoneName:None (119 other events since notify)
+[2018.05.08-14.04.22:899][814]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-480.86 Y=358.86 Z=0.00 Location: X=122662.84 Y=39156.50 Z=5024.17 Normal: X=-0.61 Y=-0.15 Z=-0.78 PenetrationDepth:28.608 Actor:WeaponBack_GEN_VARIABLE_BP_Weapon_Rifle_AK47_C_CAT_0 Component:PullMesh BoneName:None (92 other events since notify)
+[2018.05.08-14.04.36:199][378]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2018.05.08-14.04.39:411][442]LogSavePackage: Save=1359.68ms
+[2018.05.08-14.04.39:411][442]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacterA9CA111B4E40DE09C01BE5842A74AF7C.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
+[2018.05.08-14.04.39:415][442]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
+[2018.05.08-14.04.47:769][577]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.05.08-14.04.48:711][672]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.08-14.04.48:711][672]PIE: New page: PIE 세션: World (2018. 5. 9. 오전 8:04:48)
+[2018.05.08-14.04.48:711][672]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.05.08-14.04.49:067][672]LogPlayLevel: PIE: StaticDuplicateObject took: (0.357012s)
+[2018.05.08-14.04.49:068][672]LogAIModule: Creating AISystem for world World
+[2018.05.08-14.04.49:068][672]LogPlayLevel: PIE: World Init took: (0.000554s)
+[2018.05.08-14.04.49:069][672]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.358591s)
+[2018.05.08-14.04.49:113][672]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.08-14.04.49:128][672]LogInit: FAudioDevice initialized.
+[2018.05.08-14.04.49:160][672]LogLoad: Game class is 'AWWAGameMode'
+[2018.05.08-14.04.49:272][672]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.05.08-23.04.49
+[2018.05.08-14.04.49:277][672]LogWorld: Bringing up level for play took: 0.116604
+[2018.05.08-14.04.49:282][672]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.164
+[2018.05.08-14.04.49:685][715]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-186.73 Y=19.30 Z=0.00 Location: X=121175.45 Y=39332.00 Z=5024.01 Normal: X=-0.95 Y=0.23 Z=-0.22 PenetrationDepth:23.378 Actor:WeaponBack_GEN_VARIABLE_BP_Weapon_Rifle_AK47_C_CAT_0 Component:PullMesh BoneName:None (3 other events since notify)
+[2018.05.08-14.05.01:700][118]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2018.05.08-14.05.04:444][157]LogSavePackage: Save=1366.15ms
+[2018.05.08-14.05.04:444][157]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacterF4E5A10A44461172665E759D71960D19.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
+[2018.05.08-14.05.04:448][157]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
+[2018.05.08-14.05.05:260][253]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.05.08-14.05.06:246][351]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.08-14.05.06:246][351]PIE: New page: PIE 세션: World (2018. 5. 9. 오전 8:05:06)
+[2018.05.08-14.05.06:246][351]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.05.08-14.05.06:606][351]LogPlayLevel: PIE: StaticDuplicateObject took: (0.360200s)
+[2018.05.08-14.05.06:607][351]LogAIModule: Creating AISystem for world World
+[2018.05.08-14.05.06:607][351]LogPlayLevel: PIE: World Init took: (0.000545s)
+[2018.05.08-14.05.06:608][351]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.361875s)
+[2018.05.08-14.05.06:652][351]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.08-14.05.06:666][351]LogInit: FAudioDevice initialized.
+[2018.05.08-14.05.06:694][351]LogLoad: Game class is 'AWWAGameMode'
+[2018.05.08-14.05.06:801][351]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.05.08-23.05.06
+[2018.05.08-14.05.06:807][351]LogWorld: Bringing up level for play took: 0.112160
+[2018.05.08-14.05.06:812][351]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: -0.305
+[2018.05.08-14.05.23:895][361]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-372.98 Y=290.81 Z=0.00 Location: X=120877.34 Y=39825.05 Z=5026.15 Normal: X=-1.00 Y=-0.00 Z=0.00 PenetrationDepth:39.844 Actor:Cube22 Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
+[2018.05.08-14.05.27:728][821]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-93.32 Y=-81.08 Z=0.00 Location: X=120207.62 Y=39008.17 Z=5026.15 Normal: X=0.99 Y=-0.00 Z=0.11 PenetrationDepth:3.690 Actor:Cube62 Component:StaticMeshComponent0 BoneName:None (11 other events since notify)
+[2018.05.08-14.05.29:869][ 78]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=551.54 Y=395.33 Z=0.00 Location: X=120766.26 Y=39244.85 Z=5024.09 Normal: X=-0.78 Y=-0.47 Z=-0.41 PenetrationDepth:1.675 Actor:WeaponBack_GEN_VARIABLE_BP_Weapon_Rifle_AK47_C_CAT_0 Component:MagMesh BoneName:None (45 other events since notify)
+[2018.05.08-14.05.36:212][839]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=9.25 Y=12.62 Z=0.00 Location: X=121506.47 Y=40453.60 Z=5058.93 Normal: X=-0.26 Y=-0.96 Z=0.00 PenetrationDepth:6.241 Actor:WeaponBack_GEN_VARIABLE_BP_Weapon_Rifle_AK47_C_CAT_0 Component:BodyMesh BoneName:None (34 other events since notify)
+[2018.05.08-14.07.50:457][388]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2018.05.08-14.07.53:422][446]LogSavePackage: Save=1362.00ms
+[2018.05.08-14.07.53:422][446]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacterFD4DB627468512F9B8AA469074F4AA37.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
+[2018.05.08-14.07.53:427][446]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
+[2018.05.08-14.09.25:690][671]LogSavePackage: Save=1415.55ms
+[2018.05.08-14.09.25:690][671]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter5A63A74449A0E3ACF5D01392F3E5BEE9.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
+[2018.05.08-14.09.25:692][671]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
+[2018.05.08-14.09.26:729][788]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.05.08-14.09.27:556][871]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.08-14.09.27:556][871]PIE: New page: PIE 세션: World (2018. 5. 9. 오전 8:09:27)
+[2018.05.08-14.09.27:557][871]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.05.08-14.09.27:925][871]LogPlayLevel: PIE: StaticDuplicateObject took: (0.368675s)
+[2018.05.08-14.09.27:926][871]LogAIModule: Creating AISystem for world World
+[2018.05.08-14.09.27:926][871]LogPlayLevel: PIE: World Init took: (0.000689s)
+[2018.05.08-14.09.27:927][871]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.370618s)
+[2018.05.08-14.09.27:973][871]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.08-14.09.27:988][871]LogInit: FAudioDevice initialized.
+[2018.05.08-14.09.28:016][871]LogLoad: Game class is 'AWWAGameMode'
+[2018.05.08-14.09.28:140][871]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.05.08-23.09.28
+[2018.05.08-14.09.28:147][871]LogWorld: Bringing up level for play took: 0.130847
+[2018.05.08-14.09.28:153][871]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 1.036
+[2018.05.08-14.09.28:536][912]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-179.28 Y=-125.63 Z=0.00 Location: X=122682.89 Y=39112.67 Z=5025.23 Normal: X=-0.94 Y=-0.26 Z=-0.21 PenetrationDepth:27.920 Actor:WeaponBack_GEN_VARIABLE_BP_Weapon_Rifle_AK47_C_CAT_0 Component:PullMesh BoneName:None (6 other events since notify)
+[2018.05.08-14.09.29:537][ 30]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-504.50 Y=324.78 Z=0.00 Location: X=122264.63 Y=39113.27 Z=5026.15 Normal: X=-0.24 Y=-0.97 Z=-0.00 PenetrationDepth:28.017 Actor:WeaponBack_GEN_VARIABLE_BP_Weapon_Rifle_AK47_C_CAT_0 Component:MagMesh BoneName:None (92 other events since notify)
+[2018.05.08-14.09.31:246][224]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=132.99 Y=30.95 Z=0.00 Location: X=122028.58 Y=39231.17 Z=5024.03 Normal: X=0.92 Y=0.37 Z=-0.12 PenetrationDepth:24.916 Actor:WeaponBack_GEN_VARIABLE_BP_Weapon_Rifle_AK47_C_CAT_0 Component:MagMesh BoneName:None (77 other events since notify)
+[2018.05.08-14.09.33:697][512]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-48.38 Y=126.87 Z=0.00 Location: X=122326.09 Y=39988.61 Z=5024.01 Normal: X=-0.41 Y=0.91 Z=-0.11 PenetrationDepth:24.967 Actor:WeaponBack_GEN_VARIABLE_BP_Weapon_Rifle_AK47_C_CAT_0 Component:MagMesh BoneName:None (73 other events since notify)
+[2018.05.08-14.09.34:698][632]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-595.59 Y=-72.60 Z=0.00 Location: X=122199.93 Y=39928.20 Z=5024.50 Normal: X=-0.37 Y=0.26 Z=-0.89 PenetrationDepth:31.112 Actor:WeaponBack_GEN_VARIABLE_BP_Weapon_Rifle_AK47_C_CAT_0 Component:PullMesh BoneName:None (112 other events since notify)
+[2018.05.08-14.09.35:739][757]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=264.79 Y=65.82 Z=0.00 Location: X=121669.87 Y=39168.95 Z=5024.01 Normal: X=-0.92 Y=-0.37 Z=-0.11 PenetrationDepth:29.126 Actor:WeaponBack_GEN_VARIABLE_BP_Weapon_Rifle_AK47_C_CAT_0 Component:BodyMesh BoneName:None (62 other events since notify)
+[2018.05.08-14.09.37:784][999]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=113.11 Y=-76.47 Z=0.00 Location: X=120935.37 Y=39614.90 Z=5024.02 Normal: X=0.88 Y=-0.47 Z=-0.11 PenetrationDepth:24.959 Actor:WeaponBack_GEN_VARIABLE_BP_Weapon_Rifle_AK47_C_CAT_0 Component:MagMesh BoneName:None (69 other events since notify)
+[2018.05.08-14.09.58:595][436]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2018.05.08-14.10.01:387][473]LogSavePackage: Save=1356.72ms
+[2018.05.08-14.10.01:387][473]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacterEE0EE8F84E855B4B902BF0AABA9A22CB.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
+[2018.05.08-14.10.01:391][473]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
+[2018.05.08-14.10.02:461][600]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.05.08-14.10.03:287][682]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.08-14.10.03:287][682]PIE: New page: PIE 세션: World (2018. 5. 9. 오전 8:10:03)
+[2018.05.08-14.10.03:287][682]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.05.08-14.10.03:648][682]LogPlayLevel: PIE: StaticDuplicateObject took: (0.360560s)
+[2018.05.08-14.10.03:648][682]LogAIModule: Creating AISystem for world World
+[2018.05.08-14.10.03:649][682]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2018.05.08-14.10.03:650][682]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.362279s)
+[2018.05.08-14.10.03:695][682]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.08-14.10.03:709][682]LogInit: FAudioDevice initialized.
+[2018.05.08-14.10.03:736][682]LogLoad: Game class is 'AWWAGameMode'
+[2018.05.08-14.10.03:844][682]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.05.08-23.10.03
+[2018.05.08-14.10.03:849][682]LogWorld: Bringing up level for play took: 0.112765
+[2018.05.08-14.10.03:855][682]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.737
+[2018.05.08-14.13.02:885][541]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4234.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.13.02:886][541]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4236.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.13.20:123][608]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4257.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.13.20:124][608]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4259.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.13.34:493][330]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4280.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.13.34:494][330]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4282.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.13.39:210][892]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4303.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.13.39:211][892]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4305.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.13.39:214][892]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.05.08-14.13.39:214][892]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.05.08-14.13.39:214][892]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.05.08-14.13.39:214][892]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.05.08-14.13.39:216][892]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.05.08-14.13.39:216][892]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.05.08-14.13.39:216][892]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.05.08-14.13.39:216][892]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.05.08-14.13.39:227][892]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4323.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.13.39:228][892]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4325.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.13.42:107][234]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.05.08-14.13.42:108][234]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.05.08-14.13.42:108][234]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.05.08-14.13.42:108][234]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.05.08-14.13.42:114][234]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4346.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.13.42:115][234]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4348.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.14.06:050][103]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4369.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.14.06:051][103]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4371.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.14.19:829][753]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4392.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.14.19:830][753]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4394.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.14.22:490][ 71]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4415.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.14.22:491][ 71]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4417.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.14.22:959][126]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4438.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.14.22:960][126]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4440.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.14.30:110][982]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.05.08-14.14.30:110][982]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.05.08-14.14.30:110][982]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.05.08-14.14.30:110][982]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.05.08-14.14.30:118][982]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4461.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.14.30:119][982]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4463.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.14.31:347][128]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4484.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.14.31:348][128]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4486.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.14.33:494][383]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4507.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.14.33:495][383]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4509.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.14.33:498][383]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.05.08-14.14.33:498][383]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.05.08-14.14.33:498][383]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.05.08-14.14.33:498][383]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.05.08-14.14.33:501][383]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.05.08-14.14.33:501][383]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.05.08-14.14.33:501][383]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.05.08-14.14.33:501][383]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.05.08-14.14.33:512][383]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4527.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.14.33:512][383]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4529.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.15.00:380][601]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4550.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.15.00:381][601]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4552.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.15.02:107][807]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4573.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.15.02:108][807]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4575.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.15.02:735][881]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4596.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.15.02:736][881]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4598.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.15.10:805][848]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4619.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.15.10:806][848]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4621.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.15.11:867][974]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.05.08-14.15.11:867][974]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.05.08-14.15.11:867][974]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.05.08-14.15.11:867][974]LogClass: Warning: In asset 'None', there is an enum property of type 'ECanBeCharacterBase' with an invalid value of ''
+[2018.05.08-14.15.11:874][974]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4642.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.15.11:875][974]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4644.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.15.18:408][755]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4665.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.15.18:409][755]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4667.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.15.18:411][755]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.05.08-14.15.18:412][755]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.05.08-14.15.18:412][755]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.05.08-14.15.18:412][755]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.05.08-14.15.18:414][755]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.05.08-14.15.18:414][755]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.05.08-14.15.18:414][755]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.05.08-14.15.18:414][755]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.05.08-14.15.18:424][755]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4685.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.15.18:425][755]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4687.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.15.54:766][  7]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4698.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.15.54:767][  7]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4700.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.15.54:768][  7]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4708.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.15.54:769][  7]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4710.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.16.09:847][816]BlueprintLog: New page: BP_Weapon_Rifle_AK47 컴파일
+[2018.05.08-14.16.10:506][816]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4216.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.16.10:506][816]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_BP_Weapon_Rifle_AK47_C_CHILDACTOR_4218.BodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.16.11:059][874]LogSavePackage: Save=18.64ms
+[2018.05.08-14.16.11:059][874]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/BP_Weapon_Rifle_AK477983964042D9F7B64109B697E609B35A.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/Rifle/AK_47/BP_Weapon_Rifle_AK47.uasset'
+[2018.05.08-14.16.11:062][874]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/Rifle/AK_47/BP_Weapon_Rifle_AK47.uasset
+[2018.05.08-14.16.22:752][273]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.05.08-14.16.23:764][379]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.08-14.16.23:764][379]PIE: New page: PIE 세션: World (2018. 5. 9. 오전 8:16:23)
+[2018.05.08-14.16.23:765][379]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.05.08-14.16.24:130][379]LogPlayLevel: PIE: StaticDuplicateObject took: (0.365865s)
+[2018.05.08-14.16.24:131][379]LogAIModule: Creating AISystem for world World
+[2018.05.08-14.16.24:131][379]LogPlayLevel: PIE: World Init took: (0.000663s)
+[2018.05.08-14.16.24:132][379]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.367646s)
+[2018.05.08-14.16.24:176][379]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.08-14.16.24:191][379]LogInit: FAudioDevice initialized.
+[2018.05.08-14.16.24:223][379]LogLoad: Game class is 'AWWAGameMode'
+[2018.05.08-14.16.24:333][379]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.05.08-23.16.24
+[2018.05.08-14.16.24:338][379]LogWorld: Bringing up level for play took: 0.114053
+[2018.05.08-14.16.24:342][379]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 1.225
+[2018.05.08-14.16.35:951][737]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2018.05.08-14.16.38:349][737]LogSavePackage: Save=1370.70ms
+[2018.05.08-14.16.38:349][737]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacterEC8EE2994E60816322A38CB820F6B05C.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
+[2018.05.08-14.16.38:354][737]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
+[2018.05.08-14.16.40:626][835]LogSavePackage: Save=1397.96ms
+[2018.05.08-14.16.40:626][835]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacterD67A153E4AEFA6197C4DF296ED07C79D.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
+[2018.05.08-14.16.40:628][835]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
+[2018.05.08-14.16.47:315][631]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.05.08-14.16.48:386][742]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.08-14.16.48:386][742]PIE: New page: PIE 세션: World (2018. 5. 9. 오전 8:16:48)
+[2018.05.08-14.16.48:386][742]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.05.08-14.16.48:745][742]LogPlayLevel: PIE: StaticDuplicateObject took: (0.359406s)
+[2018.05.08-14.16.48:746][742]LogAIModule: Creating AISystem for world World
+[2018.05.08-14.16.48:746][742]LogPlayLevel: PIE: World Init took: (0.000622s)
+[2018.05.08-14.16.48:747][742]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.361117s)
+[2018.05.08-14.16.48:793][742]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.08-14.16.48:807][742]LogInit: FAudioDevice initialized.
+[2018.05.08-14.16.48:834][742]LogLoad: Game class is 'AWWAGameMode'
+[2018.05.08-14.16.48:943][742]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.05.08-23.16.48
+[2018.05.08-14.16.48:948][742]LogWorld: Bringing up level for play took: 0.113206
+[2018.05.08-14.16.48:953][742]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: -0.164
+[2018.05.08-14.21.10:634][785]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.05.08-14.21.25:588][484]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_Weapon_Rifle_AK47_C_CHILDACTOR_3452.m_bodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.21.25:589][484]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Weapon_Rifle_AK47_C_CHILDACTOR_3454.m_bodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.21.25:592][484]LogMetaData: Removing '/Game/_Weapons/Rifle/AK_47/Weapon_Rifle_AK47.Weapon_Rifle_AK47:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/_Weapons/Rifle/AK_47/Weapon_Rifle_AK_47.PackageMetaData'
+[2018.05.08-14.21.25:592][484]LogMetaData: Removing '/Game/_Weapons/Rifle/AK_47/Weapon_Rifle_AK47.Weapon_Rifle_AK47_C' ref from Metadata '/Game/_Weapons/Rifle/AK_47/Weapon_Rifle_AK_47.PackageMetaData'
+[2018.05.08-14.21.25:592][484]LogMetaData: Removing '/Game/_Weapons/Rifle/AK_47/Weapon_Rifle_AK47.Weapon_Rifle_AK47:EventGraph.K2Node_Event_0' ref from Metadata '/Game/_Weapons/Rifle/AK_47/Weapon_Rifle_AK_47.PackageMetaData'
+[2018.05.08-14.21.25:592][484]LogMetaData: Removing '/Game/_Weapons/Rifle/AK_47/Weapon_Rifle_AK47.Weapon_Rifle_AK47:EventGraph.K2Node_Event_1' ref from Metadata '/Game/_Weapons/Rifle/AK_47/Weapon_Rifle_AK_47.PackageMetaData'
+[2018.05.08-14.21.25:592][484]LogMetaData: Removing '/Game/_Weapons/Rifle/AK_47/Weapon_Rifle_AK47.Weapon_Rifle_AK47:EventGraph.K2Node_Event_2' ref from Metadata '/Game/_Weapons/Rifle/AK_47/Weapon_Rifle_AK_47.PackageMetaData'
+[2018.05.08-14.21.25:592][484]LogMetaData: Removing '/Game/_Weapons/Rifle/AK_47/Weapon_Rifle_AK47.SKEL_Weapon_Rifle_AK47_C' ref from Metadata '/Game/_Weapons/Rifle/AK_47/Weapon_Rifle_AK_47.PackageMetaData'
+[2018.05.08-14.21.25:653][484]LogSavePackage: Save=17.46ms
+[2018.05.08-14.21.25:653][484]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Weapon_Rifle_AK4709CD7F5548BF560292EC3CBFF96F1FE7.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/Rifle/AK_47/Weapon_Rifle_AK47.uasset'
+[2018.05.08-14.21.25:657][484]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/Rifle/AK_47/Weapon_Rifle_AK47.uasset
+[2018.05.08-14.21.33:401][894]LogSavePackage: Save=1381.35ms
+[2018.05.08-14.21.33:401][894]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacterC17264784DFA2DCE7AD362922AE5DB11.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
+[2018.05.08-14.21.33:405][894]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
+[2018.05.08-14.21.38:446][494]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2018.05.08-14.21.44:353][ 79]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_Weapon_Rifle_AK47_C_CHILDACTOR_3496.m_bodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.21.44:354][ 79]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Weapon_Rifle_AK47_C_CHILDACTOR_3498.m_bodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.21.44:811][132]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Weapon_Rifle_AK47_C_CHILDACTOR_3525.m_bodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.21.44:812][132]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_Weapon_Rifle_AK47_C_CHILDACTOR_3527.m_bodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.21.46:244][302]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Weapon_Rifle_AK47_C_CHILDACTOR_3554.m_bodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.21.46:244][302]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_Weapon_Rifle_AK47_C_CHILDACTOR_3556.m_bodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.23.04:616][ 68]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/World' took 0.028
+[2018.05.08-14.23.04:618][ 68]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_Weapons/Rifle/AK_47/Weapon_Rifle_AK47] ([1] browsable assets)...
+[2018.05.08-14.23.04:634][ 68]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/_Weapons/Rifle/AK_47/Weapon_Rifle_AK47.Weapon_Rifle_AK47]
+[2018.05.08-14.23.04:634][ 68]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Weapons/Rifle/AK_47/Weapon_Rifle_AK47]
+[2018.05.08-14.23.04:662][ 68]LogSavePackage: Save=17.74ms
+[2018.05.08-14.23.04:662][ 68]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Weapon_Rifle_AK47_Auto340C9564B433AFD090F9CFF9E97044169.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Weapons/Rifle/AK_47/Weapon_Rifle_AK47_Auto3.uasset'
+[2018.05.08-14.23.04:663][ 68]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Weapons/Rifle/AK_47/Weapon_Rifle_AK47_Auto3.uasset
+[2018.05.08-14.23.04:664][ 68]LogFileHelpers: Auto-saving content packages took 0.046
+[2018.05.08-14.23.08:549][ 80]BlueprintLog: New page: Weapon_Rifle_AK47 컴파일
+[2018.05.08-14.23.09:237][ 80]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Weapon_Rifle_AK47_C_CHILDACTOR_3449.m_bodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.23.09:238][ 80]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_Weapon_Rifle_AK47_C_CHILDACTOR_3469.m_bodyMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.08-14.23.10:379][198]LogSavePackage: Save=16.41ms
+[2018.05.08-14.23.10:379][198]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Weapon_Rifle_AK47BAD891E2484FB5ED5F6170B7E9E289BA.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/Rifle/AK_47/Weapon_Rifle_AK47.uasset'
+[2018.05.08-14.23.10:383][198]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/Rifle/AK_47/Weapon_Rifle_AK47.uasset
+[2018.05.08-14.24.31:993][ 71]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.05.08-14.24.33:120][179]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.08-14.24.33:120][179]PIE: New page: PIE 세션: World (2018. 5. 9. 오전 8:24:33)
+[2018.05.08-14.24.33:120][179]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.05.08-14.24.33:485][179]LogPlayLevel: PIE: StaticDuplicateObject took: (0.364038s)
+[2018.05.08-14.24.33:485][179]LogAIModule: Creating AISystem for world World
+[2018.05.08-14.24.33:486][179]LogPlayLevel: PIE: World Init took: (0.000840s)
+[2018.05.08-14.24.33:486][179]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.366016s)
+[2018.05.08-14.24.33:526][179]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.08-14.24.33:542][179]LogInit: FAudioDevice initialized.
+[2018.05.08-14.24.33:571][179]LogLoad: Game class is 'AWWAGameMode'
+[2018.05.08-14.24.33:681][179]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.05.08-23.24.33
+[2018.05.08-14.24.33:686][179]LogWorld: Bringing up level for play took: 0.113783
+[2018.05.08-14.24.33:691][179]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.574
+[2018.05.08-14.24.34:500][265]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-33.19 Y=146.97 Z=0.00 Location: X=118965.66 Y=41444.88 Z=5024.03 Normal: X=-0.16 Y=0.98 Z=-0.11 PenetrationDepth:24.933 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_bodyMesh BoneName:None (0 other events since notify)
+[2018.05.08-14.24.35:502][383]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=298.20 Y=-520.65 Z=0.00 Location: X=118825.19 Y=41824.49 Z=5024.02 Normal: X=-0.32 Y=-0.36 Z=-0.87 PenetrationDepth:31.489 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_pullMesh BoneName:None (105 other events since notify)
+[2018.05.08-14.24.36:502][503]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=46.91 Y=-174.28 Z=0.00 Location: X=119397.47 Y=41639.74 Z=5024.09 Normal: X=0.78 Y=-0.61 Z=-0.16 PenetrationDepth:29.093 Actor:WeaponBack_GEN_VARIABLE_Weapon_Rifle_AK_47_C_CAT_0 Component:m_magMesh BoneName:None (86 other events since notify)
