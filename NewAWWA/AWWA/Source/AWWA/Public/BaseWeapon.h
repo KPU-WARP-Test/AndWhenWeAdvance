@@ -4,16 +4,16 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "BaseWeaponRifle.generated.h"
+#include "BaseWeapon.generated.h"
 
 UCLASS()
-class AWWA_API ABaseWeaponRifle : public AActor
+class AWWA_API ABaseWeapon : public AActor
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
-	ABaseWeaponRifle();
+	ABaseWeapon();
 
 protected:
 	// Called when the game starts or when spawned
@@ -26,6 +26,7 @@ public:
 
 	UPROPERTY(BlueprintReadWrite, EditDefaultsOnly, Category = "Type")
 	int32 m_weaponType;
+	// 1은 라이플, 2는 권총, 3은 근접무기, 4는 투척무기
 
 	UPROPERTY(BlueprintReadWrite, EditDefaultsOnly, Category = "Stat")
 	float m_damage;
