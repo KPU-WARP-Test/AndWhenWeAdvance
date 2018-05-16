@@ -40,8 +40,8 @@ void AAWWAHUD::DrawAWWADemoUI()
 	Canvas->DrawItem(TileItem);
 
 	const FVector2D AWWADemoUI2Center(Canvas->ClipX * 0.5f, Canvas->ClipY * 0.5f);
-	const FVector2D AWWADemoUI2Position((-20.0f), (-10.0f));
-
+	const FVector2D AWWADemoUI2Position((Canvas->ClipX - 200.0f), (Canvas->ClipY - 60.0f));
+	
 	FCanvasTileItem TileItem2(AWWADemoUI2Position, AWWADemoUI2Tex->Resource, FLinearColor::White);
 	TileItem2.BlendMode = SE_BLEND_Translucent;
 	Canvas->DrawItem(TileItem2);
