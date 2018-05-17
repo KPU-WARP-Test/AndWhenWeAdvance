@@ -3,7 +3,7 @@ Project AndWhenWeAdvance
 
 __Welcome to the Project AndWhenWeAdvance Repository!__
 
-![helloImg](./Concept/Hello.png)
+![helloImg](./Concept/Hello.PNG)
 
 >This project, Created with ___Unreal Engine 4___, is a ___one person development project___ about  ___open world___, ___zombie___, ___TPS genre game___.
 And it is also a graduation piece of the ___Korea Polytechnic University's Game Engineering Department___.
