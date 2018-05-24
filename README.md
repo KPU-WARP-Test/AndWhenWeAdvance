@@ -43,9 +43,9 @@ __Please understand that this project has been under commercialization.__
 
 Thanks for Whatching!
 -----
-Game For People Design Order
+>Game For People _Design Order_
 
-_Won Seong-Yeon_
+>___Won Seong-Yeon___
 
 
 * If you want to contact me : [GoMyHomepage][1]
