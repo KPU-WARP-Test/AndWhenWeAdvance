@@ -1,4 +1,4 @@
-﻿Log file open, 05/28/18 18:41:56
+﻿Log file open, 05/29/18 21:23:28
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: AWWA
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1063421961) SRandInit(-1063421961).
+LogInit: Display: RandInit(-2108275992) SRandInit(-2108275992).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.228329
+LogStats: Stats thread started at 0.226603
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -192,411 +192,376 @@ LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line: 
+LogInit: Command line: -EpicPortal 
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.05.28-09.41.58:211][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.28-09.41.58:211][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.05.28-09.41.58:228][  0]LogInit: Computer: DESKTOP-SFT0388
-[2018.05.28-09.41.58:228][  0]LogInit: User: korea
-[2018.05.28-09.41.58:228][  0]LogInit: CPU Page size=4096, Cores=6
-[2018.05.28-09.41.58:228][  0]LogInit: High frequency timer resolution =3.609372 MHz
-[2018.05.28-09.41.58:228][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.05.28-09.41.58:228][  0]LogMemory: Platform Memory Stats for Windows
-[2018.05.28-09.41.58:228][  0]LogMemory: Process Physical Memory: 275.70 MB used, 275.70 MB peak
-[2018.05.28-09.41.58:228][  0]LogMemory: Process Virtual Memory: 274.34 MB used, 274.34 MB peak
-[2018.05.28-09.41.58:228][  0]LogMemory: Physical Memory: 4157.92 MB used,  12160.08 MB free, 16318.00 MB total
-[2018.05.28-09.41.58:228][  0]LogMemory: Virtual Memory: 4783.12 MB used,  12160.08 MB free, 134217728.00 MB total
-[2018.05.28-09.41.58:431][  0]LogInit: Using OS detected language (ko-KR).
-[2018.05.28-09.41.58:431][  0]LogInit: Using OS detected locale (ko-KR).
-[2018.05.28-09.41.58:434][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
-[2018.05.28-09.41.58:561][  0]LogInit: Setting process to per monitor DPI aware
-[2018.05.28-09.41.58:849][  0]LogD3D11RHI: D3D11 adapters:
-[2018.05.28-09.41.58:902][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070 Ti' (Feature Level 11_0)
-[2018.05.28-09.41.58:902][  0]LogD3D11RHI:       8080/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.05.28-09.41.58:903][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.05.28-09.41.58:903][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.05.28-09.41.58:903][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.05.28-09.41.58:907][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.05.28-09.41.58:907][  0]LogD3D11RHI:     GPU DeviceId: 0x1b82 (for the marketing name, search the web for "GPU Device Id")
-[2018.05.28-09.41.58:907][  0]LogWindows: EnumDisplayDevices:
-[2018.05.28-09.41.58:908][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070 Ti' (P:1 D:1)
-[2018.05.28-09.41.58:908][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:1)
-[2018.05.28-09.41.58:908][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
-[2018.05.28-09.41.58:909][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
-[2018.05.28-09.41.58:909][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.05.28-09.41.58:909][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070 Ti
-[2018.05.28-09.41.58:909][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.05.28-09.41.58:909][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.05.28-09.41.58:909][  0]LogRHI: Texture pool is 5656 MB (70% of 8080 MB)
-[2018.05.28-09.41.58:936][  0]LogD3D11RHI: Async texture creation enabled
-[2018.05.28-09.41.58:952][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.05.28-09.41.59:047][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Intermediate/Shaders/WorkingDirectory/5792/).
-[2018.05.28-09.41.59:047][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/korea/AppData/Local/Temp/UnrealShaderWorkingDir/555C63054D4AF37321C8A7B4F3F473FC/'.
-[2018.05.28-09.41.59:047][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.05.28-09.41.59:804][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.05.28-09.41.59:867][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.05.28-09.41.59:930][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.05.28-09.41.59:998][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.05.28-09.42.00:062][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.05.28-09.42.00:126][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.05.28-09.42.00:189][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.05.28-09.42.00:252][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.05.28-09.42.00:311][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.05.28-09.42.00:373][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.05.28-09.42.00:435][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.05.28-09.42.00:496][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.05.28-09.42.00:558][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.05.28-09.42.00:621][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.05.28-09.42.00:746][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.05.28-09.42.00:747][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.05.28-09.42.00:809][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.05.28-09.42.00:862][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.05.28-09.42.00:971][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.05.28-09.42.01:009][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.05.28-09.42.01:071][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.05.28-09.42.01:133][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.05.28-09.42.01:194][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.05.28-09.42.01:255][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.05.28-09.42.01:255][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.05.28-09.42.01:858][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.05.28-09.42.01:918][  0]LogDerivedDataCache: Loaded boot cache 0.06s 99MB C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.05.28-09.42.01:918][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.05.28-09.42.01:918][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.05.28-09.42.01:918][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.05.28-09.42.01:918][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.05.28-09.42.01:918][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.05.28-09.42.01:930][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.05.28-09.42.01:942][  0]LogDerivedDataCache: Using Local data cache path C:/Users/korea/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.05.28-09.42.01:949][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.05.28-09.42.01:949][  0]LogSlate: Using Freetype 2.6.0
-[2018.05.28-09.42.01:950][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.28-09.42.01:950][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.28-09.42.02:250][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.28-09.42.02:621][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.05.28-09.42.02:676][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.05.28-09.42.02:676][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.05.28-09.42.02:676][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.05.28-09.42.02:676][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.05.28-09.42.02:676][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.05.28-09.42.02:706][  0]LogNetVersion: AWWA , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3043977046)
-[2018.05.28-09.42.02:869][  0]LogAssetRegistry: FAssetRegistry took 0.0248 seconds to start up
-[2018.05.28-09.42.03:346][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.052353 seconds
-[2018.05.28-09.42.03:350][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.05.28-09.42.03:350][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
-[2018.05.28-09.42.03:350][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.05.28-09.42.03:422][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.05.28-09.42.06:511][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.05.28-09.42.06:580][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.05.28-09.42.09:411][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.05.28-09.42.09:929][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.05.28-09.42.09:929][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.05.28-09.42.10:001][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.05.28-09.42.10:071][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.05.28-09.42.11:143][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.05.28-09.42.11:500][  0]LogOcInput: OculusInput pre-init called
-[2018.05.28-09.42.11:858][  0]LogEngine: Initializing Engine...
-[2018.05.28-09.42.11:860][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.05.28-09.42.12:004][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.28-09.42.12:004][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.28-09.42.12:178][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.05.28-09.42.12:205][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.28-09.42.12:232][  0]LogInit: FAudioDevice initialized.
-[2018.05.28-09.42.12:331][  0]LogDerivedDataCache: Saved boot cache 0.10s 100MB C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.05.28-09.42.12:346][  0]LogInit: Texture streaming: Enabled
-[2018.05.28-09.42.12:487][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.05.28-09.42.12:660][  0]LogInit: Transaction tracking system initialized
-[2018.05.28-09.42.13:083][  0]BlueprintLog: New page: 에디터 로드
-[2018.05.28-09.42.14:762][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
-[2018.05.28-09.42.15:760][  0]LogConsoleResponse: Display: 
-[2018.05.28-09.42.15:977][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.05.28-09.42.15:977][  0]LogCook: Display: Mobile HDR setting 1
-[2018.05.28-09.42.15:977][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.05.28-09.42.17:473][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/' took 0.03s
-[2018.05.28-09.42.17:536][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.05.28-09.42.17:536][  0]Cmd: MAP LOAD FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.05.28-09.42.17:536][  0]LightingResults: New page: 라이팅 빌드
-[2018.05.28-09.42.17:592][  0]MapCheck: New page: 맵 체크
-[2018.05.28-09.42.17:592][  0]LightingResults: New page: 라이팅 빌드
-[2018.05.28-09.42.31:270][  0]LogAIModule: Creating AISystem for world World
-[2018.05.28-09.42.45:081][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.05.28-09.42.45:178][  0]MapCheck: /Game/_Maps/World 레벨의 39 개 컴포넌트에 대해 칠해진 버텍스 컬러 수리에 0.0s 걸렸습니다. 맵을 다시 저장하면 확정됩니다. 
-[2018.05.28-09.42.45:178][  0]MapCheck: Warning: 스태틱 메시 리임포트로 인해 칠해진 버텍스 컬러를 고치는 데 시간이 0.0s 만큼 걸렸습니다. 맵을 다시 저장하기 전까지는 로드할 때마다 이 작업이 실행됩니다. 
-[2018.05.28-09.42.45:178][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.05.28-09.42.45:448][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 1 회, 소요 시간 270.557ms.
-[2018.05.28-09.42.45:468][  0]LogFileHelpers: Loading map 'World' took 27.931
-[2018.05.28-09.42.45:610][  0]LogCollectionManager: Loaded 0 collections in 0.001367 seconds
-[2018.05.28-09.42.45:736][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Collections/' took 0.01s
-[2018.05.28-09.42.45:736][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Developers/korea/Collections/' took 0.01s
-[2018.05.28-09.42.45:736][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Collections/' took 0.01s
-[2018.05.28-09.42.45:736][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.05.28-09.42.45:743][  0]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 2367 classes and 522 folders.
-[2018.05.28-09.42.45:835][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2018.05.28-09.42.46:057][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2018.05.28-09.42.46:121][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2018.05.28-09.42.46:421][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.05.28-09.42.47:092][  0]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.28-09.42.47:095][  0]LogSlate: Took 0.002599 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
-[2018.05.28-09.42.47:098][  0]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.05.28-09.42.47:103][  0]LogSlate: Took 0.003880 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.05.28-09.42.47:280][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.AWWA
-[2018.05.28-09.42.47:280][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
-[2018.05.28-09.42.47:280][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
-[2018.05.28-09.42.47:280][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
-[2018.05.28-09.42.47:280][  0]LogTemp: BranchPath = DESKTOP-SFT0388/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = DESKTOP-SFT0388/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
-[2018.05.28-09.42.47:280][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\korea\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.05.28-09.42.47:280][  0]LogRenderer: Reallocating scene render targets to support 1900x632 Format 10 NumSamples 1 (Frame:1).
-[2018.05.28-09.42.47:464][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2018.05.28-09.42.47:464][  0]LogLoad: (Engine Initialization) Total time: 52.22 seconds
-[2018.05.28-09.42.47:464][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.05.28-09.42.47:464][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.05.28-09.42.47:475][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
-[2018.05.28-09.42.47:497][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.05.28-09.42.47:659][  2]LogAssetRegistry: Asset discovery search completed in 44.8121 seconds
-[2018.05.28-09.42.47:662][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.05.28-09.42.47:662][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
-[2018.05.28-09.42.48:499][ 81]LogSlate: Took 0.003119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.28-09.42.48:771][ 81]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 116 classes and 0 folders.
-[2018.05.28-09.42.49:491][ 81]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2018.05.28-09.42.49:656][ 81]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2018.05.28-09.42.49:846][ 81]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2018.05.28-09.42.50:935][ 81]LogSlate: Took 0.006561 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.05.28-09.42.51:255][ 82]LogSlate: Took 0.002810 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.05.28-09.48.31:849][393]LogRenderer: Reallocating scene render targets to support 1900x696 Format 10 NumSamples 1 (Frame:1).
-[2018.05.28-09.52.41:311][822]LogSlate: Took 0.000278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.28-09.52.50:346][849]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/World' took 0.027
-[2018.05.28-09.52.50:348][849]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_Character/EDIT_Main_Anim] ([1] browsable assets)...
-[2018.05.28-09.52.50:367][849]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/_Character/EDIT_Main_Anim.EDIT_Main_Anim]
-[2018.05.28-09.52.50:367][849]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Character/EDIT_Main_Anim]
-[2018.05.28-09.52.51:018][849]LogSavePackage: Save=644.00ms
-[2018.05.28-09.52.51:018][849]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Main_Anim_Auto18C36DE2740D2B89AFF09BC9EE47294B6.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Character/EDIT_Main_Anim_Auto1.uasset'
-[2018.05.28-09.52.51:023][849]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Character/EDIT_Main_Anim_Auto1.uasset
-[2018.05.28-09.52.51:023][849]LogFileHelpers: Auto-saving content packages took 0.676
-[2018.05.28-09.52.51:024][849]LogSlate: Took 0.001095 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.28-09.59.49:825][330]LogSavePackage: Save=87.30ms
-[2018.05.28-09.59.49:825][330]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Weapon_Rifle_AK47A007918949D170024DD501A31EC06431.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/Rifle/AK_47/Weapon_Rifle_AK47.uasset'
-[2018.05.28-09.59.49:826][330]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/Rifle/AK_47/Weapon_Rifle_AK47.uasset
-[2018.05.28-10.02.51:450][707]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/World' took 0.027
-[2018.05.28-10.02.51:451][707]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_Weapons/SMG/Skorpion/Weapon_SMG_Skorpion] ([1] browsable assets)...
-[2018.05.28-10.02.51:475][707]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/_Weapons/SMG/Skorpion/Weapon_SMG_Skorpion.Weapon_SMG_Skorpion]
-[2018.05.28-10.02.51:475][707]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Weapons/SMG/Skorpion/Weapon_SMG_Skorpion]
-[2018.05.28-10.02.51:558][707]LogSavePackage: Save=75.63ms
-[2018.05.28-10.02.51:559][707]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Weapon_SMG_Skorpion_Auto2AE30E40C47E1EC9B16763BBBF1BC4123.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Weapons/SMG/Skorpion/Weapon_SMG_Skorpion_Auto2.uasset'
-[2018.05.28-10.02.51:560][707]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Weapons/SMG/Skorpion/Weapon_SMG_Skorpion_Auto2.uasset
-[2018.05.28-10.02.51:560][707]LogFileHelpers: Auto-saving content packages took 0.109
-[2018.05.28-12.36.35:288][420]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.05.28-12.37.12:680][194]LogHotReload: New module detected: UE4Editor-AWWA-5586.dll
-[2018.05.28-12.37.13:402][238]LogHotReload: Starting Hot-Reload from IDE
-[2018.05.28-12.37.13:855][238]LogClass: Could not find existing class BaseWeapon in package /Script/AWWA for HotReload, assuming new class
-[2018.05.28-12.37.13:870][238]LogHotReload: Re-instancing BaseWeapon after hot-reload.
-[2018.05.28-12.37.15:287][238]LogActorComponent: RegisterComponentWithWorld: (/Game/_Maps/World.World:PersistentLevel.DESTROYED_Weapon_Rifle_AK47_C_CHILDACTOR_602.Scene) Trying to register component with IsPendingKill() == true. Aborting.
-[2018.05.28-12.37.15:289][238]LogActorComponent: RegisterComponentWithWorld: (/Game/_Maps/World.World:PersistentLevel.DESTROYED_Weapon_Rifle_AK47_C_CHILDACTOR_604.Scene) Trying to register component with IsPendingKill() == true. Aborting.
-[2018.05.28-12.37.15:291][238]LogActorComponent: RegisterComponentWithWorld: (/Game/_Maps/World.World:PersistentLevel.DESTROYED_Weapon_Rifle_AK47_C_CHILDACTOR_606.Scene) Trying to register component with IsPendingKill() == true. Aborting.
-[2018.05.28-12.37.15:292][238]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Weapon_Rifle_AK47_C_CHILDACTOR_2.Scene) Trying to register component with IsPendingKill() == true. Aborting.
-[2018.05.28-12.37.16:551][238]LogContentBrowser: Native class hierarchy updated for 'AWWA' in 0.0009 seconds. Added 4 classes and 3 folders.
-[2018.05.28-12.37.16:554][238]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.05.28-12.37.16:879][238]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2370 classes and 528 folders.
-[2018.05.28-12.37.17:428][238]Display: HotReload took  4.0s.
-[2018.05.28-12.37.27:416][246]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/World' took 0.038
-[2018.05.28-12.37.27:418][246]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Weapons/SMG/Skorpion/Weapon_SMG_Skorpion] ([1] browsable assets)...
-[2018.05.28-12.37.27:418][246]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Weapons/SMG/Skorpion/Weapon_SMG_Skorpion]
-[2018.05.28-12.37.27:505][246]LogSavePackage: Save=77.12ms
-[2018.05.28-12.37.27:505][246]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Weapon_SMG_Skorpion_Auto39556CF224224ABFCA9439CBA41F4353E.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Weapons/SMG/Skorpion/Weapon_SMG_Skorpion_Auto3.uasset'
-[2018.05.28-12.37.27:506][246]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Weapons/SMG/Skorpion/Weapon_SMG_Skorpion_Auto3.uasset
-[2018.05.28-12.37.27:506][246]LogFileHelpers: Auto-saving content packages took 0.089
-[2018.05.28-12.37.32:772][792]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.05.28-12.37.34:998][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Maps/World" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.05.28-12.37.44:312][ 40]LogSavePackage: Save=9230.99ms
-[2018.05.28-12.37.44:312][ 40]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/World446EE7FC42EABB4A598BB0996E89BFA9.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World.umap'
-[2018.05.28-12.37.44:324][ 40]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World.umap
-[2018.05.28-12.37.44:365][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Maps/World_BuiltData" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World_BuiltData.uasset" SILENT=true
-[2018.05.28-12.37.44:375][ 40]LogSavePackage: Save=3.76ms
-[2018.05.28-12.37.44:375][ 40]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/World_BuiltDataF06B6BBD490EB0FBA74F57A57E5F0BCA.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World_BuiltData.uasset'
-[2018.05.28-12.37.44:376][ 40]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World_BuiltData.uasset
-[2018.05.28-12.37.47:413][403]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane2)
-[2018.05.28-12.37.48:321][485]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
-[2018.05.28-12.37.48:322][485]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.28-12.37.48:322][485]PIE: New page: PIE 세션: World (2018. 5. 29. 오전 6:37:48)
-[2018.05.28-12.37.48:322][485]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
-[2018.05.28-12.37.48:690][485]LogPlayLevel: PIE: StaticDuplicateObject took: (0.368416s)
-[2018.05.28-12.37.48:691][485]LogAIModule: Creating AISystem for world World
-[2018.05.28-12.37.48:691][485]LogPlayLevel: PIE: World Init took: (0.000740s)
-[2018.05.28-12.37.48:693][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.370561s)
-[2018.05.28-12.37.48:741][485]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.28-12.37.48:760][485]LogInit: FAudioDevice initialized.
-[2018.05.28-12.37.48:804][485]LogLoad: Game class is 'AWWAGameMode'
-[2018.05.28-12.37.48:920][485]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.05.28-21.37.48
-[2018.05.28-12.37.48:926][485]LogWorld: Bringing up level for play took: 0.121333
-[2018.05.28-12.37.48:996][485]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
-[2018.05.28-12.37.49:004][485]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.668
-[2018.05.28-12.37.49:005][485]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
-[2018.05.28-12.38.15:695][663]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=11.29 Y=-12.80 Z=0.00 Location: X=121518.66 Y=40414.50 Z=5311.91 Normal: X=-0.00 Y=0.00 Z=-1.00 PenetrationDepth:0.806 Actor:Cube90 Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
-[2018.05.28-12.38.16:700][783]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=794.53 Y=93.36 Z=0.00 Location: X=121518.66 Y=40414.50 Z=5311.90 Normal: X=-0.00 Y=0.00 Z=-1.00 PenetrationDepth:0.798 Actor:Cube90 Component:StaticMeshComponent0 BoneName:None (119 other events since notify)
-[2018.05.28-12.38.17:034][823]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
-[2018.05.28-12.38.17:114][823]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
-[2018.05.28-12.48.33:842][671]LogHotReload: New module detected: UE4Editor-AWWA-900.dll
-[2018.05.28-12.48.34:184][673]LogHotReload: Starting Hot-Reload from IDE
-[2018.05.28-12.48.34:671][673]LogClass: Could not find existing class BaseWeapon in package /Script/AWWA for HotReload, assuming new class
-[2018.05.28-12.48.34:688][673]LogHotReload: Re-instancing BaseWeapon after hot-reload.
-[2018.05.28-12.48.34:699][673]LogK2Compiler: Warning: ValidateVariableNames name m_state (used in /Game/_Weapons/Pistol/45ACPSmithandWesson/Weapon_Pistol_45ACP.Weapon_Pistol_45ACP) is already taken by /Script/AWWA.BaseWeapon:m_state
-[2018.05.28-12.48.34:700][673]LogBlueprint: Warning: [Compiler Weapon_Pistol_45ACP] 멤버 변수에 이름 충돌이 있어 변경했습니다: m_state -> m_state_0.
-[2018.05.28-12.48.34:729][673]LogBlueprint: Warning: [Compiler Weapon_Pistol_45ACP] [1199.48] Weapon_Pistol_45ACP 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 29 ms] (/Game/_Weapons/Pistol/45ACPSmithandWesson/Weapon_Pistol_45ACP.Weapon_Pistol_45ACP)
-[2018.05.28-12.48.35:691][673]LogK2Compiler: Warning: ValidateVariableNames name m_state (used in /Game/_Weapons/Rifle/AK_47/Weapon_Rifle_AK47.Weapon_Rifle_AK47) is already taken by /Script/AWWA.BaseWeapon:m_state
-[2018.05.28-12.48.35:691][673]LogBlueprint: Warning: [Compiler Weapon_Rifle_AK47] 멤버 변수에 이름 충돌이 있어 변경했습니다: m_state -> m_state_0.
-[2018.05.28-12.48.35:760][673]LogBlueprint: Warning: [Compiler Weapon_Rifle_AK47] [1200.51] Weapon_Rifle_AK47 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 68 ms] (/Game/_Weapons/Rifle/AK_47/Weapon_Rifle_AK47.Weapon_Rifle_AK47)
-[2018.05.28-12.48.36:267][673]LogK2Compiler: Warning: ValidateVariableNames name m_state (used in /Game/_Weapons/Rifle/M4a1/Weapon_Rifle_M4a1.Weapon_Rifle_M4a1) is already taken by /Script/AWWA.BaseWeapon:m_state
-[2018.05.28-12.48.36:268][673]LogBlueprint: Warning: [Compiler Weapon_Rifle_M4a1] 멤버 변수에 이름 충돌이 있어 변경했습니다: m_state -> m_state_0.
-[2018.05.28-12.48.36:283][673]LogBlueprint: Warning: [Compiler Weapon_Rifle_M4a1] [1201.04] Weapon_Rifle_M4a1 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 15 ms] (/Game/_Weapons/Rifle/M4a1/Weapon_Rifle_M4a1.Weapon_Rifle_M4a1)
-[2018.05.28-12.48.36:554][673]LogK2Compiler: Warning: ValidateVariableNames name m_state (used in /Game/_Weapons/SMG/MAC11/Weapon_SMG_MAC11.Weapon_SMG_MAC11) is already taken by /Script/AWWA.BaseWeapon:m_state
-[2018.05.28-12.48.36:555][673]LogBlueprint: Warning: [Compiler Weapon_SMG_MAC11] 멤버 변수에 이름 충돌이 있어 변경했습니다: m_state -> m_state_0.
-[2018.05.28-12.48.36:580][673]LogBlueprint: Warning: [Compiler Weapon_SMG_MAC11] [1201.33] Weapon_SMG_MAC11 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 25 ms] (/Game/_Weapons/SMG/MAC11/Weapon_SMG_MAC11.Weapon_SMG_MAC11)
-[2018.05.28-12.48.36:860][673]LogK2Compiler: Warning: ValidateVariableNames name m_state (used in /Game/_Weapons/SMG/Skorpion/Weapon_SMG_Skorpion.Weapon_SMG_Skorpion) is already taken by /Script/AWWA.BaseWeapon:m_state
-[2018.05.28-12.48.36:860][673]LogBlueprint: Warning: [Compiler Weapon_SMG_Skorpion] 멤버 변수에 이름 충돌이 있어 변경했습니다: m_state -> m_state_0.
-[2018.05.28-12.48.36:877][673]LogBlueprint: Warning: [Compiler Weapon_SMG_Skorpion] [1201.63] Weapon_SMG_Skorpion 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 16 ms] (/Game/_Weapons/SMG/Skorpion/Weapon_SMG_Skorpion.Weapon_SMG_Skorpion)
-[2018.05.28-12.48.37:283][673]LogK2Compiler: Warning: ValidateVariableNames name m_state (used in /Game/_Weapons/Pistol/Anaconda/Weapon_Pistol_ANACONDA.Weapon_Pistol_ANACONDA) is already taken by /Script/AWWA.BaseWeapon:m_state
-[2018.05.28-12.48.37:283][673]LogBlueprint: Warning: [Compiler Weapon_Pistol_ANACONDA] 멤버 변수에 이름 충돌이 있어 변경했습니다: m_state -> m_state_0.
-[2018.05.28-12.48.37:299][673]LogBlueprint: Warning: [Compiler Weapon_Pistol_ANACONDA] [1202.05] Weapon_Pistol_ANACONDA 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 15 ms] (/Game/_Weapons/Pistol/Anaconda/Weapon_Pistol_ANACONDA.Weapon_Pistol_ANACONDA)
-[2018.05.28-12.48.37:747][673]LogContentBrowser: Native class hierarchy updated for 'AWWA' in 0.0008 seconds. Added 4 classes and 3 folders.
-[2018.05.28-12.48.37:750][673]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.05.28-12.48.38:021][673]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2370 classes and 528 folders.
-[2018.05.28-12.48.38:029][673]Display: HotReload took  3.8s.
-[2018.05.28-12.48.48:136][703]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/World' took 0.055
-[2018.05.28-12.48.48:137][703]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Weapons/SMG/Skorpion/Weapon_SMG_Skorpion] ([1] browsable assets)...
-[2018.05.28-12.48.48:137][703]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Weapons/SMG/Skorpion/Weapon_SMG_Skorpion]
-[2018.05.28-12.48.48:211][703]LogSavePackage: Save=67.57ms
-[2018.05.28-12.48.48:211][703]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Weapon_SMG_Skorpion_Auto45FF2B49941F7A999F9EAF48942EDD762.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Weapons/SMG/Skorpion/Weapon_SMG_Skorpion_Auto4.uasset'
-[2018.05.28-12.48.48:214][703]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Weapons/SMG/Skorpion/Weapon_SMG_Skorpion_Auto4.uasset
-[2018.05.28-12.48.48:214][703]LogFileHelpers: Auto-saving content packages took 0.079
-[2018.05.28-12.49.07:088][103]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0007 seconds. Added 1 classes and 0 folders.
-[2018.05.28-12.49.10:472][431]MapCheck: New page: 맵 체크
-[2018.05.28-12.49.10:497][431]Cmd: MAP REBUILD ALLVISIBLE
-[2018.05.28-12.49.10:497][431]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2018.05.28-12.49.11:880][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2018.05.28-12.49.11:899][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
-[2018.05.28-12.49.11:904][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TranslucentWater, compiling. 
-[2018.05.28-12.49.11:910][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
-[2018.05.28-12.49.11:914][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Road_01_Inst, compiling. 
-[2018.05.28-12.49.11:918][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Cobble_01, compiling. 
-[2018.05.28-12.49.11:922][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Block_Paving_Old_01, compiling. 
-[2018.05.28-12.49.11:926][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Concrete_01, compiling. 
-[2018.05.28-12.49.11:936][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Carpet_01, compiling. 
-[2018.05.28-12.49.11:941][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Wallpaper_05, compiling. 
-[2018.05.28-12.49.11:946][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Win_Roof_Style_01, compiling. 
-[2018.05.28-12.49.11:953][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Glass_01, compiling. 
-[2018.05.28-12.49.11:959][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Glass_03, compiling. 
-[2018.05.28-12.49.11:966][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Wallpaper_01, compiling. 
-[2018.05.28-12.49.11:970][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Roof_Tiles_01_Inst, compiling. 
-[2018.05.28-12.49.11:977][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Glass_02, compiling. 
-[2018.05.28-12.49.11:985][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Roof_Tiles_03_Inst, compiling. 
-[2018.05.28-12.49.11:994][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy hedge_01_Inst, compiling. 
-[2018.05.28-12.49.11:999][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Wood_Cladding_Painted_01, compiling. 
-[2018.05.28-12.49.12:005][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Roof_Felt_01, compiling. 
-[2018.05.28-12.49.12:015][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Kitchen_Units_01, compiling. 
-[2018.05.28-12.49.12:033][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Swimming_Pool_Water_01, compiling. 
-[2018.05.28-12.49.12:040][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Basketball_Hoop_01_inst, compiling. 
-[2018.05.28-12.49.12:053][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Kitchen_Units_01_White, compiling. 
-[2018.05.28-12.49.12:088][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Paint_Can_03, compiling. 
-[2018.05.28-12.49.12:120][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Bed_03, compiling. 
-[2018.05.28-12.49.12:124][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Bed_02, compiling. 
-[2018.05.28-12.49.12:129][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Curtains_01, compiling. 
-[2018.05.28-12.49.12:135][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bricks_red_concrete_trim, compiling. 
-[2018.05.28-12.49.12:138][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Glass, compiling. 
-[2018.05.28-12.49.12:147][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Boards_Inst, compiling. 
-[2018.05.28-12.49.12:152][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Huts_Parallaxing, compiling. 
-[2018.05.28-12.49.12:159][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Huts_Mat, compiling. 
-[2018.05.28-12.49.12:164][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Thatch_Inst, compiling. 
-[2018.05.28-12.49.12:169][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy FishingBoat_Inst, compiling. 
-[2018.05.28-12.49.12:175][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Sheds_Atlas_Inst, compiling. 
-[2018.05.28-12.49.12:179][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
-[2018.05.28-12.49.12:183][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy AvacadoBark_Inst, compiling. 
-[2018.05.28-12.49.12:188][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy AvacadoLeaf_Inst, compiling. 
-[2018.05.28-12.49.12:195][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy AvacadoBillboard_Inst, compiling. 
-[2018.05.28-12.49.12:201][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Glass2, compiling. 
-[2018.05.28-12.49.12:207][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Eye_MAT, compiling. 
-[2018.05.28-12.49.12:212][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Eye_Spec_MAT, compiling. 
-[2018.05.28-12.49.12:217][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Body_MAT, compiling. 
-[2018.05.28-12.49.12:222][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Brows_MAT, compiling. 
-[2018.05.28-12.49.12:228][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Body_MAT_ncl1_1, compiling. 
-[2018.05.28-12.49.12:233][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Reflectors, compiling. 
-[2018.05.28-12.49.12:238][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Reflectors_ncl1_1, compiling. 
-[2018.05.28-12.49.12:243][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultTextMaterialOpaque, compiling. 
-[2018.05.28-12.49.12:247][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_midCalibres, compiling. 
-[2018.05.28-12.49.12:251][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_cal7_62, compiling. 
-[2018.05.28-12.49.12:255][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PaperBox, compiling. 
-[2018.05.28-12.49.12:258][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Colt_Python1, compiling. 
-[2018.05.28-12.49.12:262][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
-[2018.05.28-12.49.12:266][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy handgun, compiling. 
-[2018.05.28-12.49.12:269][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_AK_47_Body, compiling. 
-[2018.05.28-12.49.12:273][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_AK_47_Pull, compiling. 
-[2018.05.28-12.49.12:277][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_AK_47_Mag, compiling. 
-[2018.05.28-12.49.12:280][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M4A1_mat, compiling. 
-[2018.05.28-12.49.12:284][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_MAC11, compiling. 
-[2018.05.28-12.49.12:288][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Skorpion, compiling. 
-[2018.05.28-12.49.12:292][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Colt_Anaconda1, compiling. 
-[2018.05.28-12.49.14:538][431]TextureStreamingBuild: Display: Compiling optional shaders took 2.663 seconds.
-[2018.05.28-12.49.14:811][431]LogLevel: Display: Export Material TexCoord Scales took 0.272 seconds.
-[2018.05.28-12.49.15:309][431]TextureStreamingBuild: Display: Build Texture Streaming took 0.499 seconds.
-[2018.05.28-12.49.15:434][431]LightingResults: New page: 라이팅 빌드 - 2018. 5. 29. 오전 6:49:15
-[2018.05.28-12.49.15:435][431]LogStaticLightingSystem: Warning: WorldSettings.bForceNoPrecomputedLighting is true, Skipping Lighting Build!
-[2018.05.28-12.49.15:623][431]LogStaticLightingSystem: Warning: Failed to build lighting!!! 라이팅 빌드가 실패했습니다.
-[2018.05.28-12.49.15:624][431]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2018.05.28-12.49.15:624][431]MapCheck: New page: World - 2018. 5. 29. 오전 6:49:15
-[2018.05.28-12.49.15:672][431]MapCheck: Warning: BP_FieldItem2_204 스태틱 메시 액터에 NULL StaticMesh 프로퍼티가 있습니다. 
-[2018.05.28-12.49.15:964][431]MapCheck: 맵 체크 완료: 오류 0 회, 경고 1 회, 소요 시간 340.95ms.
-[2018.05.28-12.49.15:987][431]LogEditorBuildUtils: Build time 0:05
-[2018.05.28-12.49.39:644][164]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.05.28-12.49.39:651][164]Candidate modules for hot reload:
-[2018.05.28-12.49.39:651][164]  AWWA
-[2018.05.28-12.49.39:651][164]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe AWWA -ModuleWithSuffix AWWA 6020 Win64 Development -editorrecompile -canskiplink "C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/AWWA.uproject" ]
-[2018.05.28-12.49.39:653][164]Warning: Starting HotReload took  0.0s.
-[2018.05.28-12.49.45:618][876]CompilerResultsLog: New page: 컴파일 - 2018. 5. 29. 오전 6:49:45
-[2018.05.28-12.49.45:618][876]CompilerResultsLog: Creating makefile for hot reloading AWWA (modules to compile have changed)
-[2018.05.28-12.49.45:618][876]CompilerResultsLog: Compiling game modules for hot reload
-[2018.05.28-12.49.45:618][876]CompilerResultsLog: Target is up to date
-[2018.05.28-12.49.45:618][876]CompilerResultsLog: Total build time: 5.81 seconds (NoActionsToExecute executor: 0.00 seconds)
-[2018.05.28-12.49.45:619][876]LogMainFrame: MainFrame: Module compiling took 5.975 seconds
-[2018.05.28-12.49.45:835][876]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2370 classes and 528 folders.
-[2018.05.28-12.49.45:835][876]Display: HotReload took  6.2s.
-[2018.05.28-12.52.27:871][ 64]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
-[2018.05.28-12.52.28:812][160]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
-[2018.05.28-12.52.28:812][160]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.28-12.52.28:813][160]PIE: New page: PIE 세션: World (2018. 5. 29. 오전 6:52:28)
-[2018.05.28-12.52.28:813][160]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
-[2018.05.28-12.52.29:194][160]LogPlayLevel: PIE: StaticDuplicateObject took: (0.380958s)
-[2018.05.28-12.52.29:194][160]LogAIModule: Creating AISystem for world World
-[2018.05.28-12.52.29:194][160]LogPlayLevel: PIE: World Init took: (0.000659s)
-[2018.05.28-12.52.29:195][160]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.382747s)
-[2018.05.28-12.52.29:272][160]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.28-12.52.29:294][160]LogInit: FAudioDevice initialized.
-[2018.05.28-12.52.29:321][160]LogLoad: Game class is 'AWWAGameMode'
-[2018.05.28-12.52.29:433][160]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.05.28-21.52.29
-[2018.05.28-12.52.29:439][160]LogWorld: Bringing up level for play took: 0.116978
-[2018.05.28-12.52.29:445][160]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 1.109
-[2018.05.28-12.52.29:446][160]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
-[2018.05.28-12.53.09:441][934]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
-[2018.05.28-12.53.09:527][934]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
-[2018.05.28-12.59.39:104][834]LogSavePackage: Save=9382.88ms
-[2018.05.28-12.59.39:104][834]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/World_Auto5C9B5EFFC44BA9F13E576589117A103C5.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Maps/World_Auto5.umap'
-[2018.05.28-12.59.39:113][834]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Maps/World_Auto5.umap
-[2018.05.28-12.59.39:115][834]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/World' took 9.490
-[2018.05.28-12.59.39:115][834]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 9.490
-[2018.05.28-12.59.39:118][834]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Maps/World_BuiltData] ([1] browsable assets)...
-[2018.05.28-12.59.39:118][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Maps/World_BuiltData]
-[2018.05.28-12.59.39:127][834]LogSavePackage: Save=4.00ms
-[2018.05.28-12.59.39:127][834]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/World_BuiltData_Auto538E4394C48ED0E14271B6E88F3AB95AF.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Maps/World_BuiltData_Auto5.uasset'
-[2018.05.28-12.59.39:128][834]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Maps/World_BuiltData_Auto5.uasset
-[2018.05.28-12.59.39:128][834]LogFileHelpers: Auto-saving content packages took 0.011
-[2018.05.28-13.02.03:651][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Character/EDIT_Main_Anim" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/EDIT_Main_Anim.uasset" SILENT=true
-[2018.05.28-13.02.04:311][412]LogSavePackage: Save=651.48ms
-[2018.05.28-13.02.04:311][412]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Main_Anim3119518E44C98B2A98CA9CB5538EC71E.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/EDIT_Main_Anim.uasset'
-[2018.05.28-13.02.04:318][412]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/EDIT_Main_Anim.uasset
-[2018.05.28-13.02.05:995][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Maps/World" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.05.28-13.02.15:312][599]LogSavePackage: Save=9289.53ms
-[2018.05.28-13.02.15:312][599]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/World4BA427CB40C734A3983D5B856BA8464D.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World.umap'
-[2018.05.28-13.02.15:330][599]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World.umap
-[2018.05.28-13.02.15:372][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Maps/World_BuiltData" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World_BuiltData.uasset" SILENT=true
-[2018.05.28-13.02.15:378][599]LogSavePackage: Save=3.51ms
-[2018.05.28-13.02.15:378][599]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/World_BuiltDataF46C3A3440A71D83908B07939D930081.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World_BuiltData.uasset'
-[2018.05.28-13.02.15:383][599]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World_BuiltData.uasset
+[2018.05.29-12.23.30:805][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.29-12.23.30:805][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.29-12.23.30:819][  0]LogInit: Computer: DESKTOP-SFT0388
+[2018.05.29-12.23.30:819][  0]LogInit: User: korea
+[2018.05.29-12.23.30:819][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.05.29-12.23.30:819][  0]LogInit: High frequency timer resolution =3.609372 MHz
+[2018.05.29-12.23.30:819][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.05.29-12.23.30:819][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.29-12.23.30:819][  0]LogMemory: Process Physical Memory: 275.67 MB used, 275.67 MB peak
+[2018.05.29-12.23.30:819][  0]LogMemory: Process Virtual Memory: 274.36 MB used, 274.36 MB peak
+[2018.05.29-12.23.30:819][  0]LogMemory: Physical Memory: 4673.57 MB used,  11644.44 MB free, 16318.00 MB total
+[2018.05.29-12.23.30:819][  0]LogMemory: Virtual Memory: 4783.12 MB used,  11644.44 MB free, 134217728.00 MB total
+[2018.05.29-12.23.31:015][  0]LogInit: Using OS detected language (ko-KR).
+[2018.05.29-12.23.31:015][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.05.29-12.23.31:018][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.05.29-12.23.31:141][  0]LogInit: Setting process to per monitor DPI aware
+[2018.05.29-12.23.31:420][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.29-12.23.31:475][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070 Ti' (Feature Level 11_0)
+[2018.05.29-12.23.31:475][  0]LogD3D11RHI:       8080/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.05.29-12.23.31:477][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.29-12.23.31:477][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.29-12.23.31:477][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.29-12.23.31:482][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.29-12.23.31:482][  0]LogD3D11RHI:     GPU DeviceId: 0x1b82 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.29-12.23.31:482][  0]LogWindows: EnumDisplayDevices:
+[2018.05.29-12.23.31:482][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070 Ti' (P:1 D:1)
+[2018.05.29-12.23.31:482][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:1)
+[2018.05.29-12.23.31:483][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2018.05.29-12.23.31:483][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2018.05.29-12.23.31:483][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.29-12.23.31:483][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070 Ti
+[2018.05.29-12.23.31:483][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.29-12.23.31:483][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.29-12.23.31:483][  0]LogRHI: Texture pool is 5656 MB (70% of 8080 MB)
+[2018.05.29-12.23.31:507][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.29-12.23.31:522][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.05.29-12.23.31:621][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Intermediate/Shaders/WorkingDirectory/15656/).
+[2018.05.29-12.23.31:621][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/korea/AppData/Local/Temp/UnrealShaderWorkingDir/C6BC99614B19264B4D0899B85F090414/'.
+[2018.05.29-12.23.31:621][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.29-12.23.32:364][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.29-12.23.32:426][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.29-12.23.32:488][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.29-12.23.32:549][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.29-12.23.32:611][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.29-12.23.32:673][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.29-12.23.32:734][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.29-12.23.32:796][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.29-12.23.32:861][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.29-12.23.32:920][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.29-12.23.32:980][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.29-12.23.33:041][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.29-12.23.33:101][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.29-12.23.33:162][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.29-12.23.33:284][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.29-12.23.33:284][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.29-12.23.33:346][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.29-12.23.33:398][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.29-12.23.33:504][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.29-12.23.33:542][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.29-12.23.33:602][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.29-12.23.33:675][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.29-12.23.33:735][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.29-12.23.33:796][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.29-12.23.33:796][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.29-12.23.34:387][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.29-12.23.34:446][  0]LogDerivedDataCache: Loaded boot cache 0.06s 99MB C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.05.29-12.23.34:446][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.05.29-12.23.34:446][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.29-12.23.34:446][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.29-12.23.34:446][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.29-12.23.34:446][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.29-12.23.34:458][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.29-12.23.34:470][  0]LogDerivedDataCache: Using Local data cache path C:/Users/korea/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.29-12.23.34:477][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.29-12.23.34:478][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.29-12.23.34:478][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.29-12.23.34:478][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.29-12.23.34:772][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.29-12.23.35:130][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.29-12.23.35:183][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.29-12.23.35:183][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.29-12.23.35:183][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.29-12.23.35:183][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.29-12.23.35:183][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.29-12.23.35:211][  0]LogNetVersion: AWWA , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3043977046)
+[2018.05.29-12.23.35:364][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
+[2018.05.29-12.23.35:802][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.060797 seconds
+[2018.05.29-12.23.35:806][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.05.29-12.23.35:806][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.05.29-12.23.35:806][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.29-12.23.35:876][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.05.29-12.23.38:872][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.29-12.23.38:935][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.29-12.23.42:004][  0]LogK2Compiler: Warning: ValidateVariableNames name m_state (used in /Game/_Weapons/Pistol/45ACPSmithandWesson/Weapon_Pistol_45ACP.Weapon_Pistol_45ACP) is already taken by /Script/AWWA.BaseWeapon:m_state
+[2018.05.29-12.23.42:004][  0]LogBlueprint: Warning: [Compiler Weapon_Pistol_45ACP] 멤버 변수에 이름 충돌이 있어 변경했습니다: m_state -> m_state_0.
+[2018.05.29-12.23.42:010][  0]LogK2Compiler: Warning: ValidateVariableNames name m_state (used in /Game/_Weapons/Rifle/AK_47/Weapon_Rifle_AK47.Weapon_Rifle_AK47) is already taken by /Script/AWWA.BaseWeapon:m_state
+[2018.05.29-12.23.42:010][  0]LogBlueprint: Warning: [Compiler Weapon_Rifle_AK47] 멤버 변수에 이름 충돌이 있어 변경했습니다: m_state -> m_state_0.
+[2018.05.29-12.23.42:010][  0]LogK2Compiler: Warning: ValidateVariableNames name m_state (used in /Game/_Weapons/Rifle/M4a1/Weapon_Rifle_M4a1.Weapon_Rifle_M4a1) is already taken by /Script/AWWA.BaseWeapon:m_state
+[2018.05.29-12.23.42:010][  0]LogBlueprint: Warning: [Compiler Weapon_Rifle_M4a1] 멤버 변수에 이름 충돌이 있어 변경했습니다: m_state -> m_state_0.
+[2018.05.29-12.23.42:010][  0]LogK2Compiler: Warning: ValidateVariableNames name m_state (used in /Game/_Weapons/SMG/MAC11/Weapon_SMG_MAC11.Weapon_SMG_MAC11) is already taken by /Script/AWWA.BaseWeapon:m_state
+[2018.05.29-12.23.42:010][  0]LogBlueprint: Warning: [Compiler Weapon_SMG_MAC11] 멤버 변수에 이름 충돌이 있어 변경했습니다: m_state -> m_state_0.
+[2018.05.29-12.23.42:386][  0]LogBlueprint: Warning: [Compiler Weapon_Pistol_45ACP] [0014.58] Weapon_Pistol_45ACP 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 383 ms] (/Game/_Weapons/Pistol/45ACPSmithandWesson/Weapon_Pistol_45ACP.Weapon_Pistol_45ACP)
+[2018.05.29-12.23.42:386][  0]LogBlueprint: Warning: [Compiler Weapon_Rifle_AK47] [0014.58] Weapon_Rifle_AK47 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 383 ms] (/Game/_Weapons/Rifle/AK_47/Weapon_Rifle_AK47.Weapon_Rifle_AK47)
+[2018.05.29-12.23.42:386][  0]LogBlueprint: Warning: [Compiler Weapon_Rifle_M4a1] [0014.58] Weapon_Rifle_M4a1 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 382 ms] (/Game/_Weapons/Rifle/M4a1/Weapon_Rifle_M4a1.Weapon_Rifle_M4a1)
+[2018.05.29-12.23.42:386][  0]LogBlueprint: Warning: [Compiler Weapon_SMG_MAC11] [0014.58] Weapon_SMG_MAC11 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 382 ms] (/Game/_Weapons/SMG/MAC11/Weapon_SMG_MAC11.Weapon_SMG_MAC11)
+[2018.05.29-12.23.42:888][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.05.29-12.23.43:412][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.05.29-12.23.43:412][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.05.29-12.23.43:487][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.05.29-12.23.43:556][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.05.29-12.23.44:620][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.29-12.23.44:987][  0]LogOcInput: OculusInput pre-init called
+[2018.05.29-12.23.45:334][  0]LogEngine: Initializing Engine...
+[2018.05.29-12.23.45:336][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.05.29-12.23.45:480][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.29-12.23.45:480][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.29-12.23.45:656][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.29-12.23.45:683][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.29-12.23.45:709][  0]LogInit: FAudioDevice initialized.
+[2018.05.29-12.23.45:808][  0]LogDerivedDataCache: Saved boot cache 0.10s 100MB C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.05.29-12.23.45:822][  0]LogInit: Texture streaming: Enabled
+[2018.05.29-12.23.45:962][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.29-12.23.46:133][  0]LogInit: Transaction tracking system initialized
+[2018.05.29-12.23.46:557][  0]BlueprintLog: New page: 에디터 로드
+[2018.05.29-12.23.48:247][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.05.29-12.23.49:246][  0]LogConsoleResponse: Display: 
+[2018.05.29-12.23.49:490][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.29-12.23.49:490][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.29-12.23.49:490][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.29-12.23.50:970][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/' took 0.03s
+[2018.05.29-12.23.51:029][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.05.29-12.23.51:029][  0]Cmd: MAP LOAD FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.29-12.23.51:030][  0]LightingResults: New page: 라이팅 빌드
+[2018.05.29-12.23.51:087][  0]MapCheck: New page: 맵 체크
+[2018.05.29-12.23.51:087][  0]LightingResults: New page: 라이팅 빌드
+[2018.05.29-12.23.51:296][  0]LogK2Compiler: Warning: ValidateVariableNames name m_state (used in /Game/_Weapons/Pistol/Anaconda/Weapon_Pistol_ANACONDA.Weapon_Pistol_ANACONDA) is already taken by /Script/AWWA.BaseWeapon:m_state
+[2018.05.29-12.23.51:296][  0]LogBlueprint: Warning: [Compiler Weapon_Pistol_ANACONDA] 멤버 변수에 이름 충돌이 있어 변경했습니다: m_state -> m_state_0.
+[2018.05.29-12.23.51:302][  0]LogBlueprint: Warning: [Compiler Weapon_Pistol_ANACONDA] [0023.49] Weapon_Pistol_ANACONDA 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 5 ms] (/Game/_Weapons/Pistol/Anaconda/Weapon_Pistol_ANACONDA.Weapon_Pistol_ANACONDA)
+[2018.05.29-12.24.09:386][  0]LogAIModule: Creating AISystem for world World
+[2018.05.29-12.24.26:149][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.29-12.24.26:249][  0]MapCheck: /Game/_Maps/World 레벨의 39 개 컴포넌트에 대해 칠해진 버텍스 컬러 수리에 0.0s 걸렸습니다. 맵을 다시 저장하면 확정됩니다. 
+[2018.05.29-12.24.26:249][  0]MapCheck: Warning: 스태틱 메시 리임포트로 인해 칠해진 버텍스 컬러를 고치는 데 시간이 0.0s 만큼 걸렸습니다. 맵을 다시 저장하기 전까지는 로드할 때마다 이 작업이 실행됩니다. 
+[2018.05.29-12.24.26:250][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.29-12.24.26:526][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 1 회, 소요 시간 275.386ms.
+[2018.05.29-12.24.26:546][  0]LogFileHelpers: Loading map 'World' took 35.516
+[2018.05.29-12.24.26:743][  0]LogCollectionManager: Loaded 0 collections in 0.001575 seconds
+[2018.05.29-12.24.26:884][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Collections/' took 0.01s
+[2018.05.29-12.24.26:884][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Developers/korea/Collections/' took 0.01s
+[2018.05.29-12.24.26:884][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Collections/' took 0.01s
+[2018.05.29-12.24.26:884][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.05.29-12.24.26:894][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2367 classes and 522 folders.
+[2018.05.29-12.24.26:997][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.05.29-12.24.27:351][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.05.29-12.24.27:429][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.05.29-12.24.27:945][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.05.29-12.24.28:593][  0]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.29-12.24.28:596][  0]LogSlate: Took 0.002700 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.05.29-12.24.28:599][  0]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.29-12.24.28:606][  0]LogSlate: Took 0.004541 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.29-12.24.28:803][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.AWWA
+[2018.05.29-12.24.28:803][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.05.29-12.24.28:803][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
+[2018.05.29-12.24.28:803][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.05.29-12.24.28:803][  0]LogTemp: BranchPath = DESKTOP-SFT0388/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = DESKTOP-SFT0388/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
+[2018.05.29-12.24.28:803][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\korea\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.05.29-12.24.28:803][  0]LogRenderer: Reallocating scene render targets to support 1900x632 Format 10 NumSamples 1 (Frame:1).
+[2018.05.29-12.24.29:033][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2018.05.29-12.24.29:034][  0]LogLoad: (Engine Initialization) Total time: 61.22 seconds
+[2018.05.29-12.24.29:034][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.29-12.24.29:034][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.05.29-12.24.29:045][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2018.05.29-12.24.29:069][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.29-12.24.29:254][  2]LogAssetRegistry: Asset discovery search completed in 53.9131 seconds
+[2018.05.29-12.24.29:257][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.05.29-12.24.29:257][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000034 seconds (updated 0 objects)
+[2018.05.29-12.24.30:084][ 89]LogSlate: Took 0.015682 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.29-12.24.30:430][ 89]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 116 classes and 0 folders.
+[2018.05.29-12.24.31:270][ 89]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.05.29-12.24.31:615][ 89]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.05.29-12.24.31:848][ 89]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.05.29-12.24.32:113][ 89]LogSlate: Took 0.011256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.05.29-12.24.32:277][ 89]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0008 seconds. Added 1 classes and 0 folders.
+[2018.05.29-12.24.32:630][ 90]LogSlate: Took 0.004327 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.29-12.34.31:769][257]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.29-12.34.31:824][257]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/World' took 0.022
+[2018.05.29-12.34.31:829][257]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_Character/EDIT_Main_Anim] ([1] browsable assets)...
+[2018.05.29-12.34.31:843][257]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/_Character/EDIT_Main_Anim.EDIT_Main_Anim]
+[2018.05.29-12.34.31:843][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Character/EDIT_Main_Anim]
+[2018.05.29-12.34.32:484][257]LogSavePackage: Save=631.31ms
+[2018.05.29-12.34.32:484][257]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Main_Anim_Auto175D41D524EC23E6BE667968C30143796.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Character/EDIT_Main_Anim_Auto1.uasset'
+[2018.05.29-12.34.32:488][257]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Character/EDIT_Main_Anim_Auto1.uasset
+[2018.05.29-12.34.32:488][257]LogFileHelpers: Auto-saving content packages took 0.664
+[2018.05.29-12.34.32:491][257]LogSlate: Took 0.001674 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.29-13.35.17:748][ 37]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2018.05.29-13.35.17:788][ 37]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2018.05.29-13.35.43:246][129]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Character/EDIT_Main_Anim" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/EDIT_Main_Anim.uasset" SILENT=true
+[2018.05.29-13.35.43:876][129]LogSavePackage: Save=621.45ms
+[2018.05.29-13.35.43:876][129]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Main_AnimB95EB9A944ED6C8B7DA7ED876253C7CE.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/EDIT_Main_Anim.uasset'
+[2018.05.29-13.35.43:881][129]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/EDIT_Main_Anim.uasset
+[2018.05.29-14.29.40:438][ 74]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/BackUp/Sound/Weapon/Glock-18_1.wav)
+[2018.05.29-14.29.40:446][ 74]LogAudioDerivedData: Display: OGG 압축 오디오 포맷 Glock-18_1 웨이브 빌드중...
+[2018.05.29-14.29.40:471][ 74]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/_Weapons/Pistol/Python/Sound/Glock-18_1.Glock-18_1.
+[2018.05.29-14.29.57:099][907]LogSavePackage: Save=6.16ms
+[2018.05.29-14.29.57:099][907]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Glock-18_14177495E414C8BEA9AFBB78FE58D5F81.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/Pistol/Python/Sound/Glock-18_1.uasset'
+[2018.05.29-14.29.57:103][907]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/Pistol/Python/Sound/Glock-18_1.uasset
+[2018.05.29-14.30.06:816][990]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/BackUp/Sound/Weapon/MP5_1.wav)
+[2018.05.29-14.30.06:819][990]LogAudioDerivedData: Display: OGG 압축 오디오 포맷 MP5_1 웨이브 빌드중...
+[2018.05.29-14.30.06:831][990]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/_Weapons/SMG/MAC11/Sound/MP5_1.MP5_1.
+[2018.05.29-14.30.11:856][410]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/BackUp/Sound/Weapon/Micro-GALIL_1.wav)
+[2018.05.29-14.30.11:859][410]LogAudioDerivedData: Display: OGG 압축 오디오 포맷 Micro-GALIL_1 웨이브 빌드중...
+[2018.05.29-14.30.11:871][410]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/_Weapons/SMG/Skorpion/Sound/Micro-GALIL_1.Micro-GALIL_1.
+[2018.05.29-14.30.15:172][603]LogSavePackage: Save=6.11ms
+[2018.05.29-14.30.15:173][603]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/MP5_1BFFE6C20442B5D3F2E37539A99E38638.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/SMG/MAC11/Sound/MP5_1.uasset'
+[2018.05.29-14.30.15:175][603]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/SMG/MAC11/Sound/MP5_1.uasset
+[2018.05.29-14.30.15:190][603]LogSavePackage: Save=5.94ms
+[2018.05.29-14.30.15:190][603]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Micro-GALIL_1CB9E2A30495D7C897ECC268FB61FA217.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/SMG/Skorpion/Sound/Micro-GALIL_1.uasset'
+[2018.05.29-14.30.15:193][603]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/SMG/Skorpion/Sound/Micro-GALIL_1.uasset
+[2018.05.29-14.30.33:154][564]BlueprintLog: New page: Weapon_SMG_Skorpion 컴파일
+[2018.05.29-14.30.34:099][602]LogSavePackage: Save=70.40ms
+[2018.05.29-14.30.34:099][602]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Weapon_SMG_Skorpion9C36A2D34A5C4E349480AAB88F7CD9BD.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/SMG/Skorpion/Weapon_SMG_Skorpion.uasset'
+[2018.05.29-14.30.34:102][602]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/SMG/Skorpion/Weapon_SMG_Skorpion.uasset
+[2018.05.29-14.30.56:600][857]BlueprintLog: New page: Weapon_SMG_MAC11 컴파일
+[2018.05.29-14.30.57:559][890]LogSavePackage: Save=114.08ms
+[2018.05.29-14.30.57:559][890]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Weapon_SMG_MAC11A2E1C84845EB4908A5ACF09CEEC111B0.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/SMG/MAC11/Weapon_SMG_MAC11.uasset'
+[2018.05.29-14.30.57:562][890]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/SMG/MAC11/Weapon_SMG_MAC11.uasset
+[2018.05.29-14.31.23:783][894]LogK2Compiler: Warning: ValidateVariableNames name m_state (used in /Game/_Weapons/Pistol/Python/Weapon_Pistol_Python.Weapon_Pistol_Python) is already taken by /Script/AWWA.BaseWeapon:m_state
+[2018.05.29-14.31.23:783][894]LogBlueprint: Warning: [Compiler Weapon_Pistol_Python] 멤버 변수에 이름 충돌이 있어 변경했습니다: m_state -> m_state_0.
+[2018.05.29-14.31.23:789][894]LogBlueprint: Warning: [Compiler Weapon_Pistol_Python] [7675.98] Weapon_Pistol_Python 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 5 ms] (/Game/_Weapons/Pistol/Python/Weapon_Pistol_Python.Weapon_Pistol_Python)
+[2018.05.29-14.31.36:726][276]BlueprintLog: New page: Weapon_Pistol_Python 컴파일
+[2018.05.29-14.31.37:498][312]LogSavePackage: Save=57.94ms
+[2018.05.29-14.31.37:498][312]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Weapon_Pistol_Python152DE1D64B0752A6F7D9958F68033BBE.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/Pistol/Python/Weapon_Pistol_Python.uasset'
+[2018.05.29-14.31.37:501][312]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/Pistol/Python/Weapon_Pistol_Python.uasset
+[2018.05.29-14.31.53:921][582]BlueprintLog: New page: Weapon_Pistol_ANACONDA 컴파일
+[2018.05.29-14.31.57:660][953]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.05.29-14.31.59:004][ 85]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.05.29-14.31.59:005][ 85]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.29-14.31.59:007][ 85]PIE: New page: PIE 세션: World (2018. 5. 30. 오전 8:31:59)
+[2018.05.29-14.31.59:007][ 85]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.05.29-14.31.59:401][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.393319s)
+[2018.05.29-14.31.59:401][ 85]LogAIModule: Creating AISystem for world World
+[2018.05.29-14.31.59:401][ 85]LogPlayLevel: PIE: World Init took: (0.000538s)
+[2018.05.29-14.31.59:402][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.394978s)
+[2018.05.29-14.31.59:450][ 85]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.29-14.31.59:468][ 85]LogInit: FAudioDevice initialized.
+[2018.05.29-14.31.59:508][ 85]LogLoad: Game class is 'AWWAGameMode'
+[2018.05.29-14.31.59:626][ 85]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.05.29-23.31.59
+[2018.05.29-14.31.59:636][ 85]LogWorld: Bringing up level for play took: 0.127497
+[2018.05.29-14.31.59:705][ 85]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2018.05.29-14.31.59:714][ 85]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 1.173
+[2018.05.29-14.31.59:715][ 85]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.05.29-14.32.06:300][853]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.05.29-14.32.06:387][853]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.05.29-14.39.36:632][663]LogSavePackage: Save=8874.75ms
+[2018.05.29-14.39.36:632][663]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/World_Auto2458C42784F9D40E76CD234BB019F86A4.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Maps/World_Auto2.umap'
+[2018.05.29-14.39.36:640][663]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Maps/World_Auto2.umap
+[2018.05.29-14.39.36:645][663]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/World' took 8.974
+[2018.05.29-14.39.36:645][663]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 8.974
+[2018.05.29-14.42.09:885][418]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.05.29-14.42.11:026][522]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.05.29-14.42.11:026][522]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.29-14.42.11:027][522]PIE: New page: PIE 세션: World (2018. 5. 30. 오전 8:42:11)
+[2018.05.29-14.42.11:027][522]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.05.29-14.42.11:396][522]LogPlayLevel: PIE: StaticDuplicateObject took: (0.369944s)
+[2018.05.29-14.42.11:397][522]LogAIModule: Creating AISystem for world World
+[2018.05.29-14.42.11:397][522]LogPlayLevel: PIE: World Init took: (0.000621s)
+[2018.05.29-14.42.11:398][522]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.371737s)
+[2018.05.29-14.42.11:445][522]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.29-14.42.11:462][522]LogInit: FAudioDevice initialized.
+[2018.05.29-14.42.11:496][522]LogLoad: Game class is 'AWWAGameMode'
+[2018.05.29-14.42.11:606][522]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.05.29-23.42.11
+[2018.05.29-14.42.11:612][522]LogWorld: Bringing up level for play took: 0.115371
+[2018.05.29-14.42.11:618][522]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 1.076
+[2018.05.29-14.42.11:619][522]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.05.29-14.42.17:204][159]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.05.29-14.42.17:274][159]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.05.29-14.44.18:220][386]BlueprintLog: New page: Weapon_Rifle_AK47 컴파일
+[2018.05.29-14.44.18:735][386]LogActorComponent: RegisterComponentWithWorld: (/Game/_Maps/World.World:PersistentLevel.DESTROYED_Weapon_Rifle_AK47_C_CHILDACTOR_605.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.29-14.44.18:737][386]LogActorComponent: RegisterComponentWithWorld: (/Game/_Maps/World.World:PersistentLevel.DESTROYED_Weapon_Rifle_AK47_C_CHILDACTOR_607.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.29-14.44.18:739][386]LogActorComponent: RegisterComponentWithWorld: (/Game/_Maps/World.World:PersistentLevel.DESTROYED_Weapon_Rifle_AK47_C_CHILDACTOR_609.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.29-14.44.18:740][386]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Weapon_Rifle_AK47_C_CHILDACTOR_4.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.29-14.44.18:741][386]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_Weapon_Rifle_AK47_C_CHILDACTOR_6.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.29-14.44.19:148][400]LogSavePackage: Save=85.95ms
+[2018.05.29-14.44.19:148][400]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Weapon_Rifle_AK472A03B2AD4574D1DDDF94D992C9ADD528.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/Rifle/AK_47/Weapon_Rifle_AK47.uasset'
+[2018.05.29-14.44.19:149][400]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/Rifle/AK_47/Weapon_Rifle_AK47.uasset
+[2018.05.29-14.45.42:924][ 86]BlueprintLog: New page: Weapon_Rifle_AK47 컴파일
+[2018.05.29-14.45.43:559][ 86]LogActorComponent: RegisterComponentWithWorld: (/Game/_Maps/World.World:PersistentLevel.DESTROYED_Weapon_Rifle_AK47_C_CHILDACTOR_605.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.29-14.45.43:561][ 86]LogActorComponent: RegisterComponentWithWorld: (/Game/_Maps/World.World:PersistentLevel.DESTROYED_Weapon_Rifle_AK47_C_CHILDACTOR_607.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.29-14.45.43:563][ 86]LogActorComponent: RegisterComponentWithWorld: (/Game/_Maps/World.World:PersistentLevel.DESTROYED_Weapon_Rifle_AK47_C_CHILDACTOR_609.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.29-14.45.43:564][ 86]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Weapon_Rifle_AK47_C_CHILDACTOR_4.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.29-14.45.43:566][ 86]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_Weapon_Rifle_AK47_C_CHILDACTOR_6.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.29-14.46.19:651][386]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/BackUp/Sound/Weapon/Knife_LeftClick.wav)
+[2018.05.29-14.46.19:654][386]LogAudioDerivedData: Display: OGG 압축 오디오 포맷 Knife_LeftClick 웨이브 빌드중...
+[2018.05.29-14.46.19:660][386]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/_Sound/Weapon/ShortAttack/Knife_LeftClick.Knife_LeftClick.
+[2018.05.29-14.46.19:664][386]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/BackUp/Sound/Weapon/Shovel_RightClick.wav)
+[2018.05.29-14.46.19:667][386]LogAudioDerivedData: Display: OGG 압축 오디오 포맷 Shovel_RightClick 웨이브 빌드중...
+[2018.05.29-14.46.19:685][386]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/_Sound/Weapon/ShortAttack/Shovel_RightClick.Shovel_RightClick.
+[2018.05.29-14.46.37:796][142]BlueprintLog: New page: Weapon_Rifle_AK47 컴파일
+[2018.05.29-14.46.38:310][142]LogActorComponent: RegisterComponentWithWorld: (/Game/_Maps/World.World:PersistentLevel.DESTROYED_Weapon_Rifle_AK47_C_CHILDACTOR_605.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.29-14.46.38:312][142]LogActorComponent: RegisterComponentWithWorld: (/Game/_Maps/World.World:PersistentLevel.DESTROYED_Weapon_Rifle_AK47_C_CHILDACTOR_607.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.29-14.46.38:314][142]LogActorComponent: RegisterComponentWithWorld: (/Game/_Maps/World.World:PersistentLevel.DESTROYED_Weapon_Rifle_AK47_C_CHILDACTOR_609.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.29-14.46.38:316][142]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Weapon_Rifle_AK47_C_CHILDACTOR_4.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.29-14.46.38:317][142]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_Weapon_Rifle_AK47_C_CHILDACTOR_6.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.29-14.46.38:718][174]LogSavePackage: Save=86.90ms
+[2018.05.29-14.46.38:719][174]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Weapon_Rifle_AK472498F26F43D5BD093F2D05ABE1E018FF.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/Rifle/AK_47/Weapon_Rifle_AK47.uasset'
+[2018.05.29-14.46.38:721][174]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/Rifle/AK_47/Weapon_Rifle_AK47.uasset
+[2018.05.29-14.46.59:328][440]BlueprintLog: New page: Weapon_Rifle_M4a1 컴파일
+[2018.05.29-14.47.00:201][476]LogSavePackage: Save=67.62ms
+[2018.05.29-14.47.00:201][476]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Weapon_Rifle_M4a1BE3A915047533455C87BF5821A1DE866.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/Rifle/M4a1/Weapon_Rifle_M4a1.uasset'
+[2018.05.29-14.47.00:203][476]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/Rifle/M4a1/Weapon_Rifle_M4a1.uasset
+[2018.05.29-14.47.23:997][499]BlueprintLog: New page: Weapon_SMG_MAC11 컴파일
+[2018.05.29-14.47.24:915][513]LogSavePackage: Save=114.81ms
+[2018.05.29-14.47.24:915][513]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Weapon_SMG_MAC11BDD841734BDF8CFF8A4849A02F7F5BC2.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/SMG/MAC11/Weapon_SMG_MAC11.uasset'
+[2018.05.29-14.47.24:918][513]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/SMG/MAC11/Weapon_SMG_MAC11.uasset
+[2018.05.29-14.47.40:849][976]BlueprintLog: New page: Weapon_SMG_Skorpion 컴파일
+[2018.05.29-14.47.41:737][998]LogSavePackage: Save=71.81ms
+[2018.05.29-14.47.41:737][998]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Weapon_SMG_SkorpionC3F9086547D13182B2AED88A5123DD94.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/SMG/Skorpion/Weapon_SMG_Skorpion.uasset'
+[2018.05.29-14.47.41:740][998]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/SMG/Skorpion/Weapon_SMG_Skorpion.uasset
+[2018.05.29-14.47.58:715][766]BlueprintLog: New page: Weapon_Pistol_45ACP 컴파일
+[2018.05.29-14.47.59:692][766]LogActorComponent: RegisterComponentWithWorld: (/Game/_Maps/World.World:PersistentLevel.DESTROYED_Weapon_Pistol_45ACP_C_CHILDACTOR_376.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.29-14.47.59:693][766]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.DESTROYED_Weapon_Pistol_45ACP_C_CHILDACTOR_3.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.29-14.47.59:695][766]LogActorComponent: RegisterComponentWithWorld: (/Game/_Maps/World.World:PersistentLevel.DESTROYED_Weapon_Pistol_45ACP_C_CHILDACTOR_606.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.29-14.47.59:697][766]LogActorComponent: RegisterComponentWithWorld: (/Game/_Maps/World.World:PersistentLevel.DESTROYED_Weapon_Pistol_45ACP_C_CHILDACTOR_608.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.29-14.47.59:699][766]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Weapon_Pistol_45ACP_C_CHILDACTOR_5.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.05.29-14.48.00:097][797]LogSavePackage: Save=80.69ms
+[2018.05.29-14.48.00:097][797]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Weapon_Pistol_45ACP5B7AE3864D7E71F3337C39A5C6E8C561.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/Pistol/45ACPSmithandWesson/Weapon_Pistol_45ACP.uasset'
+[2018.05.29-14.48.00:100][797]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/Pistol/45ACPSmithandWesson/Weapon_Pistol_45ACP.uasset
+[2018.05.29-14.48.08:274][547]BlueprintLog: New page: Weapon_Pistol_ANACONDA 컴파일
+[2018.05.29-14.48.09:170][569]LogSavePackage: Save=59.52ms
+[2018.05.29-14.48.09:170][569]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Weapon_Pistol_ANACONDA655479114D55CDE9D0F0E6946724E898.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/Pistol/Anaconda/Weapon_Pistol_ANACONDA.uasset'
+[2018.05.29-14.48.09:173][569]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/Pistol/Anaconda/Weapon_Pistol_ANACONDA.uasset
+[2018.05.29-14.48.20:131][564]LogSavePackage: Save=59.97ms
+[2018.05.29-14.48.20:131][564]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Weapon_Pistol_Python9A6467534721362A58AF44A59F7E139A.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/Pistol/Python/Weapon_Pistol_Python.uasset'
+[2018.05.29-14.48.20:134][564]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Weapons/Pistol/Python/Weapon_Pistol_Python.uasset
+[2018.05.29-14.48.26:568][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Maps/World" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.29-14.48.35:407][ 60]LogSavePackage: Save=8770.30ms
+[2018.05.29-14.48.35:407][ 60]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/WorldD898BA814282C6395F658DA065309A0B.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World.umap'
+[2018.05.29-14.48.35:421][ 60]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World.umap
+[2018.05.29-14.48.35:458][ 60]LogFileHelpers: Saving map 'World' took 9.170
+[2018.05.29-14.48.35:472][ 60]LogSavePackage: Save=5.70ms
+[2018.05.29-14.48.35:472][ 60]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Knife_LeftClickDA74A7F2499AE9A762B2F3AC5E02235E.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Sound/Weapon/ShortAttack/Knife_LeftClick.uasset'
+[2018.05.29-14.48.35:475][ 60]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Sound/Weapon/ShortAttack/Knife_LeftClick.uasset
+[2018.05.29-14.48.35:488][ 60]LogSavePackage: Save=5.88ms
+[2018.05.29-14.48.35:488][ 60]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Shovel_RightClickC91595C048F1AEC89DEA3BA89B9AD9FB.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Sound/Weapon/ShortAttack/Shovel_RightClick.uasset'
+[2018.05.29-14.48.35:490][ 60]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Sound/Weapon/ShortAttack/Shovel_RightClick.uasset
+[2018.05.29-14.49.00:655][897]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2018.05.29-14.49.04:645][941]LogSavePackage: Save=1838.01ms
+[2018.05.29-14.49.04:645][941]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacterF936DF714BDD6C80AD88BDA006DAC5AD.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
+[2018.05.29-14.49.04:649][941]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
+[2018.05.29-14.49.05:626][ 28]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.05.29-14.49.06:712][104]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.05.29-14.49.06:712][104]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2018.05.29-14.49.06:721][104]LogPlayLevel: [PlayLevel] Compiling Weapon_Pistol_Python before play...
+[2018.05.29-14.49.06:949][104]LogPlayLevel: PlayLevel: Blueprint regeneration took 236 ms (1 blueprints)
+[2018.05.29-14.49.06:949][104]PIE: New page: PIE 세션: World (2018. 5. 30. 오전 8:49:06)
+[2018.05.29-14.49.06:949][104]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.05.29-14.49.07:317][104]LogPlayLevel: PIE: StaticDuplicateObject took: (0.368062s)
+[2018.05.29-14.49.07:317][104]LogAIModule: Creating AISystem for world World
+[2018.05.29-14.49.07:317][104]LogPlayLevel: PIE: World Init took: (0.000543s)
+[2018.05.29-14.49.07:319][104]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.369882s)
+[2018.05.29-14.49.07:362][104]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.29-14.49.07:381][104]LogInit: FAudioDevice initialized.
+[2018.05.29-14.49.07:407][104]LogLoad: Game class is 'AWWAGameMode'
+[2018.05.29-14.49.07:514][104]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.05.29-23.49.07
+[2018.05.29-14.49.07:520][104]LogWorld: Bringing up level for play took: 0.113037
+[2018.05.29-14.49.07:526][104]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.984
+[2018.05.29-14.49.07:527][104]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.05.29-14.49.12:710][692]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.05.29-14.49.12:787][692]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
