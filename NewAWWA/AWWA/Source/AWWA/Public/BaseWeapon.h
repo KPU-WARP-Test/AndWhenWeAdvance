@@ -31,8 +31,8 @@ public:
 	int32 m_state;
 	// Weapon State!
 
-	UPROPERTY(BlueprintReadWrite, EditDefaultsOnly, Category = "UseBlueprint")
-	int32 m_tickCount;
+	//UPROPERTY(BlueprintReadWrite, EditDefaultsOnly, Category = "UseBlueprint")
+	//int32 m_tickCount;
 	// tick tok! tick tok!
 
 	UPROPERTY(BlueprintReadWrite, EditDefaultsOnly, Category = "ConfineConst")
@@ -42,6 +42,10 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditDefaultsOnly, Category = "ConfineConst")
 	int32 RELOAD_ANIM_TIME;
 	// like Define or const, But only int32 to FIRE_ANIM_TIME, please Default!
+
+	UPROPERTY(BlueprintReadWrite, EditDefaultsOnly, Category = "ConfineConst")
+	int32 SHORTATTACK_ANIM_TIME;
+	// like Define or const, But only int32 to SHORTATTACK_ANIM_TIME, please Default!
 
 	UPROPERTY(BlueprintReadWrite, EditDefaultsOnly, Category = "Stat")
 	int32 m_damage;
