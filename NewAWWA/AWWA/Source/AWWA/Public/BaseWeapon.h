@@ -60,7 +60,7 @@ public:
 	// Init in Constructor! from Database! to reduce Speed
 
 	UPROPERTY(BlueprintReadWrite, EditDefaultsOnly, Category = "Stat")
-	int32 m_weight;
+	float m_weight;
 	// Init in Constructor! from Database! to reduce Speed
 
 	UPROPERTY(BlueprintReadWrite, EditDefaultsOnly, Category = "Stat")
