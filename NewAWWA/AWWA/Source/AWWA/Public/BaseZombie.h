@@ -49,4 +49,8 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Stat")
 	int32 m_damage;
 	// Zombie's Damage
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "PhysAnim")
+	FName m_hitBoneName;
+	// It Use Zombie Stat Define???? -> Not Use
 };
