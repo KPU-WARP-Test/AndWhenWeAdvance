@@ -1,4 +1,4 @@
-﻿Log file open, 06/12/18 17:45:18
+﻿Log file open, 06/12/18 17:55:40
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: AWWA
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1134552060) SRandInit(-1134552060).
+LogInit: Display: RandInit(1110644715) SRandInit(1110644715).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.227393
+LogStats: Stats thread started at 0.226574
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -192,296 +192,1000 @@ LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line:  
+LogInit: Command line: 
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.06.12-08.45.20:517][  0]LogInit: Selected Device Profile: [Windows]
-[2018.06.12-08.45.20:517][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.06.12-08.45.20:527][  0]LogInit: Computer: DESKTOP-SFT0388
-[2018.06.12-08.45.20:527][  0]LogInit: User: korea
-[2018.06.12-08.45.20:527][  0]LogInit: CPU Page size=4096, Cores=6
-[2018.06.12-08.45.20:527][  0]LogInit: High frequency timer resolution =3.609377 MHz
-[2018.06.12-08.45.20:527][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.06.12-08.45.20:527][  0]LogMemory: Platform Memory Stats for Windows
-[2018.06.12-08.45.20:527][  0]LogMemory: Process Physical Memory: 275.50 MB used, 275.50 MB peak
-[2018.06.12-08.45.20:527][  0]LogMemory: Process Virtual Memory: 274.17 MB used, 274.17 MB peak
-[2018.06.12-08.45.20:527][  0]LogMemory: Physical Memory: 4382.38 MB used,  11935.63 MB free, 16318.00 MB total
-[2018.06.12-08.45.20:527][  0]LogMemory: Virtual Memory: 4783.12 MB used,  11935.63 MB free, 134217728.00 MB total
-[2018.06.12-08.45.20:738][  0]LogInit: Using OS detected language (ko-KR).
-[2018.06.12-08.45.20:738][  0]LogInit: Using OS detected locale (ko-KR).
-[2018.06.12-08.45.20:741][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
-[2018.06.12-08.45.20:866][  0]LogInit: Setting process to per monitor DPI aware
-[2018.06.12-08.45.21:170][  0]LogD3D11RHI: D3D11 adapters:
-[2018.06.12-08.45.21:220][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070 Ti' (Feature Level 11_0)
-[2018.06.12-08.45.21:220][  0]LogD3D11RHI:       8080/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.06.12-08.45.21:222][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.06.12-08.45.21:222][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.06.12-08.45.21:222][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.06.12-08.45.21:226][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.06.12-08.45.21:226][  0]LogD3D11RHI:     GPU DeviceId: 0x1b82 (for the marketing name, search the web for "GPU Device Id")
-[2018.06.12-08.45.21:226][  0]LogWindows: EnumDisplayDevices:
-[2018.06.12-08.45.21:226][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070 Ti' (P:1 D:1)
-[2018.06.12-08.45.21:227][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:1)
-[2018.06.12-08.45.21:227][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
-[2018.06.12-08.45.21:228][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
-[2018.06.12-08.45.21:228][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.06.12-08.45.21:228][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070 Ti
-[2018.06.12-08.45.21:228][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.06.12-08.45.21:228][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.06.12-08.45.21:228][  0]LogRHI: Texture pool is 5656 MB (70% of 8080 MB)
-[2018.06.12-08.45.21:252][  0]LogD3D11RHI: Async texture creation enabled
-[2018.06.12-08.45.21:267][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.06.12-08.45.21:365][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Intermediate/Shaders/WorkingDirectory/15716/).
-[2018.06.12-08.45.21:365][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/korea/AppData/Local/Temp/UnrealShaderWorkingDir/4A4B66E3478438B2DFDE93946D13FBDD/'.
-[2018.06.12-08.45.21:365][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.06.12-08.45.22:207][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.06.12-08.45.22:324][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.06.12-08.45.22:400][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.06.12-08.45.22:479][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.06.12-08.45.22:549][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.06.12-08.45.22:615][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.06.12-08.45.22:681][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.06.12-08.45.22:749][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.06.12-08.45.22:806][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.06.12-08.45.22:866][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.06.12-08.45.22:929][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.06.12-08.45.22:994][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.06.12-08.45.23:066][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.06.12-08.45.23:130][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.06.12-08.45.23:270][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.06.12-08.45.23:270][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.06.12-08.45.23:335][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.06.12-08.45.23:393][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.06.12-08.45.23:504][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.06.12-08.45.23:536][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.06.12-08.45.23:597][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.06.12-08.45.23:664][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.06.12-08.45.23:733][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.06.12-08.45.23:801][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.06.12-08.45.23:801][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.06.12-08.45.24:430][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.06.12-08.45.24:496][  0]LogDerivedDataCache: Loaded boot cache 0.07s 100MB C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.06.12-08.45.24:496][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.06.12-08.45.24:496][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.06.12-08.45.24:496][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.06.12-08.45.24:496][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.06.12-08.45.24:496][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.06.12-08.45.24:508][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.06.12-08.45.24:520][  0]LogDerivedDataCache: Using Local data cache path C:/Users/korea/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.06.12-08.45.24:528][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.06.12-08.45.24:528][  0]LogSlate: Using Freetype 2.6.0
-[2018.06.12-08.45.24:529][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.06.12-08.45.24:529][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.06.12-08.45.24:914][  0]LogInit: Selected Device Profile: [Windows]
-[2018.06.12-08.45.25:279][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.06.12-08.45.25:332][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.06.12-08.45.25:332][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.06.12-08.45.25:332][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.06.12-08.45.25:332][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.06.12-08.45.25:332][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.06.12-08.45.25:362][  0]LogNetVersion: AWWA , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3043977046)
-[2018.06.12-08.45.25:513][  0]LogAssetRegistry: FAssetRegistry took 0.0250 seconds to start up
-[2018.06.12-08.45.25:962][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.051759 seconds
-[2018.06.12-08.45.25:965][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.06.12-08.45.25:965][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
-[2018.06.12-08.45.25:965][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.06.12-08.45.26:036][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.06.12-08.45.29:241][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.06.12-08.45.29:291][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.06.12-08.45.31:721][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.06.12-08.45.32:269][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.06.12-08.45.32:269][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.06.12-08.45.32:346][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.06.12-08.45.32:414][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.06.12-08.45.33:485][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.06.12-08.45.33:847][  0]LogOcInput: OculusInput pre-init called
-[2018.06.12-08.45.34:213][  0]LogEngine: Initializing Engine...
-[2018.06.12-08.45.34:215][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.06.12-08.45.34:375][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.06.12-08.45.34:375][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.06.12-08.45.34:564][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.06.12-08.45.34:596][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.12-08.45.34:629][  0]LogInit: FAudioDevice initialized.
-[2018.06.12-08.45.34:726][  0]LogDerivedDataCache: Saved boot cache 0.10s 100MB C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.06.12-08.45.34:741][  0]LogInit: Texture streaming: Enabled
-[2018.06.12-08.45.34:893][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.06.12-08.45.35:143][  0]LogInit: Transaction tracking system initialized
-[2018.06.12-08.45.35:633][  0]BlueprintLog: New page: 에디터 로드
-[2018.06.12-08.45.37:698][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
-[2018.06.12-08.45.38:832][  0]LogConsoleResponse: Display: 
-[2018.06.12-08.45.39:004][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.06.12-08.45.39:004][  0]LogCook: Display: Mobile HDR setting 1
-[2018.06.12-08.45.39:004][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.06.12-08.45.39:950][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/' took 0.03s
-[2018.06.12-08.45.40:735][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.06.12-08.45.40:735][  0]Cmd: MAP LOAD FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.06.12-08.45.40:735][  0]LightingResults: New page: 라이팅 빌드
-[2018.06.12-08.45.40:792][  0]MapCheck: New page: 맵 체크
-[2018.06.12-08.45.40:792][  0]LightingResults: New page: 라이팅 빌드
-[2018.06.12-08.45.45:452][  0]LogAIModule: Creating AISystem for world World
-[2018.06.12-08.45.47:110][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.06.12-08.45.47:207][  0]MapCheck: /Game/_Maps/World 레벨의 39 개 컴포넌트에 대해 칠해진 버텍스 컬러 수리에 0.0s 걸렸습니다. 맵을 다시 저장하면 확정됩니다. 
-[2018.06.12-08.45.47:207][  0]MapCheck: Warning: 스태틱 메시 리임포트로 인해 칠해진 버텍스 컬러를 고치는 데 시간이 0.0s 만큼 걸렸습니다. 맵을 다시 저장하기 전까지는 로드할 때마다 이 작업이 실행됩니다. 
-[2018.06.12-08.45.47:207][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.06.12-08.45.47:489][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 1 회, 소요 시간 281.806ms.
-[2018.06.12-08.45.47:510][  0]LogFileHelpers: Loading map 'World' took 6.775
-[2018.06.12-08.45.47:642][  0]LogCollectionManager: Loaded 0 collections in 0.001382 seconds
-[2018.06.12-08.45.47:779][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Collections/' took 0.01s
-[2018.06.12-08.45.47:780][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Developers/korea/Collections/' took 0.01s
-[2018.06.12-08.45.47:780][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Collections/' took 0.01s
-[2018.06.12-08.45.47:780][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.06.12-08.45.47:786][  0]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 2369 classes and 522 folders.
-[2018.06.12-08.45.47:881][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2018.06.12-08.45.47:922][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2018.06.12-08.45.47:986][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2018.06.12-08.45.48:033][  0]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.06.12-08.45.48:035][  0]LogSlate: Took 0.001666 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
-[2018.06.12-08.45.48:037][  0]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.06.12-08.45.48:039][  0]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.06.12-08.45.48:126][  0]LogRenderer: Reallocating scene render targets to support 1900x624 Format 10 NumSamples 1 (Frame:1).
-[2018.06.12-08.45.48:323][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2018.06.12-08.45.48:323][  0]LogLoad: (Engine Initialization) Total time: 30.70 seconds
-[2018.06.12-08.45.48:323][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.06.12-08.45.48:323][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.06.12-08.45.48:680][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.06.12-08.45.49:337][  2]LogAssetRegistry: Asset discovery search completed in 23.8464 seconds
-[2018.06.12-08.45.49:341][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.06.12-08.45.49:341][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
-[2018.06.12-08.45.49:399][  3]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.06.12-08.45.49:787][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Dirt  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:787][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Rock  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:787][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Sand  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:787][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Water  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:788][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Glass  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:788][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Cloth  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:788][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Metal  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:788][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Wood  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:788][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Grass  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:788][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Carpet  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:788][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Concrete  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:788][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Snow  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:788][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Tile  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:788][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Asphalt  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:788][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Brick  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:788][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Cardboard  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:788][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Clay  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:788][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Plastic  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:788][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Electronics  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:788][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Sheetrock  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:788][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Plaster  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:788][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Leaves  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:788][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Blood  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:790][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Dirt  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:790][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Rock  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:790][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Sand  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:790][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Water  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:790][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Glass  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:790][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Cloth  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:791][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Metal  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:791][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Wood  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:791][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Grass  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:791][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Carpet  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:791][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Concrete  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:791][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Snow  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:791][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Tile  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:791][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Asphalt  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:791][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Brick  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:791][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Cardboard  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:791][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Clay  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:791][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Plastic  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:791][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Electronics  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:791][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Sheetrock  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:791][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Plaster  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:791][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Leaves  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:791][  3]LogBlueprint: Error: [Compiler FL_ImpactParticles] In use pin  Blood  no longer exists on node  EPhysicalSurface 에 따른 스위치 . Please refresh node or break links to remove pin.
-[2018.06.12-08.45.49:791][  3]LogBlueprint: Warning: [Compiler FL_ImpactParticles] [0032.17] FL_ImpactParticles 컴파일에 실패했습니다. 치명적 오류 46 회, 경고 0 회, [소요시간 10 ms] (/Game/Impacts/Blueprints/FL_ImpactParticles.FL_ImpactParticles)
-[2018.06.12-08.45.49:855][  3]LogTexture: Display: 텍스처 빌드: T_DustCloud (AutoDXT, 64X64)
-[2018.06.12-08.45.49:855][  3]LogTexture: Display: 텍스처 빌드: T_DustBurst (AutoDXT, 256X256)
-[2018.06.12-08.45.49:855][  3]LogTexture: Display: 텍스처 빌드: ThumbnailTexture (DXT1, 512X512)
-[2018.06.12-08.45.53:655][  3]LogTexture: Display: 텍스처 빌드: T_FlekSheet4_ao (AutoDXT, 2048X2048)
-[2018.06.12-08.45.53:655][  3]LogTexture: Display: 텍스처 빌드: ThumbnailTexture (DXT1, 512X512)
-[2018.06.12-08.45.53:655][  3]LogTexture: Display: 텍스처 빌드: T_FlekSheet4 (AutoDXT, 2048X2048)
-[2018.06.12-08.45.53:655][  3]LogTexture: Display: 텍스처 빌드: T_FlekSheet1 (AutoDXT, 2048X2048)
-[2018.06.12-08.45.53:655][  3]LogTexture: Display: 텍스처 빌드: T_SmokeSet (BGRA8, 1024X1024)
-[2018.06.12-08.45.53:655][  3]LogTexture: Display: 텍스처 빌드: T_BloodVarious (G8, 2048X2048)
-[2018.06.12-08.45.53:655][  3]LogTexture: Display: 텍스처 빌드: T_FlekSheet1_d (AutoDXT, 2048X2048)
-[2018.06.12-08.45.53:655][  3]LogTexture: Display: 텍스처 빌드: ThumbnailTexture (DXT1, 512X512)
-[2018.06.12-08.45.53:655][  3]LogTexture: Display: 텍스처 빌드: T_FlekSheet1_n (BC5, 2048X2048)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: T_FluidNormal02 (BC5, 2048X2048)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: T_SparksCentered (AutoDXT, 1024X1024)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: T_SplashDisc_N (BC5, 512X512)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: T_SplashMesh_02_N (BC5, 512X512)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: T_BloodVarious_N (BC5, 2048X2048)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: T_SplashDisc_A (AutoDXT, 512X512)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: T_TilingNoise11 (AutoDXT, 2048X2048)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: T_HeatTile3_N (BC5, 2048X2048)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: T_RingWater (AutoDXT, 1024X1024)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: CubeNearEntrance (RGBA16F, 1024X1024)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: T_raindrop_normal (BC5, 256X256)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: T_TilingNoise06_N (BC5, 2048X2048)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: T_raindrop (AutoDXT, 256X256)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: T_Caustics (AutoDXT, 512X512)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: ThumbnailTexture (DXT1, 512X512)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: ThumbnailTexture (DXT1, 512X512)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: ThumbnailTexture (DXT1, 512X512)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: ThumbnailTexture (DXT1, 512X512)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: ThumbnailTexture (DXT1, 512X512)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: T_RingSmoke (AutoDXT, 256X256)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: T_FlareStar (AutoDXT, 512X512)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: ThumbnailTexture (DXT1, 512X512)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: ThumbnailTexture (DXT1, 512X512)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: ThumbnailTexture (DXT1, 512X512)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: ThumbnailTexture (DXT1, 512X512)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: ThumbnailTexture (DXT1, 512X512)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: T_WaterSplash (BGRA8, 512X256)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: ThumbnailTexture (DXT1, 512X512)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: T_BlastSheet (AutoDXT, 2048X2048)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: ThumbnailTexture (DXT1, 512X512)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: ThumbnailTexture (DXT1, 512X512)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: ThumbnailTexture (DXT1, 512X512)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: T_DustDebris (AutoDXT, 256X256)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: T_FlekSheet3_n (AutoDXT, 2048X2048)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: T_FlekSheet3_d (AutoDXT, 2048X2048)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: ThumbnailTexture (DXT1, 512X512)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: T_FlekSheet2_n (BC5, 2048X2048)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: T_FlekSheet3 (AutoDXT, 2048X2048)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: T_FlekSheet2_d (AutoDXT, 2048X2048)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: T_FlekSheet2 (AutoDXT, 2048X2048)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: ThumbnailTexture (DXT1, 512X512)
-[2018.06.12-08.45.53:656][  3]LogTexture: Display: 텍스처 빌드: ThumbnailTexture (DXT1, 512X512)
-[2018.06.12-08.45.53:918][  3]LogMaterial: Missing cached shader map for material M_Fleks1, compiling. 
-[2018.06.12-08.45.53:977][  3]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.06.12-08.45.53:980][  3]LogMaterial: Missing cached shader map for material M_DustBurst, compiling. 
-[2018.06.12-08.45.54:021][  3]LogMaterial: Missing cached shader map for material M_Smoke1, compiling. 
-[2018.06.12-08.45.54:083][  3]LogMaterial: Missing cached shader map for material M_MetalSparks, compiling. 
-[2018.06.12-08.45.54:132][  3]LogMaterial: Missing cached shader map for material M_RadialRamp, compiling. 
-[2018.06.12-08.45.54:177][  3]LogMaterial: Missing cached shader map for material M_WaterCloud, compiling. 
-[2018.06.12-08.45.54:263][  3]LogMaterial: Missing cached shader map for material M_ImpactSplashSubUV, compiling. 
-[2018.06.12-08.45.54:460][  3]LogMaterial: Missing cached shader map for material M_Fleks4, compiling. 
-[2018.06.12-08.45.54:516][  3]LogMaterial: Missing cached shader map for material M_DustDebris, compiling. 
-[2018.06.12-08.45.54:564][  3]LogMaterial: Missing cached shader map for material M_Water_Test_01, compiling. 
-[2018.06.12-08.45.54:603][  3]LogStaticMesh: SM_SplashMesh_02 스태틱 메시 빌드중...
-[2018.06.12-08.45.54:812][  3]LogStaticMesh: Built static mesh [0.21s] /Game/Impacts/Meshes/Water/SM_SplashMesh_02.SM_SplashMesh_02
-[2018.06.12-08.45.54:831][  3]LogStaticMesh: SM_SplashDisc 스태틱 메시 빌드중...
-[2018.06.12-08.45.54:836][  3]LogStaticMesh: Built static mesh [0.01s] /Game/Impacts/Meshes/Water/SM_SplashDisc.SM_SplashDisc
-[2018.06.12-08.45.54:862][  3]LogMaterial: Missing cached shader map for material M_MeshEmitWater_MASTER, compiling. 
-[2018.06.12-08.45.54:947][  3]LogMaterial: Missing cached shader map for material M_MeshEmitWater_MASTER, compiling. 
-[2018.06.12-08.45.55:099][  3]LogMaterial: Missing cached shader map for material M_WaterSplash, compiling. 
-[2018.06.12-08.45.55:152][  3]LogMaterial: Missing cached shader map for material M_WaterRipple, compiling. 
-[2018.06.12-08.45.55:193][  3]LogMaterial: Missing cached shader map for material M_RainDrop, compiling. 
-[2018.06.12-08.45.55:229][  3]LogMaterial: Missing cached shader map for material M_DustCloud, compiling. 
-[2018.06.12-08.45.55:486][  3]LogMaterial: Missing cached shader map for material M_Fleks3, compiling. 
-[2018.06.12-08.45.55:748][  3]LogMaterial: Missing cached shader map for material M_Sand, compiling. 
-[2018.06.12-08.45.55:800][  3]LogMaterial: Missing cached shader map for material M_Fleks2, compiling. 
-[2018.06.12-08.45.55:951][  3]LogMaterial: Missing cached shader map for material M_SmokeRing, compiling. 
-[2018.06.12-08.45.56:007][  3]LogMaterial: Missing cached shader map for material M_DirtSplash, compiling. 
-[2018.06.12-08.45.56:065][  3]LogMaterial: Missing cached shader map for material M_MetalFlare, compiling. 
-[2018.06.12-08.45.56:523][  3]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0022 seconds. Added 116 classes and 0 folders.
-[2018.06.12-08.45.58:212][  3]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0014 seconds. Added 1 classes and 2 folders.
-[2018.06.12-08.45.58:472][  3]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2018.06.12-08.45.58:811][  3]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2018.06.12-08.45.59:294][  3]LogSlate: Took 0.000349 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.06.12-08.45.59:420][  3]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0013 seconds. Added 1 classes and 0 folders.
-[2018.06.12-08.45.59:953][  4]LogSlate: Took 0.000482 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.06.12-08.55.42:574][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.12-08.55.42:574][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.06.12-08.55.42:590][  0]LogInit: Computer: DESKTOP-SFT0388
+[2018.06.12-08.55.42:590][  0]LogInit: User: korea
+[2018.06.12-08.55.42:590][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.06.12-08.55.42:590][  0]LogInit: High frequency timer resolution =3.609377 MHz
+[2018.06.12-08.55.42:591][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.06.12-08.55.42:591][  0]LogMemory: Platform Memory Stats for Windows
+[2018.06.12-08.55.42:591][  0]LogMemory: Process Physical Memory: 276.31 MB used, 276.31 MB peak
+[2018.06.12-08.55.42:591][  0]LogMemory: Process Virtual Memory: 277.38 MB used, 277.38 MB peak
+[2018.06.12-08.55.42:591][  0]LogMemory: Physical Memory: 4834.79 MB used,  11483.21 MB free, 16318.00 MB total
+[2018.06.12-08.55.42:591][  0]LogMemory: Virtual Memory: 4786.18 MB used,  11483.21 MB free, 134217728.00 MB total
+[2018.06.12-08.55.42:794][  0]LogInit: Using OS detected language (ko-KR).
+[2018.06.12-08.55.42:794][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.06.12-08.55.42:797][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.06.12-08.55.42:921][  0]LogInit: Setting process to per monitor DPI aware
+[2018.06.12-08.55.43:197][  0]LogD3D11RHI: D3D11 adapters:
+[2018.06.12-08.55.43:245][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070 Ti' (Feature Level 11_0)
+[2018.06.12-08.55.43:245][  0]LogD3D11RHI:       8080/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.06.12-08.55.43:247][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.06.12-08.55.43:247][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.06.12-08.55.43:247][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.06.12-08.55.43:251][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.06.12-08.55.43:251][  0]LogD3D11RHI:     GPU DeviceId: 0x1b82 (for the marketing name, search the web for "GPU Device Id")
+[2018.06.12-08.55.43:251][  0]LogWindows: EnumDisplayDevices:
+[2018.06.12-08.55.43:251][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070 Ti' (P:1 D:1)
+[2018.06.12-08.55.43:252][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:1)
+[2018.06.12-08.55.43:252][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2018.06.12-08.55.43:252][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2018.06.12-08.55.43:253][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.06.12-08.55.43:253][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070 Ti
+[2018.06.12-08.55.43:253][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.06.12-08.55.43:253][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.06.12-08.55.43:253][  0]LogRHI: Texture pool is 5656 MB (70% of 8080 MB)
+[2018.06.12-08.55.43:276][  0]LogD3D11RHI: Async texture creation enabled
+[2018.06.12-08.55.43:291][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.06.12-08.55.43:393][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Intermediate/Shaders/WorkingDirectory/4452/).
+[2018.06.12-08.55.43:393][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/korea/AppData/Local/Temp/UnrealShaderWorkingDir/62F768D1443C69D71C28F08A9DD45652/'.
+[2018.06.12-08.55.43:393][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.06.12-08.55.44:149][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.06.12-08.55.44:211][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.06.12-08.55.44:273][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.06.12-08.55.44:337][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.06.12-08.55.44:399][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.06.12-08.55.44:461][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.06.12-08.55.44:525][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.06.12-08.55.44:588][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.06.12-08.55.44:644][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.06.12-08.55.44:706][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.06.12-08.55.44:768][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.06.12-08.55.44:829][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.06.12-08.55.44:891][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.06.12-08.55.44:952][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.06.12-08.55.45:077][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.06.12-08.55.45:077][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.06.12-08.55.45:138][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.06.12-08.55.45:191][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.06.12-08.55.45:298][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.06.12-08.55.45:349][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.06.12-08.55.45:413][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.06.12-08.55.45:473][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.06.12-08.55.45:533][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.06.12-08.55.45:593][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.06.12-08.55.45:593][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.06.12-08.55.46:186][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.06.12-08.55.46:246][  0]LogDerivedDataCache: Loaded boot cache 0.06s 100MB C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.06.12-08.55.46:246][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.06.12-08.55.46:246][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.06.12-08.55.46:246][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.06.12-08.55.46:246][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.06.12-08.55.46:246][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.06.12-08.55.46:258][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.06.12-08.55.46:270][  0]LogDerivedDataCache: Using Local data cache path C:/Users/korea/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.06.12-08.55.46:277][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.06.12-08.55.46:277][  0]LogSlate: Using Freetype 2.6.0
+[2018.06.12-08.55.46:278][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.12-08.55.46:278][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.12-08.55.46:570][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.12-08.55.46:931][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.06.12-08.55.46:984][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.06.12-08.55.46:985][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.06.12-08.55.46:985][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.06.12-08.55.46:985][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.06.12-08.55.46:985][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.06.12-08.55.47:013][  0]LogNetVersion: AWWA , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3043977046)
+[2018.06.12-08.55.47:171][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
+[2018.06.12-08.55.47:592][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.050647 seconds
+[2018.06.12-08.55.47:595][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.06.12-08.55.47:595][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.06.12-08.55.47:595][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.06.12-08.55.47:664][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.06.12-08.55.50:618][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.06.12-08.55.50:667][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.06.12-08.55.53:076][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.06.12-08.55.53:580][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.06.12-08.55.53:580][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.06.12-08.55.53:648][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.06.12-08.55.53:716][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.06.12-08.55.54:763][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.06.12-08.55.55:108][  0]LogOcInput: OculusInput pre-init called
+[2018.06.12-08.55.55:434][  0]LogEngine: Initializing Engine...
+[2018.06.12-08.55.55:437][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.06.12-08.55.55:581][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.12-08.55.55:581][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.12-08.55.55:749][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.06.12-08.55.55:775][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.12-08.55.55:802][  0]LogInit: FAudioDevice initialized.
+[2018.06.12-08.55.55:904][  0]LogDerivedDataCache: Saved boot cache 0.10s 100MB C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.06.12-08.55.55:921][  0]LogInit: Texture streaming: Enabled
+[2018.06.12-08.55.56:055][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.06.12-08.55.56:226][  0]LogInit: Transaction tracking system initialized
+[2018.06.12-08.55.56:648][  0]BlueprintLog: New page: 에디터 로드
+[2018.06.12-08.55.58:371][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.06.12-08.55.59:356][  0]LogConsoleResponse: Display: 
+[2018.06.12-08.55.59:518][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.06.12-08.55.59:518][  0]LogCook: Display: Mobile HDR setting 1
+[2018.06.12-08.55.59:518][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.06.12-08.55.59:597][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/' took 0.03s
+[2018.06.12-08.56.01:076][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.06.12-08.56.01:076][  0]Cmd: MAP LOAD FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.12-08.56.01:077][  0]LightingResults: New page: 라이팅 빌드
+[2018.06.12-08.56.01:132][  0]MapCheck: New page: 맵 체크
+[2018.06.12-08.56.01:132][  0]LightingResults: New page: 라이팅 빌드
+[2018.06.12-08.56.05:525][  0]LogAIModule: Creating AISystem for world World
+[2018.06.12-08.56.07:140][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.12-08.56.07:238][  0]MapCheck: /Game/_Maps/World 레벨의 39 개 컴포넌트에 대해 칠해진 버텍스 컬러 수리에 0.0s 걸렸습니다. 맵을 다시 저장하면 확정됩니다. 
+[2018.06.12-08.56.07:238][  0]MapCheck: Warning: 스태틱 메시 리임포트로 인해 칠해진 버텍스 컬러를 고치는 데 시간이 0.0s 만큼 걸렸습니다. 맵을 다시 저장하기 전까지는 로드할 때마다 이 작업이 실행됩니다. 
+[2018.06.12-08.56.07:238][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.12-08.56.07:518][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 1 회, 소요 시간 279.535ms.
+[2018.06.12-08.56.07:535][  0]LogFileHelpers: Loading map 'World' took 6.459
+[2018.06.12-08.56.07:874][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.06.12-08.56.08:599][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.AWWA
+[2018.06.12-08.56.08:599][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.06.12-08.56.08:599][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
+[2018.06.12-08.56.08:599][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.06.12-08.56.08:599][  0]LogCollectionManager: Loaded 0 collections in 0.001979 seconds
+[2018.06.12-08.56.08:728][  0]LogTemp: BranchPath = DESKTOP-SFT0388/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = DESKTOP-SFT0388/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
+[2018.06.12-08.56.08:728][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\korea\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.06.12-08.56.08:728][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Collections/' took 0.01s
+[2018.06.12-08.56.08:728][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Developers/korea/Collections/' took 0.01s
+[2018.06.12-08.56.08:728][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Collections/' took 0.01s
+[2018.06.12-08.56.08:728][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.06.12-08.56.08:734][  0]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 2369 classes and 522 folders.
+[2018.06.12-08.56.08:828][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.06.12-08.56.08:869][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.06.12-08.56.08:931][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.06.12-08.56.08:984][  0]LogSlate: Took 0.005697 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.06.12-08.56.08:986][  0]LogSlate: Took 0.001609 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.06.12-08.56.08:987][  0]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.06.12-08.56.08:989][  0]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.06.12-08.56.09:085][  0]LogRenderer: Reallocating scene render targets to support 1900x624 Format 10 NumSamples 1 (Frame:1).
+[2018.06.12-08.56.09:264][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.06.12-08.56.09:264][  0]LogLoad: (Engine Initialization) Total time: 29.59 seconds
+[2018.06.12-08.56.09:264][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.06.12-08.56.09:264][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.06.12-08.56.09:278][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2018.06.12-08.56.09:300][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.06.12-08.56.09:455][  2]LogAssetRegistry: Asset discovery search completed in 22.3066 seconds
+[2018.06.12-08.56.09:458][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.06.12-08.56.09:458][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000054 seconds (updated 0 objects)
+[2018.06.12-08.56.10:304][ 88]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.06.12-08.56.10:993][ 88]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.06.12-08.56.11:068][ 88]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 116 classes and 0 folders.
+[2018.06.12-08.56.12:063][ 88]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.06.12-08.56.12:214][ 88]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.06.12-08.56.12:411][ 88]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.06.12-08.56.12:620][ 88]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.06.12-08.56.12:738][ 88]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0008 seconds. Added 1 classes and 0 folders.
+[2018.06.12-08.56.13:025][ 89]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.06.12-08.56.30:210][382]LogAIModule: Creating AISystem for world ImpactParticles
+[2018.06.12-08.56.32:106][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Character/EDIT_Main_Anim" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/EDIT_Main_Anim.uasset" SILENT=true
+[2018.06.12-08.56.32:761][382]LogSavePackage: Save=649.90ms
+[2018.06.12-08.56.32:761][382]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Main_AnimBCF560F64FAB0809FAEE9EA74875905B.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/EDIT_Main_Anim.uasset'
+[2018.06.12-08.56.32:764][382]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/EDIT_Main_Anim.uasset
+[2018.06.12-08.56.32:764][382]Cmd: MAP LOAD FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Impacts/Maps/ImpactParticles.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.12-08.56.32:764][382]LightingResults: New page: 라이팅 빌드
+[2018.06.12-08.56.32:765][382]LoadErrors: New page: 맵 로드중: ImpactParticles.umap
+[2018.06.12-08.56.32:792][382]MapCheck: New page: 맵 체크
+[2018.06.12-08.56.32:792][382]LightingResults: New page: 라이팅 빌드
+[2018.06.12-08.56.32:906][382]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.12-08.56.32:968][382]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.12-08.56.33:312][382]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 343.467ms.
+[2018.06.12-08.56.33:314][382]LogFileHelpers: Loading map 'ImpactParticles' took 0.551
+[2018.06.12-08.56.45:151][740]LogEditorViewport: Clicking on Actor (context menu): BP_DemoRoom_C (BP_DemoRoom)
+[2018.06.12-08.56.46:193][844]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Impacts/Maps/ImpactParticles.ImpactParticles:PersistentLevel' has LevelScriptBlueprint '/Game/Impacts/Maps/ImpactParticles.ImpactParticles:PersistentLevel.ImpactParticles' with GeneratedClass '/Game/Impacts/Maps/ImpactParticles.ImpactParticles_C' with ClassGeneratedBy '/Game/Impacts/Maps/ImpactParticles.ImpactParticles:PersistentLevel.ImpactParticles'
+[2018.06.12-08.56.46:193][844]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.12-08.56.46:194][844]PIE: New page: PIE 세션: ImpactParticles (2018. 6. 13. 오전 2:56:46)
+[2018.06.12-08.56.46:194][844]LogPlayLevel: Creating play world package: /Game/Impacts/Maps/UEDPIE_0_ImpactParticles
+[2018.06.12-08.56.46:222][844]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028405s)
+[2018.06.12-08.56.46:223][844]LogAIModule: Creating AISystem for world ImpactParticles
+[2018.06.12-08.56.46:223][844]LogPlayLevel: PIE: World Init took: (0.000494s)
+[2018.06.12-08.56.46:223][844]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Impacts/Maps/ImpactParticles.ImpactParticles to /Game/Impacts/Maps/UEDPIE_0_ImpactParticles.ImpactParticles (0.029149s)
+[2018.06.12-08.56.46:266][844]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.12-08.56.46:283][844]LogInit: FAudioDevice initialized.
+[2018.06.12-08.56.46:331][844]LogLoad: Game class is 'GM_GameDemo_C'
+[2018.06.12-08.56.46:349][844]LogWorld: Bringing World /Game/Impacts/Maps/UEDPIE_0_ImpactParticles.ImpactParticles up for play (max tick rate 0) at 2018.06.12-17.56.46
+[2018.06.12-08.56.46:351][844]LogWorld: Bringing up level for play took: 0.017965
+[2018.06.12-08.56.46:425][844]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
+[2018.06.12-08.56.46:426][844]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.06.12-08.56.46:426][844]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.06.12-08.56.46:426][844]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.06.12-08.56.46:426][844]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.06.12-08.56.46:426][844]PIE: /Game/Impacts/Maps/UEDPIE_0_ImpactParticles 에 대한 에디터에서 플레이 시작 시간: -0.643
+[2018.06.12-08.56.46:426][844]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Impacts/Maps/ImpactParticles.ImpactParticles:PersistentLevel' has LevelScriptBlueprint '/Game/Impacts/Maps/ImpactParticles.ImpactParticles:PersistentLevel.ImpactParticles' with GeneratedClass '/Game/Impacts/Maps/ImpactParticles.ImpactParticles_C' with ClassGeneratedBy '/Game/Impacts/Maps/ImpactParticles.ImpactParticles:PersistentLevel.ImpactParticles'
+[2018.06.12-08.56.49:001][145]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.56.50:650][342]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Default
+[2018.06.12-08.56.50:745][353]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Default
+[2018.06.12-08.56.50:845][365]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Default
+[2018.06.12-08.56.50:944][377]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Default
+[2018.06.12-08.56.51:429][435]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Default
+[2018.06.12-08.56.51:521][446]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Default
+[2018.06.12-08.56.51:619][458]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Default
+[2018.06.12-08.56.51:719][470]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Default
+[2018.06.12-08.56.51:820][482]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Default
+[2018.06.12-08.56.51:920][494]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Default
+[2018.06.12-08.56.52:020][506]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Default
+[2018.06.12-08.56.52:562][571]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Clay
+[2018.06.12-08.56.52:653][582]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Clay
+[2018.06.12-08.56.52:753][594]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Clay
+[2018.06.12-08.56.52:853][606]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Clay
+[2018.06.12-08.56.52:953][618]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Clay
+[2018.06.12-08.56.53:053][630]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Clay
+[2018.06.12-08.56.53:153][642]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Clay
+[2018.06.12-08.56.53:252][654]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Clay
+[2018.06.12-08.56.53:353][666]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Clay
+[2018.06.12-08.56.53:453][678]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Clay
+[2018.06.12-08.56.54:387][790]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.56.54:478][801]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.56.54:578][813]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.56.54:678][825]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.56.54:778][837]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.56.54:878][849]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.56.54:978][861]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.56.55:078][873]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.56.55:178][885]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.56.55:277][897]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.56.55:378][909]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.56.55:478][921]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.56.55:578][933]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.56.56:679][ 65]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.56.56:769][ 76]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.56.56:871][ 88]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.56.56:972][100]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.56.57:072][112]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.56.57:171][124]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.56.58:006][224]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.56.58:097][235]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.56.58:197][247]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.56.58:296][259]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.56.58:572][292]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.56.58:663][303]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.56.58:763][315]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.56.58:863][327]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.56.58:963][339]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.56.59:063][351]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.56.59:164][363]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.56.59:539][408]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.56.59:630][419]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.56.59:730][431]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.56.59:830][443]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.56.59:930][455]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.57.00:030][467]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.57.01:164][603]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.01:255][614]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.01:355][626]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.01:455][638]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.01:555][650]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.01:655][662]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.01:755][674]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.01:855][686]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.01:955][698]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.02:055][710]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.02:155][722]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.02:255][734]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.02:356][746]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.02:455][758]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.02:555][770]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.02:655][782]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.02:755][794]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.02:855][806]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.02:955][818]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.03:055][830]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.03:155][842]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.03:255][854]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.03:356][866]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.03:455][878]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.03:556][890]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.03:656][902]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.03:755][914]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.03:855][926]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.03:955][938]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.04:055][950]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.04:155][962]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.05:006][ 64]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.05:097][ 75]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.05:197][ 87]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.05:297][ 99]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.05:898][171]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Rock
+[2018.06.12-08.57.05:988][182]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Rock
+[2018.06.12-08.57.06:088][194]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Rock
+[2018.06.12-08.57.06:189][206]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Rock
+[2018.06.12-08.57.06:289][218]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Rock
+[2018.06.12-08.57.06:388][230]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Rock
+[2018.06.12-08.57.06:488][242]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Rock
+[2018.06.12-08.57.06:588][254]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Rock
+[2018.06.12-08.57.06:688][266]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Rock
+[2018.06.12-08.57.06:789][278]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Rock
+[2018.06.12-08.57.06:889][290]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Rock
+[2018.06.12-08.57.07:664][383]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sand
+[2018.06.12-08.57.07:755][394]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sand
+[2018.06.12-08.57.07:855][406]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sand
+[2018.06.12-08.57.07:956][418]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sand
+[2018.06.12-08.57.08:055][430]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sand
+[2018.06.12-08.57.08:155][442]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sand
+[2018.06.12-08.57.08:255][454]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sand
+[2018.06.12-08.57.08:355][466]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sand
+[2018.06.12-08.57.08:455][478]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sand
+[2018.06.12-08.57.08:555][490]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sand
+[2018.06.12-08.57.08:656][502]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sand
+[2018.06.12-08.57.09:173][564]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Glass
+[2018.06.12-08.57.09:264][575]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Glass
+[2018.06.12-08.57.09:364][587]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Glass
+[2018.06.12-08.57.09:464][599]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Glass
+[2018.06.12-08.57.09:564][611]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Glass
+[2018.06.12-08.57.09:666][618]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Glass
+[2018.06.12-08.57.09:769][627]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Glass
+[2018.06.12-08.57.09:874][637]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Glass
+[2018.06.12-08.57.09:980][649]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Glass
+[2018.06.12-08.57.10:082][660]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Glass
+[2018.06.12-08.57.11:186][791]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Cloth
+[2018.06.12-08.57.11:277][802]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Cloth
+[2018.06.12-08.57.11:377][814]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Cloth
+[2018.06.12-08.57.11:476][826]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Cloth
+[2018.06.12-08.57.11:577][838]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Cloth
+[2018.06.12-08.57.11:677][850]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Cloth
+[2018.06.12-08.57.11:777][862]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Cloth
+[2018.06.12-08.57.11:877][874]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Cloth
+[2018.06.12-08.57.11:976][886]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Cloth
+[2018.06.12-08.57.12:076][898]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Cloth
+[2018.06.12-08.57.12:177][910]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Cloth
+[2018.06.12-08.57.12:277][922]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Cloth
+[2018.06.12-08.57.12:376][934]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Cloth
+[2018.06.12-08.57.12:477][946]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Cloth
+[2018.06.12-08.57.12:577][958]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.57.12:677][970]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Wood
+[2018.06.12-08.57.12:776][982]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Wood
+[2018.06.12-08.57.12:877][994]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Wood
+[2018.06.12-08.57.12:977][  6]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Wood
+[2018.06.12-08.57.13:077][ 18]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Wood
+[2018.06.12-08.57.13:177][ 30]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Wood
+[2018.06.12-08.57.13:277][ 42]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Wood
+[2018.06.12-08.57.13:376][ 54]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Wood
+[2018.06.12-08.57.13:477][ 66]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Wood
+[2018.06.12-08.57.13:577][ 78]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Wood
+[2018.06.12-08.57.13:677][ 90]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Wood
+[2018.06.12-08.57.13:777][102]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Wood
+[2018.06.12-08.57.13:877][114]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Wood
+[2018.06.12-08.57.13:977][126]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Wood
+[2018.06.12-08.57.14:077][138]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Wood
+[2018.06.12-08.57.14:177][150]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Wood
+[2018.06.12-08.57.14:277][162]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.57.14:376][174]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.57.14:477][186]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.57.14:577][198]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.57.14:677][210]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.57.14:777][222]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.57.14:877][234]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.57.14:977][246]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.57.15:077][258]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.57.15:176][270]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.57.15:277][282]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.57.16:061][376]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.57.16:152][387]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.16:251][399]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.16:351][411]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.17:019][491]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.57.17:110][502]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.57.17:210][514]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.57.17:310][526]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.57.17:411][538]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.57.18:369][653]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Carpet
+[2018.06.12-08.57.18:461][664]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Carpet
+[2018.06.12-08.57.18:561][676]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Carpet
+[2018.06.12-08.57.18:660][688]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Carpet
+[2018.06.12-08.57.18:761][700]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.19:386][775]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Carpet
+[2018.06.12-08.57.19:476][786]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Carpet
+[2018.06.12-08.57.19:577][798]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Carpet
+[2018.06.12-08.57.19:677][810]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Carpet
+[2018.06.12-08.57.19:777][822]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Carpet
+[2018.06.12-08.57.19:877][834]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Carpet
+[2018.06.12-08.57.19:977][846]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Carpet
+[2018.06.12-08.57.20:077][858]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Carpet
+[2018.06.12-08.57.20:177][870]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Carpet
+[2018.06.12-08.57.20:269][881]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Carpet
+[2018.06.12-08.57.21:020][971]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.57.21:111][982]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.57.21:210][994]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.57.21:310][  6]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.57.21:410][ 18]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.57.21:510][ 30]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.57.22:795][184]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.57.22:885][195]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.57.22:985][207]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.57.23:086][219]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.57.23:186][231]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.57.23:286][243]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.57.23:386][255]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.57.24:853][431]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Snow
+[2018.06.12-08.57.24:944][442]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Snow
+[2018.06.12-08.57.25:044][454]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Snow
+[2018.06.12-08.57.25:143][466]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Snow
+[2018.06.12-08.57.25:244][478]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Snow
+[2018.06.12-08.57.25:344][490]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Snow
+[2018.06.12-08.57.26:595][640]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Snow
+[2018.06.12-08.57.26:686][651]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Snow
+[2018.06.12-08.57.26:786][663]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Snow
+[2018.06.12-08.57.26:846][670]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Snow
+[2018.06.12-08.57.26:936][681]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Snow
+[2018.06.12-08.57.27:570][757]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Tile
+[2018.06.12-08.57.27:661][768]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Tile
+[2018.06.12-08.57.27:761][780]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Tile
+[2018.06.12-08.57.27:861][792]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Tile
+[2018.06.12-08.57.27:961][804]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Tile
+[2018.06.12-08.57.28:061][816]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Tile
+[2018.06.12-08.57.28:161][828]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Tile
+[2018.06.12-08.57.28:228][836]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Tile
+[2018.06.12-08.57.28:987][927]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Asphalt
+[2018.06.12-08.57.29:077][938]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Asphalt
+[2018.06.12-08.57.29:178][950]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Asphalt
+[2018.06.12-08.57.29:278][962]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Asphalt
+[2018.06.12-08.57.29:377][974]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Asphalt
+[2018.06.12-08.57.29:478][986]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Asphalt
+[2018.06.12-08.57.29:577][998]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Asphalt
+[2018.06.12-08.57.29:677][ 10]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Asphalt
+[2018.06.12-08.57.29:777][ 22]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Asphalt
+[2018.06.12-08.57.29:877][ 34]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Asphalt
+[2018.06.12-08.57.29:977][ 46]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Asphalt
+[2018.06.12-08.57.30:078][ 58]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Asphalt
+[2018.06.12-08.57.30:178][ 70]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Asphalt
+[2018.06.12-08.57.30:278][ 82]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Asphalt
+[2018.06.12-08.57.30:978][166]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.57.31:069][177]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.57.31:169][189]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.57.31:269][201]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.57.31:369][213]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.57.31:469][225]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.57.31:895][276]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.57.31:986][287]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.57.32:086][299]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.57.32:186][311]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.57.32:286][323]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.57.32:385][335]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.57.32:486][347]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.57.32:586][359]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.57.32:686][371]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.57.32:786][383]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.57.34:012][530]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Cardboard
+[2018.06.12-08.57.34:103][541]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Cardboard
+[2018.06.12-08.57.34:202][553]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Cardboard
+[2018.06.12-08.57.34:303][565]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Cardboard
+[2018.06.12-08.57.34:403][577]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Cardboard
+[2018.06.12-08.57.35:237][677]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.57.35:328][688]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.57.35:427][700]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.57.35:527][712]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.57.35:628][724]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.57.35:728][736]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.57.35:827][748]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.57.35:927][760]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.57.36:028][772]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.57.36:128][784]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.57.36:227][796]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.57.36:327][808]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.57.37:503][949]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.37:597][960]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.37:695][972]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.37:795][984]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.37:896][996]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.38:363][ 52]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.38:454][ 63]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.38:554][ 75]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.39:604][201]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.39:695][212]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.39:796][224]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.39:895][236]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.39:995][248]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.40:095][260]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.40:195][272]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.40:296][284]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.40:395][296]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.40:495][308]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.41:104][381]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.41:195][392]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.41:296][404]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.41:395][416]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.41:495][428]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.41:595][440]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.41:695][452]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.41:795][464]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.41:896][476]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.41:995][488]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.42:095][500]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.42:196][512]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.42:295][524]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.42:395][536]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.42:495][548]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.42:596][560]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.42:695][572]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.42:796][584]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.42:895][596]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.42:995][608]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.43:095][620]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.43:195][632]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.43:296][644]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.43:396][656]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.43:495][668]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.43:596][680]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.44:279][762]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.44:371][773]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.44:470][785]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.45:021][851]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.45:112][862]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.45:838][949]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.45:929][960]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Blood
+[2018.06.12-08.57.46:356][  9]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Electronics
+[2018.06.12-08.57.46:447][ 20]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Electronics
+[2018.06.12-08.57.46:547][ 32]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Electronics
+[2018.06.12-08.57.46:647][ 44]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Electronics
+[2018.06.12-08.57.46:747][ 56]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Electronics
+[2018.06.12-08.57.46:847][ 68]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Electronics
+[2018.06.12-08.57.46:947][ 80]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Electronics
+[2018.06.12-08.57.47:523][149]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sheetrock
+[2018.06.12-08.57.47:614][160]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sheetrock
+[2018.06.12-08.57.47:714][172]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sheetrock
+[2018.06.12-08.57.47:813][184]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sheetrock
+[2018.06.12-08.57.47:914][196]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sheetrock
+[2018.06.12-08.57.48:013][208]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sheetrock
+[2018.06.12-08.57.48:114][220]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sheetrock
+[2018.06.12-08.57.48:214][232]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sheetrock
+[2018.06.12-08.57.49:465][382]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Plastic
+[2018.06.12-08.57.49:555][393]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Plastic
+[2018.06.12-08.57.49:655][405]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Plastic
+[2018.06.12-08.57.49:756][417]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Plastic
+[2018.06.12-08.57.49:856][429]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Plastic
+[2018.06.12-08.57.49:955][441]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Plastic
+[2018.06.12-08.57.50:656][525]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Leaves
+[2018.06.12-08.57.50:747][536]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Leaves
+[2018.06.12-08.57.50:847][548]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Leaves
+[2018.06.12-08.57.50:947][560]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Leaves
+[2018.06.12-08.57.51:047][572]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Leaves
+[2018.06.12-08.57.51:148][584]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Leaves
+[2018.06.12-08.57.51:247][596]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Leaves
+[2018.06.12-08.57.51:347][608]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Leaves
+[2018.06.12-08.57.53:089][817]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Leaves
+[2018.06.12-08.57.53:181][828]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Leaves
+[2018.06.12-08.57.53:281][840]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Leaves
+[2018.06.12-08.57.53:380][852]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Leaves
+[2018.06.12-08.57.53:480][864]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Leaves
+[2018.06.12-08.57.54:090][937]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Plaster
+[2018.06.12-08.57.54:181][948]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Plaster
+[2018.06.12-08.57.54:280][960]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Plaster
+[2018.06.12-08.57.54:380][972]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Plaster
+[2018.06.12-08.57.54:481][984]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Plaster
+[2018.06.12-08.57.54:581][996]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Plaster
+[2018.06.12-08.57.55:865][150]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Plaster
+[2018.06.12-08.57.55:955][161]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Plaster
+[2018.06.12-08.57.56:056][173]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Plaster
+[2018.06.12-08.57.56:589][237]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.57.56:681][248]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.57.56:781][260]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.57.56:880][272]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.57.56:981][284]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.57.57:081][296]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.57.57:181][308]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.57.59:457][581]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.57.59:548][592]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.57.59:647][604]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.59:747][616]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.59:848][628]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.57.59:947][640]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.58.00:047][652]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.58.00:148][664]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.58.00:248][676]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.58.00:347][688]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.58.00:448][700]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.58.00:548][712]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.58.00:648][724]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.58.00:747][736]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.58.00:847][748]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.58.00:948][760]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.58.01:048][772]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.58.01:147][784]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.58.01:247][796]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.58.01:348][808]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.58.01:447][820]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.58.01:547][832]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.58.01:648][844]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.58.01:748][856]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.58.01:847][868]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.58.01:948][880]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Dirt
+[2018.06.12-08.58.02:048][892]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.58.03:540][ 71]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.58.03:631][ 82]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.58.03:731][ 94]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.58.03:831][106]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.58.03:930][118]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.58.04:031][130]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.58.04:331][166]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Plaster
+[2018.06.12-08.58.04:965][242]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.58.05:056][253]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.58.05:257][277]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Plastic
+[2018.06.12-08.58.12:248][116]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Electronics
+[2018.06.12-08.58.12:339][127]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Electronics
+[2018.06.12-08.58.12:439][139]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.58.12:540][151]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.58.14:416][376]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Cardboard
+[2018.06.12-08.58.14:506][387]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Cardboard
+[2018.06.12-08.58.14:607][399]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Cardboard
+[2018.06.12-08.58.14:706][411]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Cardboard
+[2018.06.12-08.58.14:807][423]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Cardboard
+[2018.06.12-08.58.16:549][632]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.58.16:640][643]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.58.16:740][655]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.58.16:840][667]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Brick
+[2018.06.12-08.58.17:574][755]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Asphalt
+[2018.06.12-08.58.17:665][766]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Asphalt
+[2018.06.12-08.58.17:765][778]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Asphalt
+[2018.06.12-08.58.17:865][790]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Asphalt
+[2018.06.12-08.58.19:357][969]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Tile
+[2018.06.12-08.58.19:448][980]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Tile
+[2018.06.12-08.58.19:549][992]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Tile
+[2018.06.12-08.58.19:648][  4]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Tile
+[2018.06.12-08.58.19:749][ 16]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Tile
+[2018.06.12-08.58.20:566][114]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Snow
+[2018.06.12-08.58.20:657][125]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Snow
+[2018.06.12-08.58.20:757][137]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Snow
+[2018.06.12-08.58.20:857][149]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Snow
+[2018.06.12-08.58.20:956][161]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Snow
+[2018.06.12-08.58.21:057][173]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Snow
+[2018.06.12-08.58.21:157][185]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Snow
+[2018.06.12-08.58.21:607][239]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.58.21:698][250]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.58.21:798][262]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.58.21:899][274]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.58.21:998][286]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.58.22:098][298]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.58.22:198][310]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.58.22:299][322]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.58.22:398][334]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.58.22:499][346]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.58.22:599][358]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.58.22:699][370]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.58.22:800][382]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Concrete
+[2018.06.12-08.58.22:849][388]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Carpet
+[2018.06.12-08.58.22:940][399]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Carpet
+[2018.06.12-08.58.23:040][411]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Carpet
+[2018.06.12-08.58.23:140][423]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Carpet
+[2018.06.12-08.58.23:240][435]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Carpet
+[2018.06.12-08.58.23:340][447]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Carpet
+[2018.06.12-08.58.23:440][459]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Carpet
+[2018.06.12-08.58.23:540][471]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Carpet
+[2018.06.12-08.58.23:640][483]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Carpet
+[2018.06.12-08.58.23:740][495]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Carpet
+[2018.06.12-08.58.23:841][507]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Carpet
+[2018.06.12-08.58.23:940][519]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Carpet
+[2018.06.12-08.58.24:040][531]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Carpet
+[2018.06.12-08.58.24:140][543]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Carpet
+[2018.06.12-08.58.24:240][555]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.58.24:340][567]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.58.24:440][579]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.58.24:540][591]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.58.24:640][603]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.58.24:740][615]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.58.24:841][627]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.58.24:940][639]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.58.25:041][651]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.58.25:141][663]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.58.25:240][675]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.58.25:340][687]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.58.25:440][699]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.58.25:540][711]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.58.25:641][723]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.58.25:740][735]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.58.25:840][747]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Grass
+[2018.06.12-08.58.28:491][ 65]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Wood
+[2018.06.12-08.58.28:582][ 76]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Wood
+[2018.06.12-08.58.34:624][801]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Wood
+[2018.06.12-08.58.34:716][812]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Wood
+[2018.06.12-08.58.34:816][824]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Wood
+[2018.06.12-08.58.34:916][836]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Wood
+[2018.06.12-08.58.35:508][907]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Wood
+[2018.06.12-08.58.35:599][918]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Wood
+[2018.06.12-08.58.35:700][930]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Wood
+[2018.06.12-08.58.35:800][942]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Wood
+[2018.06.12-08.58.35:900][954]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Wood
+[2018.06.12-08.58.35:999][966]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Wood
+[2018.06.12-08.58.36:100][978]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Wood
+[2018.06.12-08.58.36:574][ 35]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Cloth
+[2018.06.12-08.58.36:666][ 46]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Cloth
+[2018.06.12-08.58.36:766][ 58]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Cloth
+[2018.06.12-08.58.36:866][ 70]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Cloth
+[2018.06.12-08.58.37:058][ 93]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Glass
+[2018.06.12-08.58.37:417][136]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Glass
+[2018.06.12-08.58.37:507][147]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Glass
+[2018.06.12-08.58.37:608][159]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Glass
+[2018.06.12-08.58.37:708][171]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Glass
+[2018.06.12-08.58.39:908][435]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sand
+[2018.06.12-08.58.40:000][446]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sand
+[2018.06.12-08.58.40:550][512]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sand
+[2018.06.12-08.58.40:641][523]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sand
+[2018.06.12-08.58.40:741][535]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sand
+[2018.06.12-08.58.40:841][547]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sand
+[2018.06.12-08.58.40:941][559]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sand
+[2018.06.12-08.58.41:041][571]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sand
+[2018.06.12-08.58.41:141][583]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sand
+[2018.06.12-08.58.41:241][595]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sand
+[2018.06.12-08.58.41:341][607]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sand
+[2018.06.12-08.58.41:441][619]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sand
+[2018.06.12-08.58.41:541][631]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sand
+[2018.06.12-08.58.41:641][643]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sand
+[2018.06.12-08.58.41:741][655]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sand
+[2018.06.12-08.58.41:841][667]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sand
+[2018.06.12-08.58.41:941][679]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sand
+[2018.06.12-08.58.42:041][691]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sand
+[2018.06.12-08.58.42:141][703]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sand
+[2018.06.12-08.58.42:241][715]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Sand
+[2018.06.12-08.58.43:141][823]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Rock
+[2018.06.12-08.58.43:233][834]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Rock
+[2018.06.12-08.58.43:333][846]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Rock
+[2018.06.12-08.58.43:433][858]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Rock
+[2018.06.12-08.58.43:934][918]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.58.44:024][929]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Metal
+[2018.06.12-08.58.55:976][360]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.58.56:067][371]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.58.56:168][383]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.58.56:268][395]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.58.56:368][407]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.58.56:467][419]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.58.56:568][431]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.58.56:610][436]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.58.57:519][545]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.58.57:610][556]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.58.57:709][568]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.58.58:243][632]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.58.58:334][643]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.58.58:435][655]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.58.58:534][667]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.58.58:634][679]LogBlueprintUserMessages: [FirstPersonCharacter_2322] Water
+[2018.06.12-08.59.00:919][953]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Impacts/Maps/ImpactParticles.ImpactParticles:PersistentLevel' has LevelScriptBlueprint '/Game/Impacts/Maps/ImpactParticles.ImpactParticles:PersistentLevel.ImpactParticles' with GeneratedClass '/Game/Impacts/Maps/ImpactParticles.ImpactParticles_C' with ClassGeneratedBy '/Game/Impacts/Maps/ImpactParticles.ImpactParticles:PersistentLevel.ImpactParticles'
+[2018.06.12-08.59.00:952][953]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Impacts/Maps/ImpactParticles.ImpactParticles:PersistentLevel' has LevelScriptBlueprint '/Game/Impacts/Maps/ImpactParticles.ImpactParticles:PersistentLevel.ImpactParticles' with GeneratedClass '/Game/Impacts/Maps/ImpactParticles.ImpactParticles_C' with ClassGeneratedBy '/Game/Impacts/Maps/ImpactParticles.ImpactParticles:PersistentLevel.ImpactParticles'
+[2018.06.12-09.00.34:916][993]LogEditorViewport: Clicking on Actor (LMB): BP_DemoDisplay_Rock_C (BP_DemoDisplay_Rock)
+[2018.06.12-09.00.45:948][298]LogEditorViewport: Clicking on Actor (LMB): BP_DemoDisplay_Rock_C (BP_DemoDisplay_Rock)
+[2018.06.12-09.00.46:036][306]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (NODE_AddStaticMeshComponent-0_142)
+[2018.06.12-09.01.05:394][325]LogAIModule: Creating AISystem for world World
+[2018.06.12-09.01.05:804][325]Cmd: MAP LOAD FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.12-09.01.05:804][325]LightingResults: New page: 라이팅 빌드
+[2018.06.12-09.01.05:804][325]LoadErrors: New page: 맵 로드중: World.umap
+[2018.06.12-09.01.05:807][325]MapCheck: New page: 맵 체크
+[2018.06.12-09.01.05:807][325]LightingResults: New page: 라이팅 빌드
+[2018.06.12-09.01.07:328][325]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.12-09.01.07:467][325]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.12-09.01.07:795][325]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 327.986ms.
+[2018.06.12-09.01.07:799][325]LogFileHelpers: Loading map 'World' took 1.996
+[2018.06.12-09.01.10:525][636]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.06.12-09.01.12:052][802]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.06.12-09.01.26:493][915]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.06.12-09.01.29:647][193]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2018.06.12-09.01.34:041][235]LogSavePackage: Save=2141.57ms
+[2018.06.12-09.01.34:041][235]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter6FD797EF4D36979AE67064A1FC7AD516.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
+[2018.06.12-09.01.34:045][235]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
+[2018.06.12-09.01.35:053][333]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.06.12-09.01.36:163][444]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.01.36:163][444]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.12-09.01.36:163][444]PIE: New page: PIE 세션: World (2018. 6. 13. 오전 3:01:36)
+[2018.06.12-09.01.36:163][444]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.06.12-09.01.36:530][444]LogPlayLevel: PIE: StaticDuplicateObject took: (0.366517s)
+[2018.06.12-09.01.36:530][444]LogAIModule: Creating AISystem for world World
+[2018.06.12-09.01.36:530][444]LogPlayLevel: PIE: World Init took: (0.000534s)
+[2018.06.12-09.01.36:532][444]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.368381s)
+[2018.06.12-09.01.36:582][444]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.12-09.01.36:599][444]LogInit: FAudioDevice initialized.
+[2018.06.12-09.01.36:626][444]LogLoad: Game class is 'AWWAGameMode'
+[2018.06.12-09.01.36:736][444]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.06.12-18.01.36
+[2018.06.12-09.01.36:742][444]LogWorld: Bringing up level for play took: 0.115098
+[2018.06.12-09.01.36:749][444]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 1.679
+[2018.06.12-09.01.36:750][444]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.02.06:266][862]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.02.06:347][862]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.02.28:863][506]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0008 seconds. Added 2 classes and 2 folders.
+[2018.06.12-09.02.33:958][ 65]LogCascade: Quitting Cascade. FXSystem=0x000002928253D580
+[2018.06.12-09.02.54:557][483]LogCascade: Quitting Cascade. FXSystem=0x000002922B12F100
+[2018.06.12-09.02.55:397][571]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.06.12-09.02.56:255][657]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.02.56:255][657]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.12-09.02.56:255][657]PIE: New page: PIE 세션: World (2018. 6. 13. 오전 3:02:56)
+[2018.06.12-09.02.56:255][657]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.06.12-09.02.56:622][657]LogPlayLevel: PIE: StaticDuplicateObject took: (0.366959s)
+[2018.06.12-09.02.56:623][657]LogAIModule: Creating AISystem for world World
+[2018.06.12-09.02.56:623][657]LogPlayLevel: PIE: World Init took: (0.000513s)
+[2018.06.12-09.02.56:624][657]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.368665s)
+[2018.06.12-09.02.56:683][657]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.12-09.02.56:700][657]LogInit: FAudioDevice initialized.
+[2018.06.12-09.02.56:730][657]LogLoad: Game class is 'AWWAGameMode'
+[2018.06.12-09.02.56:841][657]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.06.12-18.02.56
+[2018.06.12-09.02.56:847][657]LogWorld: Bringing up level for play took: 0.117326
+[2018.06.12-09.02.56:854][657]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: -0.215
+[2018.06.12-09.02.56:855][657]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.03.22:269][602]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.03.22:366][602]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.03.24:702][833]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.06.12-09.04.07:070][802]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2018.06.12-09.04.11:533][841]LogSavePackage: Save=2141.98ms
+[2018.06.12-09.04.11:533][841]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter036E71074EB3ED953C77A894EB0796D8.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
+[2018.06.12-09.04.11:537][841]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
+[2018.06.12-09.04.13:430][ 40]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.06.12-09.04.14:276][117]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.04.14:276][117]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.12-09.04.14:276][117]PIE: New page: PIE 세션: World (2018. 6. 13. 오전 3:04:14)
+[2018.06.12-09.04.14:276][117]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.06.12-09.04.14:644][117]LogPlayLevel: PIE: StaticDuplicateObject took: (0.367695s)
+[2018.06.12-09.04.14:644][117]LogAIModule: Creating AISystem for world World
+[2018.06.12-09.04.14:644][117]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2018.06.12-09.04.14:645][117]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.369517s)
+[2018.06.12-09.04.14:703][117]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.12-09.04.14:720][117]LogInit: FAudioDevice initialized.
+[2018.06.12-09.04.14:752][117]LogLoad: Game class is 'AWWAGameMode'
+[2018.06.12-09.04.14:884][117]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.06.12-18.04.14
+[2018.06.12-09.04.14:890][117]LogWorld: Bringing up level for play took: 0.136450
+[2018.06.12-09.04.14:897][117]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: -0.172
+[2018.06.12-09.04.14:898][117]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.04.31:540][ 76]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.04.31:615][ 76]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.04.45:085][635]LogCascade: Quitting Cascade. FXSystem=0x00000292D887A3E0
+[2018.06.12-09.04.53:522][597]LogCascade: Quitting Cascade. FXSystem=0x00000292D74F56C0
+[2018.06.12-09.04.57:127][984]LogCascade: Quitting Cascade. FXSystem=0x0000029281CD8EA0
+[2018.06.12-09.04.59:600][234]LogCascade: Quitting Cascade. FXSystem=0x00000292A948A980
+[2018.06.12-09.05.02:347][519]LogCascade: Quitting Cascade. FXSystem=0x0000029281BC25C0
+[2018.06.12-09.05.05:480][844]LogCascade: Quitting Cascade. FXSystem=0x00000292A9C20C20
+[2018.06.12-09.05.08:536][159]LogCascade: Quitting Cascade. FXSystem=0x00000292A9558E00
+[2018.06.12-09.05.14:077][771]LogCascade: Quitting Cascade. FXSystem=0x0000029228249120
+[2018.06.12-09.05.17:257][107]LogCascade: Quitting Cascade. FXSystem=0x00000292D7A713A0
+[2018.06.12-09.05.21:414][563]LogCascade: Quitting Cascade. FXSystem=0x00000292D7B22020
+[2018.06.12-09.05.27:118][  6]LogCascade: Quitting Cascade. FXSystem=0x00000292A99E60C0
+[2018.06.12-09.05.31:122][437]LogCascade: Quitting Cascade. FXSystem=0x00000291E2AC0360
+[2018.06.12-09.05.34:308][773]LogCascade: Quitting Cascade. FXSystem=0x00000291CFB3AAC0
+[2018.06.12-09.08.11:804][466]LogSavePackage: Save=54.02ms
+[2018.06.12-09.08.11:804][466]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/P_ImpactFireFog306EE2D34A56E2D8850AA3A117B06773.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Impacts/Particles/P_ImpactFireFog.uasset'
+[2018.06.12-09.08.11:807][466]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Impacts/Particles/P_ImpactFireFog.uasset
+[2018.06.12-09.08.54:179][464]LogCascade: Quitting Cascade. FXSystem=0x00000292A99E4180
+[2018.06.12-09.11.57:593][500]LogSavePackage: Save=45.86ms
+[2018.06.12-09.11.57:593][500]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/P_ImpactBlood7EB83BCB4792D65098C8FABD93D21AD3.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Impacts/Particles/P_ImpactBlood.uasset'
+[2018.06.12-09.11.57:596][500]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Impacts/Particles/P_ImpactBlood.uasset
+[2018.06.12-09.11.59:810][723]LogEditorViewport: Clicking on Actor (context menu): Small_House_Prefab_01_C (Small_House_Prefab_01)
+[2018.06.12-09.12.00:698][808]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.12.00:698][808]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.12-09.12.00:698][808]PIE: New page: PIE 세션: World (2018. 6. 13. 오전 3:12:00)
+[2018.06.12-09.12.00:698][808]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.06.12-09.12.01:077][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.378248s)
+[2018.06.12-09.12.01:077][808]LogAIModule: Creating AISystem for world World
+[2018.06.12-09.12.01:077][808]LogPlayLevel: PIE: World Init took: (0.000617s)
+[2018.06.12-09.12.01:079][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.380175s)
+[2018.06.12-09.12.01:153][808]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.12-09.12.01:170][808]LogInit: FAudioDevice initialized.
+[2018.06.12-09.12.01:198][808]LogLoad: Game class is 'AWWAGameMode'
+[2018.06.12-09.12.01:317][808]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.06.12-18.12.01
+[2018.06.12-09.12.01:322][808]LogWorld: Bringing up level for play took: 0.124664
+[2018.06.12-09.12.01:331][808]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.262
+[2018.06.12-09.12.01:332][808]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.12.16:333][599]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-423.70 Y=56.65 Z=0.00 Location: X=120672.35 Y=41734.27 Z=5098.97 Normal: X=0.34 Y=-0.00 Z=0.94 PenetrationDepth:2.917 Actor:Hedge_50 Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
+[2018.06.12-09.12.41:806][643]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-407.01 Y=47.42 Z=0.00 Location: X=120672.29 Y=41817.75 Z=5098.97 Normal: X=0.34 Y=0.00 Z=0.94 PenetrationDepth:2.938 Actor:Hedge_50 Component:StaticMeshComponent0 BoneName:None (6 other events since notify)
+[2018.06.12-09.12.42:492][725]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.12.42:685][725]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.13.17:609][951]LogSavePackage: Save=9026.85ms
+[2018.06.12-09.13.17:609][951]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/World_Auto17575F4B14832011829A88B801AE1BFAF.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Maps/World_Auto1.umap'
+[2018.06.12-09.13.17:617][951]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Maps/World_Auto1.umap
+[2018.06.12-09.13.17:622][951]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/World' took 9.127
+[2018.06.12-09.13.17:622][951]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 9.127
+[2018.06.12-09.15.15:789][844]LogCascade: Quitting Cascade. FXSystem=0x0000029225F64AE0
+[2018.06.12-09.16.10:575][ 63]LogCascade: Quitting Cascade. FXSystem=0x00000292D6003E20
+[2018.06.12-09.16.10:615][ 63]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloorComponent) Not registered. Aborting.
+[2018.06.12-09.16.22:468][350]LogCascade: Quitting Cascade. FXSystem=0x00000292D66E0C20
+[2018.06.12-09.16.28:600][ 42]LogCascade: Quitting Cascade. FXSystem=0x00000292AA942AC0
+[2018.06.12-09.16.50:686][533]LogCascade: Quitting Cascade. FXSystem=0x00000292D5E862A0
+[2018.06.12-09.17.09:983][  5]LogCascade: Quitting Cascade. FXSystem=0x00000292D5BADA80
+[2018.06.12-09.21.47:823][804]LogCascade: Quitting Cascade. FXSystem=0x00000291DF338C20
+[2018.06.12-09.21.48:935][922]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.06.12-09.21.49:998][ 24]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.21.49:998][ 24]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.12-09.21.49:999][ 24]PIE: New page: PIE 세션: World (2018. 6. 13. 오전 3:21:49)
+[2018.06.12-09.21.49:999][ 24]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.06.12-09.21.50:378][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.379043s)
+[2018.06.12-09.21.50:378][ 24]LogAIModule: Creating AISystem for world World
+[2018.06.12-09.21.50:379][ 24]LogPlayLevel: PIE: World Init took: (0.000647s)
+[2018.06.12-09.21.50:380][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.381114s)
+[2018.06.12-09.21.50:435][ 24]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.12-09.21.50:453][ 24]LogInit: FAudioDevice initialized.
+[2018.06.12-09.21.50:482][ 24]LogLoad: Game class is 'AWWAGameMode'
+[2018.06.12-09.21.50:593][ 24]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.06.12-18.21.50
+[2018.06.12-09.21.50:599][ 24]LogWorld: Bringing up level for play took: 0.116669
+[2018.06.12-09.21.50:606][ 24]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 1.537
+[2018.06.12-09.21.50:607][ 24]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.21.56:955][766]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.21.57:034][766]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.22.57:834][519]LogSavePackage: Save=52.37ms
+[2018.06.12-09.22.57:834][519]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/P_ImpactBloodCustom4156334146E9C8C1BC058D89F5FD999E.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Impacts/Particles/P_ImpactBloodCustom.uasset'
+[2018.06.12-09.22.57:837][519]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Impacts/Particles/P_ImpactBloodCustom.uasset
+[2018.06.12-09.23.10:475][ 18]LogSavePackage: Save=44.51ms
+[2018.06.12-09.23.10:475][ 18]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/P_ImpactBloodCustomA78AE64A4312EBFC074E62A0029F95B6.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Impacts/Particles/P_ImpactBloodCustom.uasset'
+[2018.06.12-09.23.10:478][ 18]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Impacts/Particles/P_ImpactBloodCustom.uasset
+[2018.06.12-09.23.13:103][286]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.06.12-09.23.14:199][399]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.23.14:199][399]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.12-09.23.14:199][399]PIE: New page: PIE 세션: World (2018. 6. 13. 오전 3:23:14)
+[2018.06.12-09.23.14:199][399]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.06.12-09.23.14:578][399]LogPlayLevel: PIE: StaticDuplicateObject took: (0.378464s)
+[2018.06.12-09.23.14:578][399]LogAIModule: Creating AISystem for world World
+[2018.06.12-09.23.14:578][399]LogPlayLevel: PIE: World Init took: (0.000595s)
+[2018.06.12-09.23.14:579][399]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.380312s)
+[2018.06.12-09.23.14:629][399]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.12-09.23.14:646][399]LogInit: FAudioDevice initialized.
+[2018.06.12-09.23.14:675][399]LogLoad: Game class is 'AWWAGameMode'
+[2018.06.12-09.23.14:790][399]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.06.12-18.23.14
+[2018.06.12-09.23.14:796][399]LogWorld: Bringing up level for play took: 0.120983
+[2018.06.12-09.23.14:804][399]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: -0.265
+[2018.06.12-09.23.14:805][399]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.23.17:800][749]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.23.18:007][749]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.23.27:721][523]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2018.06.12-09.23.32:117][554]LogSavePackage: Save=2138.40ms
+[2018.06.12-09.23.32:117][554]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter50DC674849A1330B4F8D9387F262C095.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
+[2018.06.12-09.23.32:120][554]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
+[2018.06.12-09.23.39:356][285]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.06.12-09.23.40:334][366]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.23.40:335][366]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.12-09.23.40:335][366]PIE: New page: PIE 세션: World (2018. 6. 13. 오전 3:23:40)
+[2018.06.12-09.23.40:335][366]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.06.12-09.23.40:708][366]LogPlayLevel: PIE: StaticDuplicateObject took: (0.373587s)
+[2018.06.12-09.23.40:709][366]LogAIModule: Creating AISystem for world World
+[2018.06.12-09.23.40:709][366]LogPlayLevel: PIE: World Init took: (0.000599s)
+[2018.06.12-09.23.40:710][366]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.375467s)
+[2018.06.12-09.23.40:762][366]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.12-09.23.40:779][366]LogInit: FAudioDevice initialized.
+[2018.06.12-09.23.40:807][366]LogLoad: Game class is 'AWWAGameMode'
+[2018.06.12-09.23.40:920][366]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.06.12-18.23.40
+[2018.06.12-09.23.40:926][366]LogWorld: Bringing up level for play took: 0.119072
+[2018.06.12-09.23.40:933][366]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: -0.136
+[2018.06.12-09.23.40:934][366]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.23.58:354][405]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.23.58:436][405]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.23.59:033][456]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.06.12-09.24.00:192][574]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.24.00:192][574]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.12-09.24.00:193][574]PIE: New page: PIE 세션: World (2018. 6. 13. 오전 3:24:00)
+[2018.06.12-09.24.00:193][574]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.06.12-09.24.00:557][574]LogPlayLevel: PIE: StaticDuplicateObject took: (0.365036s)
+[2018.06.12-09.24.00:557][574]LogAIModule: Creating AISystem for world World
+[2018.06.12-09.24.00:558][574]LogPlayLevel: PIE: World Init took: (0.000528s)
+[2018.06.12-09.24.00:559][574]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.366770s)
+[2018.06.12-09.24.00:608][574]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.12-09.24.00:625][574]LogInit: FAudioDevice initialized.
+[2018.06.12-09.24.00:656][574]LogLoad: Game class is 'AWWAGameMode'
+[2018.06.12-09.24.00:777][574]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.06.12-18.24.00
+[2018.06.12-09.24.00:783][574]LogWorld: Bringing up level for play took: 0.126962
+[2018.06.12-09.24.00:790][574]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: -0.279
+[2018.06.12-09.24.00:791][574]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.24.17:225][431]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=417.61 Y=176.99 Z=0.00 Location: X=120570.59 Y=41729.68 Z=5026.15 Normal: X=-1.00 Y=0.00 Z=0.00 PenetrationDepth:8.594 Actor:BlockingVolume4 Component:BrushComponent0 BoneName:None (0 other events since notify)
+[2018.06.12-09.24.22:603][ 73]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.24.22:679][ 73]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-09.24.56:629][ 37]LogSavePackage: Save=8950.75ms
+[2018.06.12-09.24.56:629][ 37]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/World_Auto2748394FB41EAD6ADACB4D0B11A2B717F.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Maps/World_Auto2.umap'
+[2018.06.12-09.24.56:637][ 37]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Maps/World_Auto2.umap
+[2018.06.12-09.24.56:639][ 37]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/World' took 9.041
+[2018.06.12-09.24.56:639][ 37]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 9.041
+[2018.06.12-11.39.34:931][405]LogEditorViewport: Clicking on Actor (context menu): Small_House_Prefab_01_C (Small_House_Prefab_01)
+[2018.06.12-11.39.36:247][522]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-11.39.36:247][522]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.12-11.39.36:247][522]PIE: New page: PIE 세션: World (2018. 6. 13. 오전 5:39:36)
+[2018.06.12-11.39.36:247][522]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.06.12-11.39.36:639][522]LogPlayLevel: PIE: StaticDuplicateObject took: (0.391740s)
+[2018.06.12-11.39.36:640][522]LogAIModule: Creating AISystem for world World
+[2018.06.12-11.39.36:640][522]LogPlayLevel: PIE: World Init took: (0.000749s)
+[2018.06.12-11.39.36:641][522]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.394153s)
+[2018.06.12-11.39.36:701][522]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.12-11.39.36:723][522]LogInit: FAudioDevice initialized.
+[2018.06.12-11.39.36:753][522]LogLoad: Game class is 'AWWAGameMode'
+[2018.06.12-11.39.36:870][522]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.06.12-20.39.36
+[2018.06.12-11.39.36:877][522]LogWorld: Bringing up level for play took: 0.124484
+[2018.06.12-11.39.36:884][522]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: -0.183
+[2018.06.12-11.39.36:885][522]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-11.40.05:780][950]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.12-11.40.05:858][950]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
