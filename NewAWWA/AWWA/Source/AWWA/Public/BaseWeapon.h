@@ -56,6 +56,10 @@ public:
 	// Init in Constructor! from Database! 
 
 	UPROPERTY(BlueprintReadWrite, EditDefaultsOnly, Category = "Stat")
+	float m_stability;
+	// Init in Constructor! from Database! 
+
+	UPROPERTY(BlueprintReadWrite, EditDefaultsOnly, Category = "Stat")
 	int32 m_fireRate;
 	// Init in Constructor! from Database! to reduce Speed
 
