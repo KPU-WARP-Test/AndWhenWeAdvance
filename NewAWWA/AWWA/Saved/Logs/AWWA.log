@@ -1,4 +1,4 @@
-﻿Log file open, 06/29/18 21:44:18
+﻿Log file open, 06/30/18 12:26:56
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: AWWA
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(2053197021) SRandInit(2053197021).
+LogInit: Display: RandInit(-67527146) SRandInit(-67527146).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.227541
+LogStats: Stats thread started at 0.230879
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -197,896 +197,239 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.06.29-12.44.20:684][  0]LogInit: Selected Device Profile: [Windows]
-[2018.06.29-12.44.20:684][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.06.29-12.44.20:697][  0]LogInit: Computer: DESKTOP-SFT0388
-[2018.06.29-12.44.20:697][  0]LogInit: User: korea
-[2018.06.29-12.44.20:697][  0]LogInit: CPU Page size=4096, Cores=6
-[2018.06.29-12.44.20:697][  0]LogInit: High frequency timer resolution =3.609380 MHz
-[2018.06.29-12.44.20:697][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.06.29-12.44.20:697][  0]LogMemory: Platform Memory Stats for Windows
-[2018.06.29-12.44.20:697][  0]LogMemory: Process Physical Memory: 276.38 MB used, 276.38 MB peak
-[2018.06.29-12.44.20:697][  0]LogMemory: Process Virtual Memory: 282.44 MB used, 282.44 MB peak
-[2018.06.29-12.44.20:697][  0]LogMemory: Physical Memory: 4295.14 MB used,  12022.87 MB free, 16318.00 MB total
-[2018.06.29-12.44.20:697][  0]LogMemory: Virtual Memory: 4791.19 MB used,  12022.87 MB free, 134217728.00 MB total
-[2018.06.29-12.44.20:887][  0]LogInit: Using OS detected language (ko-KR).
-[2018.06.29-12.44.20:887][  0]LogInit: Using OS detected locale (ko-KR).
-[2018.06.29-12.44.20:890][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
-[2018.06.29-12.44.21:013][  0]LogInit: Setting process to per monitor DPI aware
-[2018.06.29-12.44.21:301][  0]LogD3D11RHI: D3D11 adapters:
-[2018.06.29-12.44.21:355][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070 Ti' (Feature Level 11_0)
-[2018.06.29-12.44.21:355][  0]LogD3D11RHI:       8080/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.06.29-12.44.21:357][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.06.29-12.44.21:357][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.06.29-12.44.21:357][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.06.29-12.44.21:361][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.06.29-12.44.21:361][  0]LogD3D11RHI:     GPU DeviceId: 0x1b82 (for the marketing name, search the web for "GPU Device Id")
-[2018.06.29-12.44.21:361][  0]LogWindows: EnumDisplayDevices:
-[2018.06.29-12.44.21:361][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070 Ti' (P:1 D:1)
-[2018.06.29-12.44.21:362][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:1)
-[2018.06.29-12.44.21:362][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
-[2018.06.29-12.44.21:363][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
-[2018.06.29-12.44.21:363][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.06.29-12.44.21:363][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070 Ti
-[2018.06.29-12.44.21:363][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.06.29-12.44.21:363][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.06.29-12.44.21:363][  0]LogRHI: Texture pool is 5656 MB (70% of 8080 MB)
-[2018.06.29-12.44.21:387][  0]LogD3D11RHI: Async texture creation enabled
-[2018.06.29-12.44.21:402][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.06.29-12.44.21:512][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Intermediate/Shaders/WorkingDirectory/11692/).
-[2018.06.29-12.44.21:513][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/korea/AppData/Local/Temp/UnrealShaderWorkingDir/AF80C11D4F6B6B886634EE94F4C21F49/'.
-[2018.06.29-12.44.21:513][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.06.29-12.44.22:273][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.06.29-12.44.22:333][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.06.29-12.44.22:395][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.06.29-12.44.22:455][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.06.29-12.44.22:515][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.06.29-12.44.22:573][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.06.29-12.44.22:633][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.06.29-12.44.22:691][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.06.29-12.44.22:744][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.06.29-12.44.22:803][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.06.29-12.44.22:861][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.06.29-12.44.22:918][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.06.29-12.44.22:976][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.06.29-12.44.23:036][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.06.29-12.44.23:158][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.06.29-12.44.23:158][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.06.29-12.44.23:225][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.06.29-12.44.23:284][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.06.29-12.44.23:392][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.06.29-12.44.23:426][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.06.29-12.44.23:486][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.06.29-12.44.23:547][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.06.29-12.44.23:608][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.06.29-12.44.23:673][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.06.29-12.44.23:673][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.06.29-12.44.24:267][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.06.29-12.44.24:329][  0]LogDerivedDataCache: Loaded boot cache 0.06s 103MB C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.06.29-12.44.24:329][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.06.29-12.44.24:329][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.06.29-12.44.24:329][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.06.29-12.44.24:329][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.06.29-12.44.24:329][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.06.29-12.44.24:340][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.06.29-12.44.24:353][  0]LogDerivedDataCache: Using Local data cache path C:/Users/korea/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.06.29-12.44.24:367][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.06.29-12.44.24:367][  0]LogSlate: Using Freetype 2.6.0
-[2018.06.29-12.44.24:368][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.06.29-12.44.24:368][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.06.29-12.44.24:668][  0]LogInit: Selected Device Profile: [Windows]
-[2018.06.29-12.44.25:022][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.06.29-12.44.25:074][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.06.29-12.44.25:074][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.06.29-12.44.25:074][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.06.29-12.44.25:074][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.06.29-12.44.25:074][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.06.29-12.44.25:102][  0]LogNetVersion: AWWA , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3043977046)
-[2018.06.29-12.44.25:257][  0]LogAssetRegistry: FAssetRegistry took 0.0248 seconds to start up
-[2018.06.29-12.44.25:681][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.055277 seconds
-[2018.06.29-12.44.25:685][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.06.29-12.44.25:685][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
-[2018.06.29-12.44.25:685][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.06.29-12.44.25:755][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.06.29-12.44.28:773][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.06.29-12.44.28:823][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.06.29-12.44.34:086][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.06.29-12.44.34:625][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.06.29-12.44.34:625][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.06.29-12.44.34:693][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.06.29-12.44.34:764][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.06.29-12.44.35:908][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.06.29-12.44.36:289][  0]LogOcInput: OculusInput pre-init called
-[2018.06.29-12.44.36:643][  0]LogEngine: Initializing Engine...
-[2018.06.29-12.44.36:645][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.06.29-12.44.36:791][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.06.29-12.44.36:791][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.06.29-12.44.36:966][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.06.29-12.44.36:996][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.29-12.44.37:048][  0]LogInit: FAudioDevice initialized.
-[2018.06.29-12.44.37:149][  0]LogDerivedDataCache: Saved boot cache 0.10s 103MB C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.06.29-12.44.37:163][  0]LogInit: Texture streaming: Enabled
-[2018.06.29-12.44.37:310][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.06.29-12.44.37:495][  0]LogInit: Transaction tracking system initialized
-[2018.06.29-12.44.37:916][  0]BlueprintLog: New page: 에디터 로드
-[2018.06.29-12.44.39:915][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
-[2018.06.29-12.44.40:891][  0]LogConsoleResponse: Display: 
-[2018.06.29-12.44.41:136][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.06.29-12.44.41:136][  0]LogCook: Display: Mobile HDR setting 1
-[2018.06.29-12.44.41:136][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.06.29-12.44.42:645][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/' took 0.04s
-[2018.06.29-12.44.42:705][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.06.29-12.44.42:705][  0]Cmd: MAP LOAD FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.06.29-12.44.42:706][  0]LightingResults: New page: 라이팅 빌드
-[2018.06.29-12.44.42:763][  0]MapCheck: New page: 맵 체크
-[2018.06.29-12.44.42:763][  0]LightingResults: New page: 라이팅 빌드
-[2018.06.29-12.45.02:660][  0]LogAIModule: Creating AISystem for world World
-[2018.06.29-12.45.18:758][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.06.29-12.45.19:348][  0]MapCheck: /Game/_Maps/World 레벨의 39 개 컴포넌트에 대해 칠해진 버텍스 컬러 수리에 0.0s 걸렸습니다. 맵을 다시 저장하면 확정됩니다. 
-[2018.06.29-12.45.19:348][  0]MapCheck: Warning: 스태틱 메시 리임포트로 인해 칠해진 버텍스 컬러를 고치는 데 시간이 0.0s 만큼 걸렸습니다. 맵을 다시 저장하기 전까지는 로드할 때마다 이 작업이 실행됩니다. 
-[2018.06.29-12.45.19:350][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.06.29-12.45.19:651][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 1 회, 소요 시간 301.425ms.
-[2018.06.29-12.45.19:671][  0]LogFileHelpers: Loading map 'World' took 36.966
-[2018.06.29-12.45.20:215][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.06.29-12.45.20:942][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.AWWA
-[2018.06.29-12.45.20:943][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
-[2018.06.29-12.45.20:943][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
-[2018.06.29-12.45.20:943][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
-[2018.06.29-12.45.20:943][  0]LogTemp: BranchPath = DESKTOP-SFT0388/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = DESKTOP-SFT0388/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
-[2018.06.29-12.45.20:943][  0]LogCollectionManager: Loaded 0 collections in 0.001619 seconds
-[2018.06.29-12.45.21:066][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\korea\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.06.29-12.45.21:066][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Collections/' took 0.01s
-[2018.06.29-12.45.21:066][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Developers/korea/Collections/' took 0.01s
-[2018.06.29-12.45.21:066][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Collections/' took 0.01s
-[2018.06.29-12.45.21:066][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.06.29-12.45.21:076][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2370 classes and 522 folders.
-[2018.06.29-12.45.21:177][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2018.06.29-12.45.21:498][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2018.06.29-12.45.21:664][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2018.06.29-12.45.21:749][  0]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.06.29-12.45.21:751][  0]LogSlate: Took 0.002241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
-[2018.06.29-12.45.21:754][  0]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.06.29-12.45.21:762][  0]LogSlate: Took 0.004162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.06.29-12.45.21:941][  0]LogRenderer: Reallocating scene render targets to support 1600x624 Format 10 NumSamples 1 (Frame:1).
-[2018.06.29-12.45.22:135][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2018.06.29-12.45.22:135][  0]LogLoad: (Engine Initialization) Total time: 64.45 seconds
-[2018.06.29-12.45.22:135][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.06.29-12.45.22:135][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.06.29-12.45.22:497][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.06.29-12.45.23:150][  2]LogAssetRegistry: Asset discovery search completed in 57.9157 seconds
-[2018.06.29-12.45.23:154][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.06.29-12.45.23:154][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
-[2018.06.29-12.45.23:230][  3]LogSlate: Took 0.007606 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.06.29-12.45.24:060][  3]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.06.29-12.45.24:664][  3]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 116 classes and 0 folders.
-[2018.06.29-12.45.25:636][  3]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2018.06.29-12.45.26:106][  3]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2018.06.29-12.45.26:358][  3]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2018.06.29-12.45.27:243][  3]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.06.29-12.45.27:249][  3]LogSlate: Took 0.005678 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.06.29-12.47.01:720][502]LogConsoleManager: Warning: Performance warning: Console object named 'r.DebugSafeZone.Mode' shows many (500) FindConsoleObject() calls (consider caching e.g. using static)
-[2018.06.29-12.55.26:810][100]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/World' took 0.027
-[2018.06.29-12.55.26:814][100]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_Character/EDIT_Main_Anim] ([1] browsable assets)...
-[2018.06.29-12.55.26:837][100]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/_Character/EDIT_Main_Anim.EDIT_Main_Anim]
-[2018.06.29-12.55.26:837][100]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Character/EDIT_Main_Anim]
-[2018.06.29-12.55.27:499][100]LogSavePackage: Save=651.49ms
-[2018.06.29-12.55.27:499][100]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Main_Anim_Auto17B82BAFD495AC19082BEF4BD2BC2FB56.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Character/EDIT_Main_Anim_Auto1.uasset'
-[2018.06.29-12.55.27:505][100]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Character/EDIT_Main_Anim_Auto1.uasset
-[2018.06.29-12.55.27:505][100]LogFileHelpers: Auto-saving content packages took 0.694
-[2018.06.29-13.04.08:300][183]PIE: '/Engine/Transient.TextBlock_46' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:302][183]PIE: '/Engine/Transient.TextBlock_1' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:304][183]PIE: '/Engine/Transient.TextBlock_3' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:314][184]PIE: '/Engine/Transient.TextBlock_5' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:317][184]PIE: '/Engine/Transient.TextBlock_7' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:323][185]PIE: '/Engine/Transient.TextBlock_9' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:326][185]PIE: '/Engine/Transient.TextBlock_11' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:334][186]PIE: '/Engine/Transient.TextBlock_13' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:340][187]PIE: '/Engine/Transient.TextBlock_15' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:343][187]PIE: '/Engine/Transient.TextBlock_17' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:349][188]PIE: '/Engine/Transient.TextBlock_19' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:351][188]PIE: '/Engine/Transient.TextBlock_21' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:357][189]PIE: '/Engine/Transient.TextBlock_23' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:360][189]PIE: '/Engine/Transient.TextBlock_25' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:367][190]PIE: '/Engine/Transient.TextBlock_27' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:374][191]PIE: '/Engine/Transient.TextBlock_29' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:377][191]PIE: '/Engine/Transient.TextBlock_31' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:386][192]PIE: '/Engine/Transient.TextBlock_33' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:393][193]PIE: '/Engine/Transient.TextBlock_35' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:401][194]PIE: '/Engine/Transient.TextBlock_37' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:410][195]PIE: '/Engine/Transient.TextBlock_39' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:418][196]PIE: '/Engine/Transient.TextBlock_41' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:426][197]PIE: '/Engine/Transient.TextBlock_43' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:434][198]PIE: '/Engine/Transient.TextBlock_45' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:443][199]PIE: '/Engine/Transient.TextBlock_47' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:450][200]PIE: '/Engine/Transient.TextBlock_49' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:452][200]PIE: '/Engine/Transient.TextBlock_51' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:460][201]PIE: '/Engine/Transient.TextBlock_53' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:468][202]PIE: '/Engine/Transient.TextBlock_55' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:475][203]PIE: '/Engine/Transient.TextBlock_57' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:478][203]PIE: '/Engine/Transient.TextBlock_59' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:485][204]PIE: '/Engine/Transient.TextBlock_61' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:494][205]PIE: '/Engine/Transient.TextBlock_63' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:502][206]PIE: '/Engine/Transient.TextBlock_65' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:510][207]PIE: '/Engine/Transient.TextBlock_67' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:517][208]PIE: '/Engine/Transient.TextBlock_69' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:520][208]PIE: '/Engine/Transient.TextBlock_71' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:527][209]PIE: '/Engine/Transient.TextBlock_73' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:536][210]PIE: '/Engine/Transient.TextBlock_75' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:544][211]PIE: '/Engine/Transient.TextBlock_77' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:552][212]PIE: '/Engine/Transient.TextBlock_79' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:559][213]PIE: '/Engine/Transient.TextBlock_81' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:562][213]PIE: '/Engine/Transient.TextBlock_83' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:569][214]PIE: '/Engine/Transient.TextBlock_85' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:576][215]PIE: '/Engine/Transient.TextBlock_87' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:578][215]PIE: '/Engine/Transient.TextBlock_89' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:586][216]PIE: '/Engine/Transient.TextBlock_91' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:594][217]PIE: '/Engine/Transient.TextBlock_93' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:602][218]PIE: '/Engine/Transient.TextBlock_95' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:610][219]PIE: '/Engine/Transient.TextBlock_97' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:619][220]PIE: '/Engine/Transient.TextBlock_99' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:627][221]PIE: '/Engine/Transient.TextBlock_101' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:634][222]PIE: '/Engine/Transient.TextBlock_103' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:636][222]PIE: '/Engine/Transient.TextBlock_105' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:644][223]PIE: '/Engine/Transient.TextBlock_107' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:652][224]PIE: '/Engine/Transient.TextBlock_109' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:661][225]PIE: '/Engine/Transient.TextBlock_111' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:669][226]PIE: '/Engine/Transient.TextBlock_113' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:676][227]PIE: '/Engine/Transient.TextBlock_115' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:679][227]PIE: '/Engine/Transient.TextBlock_117' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:686][228]PIE: '/Engine/Transient.TextBlock_119' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:695][229]PIE: '/Engine/Transient.TextBlock_121' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:703][230]PIE: '/Engine/Transient.TextBlock_123' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:711][231]PIE: '/Engine/Transient.TextBlock_125' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:719][232]PIE: '/Engine/Transient.TextBlock_127' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:727][233]PIE: '/Engine/Transient.TextBlock_129' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:734][234]PIE: '/Engine/Transient.TextBlock_131' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:737][234]PIE: '/Engine/Transient.TextBlock_133' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:745][235]PIE: '/Engine/Transient.TextBlock_135' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:753][236]PIE: '/Engine/Transient.TextBlock_137' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:761][237]PIE: '/Engine/Transient.TextBlock_139' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:768][238]PIE: '/Engine/Transient.TextBlock_141' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:771][238]PIE: '/Engine/Transient.TextBlock_143' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:778][239]PIE: '/Engine/Transient.TextBlock_145' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:786][240]PIE: '/Engine/Transient.TextBlock_147' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:794][241]PIE: '/Engine/Transient.TextBlock_149' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:803][242]PIE: '/Engine/Transient.TextBlock_151' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:811][243]PIE: '/Engine/Transient.TextBlock_153' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:819][244]PIE: '/Engine/Transient.TextBlock_155' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:826][245]PIE: '/Engine/Transient.TextBlock_157' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:829][245]PIE: '/Engine/Transient.TextBlock_159' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:836][246]PIE: '/Engine/Transient.TextBlock_161' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:844][247]PIE: '/Engine/Transient.TextBlock_163' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:853][248]PIE: '/Engine/Transient.TextBlock_165' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:860][249]PIE: '/Engine/Transient.TextBlock_167' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:862][249]PIE: '/Engine/Transient.TextBlock_169' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:870][250]PIE: '/Engine/Transient.TextBlock_171' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:878][251]PIE: '/Engine/Transient.TextBlock_173' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:887][252]PIE: '/Engine/Transient.TextBlock_175' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:895][253]PIE: '/Engine/Transient.TextBlock_177' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:903][254]PIE: '/Engine/Transient.TextBlock_179' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:912][255]PIE: '/Engine/Transient.TextBlock_181' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:920][256]PIE: '/Engine/Transient.TextBlock_183' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:928][257]PIE: '/Engine/Transient.TextBlock_185' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:937][258]PIE: '/Engine/Transient.TextBlock_187' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:945][259]PIE: '/Engine/Transient.TextBlock_189' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:953][260]PIE: '/Engine/Transient.TextBlock_191' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:962][261]PIE: '/Engine/Transient.TextBlock_193' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:970][262]PIE: '/Engine/Transient.TextBlock_195' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:977][263]PIE: '/Engine/Transient.TextBlock_197' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:980][263]PIE: '/Engine/Transient.TextBlock_199' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:986][264]PIE: '/Engine/Transient.TextBlock_201' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.08:995][265]PIE: '/Engine/Transient.TextBlock_203' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:001][266]PIE: '/Engine/Transient.TextBlock_205' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:004][266]PIE: '/Engine/Transient.TextBlock_207' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:011][267]PIE: '/Engine/Transient.TextBlock_209' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:018][268]PIE: '/Engine/Transient.TextBlock_211' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:020][268]PIE: '/Engine/Transient.TextBlock_213' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:028][269]PIE: '/Engine/Transient.TextBlock_215' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:036][270]PIE: '/Engine/Transient.TextBlock_217' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:045][271]PIE: '/Engine/Transient.TextBlock_219' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:053][272]PIE: '/Engine/Transient.TextBlock_221' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:060][273]PIE: '/Engine/Transient.TextBlock_223' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:062][273]PIE: '/Engine/Transient.TextBlock_225' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:068][274]PIE: '/Engine/Transient.TextBlock_227' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:071][274]PIE: '/Engine/Transient.TextBlock_229' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:078][275]PIE: '/Engine/Transient.TextBlock_231' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:087][276]PIE: '/Engine/Transient.TextBlock_233' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:095][277]PIE: '/Engine/Transient.TextBlock_235' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:103][278]PIE: '/Engine/Transient.TextBlock_237' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:112][279]PIE: '/Engine/Transient.TextBlock_239' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:120][280]PIE: '/Engine/Transient.TextBlock_241' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:128][281]PIE: '/Engine/Transient.TextBlock_243' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:137][282]PIE: '/Engine/Transient.TextBlock_245' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:145][283]PIE: '/Engine/Transient.TextBlock_247' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:153][284]PIE: '/Engine/Transient.TextBlock_249' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:162][285]PIE: '/Engine/Transient.TextBlock_251' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:170][286]PIE: '/Engine/Transient.TextBlock_253' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:179][287]PIE: '/Engine/Transient.TextBlock_255' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:187][288]PIE: '/Engine/Transient.TextBlock_257' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:195][289]PIE: '/Engine/Transient.TextBlock_259' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:203][290]PIE: '/Engine/Transient.TextBlock_261' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:212][291]PIE: '/Engine/Transient.TextBlock_263' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:220][292]PIE: '/Engine/Transient.TextBlock_265' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:229][293]PIE: '/Engine/Transient.TextBlock_267' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:237][294]PIE: '/Engine/Transient.TextBlock_269' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:245][295]PIE: '/Engine/Transient.TextBlock_271' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:254][296]PIE: '/Engine/Transient.TextBlock_273' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:262][297]PIE: '/Engine/Transient.TextBlock_275' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:270][298]PIE: '/Engine/Transient.TextBlock_277' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:279][299]PIE: '/Engine/Transient.TextBlock_279' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:287][300]PIE: '/Engine/Transient.TextBlock_281' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:296][301]PIE: '/Engine/Transient.TextBlock_283' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:304][302]PIE: '/Engine/Transient.TextBlock_285' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:312][303]PIE: '/Engine/Transient.TextBlock_287' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:320][304]PIE: '/Engine/Transient.TextBlock_289' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:329][305]PIE: '/Engine/Transient.TextBlock_291' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:337][306]PIE: '/Engine/Transient.TextBlock_293' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:346][307]PIE: '/Engine/Transient.TextBlock_295' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:354][308]PIE: '/Engine/Transient.TextBlock_297' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:362][309]PIE: '/Engine/Transient.TextBlock_299' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:370][310]PIE: '/Engine/Transient.TextBlock_301' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:378][311]PIE: '/Engine/Transient.TextBlock_303' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:386][312]PIE: '/Engine/Transient.TextBlock_305' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:395][313]PIE: '/Engine/Transient.TextBlock_307' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:403][314]PIE: '/Engine/Transient.TextBlock_309' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:413][315]PIE: '/Engine/Transient.TextBlock_311' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:421][316]PIE: '/Engine/Transient.TextBlock_313' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:429][317]PIE: '/Engine/Transient.TextBlock_315' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:437][318]PIE: '/Engine/Transient.TextBlock_317' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:446][319]PIE: '/Engine/Transient.TextBlock_319' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:454][320]PIE: '/Engine/Transient.TextBlock_321' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:462][321]PIE: '/Engine/Transient.TextBlock_323' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:471][322]PIE: '/Engine/Transient.TextBlock_325' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:479][323]PIE: '/Engine/Transient.TextBlock_327' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:487][324]PIE: '/Engine/Transient.TextBlock_329' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:496][325]PIE: '/Engine/Transient.TextBlock_331' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:504][326]PIE: '/Engine/Transient.TextBlock_333' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:512][327]PIE: '/Engine/Transient.TextBlock_335' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:521][328]PIE: '/Engine/Transient.TextBlock_337' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:528][329]PIE: '/Engine/Transient.TextBlock_339' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:530][329]PIE: '/Engine/Transient.TextBlock_341' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:538][330]PIE: '/Engine/Transient.TextBlock_343' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:546][331]PIE: '/Engine/Transient.TextBlock_345' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:554][332]PIE: '/Engine/Transient.TextBlock_347' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:563][333]PIE: '/Engine/Transient.TextBlock_349' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:571][334]PIE: '/Engine/Transient.TextBlock_351' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:579][335]PIE: '/Engine/Transient.TextBlock_353' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:588][336]PIE: '/Engine/Transient.TextBlock_355' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:595][337]PIE: '/Engine/Transient.TextBlock_357' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:597][337]PIE: '/Engine/Transient.TextBlock_359' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:605][338]PIE: '/Engine/Transient.TextBlock_361' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:613][339]PIE: '/Engine/Transient.TextBlock_363' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:621][340]PIE: '/Engine/Transient.TextBlock_365' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:630][341]PIE: '/Engine/Transient.TextBlock_367' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:638][342]PIE: '/Engine/Transient.TextBlock_369' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:646][343]PIE: '/Engine/Transient.TextBlock_371' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:655][344]PIE: '/Engine/Transient.TextBlock_373' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:663][345]PIE: '/Engine/Transient.TextBlock_375' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:671][346]PIE: '/Engine/Transient.TextBlock_377' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:678][347]PIE: '/Engine/Transient.TextBlock_379' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:681][347]PIE: '/Engine/Transient.TextBlock_381' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:688][348]PIE: '/Engine/Transient.TextBlock_383' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:697][349]PIE: '/Engine/Transient.TextBlock_385' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:705][350]PIE: '/Engine/Transient.TextBlock_387' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:713][351]PIE: '/Engine/Transient.TextBlock_389' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:721][352]PIE: '/Engine/Transient.TextBlock_391' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:729][353]PIE: '/Engine/Transient.TextBlock_393' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:738][354]PIE: '/Engine/Transient.TextBlock_395' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:746][355]PIE: '/Engine/Transient.TextBlock_397' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:754][356]PIE: '/Engine/Transient.TextBlock_399' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:763][357]PIE: '/Engine/Transient.TextBlock_401' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:769][358]PIE: '/Engine/Transient.TextBlock_403' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:772][358]PIE: '/Engine/Transient.TextBlock_405' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:779][359]PIE: '/Engine/Transient.TextBlock_407' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:787][360]PIE: '/Engine/Transient.TextBlock_409' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:794][361]PIE: '/Engine/Transient.TextBlock_411' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:797][361]PIE: '/Engine/Transient.TextBlock_413' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:804][362]PIE: '/Engine/Transient.TextBlock_415' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:813][363]PIE: '/Engine/Transient.TextBlock_417' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:821][364]PIE: '/Engine/Transient.TextBlock_419' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:829][365]PIE: '/Engine/Transient.TextBlock_421' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:836][366]PIE: '/Engine/Transient.TextBlock_423' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:839][366]PIE: '/Engine/Transient.TextBlock_425' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:846][367]PIE: '/Engine/Transient.TextBlock_427' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:854][368]PIE: '/Engine/Transient.TextBlock_429' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:863][369]PIE: '/Engine/Transient.TextBlock_431' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:871][370]PIE: '/Engine/Transient.TextBlock_433' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:879][371]PIE: '/Engine/Transient.TextBlock_435' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:888][372]PIE: '/Engine/Transient.TextBlock_437' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:896][373]PIE: '/Engine/Transient.TextBlock_439' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:905][374]PIE: '/Engine/Transient.TextBlock_441' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:913][375]PIE: '/Engine/Transient.TextBlock_443' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:921][376]PIE: '/Engine/Transient.TextBlock_445' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:929][377]PIE: '/Engine/Transient.TextBlock_447' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:938][378]PIE: '/Engine/Transient.TextBlock_449' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:946][379]PIE: '/Engine/Transient.TextBlock_451' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:955][380]PIE: '/Engine/Transient.TextBlock_453' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:963][381]PIE: '/Engine/Transient.TextBlock_455' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:971][382]PIE: '/Engine/Transient.TextBlock_457' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:980][383]PIE: '/Engine/Transient.TextBlock_459' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:988][384]PIE: '/Engine/Transient.TextBlock_461' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.09:996][385]PIE: '/Engine/Transient.TextBlock_463' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:005][386]PIE: '/Engine/Transient.TextBlock_465' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:013][387]PIE: '/Engine/Transient.TextBlock_467' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:020][388]PIE: '/Engine/Transient.TextBlock_469' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:023][388]PIE: '/Engine/Transient.TextBlock_471' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:030][389]PIE: '/Engine/Transient.TextBlock_473' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:038][390]PIE: '/Engine/Transient.TextBlock_475' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:047][391]PIE: '/Engine/Transient.TextBlock_477' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:055][392]PIE: '/Engine/Transient.TextBlock_479' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:063][393]PIE: '/Engine/Transient.TextBlock_481' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:072][394]PIE: '/Engine/Transient.TextBlock_483' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:080][395]PIE: '/Engine/Transient.TextBlock_485' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:088][396]PIE: '/Engine/Transient.TextBlock_487' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:097][397]PIE: '/Engine/Transient.TextBlock_489' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:105][398]PIE: '/Engine/Transient.TextBlock_491' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:114][399]PIE: '/Engine/Transient.TextBlock_493' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:121][400]PIE: '/Engine/Transient.TextBlock_495' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:129][401]PIE: '/Engine/Transient.TextBlock_497' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:138][402]PIE: '/Engine/Transient.TextBlock_499' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:146][403]PIE: '/Engine/Transient.TextBlock_501' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:153][404]PIE: '/Engine/Transient.TextBlock_503' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:156][404]PIE: '/Engine/Transient.TextBlock_505' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:163][405]PIE: '/Engine/Transient.TextBlock_507' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:171][406]PIE: '/Engine/Transient.TextBlock_509' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:180][407]PIE: '/Engine/Transient.TextBlock_511' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:188][408]PIE: '/Engine/Transient.TextBlock_513' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:196][409]PIE: '/Engine/Transient.TextBlock_515' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:205][410]PIE: '/Engine/Transient.TextBlock_517' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:213][411]PIE: '/Engine/Transient.TextBlock_519' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:221][412]PIE: '/Engine/Transient.TextBlock_521' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:230][413]PIE: '/Engine/Transient.TextBlock_523' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:238][414]PIE: '/Engine/Transient.TextBlock_525' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:246][415]PIE: '/Engine/Transient.TextBlock_527' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:255][416]PIE: '/Engine/Transient.TextBlock_529' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:263][417]PIE: '/Engine/Transient.TextBlock_531' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:270][418]PIE: '/Engine/Transient.TextBlock_533' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:272][418]PIE: '/Engine/Transient.TextBlock_535' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:280][419]PIE: '/Engine/Transient.TextBlock_537' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:288][420]PIE: '/Engine/Transient.TextBlock_539' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:296][421]PIE: '/Engine/Transient.TextBlock_541' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:305][422]PIE: '/Engine/Transient.TextBlock_543' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:313][423]PIE: '/Engine/Transient.TextBlock_545' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:321][424]PIE: '/Engine/Transient.TextBlock_547' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:330][425]PIE: '/Engine/Transient.TextBlock_549' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:338][426]PIE: '/Engine/Transient.TextBlock_551' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:345][427]PIE: '/Engine/Transient.TextBlock_553' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:347][427]PIE: '/Engine/Transient.TextBlock_555' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:355][428]PIE: '/Engine/Transient.TextBlock_557' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:363][429]PIE: '/Engine/Transient.TextBlock_559' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:371][430]PIE: '/Engine/Transient.TextBlock_561' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:380][431]PIE: '/Engine/Transient.TextBlock_563' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:388][432]PIE: '/Engine/Transient.TextBlock_565' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:397][433]PIE: '/Engine/Transient.TextBlock_567' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:404][434]PIE: '/Engine/Transient.TextBlock_569' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:406][434]PIE: '/Engine/Transient.TextBlock_571' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:414][435]PIE: '/Engine/Transient.TextBlock_573' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:421][436]PIE: '/Engine/Transient.TextBlock_575' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:423][436]PIE: '/Engine/Transient.TextBlock_577' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:431][437]PIE: '/Engine/Transient.TextBlock_579' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:440][438]PIE: '/Engine/Transient.TextBlock_581' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:448][439]PIE: '/Engine/Transient.TextBlock_583' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:456][440]PIE: '/Engine/Transient.TextBlock_585' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:465][441]PIE: '/Engine/Transient.TextBlock_587' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:473][442]PIE: '/Engine/Transient.TextBlock_589' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:481][443]PIE: '/Engine/Transient.TextBlock_591' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:488][444]PIE: '/Engine/Transient.TextBlock_593' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:495][445]PIE: '/Engine/Transient.TextBlock_595' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:498][445]PIE: '/Engine/Transient.TextBlock_597' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:505][446]PIE: '/Engine/Transient.TextBlock_599' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:514][447]PIE: '/Engine/Transient.TextBlock_601' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:522][448]PIE: '/Engine/Transient.TextBlock_603' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:530][449]PIE: '/Engine/Transient.TextBlock_605' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:539][450]PIE: '/Engine/Transient.TextBlock_607' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:547][451]PIE: '/Engine/Transient.TextBlock_609' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:555][452]PIE: '/Engine/Transient.TextBlock_611' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:564][453]PIE: '/Engine/Transient.TextBlock_613' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:572][454]PIE: '/Engine/Transient.TextBlock_615' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:580][455]PIE: '/Engine/Transient.TextBlock_617' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:589][456]PIE: '/Engine/Transient.TextBlock_619' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:597][457]PIE: '/Engine/Transient.TextBlock_621' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:605][458]PIE: '/Engine/Transient.TextBlock_623' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:614][459]PIE: '/Engine/Transient.TextBlock_625' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:622][460]PIE: '/Engine/Transient.TextBlock_627' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:631][461]PIE: '/Engine/Transient.TextBlock_629' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:639][462]PIE: '/Engine/Transient.TextBlock_631' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:647][463]PIE: '/Engine/Transient.TextBlock_633' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:656][464]PIE: '/Engine/Transient.TextBlock_635' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:664][465]PIE: '/Engine/Transient.TextBlock_637' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:672][466]PIE: '/Engine/Transient.TextBlock_639' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:681][467]PIE: '/Engine/Transient.TextBlock_641' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:689][468]PIE: '/Engine/Transient.TextBlock_643' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:697][469]PIE: '/Engine/Transient.TextBlock_645' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:704][470]PIE: '/Engine/Transient.TextBlock_647' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:707][470]PIE: '/Engine/Transient.TextBlock_649' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:714][471]PIE: '/Engine/Transient.TextBlock_651' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:722][472]PIE: '/Engine/Transient.TextBlock_653' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:731][473]PIE: '/Engine/Transient.TextBlock_655' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:739][474]PIE: '/Engine/Transient.TextBlock_657' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:747][475]PIE: '/Engine/Transient.TextBlock_659' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:756][476]PIE: '/Engine/Transient.TextBlock_661' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:763][477]PIE: '/Engine/Transient.TextBlock_663' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:765][477]PIE: '/Engine/Transient.TextBlock_665' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:773][478]PIE: '/Engine/Transient.TextBlock_667' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:780][479]PIE: '/Engine/Transient.TextBlock_669' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:782][479]PIE: '/Engine/Transient.TextBlock_671' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:789][480]PIE: '/Engine/Transient.TextBlock_673' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:798][481]PIE: '/Engine/Transient.TextBlock_675' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:806][482]PIE: '/Engine/Transient.TextBlock_677' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:814][483]PIE: '/Engine/Transient.TextBlock_679' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:821][484]PIE: '/Engine/Transient.TextBlock_681' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:824][484]PIE: '/Engine/Transient.TextBlock_683' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:831][485]PIE: '/Engine/Transient.TextBlock_685' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:839][486]PIE: '/Engine/Transient.TextBlock_687' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:848][487]PIE: '/Engine/Transient.TextBlock_689' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:855][488]PIE: '/Engine/Transient.TextBlock_691' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:863][489]PIE: '/Engine/Transient.TextBlock_693' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:872][490]PIE: '/Engine/Transient.TextBlock_695' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:880][491]PIE: '/Engine/Transient.TextBlock_697' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:889][492]PIE: '/Engine/Transient.TextBlock_699' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:897][493]PIE: '/Engine/Transient.TextBlock_701' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:905][494]PIE: '/Engine/Transient.TextBlock_703' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:912][495]PIE: '/Engine/Transient.TextBlock_705' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:915][495]PIE: '/Engine/Transient.TextBlock_707' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:922][496]PIE: '/Engine/Transient.TextBlock_709' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:930][497]PIE: '/Engine/Transient.TextBlock_711' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:939][498]PIE: '/Engine/Transient.TextBlock_713' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:947][499]PIE: '/Engine/Transient.TextBlock_715' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:956][500]PIE: '/Engine/Transient.TextBlock_717' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:964][501]PIE: '/Engine/Transient.TextBlock_719' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:972][502]PIE: '/Engine/Transient.TextBlock_721' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:981][503]PIE: '/Engine/Transient.TextBlock_723' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:989][504]PIE: '/Engine/Transient.TextBlock_725' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.10:997][505]PIE: '/Engine/Transient.TextBlock_727' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:006][506]PIE: '/Engine/Transient.TextBlock_729' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:014][507]PIE: '/Engine/Transient.TextBlock_731' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:023][508]PIE: '/Engine/Transient.TextBlock_733' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:031][509]PIE: '/Engine/Transient.TextBlock_735' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:039][510]PIE: '/Engine/Transient.TextBlock_737' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:048][511]PIE: '/Engine/Transient.TextBlock_739' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:056][512]PIE: '/Engine/Transient.TextBlock_741' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:064][513]PIE: '/Engine/Transient.TextBlock_743' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:071][514]PIE: '/Engine/Transient.TextBlock_745' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:074][514]PIE: '/Engine/Transient.TextBlock_747' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:081][515]PIE: '/Engine/Transient.TextBlock_749' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:089][516]PIE: '/Engine/Transient.TextBlock_751' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:098][517]PIE: '/Engine/Transient.TextBlock_753' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:106][518]PIE: '/Engine/Transient.TextBlock_755' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:114][519]PIE: '/Engine/Transient.TextBlock_757' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:123][520]PIE: '/Engine/Transient.TextBlock_759' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:131][521]PIE: '/Engine/Transient.TextBlock_761' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:139][522]PIE: '/Engine/Transient.TextBlock_763' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:148][523]PIE: '/Engine/Transient.TextBlock_765' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:156][524]PIE: '/Engine/Transient.TextBlock_767' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:164][525]PIE: '/Engine/Transient.TextBlock_769' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:173][526]PIE: '/Engine/Transient.TextBlock_771' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:181][527]PIE: '/Engine/Transient.TextBlock_773' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:189][528]PIE: '/Engine/Transient.TextBlock_775' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:198][529]PIE: '/Engine/Transient.TextBlock_777' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:206][530]PIE: '/Engine/Transient.TextBlock_779' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:215][531]PIE: '/Engine/Transient.TextBlock_781' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:223][532]PIE: '/Engine/Transient.TextBlock_783' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:231][533]PIE: '/Engine/Transient.TextBlock_785' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:239][534]PIE: '/Engine/Transient.TextBlock_787' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:247][535]PIE: '/Engine/Transient.TextBlock_789' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:255][536]PIE: '/Engine/Transient.TextBlock_791' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:264][537]PIE: '/Engine/Transient.TextBlock_793' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:272][538]PIE: '/Engine/Transient.TextBlock_795' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:281][539]PIE: '/Engine/Transient.TextBlock_797' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:289][540]PIE: '/Engine/Transient.TextBlock_799' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:297][541]PIE: '/Engine/Transient.TextBlock_801' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:305][542]PIE: '/Engine/Transient.TextBlock_803' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:314][543]PIE: '/Engine/Transient.TextBlock_805' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:322][544]PIE: '/Engine/Transient.TextBlock_807' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:331][545]PIE: '/Engine/Transient.TextBlock_809' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:339][546]PIE: '/Engine/Transient.TextBlock_811' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:347][547]PIE: '/Engine/Transient.TextBlock_813' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:356][548]PIE: '/Engine/Transient.TextBlock_815' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:364][549]PIE: '/Engine/Transient.TextBlock_817' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:372][550]PIE: '/Engine/Transient.TextBlock_819' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:381][551]PIE: '/Engine/Transient.TextBlock_821' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:389][552]PIE: '/Engine/Transient.TextBlock_823' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:397][553]PIE: '/Engine/Transient.TextBlock_825' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:406][554]PIE: '/Engine/Transient.TextBlock_827' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:414][555]PIE: '/Engine/Transient.TextBlock_829' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:422][556]PIE: '/Engine/Transient.TextBlock_831' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:431][557]PIE: '/Engine/Transient.TextBlock_833' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:439][558]PIE: '/Engine/Transient.TextBlock_835' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:448][559]PIE: '/Engine/Transient.TextBlock_837' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:456][560]PIE: '/Engine/Transient.TextBlock_839' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:464][561]PIE: '/Engine/Transient.TextBlock_841' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:473][562]PIE: '/Engine/Transient.TextBlock_843' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:481][563]PIE: '/Engine/Transient.TextBlock_845' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:489][564]PIE: '/Engine/Transient.TextBlock_847' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:498][565]PIE: '/Engine/Transient.TextBlock_849' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:506][566]PIE: '/Engine/Transient.TextBlock_851' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:514][567]PIE: '/Engine/Transient.TextBlock_853' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:523][568]PIE: '/Engine/Transient.TextBlock_855' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:531][569]PIE: '/Engine/Transient.TextBlock_857' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:540][570]PIE: '/Engine/Transient.TextBlock_859' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:548][571]PIE: '/Engine/Transient.TextBlock_861' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:556][572]PIE: '/Engine/Transient.TextBlock_863' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:564][573]PIE: '/Engine/Transient.TextBlock_865' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:573][574]PIE: '/Engine/Transient.TextBlock_867' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:581][575]PIE: '/Engine/Transient.TextBlock_869' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:590][576]PIE: '/Engine/Transient.TextBlock_871' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:598][577]PIE: '/Engine/Transient.TextBlock_873' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:604][578]PIE: '/Engine/Transient.TextBlock_875' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:607][578]PIE: '/Engine/Transient.TextBlock_877' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:614][579]PIE: '/Engine/Transient.TextBlock_879' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:621][580]PIE: '/Engine/Transient.TextBlock_881' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:624][580]PIE: '/Engine/Transient.TextBlock_883' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:631][581]PIE: '/Engine/Transient.TextBlock_885' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:639][582]PIE: '/Engine/Transient.TextBlock_887' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:646][583]PIE: '/Engine/Transient.TextBlock_889' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:649][583]PIE: '/Engine/Transient.TextBlock_891' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:657][584]PIE: '/Engine/Transient.TextBlock_893' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:665][585]PIE: '/Engine/Transient.TextBlock_895' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:673][586]PIE: '/Engine/Transient.TextBlock_897' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:681][587]PIE: '/Engine/Transient.TextBlock_899' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:689][588]PIE: '/Engine/Transient.TextBlock_901' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:698][589]PIE: '/Engine/Transient.TextBlock_903' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:706][590]PIE: '/Engine/Transient.TextBlock_905' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:714][591]PIE: '/Engine/Transient.TextBlock_907' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:722][592]PIE: '/Engine/Transient.TextBlock_909' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:731][593]PIE: '/Engine/Transient.TextBlock_911' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:739][594]PIE: '/Engine/Transient.TextBlock_913' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:748][595]PIE: '/Engine/Transient.TextBlock_915' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:756][596]PIE: '/Engine/Transient.TextBlock_917' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:764][597]PIE: '/Engine/Transient.TextBlock_919' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:772][598]PIE: '/Engine/Transient.TextBlock_921' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:781][599]PIE: '/Engine/Transient.TextBlock_923' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:789][600]PIE: '/Engine/Transient.TextBlock_925' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:798][601]PIE: '/Engine/Transient.TextBlock_927' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:806][602]PIE: '/Engine/Transient.TextBlock_929' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:814][603]PIE: '/Engine/Transient.TextBlock_931' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:823][604]PIE: '/Engine/Transient.TextBlock_933' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:831][605]PIE: '/Engine/Transient.TextBlock_935' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:839][606]PIE: '/Engine/Transient.TextBlock_937' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:848][607]PIE: '/Engine/Transient.TextBlock_939' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:856][608]PIE: '/Engine/Transient.TextBlock_941' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:864][609]PIE: '/Engine/Transient.TextBlock_943' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:873][610]PIE: '/Engine/Transient.TextBlock_945' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:881][611]PIE: '/Engine/Transient.TextBlock_947' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:889][612]PIE: '/Engine/Transient.TextBlock_949' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:898][613]PIE: '/Engine/Transient.TextBlock_951' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:906][614]PIE: '/Engine/Transient.TextBlock_953' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:915][615]PIE: '/Engine/Transient.TextBlock_955' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:923][616]PIE: '/Engine/Transient.TextBlock_957' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:931][617]PIE: '/Engine/Transient.TextBlock_959' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:940][618]PIE: '/Engine/Transient.TextBlock_961' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:948][619]PIE: '/Engine/Transient.TextBlock_963' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:956][620]PIE: '/Engine/Transient.TextBlock_965' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:964][621]PIE: '/Engine/Transient.TextBlock_967' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:972][622]PIE: '/Engine/Transient.TextBlock_969' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:980][623]PIE: '/Engine/Transient.TextBlock_971' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:989][624]PIE: '/Engine/Transient.TextBlock_973' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.11:997][625]PIE: '/Engine/Transient.TextBlock_975' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:005][626]PIE: '/Engine/Transient.TextBlock_977' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:014][627]PIE: '/Engine/Transient.TextBlock_979' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:022][628]PIE: '/Engine/Transient.TextBlock_981' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:031][629]PIE: '/Engine/Transient.TextBlock_983' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:039][630]PIE: '/Engine/Transient.TextBlock_985' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:047][631]PIE: '/Engine/Transient.TextBlock_987' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:056][632]PIE: '/Engine/Transient.TextBlock_989' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:064][633]PIE: '/Engine/Transient.TextBlock_991' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:072][634]PIE: '/Engine/Transient.TextBlock_993' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:081][635]PIE: '/Engine/Transient.TextBlock_995' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:089][636]PIE: '/Engine/Transient.TextBlock_997' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:097][637]PIE: '/Engine/Transient.TextBlock_999' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:106][638]PIE: '/Engine/Transient.TextBlock_1001' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:114][639]PIE: '/Engine/Transient.TextBlock_1003' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:122][640]PIE: '/Engine/Transient.TextBlock_1005' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:131][641]PIE: '/Engine/Transient.TextBlock_1007' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:139][642]PIE: '/Engine/Transient.TextBlock_1009' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:147][643]PIE: '/Engine/Transient.TextBlock_1011' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:154][644]PIE: '/Engine/Transient.TextBlock_1013' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:157][644]PIE: '/Engine/Transient.TextBlock_1015' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:165][645]PIE: '/Engine/Transient.TextBlock_1017' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:171][646]PIE: '/Engine/Transient.TextBlock_1019' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:174][646]PIE: '/Engine/Transient.TextBlock_1021' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:182][647]PIE: '/Engine/Transient.TextBlock_1023' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:189][648]PIE: '/Engine/Transient.TextBlock_1025' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:198][649]PIE: '/Engine/Transient.TextBlock_1027' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:205][650]PIE: '/Engine/Transient.TextBlock_1029' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:207][650]PIE: '/Engine/Transient.TextBlock_1031' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:215][651]PIE: '/Engine/Transient.TextBlock_1033' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:223][652]PIE: '/Engine/Transient.TextBlock_1035' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:231][653]PIE: '/Engine/Transient.TextBlock_1037' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:240][654]PIE: '/Engine/Transient.TextBlock_1039' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:248][655]PIE: '/Engine/Transient.TextBlock_1041' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:256][656]PIE: '/Engine/Transient.TextBlock_1043' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:265][657]PIE: '/Engine/Transient.TextBlock_1045' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:273][658]PIE: '/Engine/Transient.TextBlock_1047' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:281][659]PIE: '/Engine/Transient.TextBlock_1049' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:290][660]PIE: '/Engine/Transient.TextBlock_1051' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:298][661]PIE: '/Engine/Transient.TextBlock_1053' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:306][662]PIE: '/Engine/Transient.TextBlock_1055' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:315][663]PIE: '/Engine/Transient.TextBlock_1057' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:323][664]PIE: '/Engine/Transient.TextBlock_1059' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:331][665]PIE: '/Engine/Transient.TextBlock_1061' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:339][666]PIE: '/Engine/Transient.TextBlock_1063' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:347][667]PIE: '/Engine/Transient.TextBlock_1065' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:356][668]PIE: '/Engine/Transient.TextBlock_1067' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:364][669]PIE: '/Engine/Transient.TextBlock_1069' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:372][670]PIE: '/Engine/Transient.TextBlock_1071' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:381][671]PIE: '/Engine/Transient.TextBlock_1073' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:389][672]PIE: '/Engine/Transient.TextBlock_1075' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:397][673]PIE: '/Engine/Transient.TextBlock_1077' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:406][674]PIE: '/Engine/Transient.TextBlock_1079' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:414][675]PIE: '/Engine/Transient.TextBlock_1081' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:422][676]PIE: '/Engine/Transient.TextBlock_1083' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:431][677]PIE: '/Engine/Transient.TextBlock_1085' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:439][678]PIE: '/Engine/Transient.TextBlock_1087' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:448][679]PIE: '/Engine/Transient.TextBlock_1089' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.12:456][680]PIE: '/Engine/Transient.TextBlock_1091' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
-[2018.06.29-13.04.15:786][ 61]BlueprintLog: New page: UI_Inventory 컴파일
-[2018.06.29-13.04.16:739][106]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_UI/GameSubUI/UI_Inventory" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_UI/GameSubUI/UI_Inventory.uasset" SILENT=true
-[2018.06.29-13.04.17:684][106]LogSavePackage: Save=936.36ms
-[2018.06.29-13.04.17:684][106]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/UI_InventoryCA9C4C974FEB66293943C3AEA14DB736.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_UI/GameSubUI/UI_Inventory.uasset'
-[2018.06.29-13.04.17:688][106]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_UI/GameSubUI/UI_Inventory.uasset
-[2018.06.29-13.05.59:041][458]LogSavePackage: Save=8952.91ms
-[2018.06.29-13.05.59:041][458]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/World_Auto2ECE338A24C69906402BB7DB97539CB8A.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Maps/World_Auto2.umap'
-[2018.06.29-13.05.59:050][458]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Maps/World_Auto2.umap
-[2018.06.29-13.05.59:053][458]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/World' took 9.045
-[2018.06.29-13.05.59:053][458]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 9.045
-[2018.06.29-13.12.30:194][774]LogSlate: Took 0.004199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.06.29-13.21.21:946][121]BlueprintLog: New page: AWWA_MainCharacter 컴파일
-[2018.06.29-13.21.26:998][182]LogSavePackage: Save=2554.08ms
-[2018.06.29-13.21.26:998][182]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter4DADC07847224D11499E9280EE3876DB.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
-[2018.06.29-13.21.27:002][182]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
-[2018.06.29-13.22.01:036][309]LogSavePackage: Save=9045.25ms
-[2018.06.29-13.22.01:036][309]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/World_Auto3F91BD571492CE8306E64989E0B69A25F.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Maps/World_Auto3.umap'
-[2018.06.29-13.22.01:044][309]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Maps/World_Auto3.umap
-[2018.06.29-13.22.01:048][309]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/World' took 9.156
-[2018.06.29-13.22.01:048][309]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 9.156
-[2018.06.29-13.22.01:051][309]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_Character/EDIT_Main_Anim] ([1] browsable assets)...
-[2018.06.29-13.22.01:064][309]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/_Character/EDIT_Main_Anim.EDIT_Main_Anim]
-[2018.06.29-13.22.01:064][309]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Character/EDIT_Main_Anim]
-[2018.06.29-13.22.01:723][309]LogSavePackage: Save=652.54ms
-[2018.06.29-13.22.01:723][309]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Main_Anim_Auto39ACA8B5349CBC5D156B119A023827C54.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Character/EDIT_Main_Anim_Auto3.uasset'
-[2018.06.29-13.22.01:728][309]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Character/EDIT_Main_Anim_Auto3.uasset
-[2018.06.29-13.22.01:728][309]LogFileHelpers: Auto-saving content packages took 0.678
-[2018.06.29-13.23.40:680][553]BlueprintLog: New page: AWWA_MainCharacter 컴파일
-[2018.06.29-13.23.45:723][577]LogSavePackage: Save=2567.64ms
-[2018.06.29-13.23.45:723][577]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter6BFBB6A44404D2410683AA9C32DFECF3.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
-[2018.06.29-13.23.45:727][577]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
-[2018.06.29-13.26.31:929][450]BlueprintLog: New page: AWWA_MainCharacter 컴파일
-[2018.06.29-13.26.37:617][486]LogSavePackage: Save=2764.29ms
-[2018.06.29-13.26.37:617][486]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter5F9C04324A4EC391CDAE53B0DE819DEC.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
-[2018.06.29-13.26.37:621][486]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
-[2018.06.29-13.31.38:260][305]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Maps/World" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.06.29-13.31.47:944][305]LogSavePackage: Save=9194.76ms
-[2018.06.29-13.31.47:944][305]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/World9B3E779C43E3B5B8CADAD19DBDA5EA8A.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World.umap'
-[2018.06.29-13.31.47:959][305]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World.umap
-[2018.06.29-13.31.48:006][305]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Maps/World_BuiltData" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World_BuiltData.uasset" SILENT=true
-[2018.06.29-13.31.48:017][305]LogSavePackage: Save=4.53ms
-[2018.06.29-13.31.48:017][305]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/World_BuiltData1273ACD748D9498BA1506893F6E3B80C.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World_BuiltData.uasset'
-[2018.06.29-13.31.48:018][305]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World_BuiltData.uasset
-[2018.06.29-13.31.49:759][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Character/EDIT_Main_Anim" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/EDIT_Main_Anim.uasset" SILENT=true
-[2018.06.29-13.31.50:429][370]LogSavePackage: Save=652.14ms
-[2018.06.29-13.31.50:429][370]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Main_Anim46B01C2147A8C4EBBC27E58841B5F3C5.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/EDIT_Main_Anim.uasset'
-[2018.06.29-13.31.50:434][370]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/EDIT_Main_Anim.uasset
-[2018.06.29-13.39.04:502][684]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0010 seconds. Added 1 classes and 0 folders.
-[2018.06.29-13.41.54:532][400]BlueprintLog: New page: AWWA_MainCharacter 컴파일
-[2018.06.29-13.41.59:407][430]LogSavePackage: Save=2572.56ms
-[2018.06.29-13.41.59:407][430]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacterB8B04ABE469B8416FE2FEDA0DBF976D8.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
-[2018.06.29-13.41.59:411][430]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
-[2018.06.29-13.43.09:160][198]LogSlate: Took 0.005259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2018.06.29-13.43.21:923][304]BlueprintLog: New page: AWWA_MainCharacter 컴파일
-[2018.06.29-13.43.27:494][350]LogSavePackage: Save=2624.00ms
-[2018.06.29-13.43.27:494][350]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacterFDAEBCB945EDCD511C3D008E2F073E43.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
-[2018.06.29-13.43.27:498][350]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
-[2018.06.29-13.44.24:829][610]LogSavePackage: Save=9174.94ms
-[2018.06.29-13.44.24:829][610]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/World_Auto4600F277C46F786E71E047DB61AED3A76.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Maps/World_Auto4.umap'
-[2018.06.29-13.44.24:838][610]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Maps/World_Auto4.umap
-[2018.06.29-13.44.24:840][610]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/World' took 9.266
-[2018.06.29-13.44.24:840][610]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 9.266
-[2018.06.29-13.46.54:810][301]BlueprintLog: New page: AWWA_MainCharacter 컴파일
-[2018.06.29-13.46.59:584][317]LogSavePackage: Save=2557.87ms
-[2018.06.29-13.46.59:584][317]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter7AF8AA4841728D490C55199039D34263.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
-[2018.06.29-13.46.59:587][317]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
-[2018.06.29-13.49.23:828][916]BlueprintLog: New page: HUD_CharacterState 컴파일
-[2018.06.29-13.49.24:866][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_UI/HUD_CharacterState" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_UI/HUD_CharacterState.uasset" SILENT=true
-[2018.06.29-13.49.25:225][996]LogSavePackage: Save=351.71ms
-[2018.06.29-13.49.25:225][996]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/HUD_CharacterStateB14F1D5742E122C265F99FAA8CD1CD19.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_UI/HUD_CharacterState.uasset'
-[2018.06.29-13.49.25:228][996]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_UI/HUD_CharacterState.uasset
-[2018.06.29-13.51.59:635][926]BlueprintLog: New page: UI_Inventory 컴파일
-[2018.06.29-13.52.00:550][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_UI/GameSubUI/UI_Inventory" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_UI/GameSubUI/UI_Inventory.uasset" SILENT=true
-[2018.06.29-13.52.01:512][974]LogSavePackage: Save=947.65ms
-[2018.06.29-13.52.01:512][974]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/UI_Inventory7A0484034E7A2B30B2ABAC9412298B8E.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_UI/GameSubUI/UI_Inventory.uasset'
-[2018.06.29-13.52.01:515][974]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_UI/GameSubUI/UI_Inventory.uasset
-[2018.06.29-13.52.37:763][904]BlueprintLog: New page: AWWA_MainCharacter 컴파일
-[2018.06.29-13.52.42:808][976]LogSavePackage: Save=2553.96ms
-[2018.06.29-13.52.42:808][976]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter159BFF204FF97A0946FEE0A40B7E35BF.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
-[2018.06.29-13.52.42:810][976]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
-[2018.06.29-13.53.10:994][886]BlueprintLog: New page: AWWA_MainCharacter 컴파일
-[2018.06.29-13.53.30:976][408]BlueprintLog: New page: AWWA_MainCharacter 컴파일
-[2018.06.29-13.53.35:780][452]LogSavePackage: Save=2592.79ms
-[2018.06.29-13.53.35:780][452]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter0F9794B04A2431A0BD87649DA8AE0C06.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
-[2018.06.29-13.53.35:783][452]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
-[2018.06.29-13.54.01:919][263]LogSavePackage: Save=2567.78ms
-[2018.06.29-13.54.01:919][263]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter139A06E546E3787CA653B8AB6FA27E3D.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
-[2018.06.29-13.54.01:922][263]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
-[2018.06.29-13.54.41:463][785]BlueprintLog: New page: AWWA_MainCharacter 컴파일
-[2018.06.29-13.54.47:988][806]LogSavePackage: Save=2541.16ms
-[2018.06.29-13.54.47:988][806]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacterAF3E45EC42567CF43B9DFCA80E410939.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
-[2018.06.29-13.54.47:992][806]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
-[2018.06.29-13.56.17:395][133]LogSavePackage: Save=9176.29ms
-[2018.06.29-13.56.17:395][133]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/World_Auto5E8EF7BED401E681C08A683B80A186C48.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Maps/World_Auto5.umap'
-[2018.06.29-13.56.17:405][133]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Maps/World_Auto5.umap
-[2018.06.29-13.56.17:407][133]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/World' took 9.274
-[2018.06.29-13.56.17:407][133]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 9.274
-[2018.06.29-14.03.02:603][142]LogEditorTransaction: Undo 노드 이동
-[2018.06.29-14.03.02:983][142]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2018.06.29-14.03.03:968][240]LogEditorTransaction: Undo 클립보드 내용을 붙여넣습니다.
-[2018.06.29-14.03.04:144][240]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2018.06.29-14.03.06:140][468]LogUObjectHash: Warning: Ambiguous search, could be K2Node_VariableGet /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_VariableGet_4227 or K2Node_VariableGet /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_VariableGet_4227
-[2018.06.29-14.03.06:140][468]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallArrayFunction /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_CallArrayFunction_333 or K2Node_CallArrayFunction /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_CallArrayFunction_333
-[2018.06.29-14.03.06:140][468]LogUObjectHash: Warning: Ambiguous search, could be K2Node_MakeStruct /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_MakeStruct_96 or K2Node_MakeStruct /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_MakeStruct_96
-[2018.06.29-14.03.06:140][468]LogUObjectHash: Warning: Ambiguous search, could be K2Node_VariableGet /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_VariableGet_9498 or K2Node_VariableGet /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_VariableGet_9498
-[2018.06.29-14.03.06:140][468]LogUObjectHash: Warning: Ambiguous search, could be K2Node_BreakStruct /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_BreakStruct_29 or K2Node_BreakStruct /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_BreakStruct_29
-[2018.06.29-14.03.06:140][468]LogUObjectHash: Warning: Ambiguous search, could be K2Node_GetArrayItem /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_GetArrayItem_102 or K2Node_GetArrayItem /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_GetArrayItem_102
-[2018.06.29-14.03.06:140][468]LogUObjectHash: Warning: Ambiguous search, could be K2Node_VariableGet /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_VariableGet_3686 or K2Node_VariableGet /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_VariableGet_3686
-[2018.06.29-14.03.06:140][468]LogUObjectHash: Warning: Ambiguous search, could be K2Node_VariableGet /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_VariableGet_9539 or K2Node_VariableGet /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_VariableGet_9539
-[2018.06.29-14.03.06:140][468]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallFunction /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_CallFunction_18104 or K2Node_CallFunction /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_CallFunction_18104
-[2018.06.29-14.03.06:141][468]LogUObjectHash: Warning: Ambiguous search, could be K2Node_VariableSet /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_VariableSet_2756 or K2Node_VariableSet /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_VariableSet_2756
-[2018.06.29-14.03.06:141][468]LogUObjectHash: Warning: Ambiguous search, could be K2Node_VariableGet /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_VariableGet_3688 or K2Node_VariableGet /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_VariableGet_3688
-[2018.06.29-14.03.06:141][468]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_CommutativeAssociativeBinaryOperator_2015 or K2Node_CommutativeAssociativeBinaryOperator /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_CommutativeAssociativeBinaryOperator_2015
-[2018.06.29-14.03.06:141][468]LogUObjectHash: Warning: Ambiguous search, could be K2Node_VariableGet /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_VariableGet_9500 or K2Node_VariableGet /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_VariableGet_9500
-[2018.06.29-14.03.06:141][468]LogUObjectHash: Warning: Ambiguous search, could be EdGraphNode_Comment /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.EdGraphNode_Comment_2 or EdGraphNode_Comment /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.EdGraphNode_Comment_2
-[2018.06.29-14.03.06:141][468]LogUObjectHash: Warning: Ambiguous search, could be K2Node_VariableSet /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_VariableSet_2961 or K2Node_VariableSet /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_VariableSet_2961
-[2018.06.29-14.03.06:141][468]LogUObjectHash: Warning: Ambiguous search, could be K2Node_VariableGet /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_VariableGet_9503 or K2Node_VariableGet /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_VariableGet_9503
-[2018.06.29-14.03.06:141][468]LogUObjectHash: Warning: Ambiguous search, could be EdGraphNode_Comment /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.EdGraphNode_Comment_3 or EdGraphNode_Comment /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.EdGraphNode_Comment_3
-[2018.06.29-14.03.06:141][468]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallFunction /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_CallFunction_264 or K2Node_CallFunction /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_CallFunction_264
-[2018.06.29-14.03.06:141][468]LogUObjectHash: Warning: Ambiguous search, could be K2Node_VariableGet /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_VariableGet_450 or K2Node_VariableGet /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_VariableGet_450
-[2018.06.29-14.03.06:141][468]LogUObjectHash: Warning: Ambiguous search, could be K2Node_VariableGet /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_VariableGet_451 or K2Node_VariableGet /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter:DoReload.K2Node_VariableGet_451
-[2018.06.29-14.04.23:158][514]BlueprintLog: New page: AWWA_MainCharacter 컴파일
-[2018.06.29-14.04.28:188][566]LogSavePackage: Save=2612.81ms
-[2018.06.29-14.04.28:188][566]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter09263E7443A786132A02E583D3BCB012.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
-[2018.06.29-14.04.28:192][566]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
-[2018.06.29-14.06.31:862][147]LogSavePackage: Save=2591.28ms
-[2018.06.29-14.06.31:862][147]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter116D48BF48F00A82DF9B8CA2500A1755.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
-[2018.06.29-14.06.31:867][147]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
-[2018.06.29-14.06.33:291][301]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
-[2018.06.29-14.06.34:754][433]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
-[2018.06.29-14.06.34:755][433]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.29-14.06.34:759][433]PIE: New page: PIE 세션: World (2018. 6. 30. 오전 8:06:34)
-[2018.06.29-14.06.34:759][433]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
-[2018.06.29-14.06.35:144][433]LogPlayLevel: PIE: StaticDuplicateObject took: (0.385141s)
-[2018.06.29-14.06.35:145][433]LogAIModule: Creating AISystem for world World
-[2018.06.29-14.06.35:145][433]LogPlayLevel: PIE: World Init took: (0.000794s)
-[2018.06.29-14.06.35:146][433]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.387501s)
-[2018.06.29-14.06.35:200][433]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.29-14.06.35:219][433]LogInit: FAudioDevice initialized.
-[2018.06.29-14.06.35:265][433]LogLoad: Game class is 'AWWAGameMode'
-[2018.06.29-14.06.35:416][433]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.06.29-23.06.35
-[2018.06.29-14.06.35:427][433]LogWorld: Bringing up level for play took: 0.159463
-[2018.06.29-14.06.35:501][433]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
-[2018.06.29-14.06.35:526][433]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.159
-[2018.06.29-14.06.35:527][433]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
-[2018.06.29-14.07.18:341][507]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
-[2018.06.29-14.07.18:418][507]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
-[2018.06.29-14.07.53:467][591]LogSavePackage: Save=9031.08ms
-[2018.06.29-14.07.53:467][591]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/World_Auto678538DB4478B2B970DC161B65E7872F5.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Maps/World_Auto6.umap'
-[2018.06.29-14.07.53:476][591]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Maps/World_Auto6.umap
-[2018.06.29-14.07.53:479][591]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/World' took 9.132
-[2018.06.29-14.07.53:479][591]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 9.132
-[2018.06.29-14.28.33:368][948]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
-[2018.06.29-14.28.34:326][ 33]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
-[2018.06.29-14.28.34:326][ 33]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.29-14.28.34:326][ 33]PIE: New page: PIE 세션: World (2018. 6. 30. 오전 8:28:34)
-[2018.06.29-14.28.34:326][ 33]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
-[2018.06.29-14.28.34:706][ 33]LogPlayLevel: PIE: StaticDuplicateObject took: (0.379412s)
-[2018.06.29-14.28.34:706][ 33]LogAIModule: Creating AISystem for world World
-[2018.06.29-14.28.34:706][ 33]LogPlayLevel: PIE: World Init took: (0.000654s)
-[2018.06.29-14.28.34:708][ 33]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.381865s)
-[2018.06.29-14.28.34:760][ 33]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.29-14.28.34:778][ 33]LogInit: FAudioDevice initialized.
-[2018.06.29-14.28.34:812][ 33]LogLoad: Game class is 'AWWAGameMode'
-[2018.06.29-14.28.34:926][ 33]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.06.29-23.28.34
-[2018.06.29-14.28.34:933][ 33]LogWorld: Bringing up level for play took: 0.121836
-[2018.06.29-14.28.34:954][ 33]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 1.588
-[2018.06.29-14.28.34:955][ 33]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
-[2018.06.29-14.29.48:089][691]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
-[2018.06.29-14.29.48:161][691]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.30-03.26.58:279][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.30-03.26.58:279][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.06.30-03.26.58:295][  0]LogInit: Computer: DESKTOP-SFT0388
+[2018.06.30-03.26.58:295][  0]LogInit: User: korea
+[2018.06.30-03.26.58:295][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.06.30-03.26.58:295][  0]LogInit: High frequency timer resolution =3.609380 MHz
+[2018.06.30-03.26.58:295][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.06.30-03.26.58:295][  0]LogMemory: Platform Memory Stats for Windows
+[2018.06.30-03.26.58:295][  0]LogMemory: Process Physical Memory: 276.67 MB used, 276.67 MB peak
+[2018.06.30-03.26.58:295][  0]LogMemory: Process Virtual Memory: 282.33 MB used, 282.33 MB peak
+[2018.06.30-03.26.58:295][  0]LogMemory: Physical Memory: 5327.96 MB used,  10990.04 MB free, 16318.00 MB total
+[2018.06.30-03.26.58:295][  0]LogMemory: Virtual Memory: 4791.19 MB used,  10990.04 MB free, 134217728.00 MB total
+[2018.06.30-03.26.58:496][  0]LogInit: Using OS detected language (ko-KR).
+[2018.06.30-03.26.58:496][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.06.30-03.26.58:499][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.06.30-03.26.58:620][  0]LogInit: Setting process to per monitor DPI aware
+[2018.06.30-03.26.58:905][  0]LogD3D11RHI: D3D11 adapters:
+[2018.06.30-03.26.58:958][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070 Ti' (Feature Level 11_0)
+[2018.06.30-03.26.58:958][  0]LogD3D11RHI:       8080/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.06.30-03.26.58:960][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.06.30-03.26.58:960][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.06.30-03.26.58:960][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.06.30-03.26.58:965][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.06.30-03.26.58:965][  0]LogD3D11RHI:     GPU DeviceId: 0x1b82 (for the marketing name, search the web for "GPU Device Id")
+[2018.06.30-03.26.58:965][  0]LogWindows: EnumDisplayDevices:
+[2018.06.30-03.26.58:965][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070 Ti' (P:1 D:1)
+[2018.06.30-03.26.58:966][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:1)
+[2018.06.30-03.26.58:966][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2018.06.30-03.26.58:967][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2018.06.30-03.26.58:967][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.06.30-03.26.58:967][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070 Ti
+[2018.06.30-03.26.58:967][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.06.30-03.26.58:967][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.06.30-03.26.58:967][  0]LogRHI: Texture pool is 5656 MB (70% of 8080 MB)
+[2018.06.30-03.26.58:991][  0]LogD3D11RHI: Async texture creation enabled
+[2018.06.30-03.26.59:007][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.06.30-03.26.59:105][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Intermediate/Shaders/WorkingDirectory/4984/).
+[2018.06.30-03.26.59:105][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/korea/AppData/Local/Temp/UnrealShaderWorkingDir/3D2F35C649A2C2DA7182E29E1B4B6AA0/'.
+[2018.06.30-03.26.59:105][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.06.30-03.26.59:834][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.06.30-03.26.59:893][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.06.30-03.26.59:954][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.06.30-03.27.00:015][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.06.30-03.27.00:077][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.06.30-03.27.00:137][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.06.30-03.27.00:197][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.06.30-03.27.00:256][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.06.30-03.27.00:310][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.06.30-03.27.00:368][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.06.30-03.27.00:427][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.06.30-03.27.00:488][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.06.30-03.27.00:547][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.06.30-03.27.00:607][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.06.30-03.27.00:723][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.06.30-03.27.00:723][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.06.30-03.27.00:782][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.06.30-03.27.00:831][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.06.30-03.27.00:936][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.06.30-03.27.00:967][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.06.30-03.27.01:030][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.06.30-03.27.01:091][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.06.30-03.27.01:153][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.06.30-03.27.01:215][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.06.30-03.27.01:215][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.06.30-03.27.01:802][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.06.30-03.27.01:869][  0]LogDerivedDataCache: Loaded boot cache 0.07s 103MB C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.06.30-03.27.01:869][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.06.30-03.27.01:869][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.06.30-03.27.01:869][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.06.30-03.27.01:869][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.06.30-03.27.01:869][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.06.30-03.27.01:881][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.06.30-03.27.01:893][  0]LogDerivedDataCache: Using Local data cache path C:/Users/korea/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.06.30-03.27.01:901][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.06.30-03.27.01:901][  0]LogSlate: Using Freetype 2.6.0
+[2018.06.30-03.27.01:901][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.30-03.27.01:901][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.30-03.27.02:192][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.30-03.27.02:551][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.06.30-03.27.02:611][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.06.30-03.27.02:611][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.06.30-03.27.02:611][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.06.30-03.27.02:611][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.06.30-03.27.02:611][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.06.30-03.27.02:640][  0]LogNetVersion: AWWA , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3043977046)
+[2018.06.30-03.27.02:795][  0]LogAssetRegistry: FAssetRegistry took 0.0248 seconds to start up
+[2018.06.30-03.27.03:228][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.057708 seconds
+[2018.06.30-03.27.03:231][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.06.30-03.27.03:231][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.06.30-03.27.03:231][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.06.30-03.27.03:300][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.06.30-03.27.06:180][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.06.30-03.27.06:242][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.06.30-03.27.11:524][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.06.30-03.27.12:035][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.06.30-03.27.12:035][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.06.30-03.27.12:104][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.06.30-03.27.12:172][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.06.30-03.27.13:222][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.06.30-03.27.13:569][  0]LogOcInput: OculusInput pre-init called
+[2018.06.30-03.27.13:902][  0]LogEngine: Initializing Engine...
+[2018.06.30-03.27.13:904][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.06.30-03.27.14:054][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.30-03.27.14:054][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.30-03.27.14:230][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.06.30-03.27.14:258][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.30-03.27.14:307][  0]LogInit: FAudioDevice initialized.
+[2018.06.30-03.27.14:405][  0]LogDerivedDataCache: Saved boot cache 0.10s 103MB C:/Users/korea/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.06.30-03.27.14:421][  0]LogInit: Texture streaming: Enabled
+[2018.06.30-03.27.14:552][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.06.30-03.27.14:719][  0]LogInit: Transaction tracking system initialized
+[2018.06.30-03.27.15:144][  0]BlueprintLog: New page: 에디터 로드
+[2018.06.30-03.27.17:242][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.06.30-03.27.18:317][  0]LogConsoleResponse: Display: 
+[2018.06.30-03.27.18:561][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.06.30-03.27.18:561][  0]LogCook: Display: Mobile HDR setting 1
+[2018.06.30-03.27.18:561][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.06.30-03.27.19:502][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/' took 0.04s
+[2018.06.30-03.27.20:123][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.06.30-03.27.20:123][  0]Cmd: MAP LOAD FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.30-03.27.20:123][  0]LightingResults: New page: 라이팅 빌드
+[2018.06.30-03.27.20:180][  0]MapCheck: New page: 맵 체크
+[2018.06.30-03.27.20:180][  0]LightingResults: New page: 라이팅 빌드
+[2018.06.30-03.27.40:455][  0]LogAIModule: Creating AISystem for world World
+[2018.06.30-03.27.56:853][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.30-03.27.57:449][  0]MapCheck: /Game/_Maps/World 레벨의 39 개 컴포넌트에 대해 칠해진 버텍스 컬러 수리에 0.0s 걸렸습니다. 맵을 다시 저장하면 확정됩니다. 
+[2018.06.30-03.27.57:449][  0]MapCheck: Warning: 스태틱 메시 리임포트로 인해 칠해진 버텍스 컬러를 고치는 데 시간이 0.0s 만큼 걸렸습니다. 맵을 다시 저장하기 전까지는 로드할 때마다 이 작업이 실행됩니다. 
+[2018.06.30-03.27.57:450][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.30-03.27.57:755][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 1 회, 소요 시간 304.763ms.
+[2018.06.30-03.27.57:773][  0]LogFileHelpers: Loading map 'World' took 37.649
+[2018.06.30-03.27.58:326][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.06.30-03.27.59:073][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.AWWA
+[2018.06.30-03.27.59:073][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.06.30-03.27.59:073][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
+[2018.06.30-03.27.59:074][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.06.30-03.27.59:074][  0]LogTemp: BranchPath = DESKTOP-SFT0388/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = DESKTOP-SFT0388/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
+[2018.06.30-03.27.59:074][  0]LogCollectionManager: Loaded 0 collections in 0.001598 seconds
+[2018.06.30-03.27.59:201][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Collections/' took 0.01s
+[2018.06.30-03.27.59:201][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\korea\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.06.30-03.27.59:201][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Developers/korea/Collections/' took 0.01s
+[2018.06.30-03.27.59:202][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Collections/' took 0.01s
+[2018.06.30-03.27.59:202][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.06.30-03.27.59:217][  0]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2370 classes and 522 folders.
+[2018.06.30-03.27.59:332][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.06.30-03.27.59:685][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.06.30-03.27.59:850][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.06.30-03.27.59:945][  0]LogSlate: Took 0.000318 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.06.30-03.27.59:947][  0]LogSlate: Took 0.001893 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.06.30-03.27.59:950][  0]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.06.30-03.27.59:959][  0]LogSlate: Took 0.005489 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.06.30-03.28.00:139][  0]LogRenderer: Reallocating scene render targets to support 1600x624 Format 10 NumSamples 1 (Frame:1).
+[2018.06.30-03.28.00:383][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.06.30-03.28.00:383][  0]LogLoad: (Engine Initialization) Total time: 65.11 seconds
+[2018.06.30-03.28.00:383][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.06.30-03.28.00:383][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.06.30-03.28.00:394][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2018.06.30-03.28.00:418][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.06.30-03.28.00:656][  2]LogAssetRegistry: Asset discovery search completed in 57.8837 seconds
+[2018.06.30-03.28.00:660][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.06.30-03.28.00:660][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000043 seconds (updated 0 objects)
+[2018.06.30-03.28.01:446][ 70]LogSlate: Took 0.011994 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.06.30-03.28.02:276][ 70]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.06.30-03.28.03:130][ 70]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 116 classes and 0 folders.
+[2018.06.30-03.28.04:111][ 70]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.06.30-03.28.04:585][ 70]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.06.30-03.28.04:831][ 70]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.06.30-03.28.05:899][ 70]LogSlate: Took 0.008068 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.06.30-03.28.06:081][ 71]LogSlate: Took 0.004184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.06.30-03.31.28:701][340]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.06.30-03.31.35:058][ 87]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0009 seconds. Added 1 classes and 0 folders.
+[2018.06.30-03.31.39:391][554]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Character/EDIT_Main_Anim" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/EDIT_Main_Anim.uasset" SILENT=true
+[2018.06.30-03.31.40:055][554]LogSavePackage: Save=650.89ms
+[2018.06.30-03.31.40:055][554]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Main_Anim64CA4E414547ABCF4E6EAC822257C560.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/EDIT_Main_Anim.uasset'
+[2018.06.30-03.31.40:060][554]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/EDIT_Main_Anim.uasset
+[2018.06.30-03.38.06:705][530]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/World' took 0.030
+[2018.06.30-03.38.06:708][530]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_UI/GameSubUI/UI_Inventory] ([1] browsable assets)...
+[2018.06.30-03.38.06:708][530]OBJ SavePackage: Finished generating thumbnails for package [/Game/_UI/GameSubUI/UI_Inventory]
+[2018.06.30-03.38.07:707][530]LogSavePackage: Save=983.59ms
+[2018.06.30-03.38.07:707][530]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/UI_Inventory_Auto1D9EFB05B41B9B1EA92750AA3DD9514C6.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_UI/GameSubUI/UI_Inventory_Auto1.uasset'
+[2018.06.30-03.38.07:713][530]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_UI/GameSubUI/UI_Inventory_Auto1.uasset
+[2018.06.30-03.38.07:713][530]LogFileHelpers: Auto-saving content packages took 1.007
+[2018.06.30-03.39.11:210][392]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.06.30-03.39.13:267][631]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.06.30-03.39.14:117][730]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.06.30-03.39.15:502][871]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.06.30-03.39.16:427][979]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.06.30-03.39.58:204][912]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.06.30-03.40.01:645][322]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.06.30-03.40.02:656][422]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.06.30-03.40.05:577][769]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.06.30-03.40.06:380][845]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.06.30-03.40.41:306][988]BlueprintLog: New page: UI_Inventory 컴파일
+[2018.06.30-03.40.42:742][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_UI/GameSubUI/UI_Inventory" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_UI/GameSubUI/UI_Inventory.uasset" SILENT=true
+[2018.06.30-03.40.43:712][ 90]LogSavePackage: Save=966.95ms
+[2018.06.30-03.40.43:712][ 90]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/UI_InventoryA6A26E4D45EE92E237FC99BD0465F2E4.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_UI/GameSubUI/UI_Inventory.uasset'
+[2018.06.30-03.40.43:715][ 90]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_UI/GameSubUI/UI_Inventory.uasset
+[2018.06.30-03.48.17:641][287]LogSavePackage: Save=9017.94ms
+[2018.06.30-03.48.17:641][287]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/World_Auto2CB06CF794B3CB6868B0DB38DA7877EA8.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Maps/World_Auto2.umap'
+[2018.06.30-03.48.17:649][287]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Maps/World_Auto2.umap
+[2018.06.30-03.48.17:652][287]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/World' took 9.110
+[2018.06.30-03.48.17:652][287]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 9.110
+[2018.06.30-03.52.21:494][ 75]BlueprintLog: New page: UI_Inventory 컴파일
+[2018.06.30-03.52.22:303][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_UI/GameSubUI/UI_Inventory" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_UI/GameSubUI/UI_Inventory.uasset" SILENT=true
+[2018.06.30-03.52.23:284][120]LogSavePackage: Save=973.95ms
+[2018.06.30-03.52.23:285][120]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/UI_Inventory95B1611F4BFE4D9629EA6C80076CD147.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_UI/GameSubUI/UI_Inventory.uasset'
+[2018.06.30-03.52.23:288][120]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_UI/GameSubUI/UI_Inventory.uasset
+[2018.06.30-03.53.37:344][319]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2018.06.30-03.53.38:443][410]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.30-03.53.38:444][410]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.30-03.53.38:446][410]PIE: New page: PIE 세션: World (2018. 6. 30. 오후 9:53:38)
+[2018.06.30-03.53.38:446][410]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2018.06.30-03.53.38:840][410]LogPlayLevel: PIE: StaticDuplicateObject took: (0.394127s)
+[2018.06.30-03.53.38:841][410]LogAIModule: Creating AISystem for world World
+[2018.06.30-03.53.38:841][410]LogPlayLevel: PIE: World Init took: (0.000618s)
+[2018.06.30-03.53.38:842][410]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.396143s)
+[2018.06.30-03.53.38:893][410]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.30-03.53.38:911][410]LogInit: FAudioDevice initialized.
+[2018.06.30-03.53.38:961][410]LogLoad: Game class is 'AWWAGameMode'
+[2018.06.30-03.53.39:102][410]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.06.30-12.53.39
+[2018.06.30-03.53.39:113][410]LogWorld: Bringing up level for play took: 0.150555
+[2018.06.30-03.53.39:174][410]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2018.06.30-03.53.39:199][410]LogStreamableManager: Error: RequestAsyncLoad called with empty or only null assets!
+[2018.06.30-03.53.39:199][410]LogStreamableManager: Error: RequestAsyncLoad called with empty or only null assets!
+[2018.06.30-03.53.39:199][410]LogStreamableManager: Error: RequestAsyncLoad called with empty or only null assets!
+[2018.06.30-03.53.39:199][410]LogStreamableManager: Error: RequestAsyncLoad called with empty or only null assets!
+[2018.06.30-03.53.39:199][410]LogStreamableManager: Error: RequestAsyncLoad called with empty or only null assets!
+[2018.06.30-03.53.39:199][410]LogStreamableManager: Error: RequestAsyncLoad called with empty or only null assets!
+[2018.06.30-03.53.39:199][410]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.251
+[2018.06.30-03.53.39:200][410]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.30-03.54.46:381][392]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.30-03.54.46:462][392]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2018.06.30-03.56.22:659][211]BlueprintLog: New page: UI_Inventory 컴파일
+[2018.06.30-03.56.23:670][242]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_UI/GameSubUI/UI_Inventory" FILE="../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_UI/GameSubUI/UI_Inventory.uasset" SILENT=true
+[2018.06.30-03.56.24:739][242]LogSavePackage: Save=1065.27ms
+[2018.06.30-03.56.24:739][242]LogSavePackage: Moving '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/UI_Inventory1572526F49BEF94906763FA3371F56F4.tmp' to '../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_UI/GameSubUI/UI_Inventory.uasset'
+[2018.06.30-03.56.24:742][242]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_UI/GameSubUI/UI_Inventory.uasset
