@@ -6,6 +6,9 @@
 #include "GameFramework/Actor.h"
 #include "BaseWeapon.generated.h"
 
+class UStaticMeshComponent;
+//class USceneComponent;
+
 UCLASS()
 class AWWA_API ABaseWeapon : public AActor
 {
@@ -22,6 +25,12 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	UPROPERTY(BlueprintReadWrite, Category = "Component")
+	USceneComponent* m_baseSceneComp;
+
+	UPROPERTY(BlueprintReadWrite, Category = "Component")
+	UStaticMeshComponent* m_baseMeshComp;
 
 	UPROPERTY(BlueprintReadWrite, EditDefaultsOnly, Category = "Type")
 	int32 m_weaponType;
@@ -71,4 +80,6 @@ public:
 	int32 m_fullReloadAmmoCount;
 	// Init in Constructor! from Database! and adjust Skill!
 
+	UPROPERTY(BlueprintReadWrite, EditDefaultsOnly, Category = "Location")
+	FVector m_muzzleLocation;
 };
