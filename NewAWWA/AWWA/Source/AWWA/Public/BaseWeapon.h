@@ -9,7 +9,7 @@
 class UStaticMeshComponent;
 //class USceneComponent;
 
-UCLASS()
+UCLASS(BlueprintType)
 class AWWA_API ABaseWeapon : public AActor
 {
 	GENERATED_BODY()
@@ -26,10 +26,10 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	UPROPERTY(BlueprintReadWrite, Category = "Component")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Component")
 	USceneComponent* m_baseSceneComp;
 
-	UPROPERTY(BlueprintReadWrite, Category = "Component")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Component")
 	UStaticMeshComponent* m_baseMeshComp;
 
 	UPROPERTY(BlueprintReadWrite, EditDefaultsOnly, Category = "Type")
