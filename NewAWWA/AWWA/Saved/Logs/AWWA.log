@@ -1,4 +1,4 @@
-﻿Log file open, 01/10/19 21:27:57
+﻿Log file open, 01/10/19 22:06:27
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: AWWA
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-656686375) SRandInit(-656686375).
+LogInit: Display: RandInit(-906536568) SRandInit(-906536568).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.385234
+LogStats: Stats thread started at 0.384631
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -84,7 +84,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.101s to configure plugins.
+LogStreaming: Display: Took  0.080s to configure plugins.
 LogModuleManager: Display: Found up-to-date module file C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Binaries/Win64/UE4Editor-AWWA.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
@@ -220,398 +220,869 @@ LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line: 
 LogInit: Base Directory: D:/unreal/Epic Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.000s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.01.10-12.27.58:648][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.10-12.27.58:648][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.01.10-12.27.58:663][  0]LogInit: Computer: DESKTOP-SFT0388
-[2019.01.10-12.27.58:663][  0]LogInit: User: korea
-[2019.01.10-12.27.58:663][  0]LogInit: CPU Page size=4096, Cores=6
-[2019.01.10-12.27.58:663][  0]LogInit: High frequency timer resolution =3.609376 MHz
-[2019.01.10-12.27.58:663][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.01.10-12.27.58:663][  0]LogMemory: Platform Memory Stats for Windows
-[2019.01.10-12.27.58:663][  0]LogMemory: Process Physical Memory: 276.36 MB used, 276.36 MB peak
-[2019.01.10-12.27.58:663][  0]LogMemory: Process Virtual Memory: 275.57 MB used, 275.57 MB peak
-[2019.01.10-12.27.58:663][  0]LogMemory: Physical Memory: 4539.50 MB used,  11778.50 MB free, 16318.00 MB total
-[2019.01.10-12.27.58:663][  0]LogMemory: Virtual Memory: 4815.51 MB used,  11778.50 MB free, 134217728.00 MB total
-[2019.01.10-12.27.58:680][  0]LogInit: Using OS detected language (ko-KR).
-[2019.01.10-12.27.58:680][  0]LogInit: Using OS detected locale (ko-KR).
-[2019.01.10-12.27.58:683][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
-[2019.01.10-12.27.58:967][  0]LogStreaming: Display: Took  0.287s to EndInitTextLocalization.
-[2019.01.10-12.27.58:967][  0]LogInit: Setting process to per monitor DPI aware
-[2019.01.10-12.27.59:008][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.01.10-12.27.59:008][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.01.10-12.27.59:193][  0]LogD3D11RHI: D3D11 adapters:
-[2019.01.10-12.27.59:245][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070 Ti' (Feature Level 11_0)
-[2019.01.10-12.27.59:246][  0]LogD3D11RHI:       8080/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.01.10-12.27.59:247][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.01.10-12.27.59:247][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.01.10-12.27.59:247][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.01.10-12.27.59:252][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.01.10-12.27.59:252][  0]LogD3D11RHI:     GPU DeviceId: 0x1b82 (for the marketing name, search the web for "GPU Device Id")
-[2019.01.10-12.27.59:252][  0]LogWindows: EnumDisplayDevices:
-[2019.01.10-12.27.59:252][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070 Ti' (P:1 D:1)
-[2019.01.10-12.27.59:252][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:1)
-[2019.01.10-12.27.59:253][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
-[2019.01.10-12.27.59:253][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
-[2019.01.10-12.27.59:254][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.01.10-12.27.59:254][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070 Ti
-[2019.01.10-12.27.59:254][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.01.10-12.27.59:254][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.01.10-12.27.59:254][  0]LogRHI: Texture pool is 5656 MB (70% of 8080 MB)
-[2019.01.10-12.27.59:287][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2019.01.10-12.27.59:287][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2019.01.10-12.27.59:287][  0]LogD3D11RHI: Async texture creation enabled
-[2019.01.10-12.27.59:305][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.01.10-12.27.59:404][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Intermediate/Shaders/WorkingDirectory/1292/).
-[2019.01.10-12.27.59:405][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/korea/AppData/Local/Temp/UnrealShaderWorkingDir/87A3F8634804DD2CA5106EA51CAD4D47/'.
-[2019.01.10-12.27.59:570][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.01.10-12.27.59:581][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.01.10-12.27.59:594][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.01.10-12.27.59:610][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.01.10-12.27.59:622][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.01.10-12.27.59:633][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.01.10-12.27.59:645][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.01.10-12.27.59:660][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.01.10-12.27.59:665][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.01.10-12.27.59:676][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2019.01.10-12.27.59:686][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2019.01.10-12.27.59:696][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2019.01.10-12.27.59:705][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2019.01.10-12.27.59:714][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2019.01.10-12.27.59:724][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2019.01.10-12.27.59:743][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2019.01.10-12.27.59:743][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2019.01.10-12.27.59:752][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.10-12.27.59:753][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.01.10-12.27.59:787][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.10-12.27.59:796][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.10-12.27.59:805][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.01.10-12.27.59:814][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.01.10-12.27.59:829][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.01.10-12.27.59:839][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.01.10-12.27.59:839][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.01.10-12.27.59:914][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.01.10-12.27.59:914][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.01.10-12.27.59:914][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.01.10-12.28.00:430][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.01.10-12.28.00:497][  0]LogDerivedDataCache: Loaded boot cache 0.07s 102MB C:/Users/korea/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2019.01.10-12.28.00:497][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/korea/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2019.01.10-12.28.00:497][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.01.10-12.28.00:497][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.01.10-12.28.00:497][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.01.10-12.28.00:497][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.01.10-12.28.00:509][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.01.10-12.28.00:521][  0]LogDerivedDataCache: Using Local data cache path C:/Users/korea/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.01.10-12.28.00:521][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.01.10-12.28.00:521][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.01.10-12.28.00:530][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.01.10-12.28.00:530][  0]LogSlate: Using Freetype 2.6.0
-[2019.01.10-12.28.00:530][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.01.10-12.28.00:530][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.01.10-12.28.00:630][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
-[2019.01.10-12.28.00:879][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.10-12.28.00:985][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.01.10-12.28.00:987][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.01.10-12.28.00:987][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.01.10-12.28.00:987][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.01.10-12.28.00:987][  0]LogMeshReduction: No automatic mesh merging module available
-[2019.01.10-12.28.00:987][  0]LogMeshMerging: No automatic mesh merging module available
-[2019.01.10-12.28.01:015][  0]LogNetVersion: AWWA , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2117285862)
-[2019.01.10-12.28.01:350][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.075721 seconds
-[2019.01.10-12.28.01:354][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2019.01.10-12.28.01:354][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
-[2019.01.10-12.28.01:354][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.01.10-12.28.02:555][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.01.10-12.28.02:579][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.01.10-12.28.03:963][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8ba70dbc0, Size=8600, Default__AWWA_MainCharacter_C Function /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter_C:ExecuteUbergraph_AWWA_MainCharacter
-[2019.01.10-12.28.04:070][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a887087600, Size=512, Default__BP_FieldItem_C Function /Game/_Item/BP_FieldItem.BP_FieldItem_C:ExecuteUbergraph_BP_FieldItem
-[2019.01.10-12.28.04:279][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a88701ab00, Size=776, Default__Weapon_Pistol_45ACP_C Function /Game/_Weapons/Pistol/45ACPSmithandWesson/Weapon_Pistol_45ACP.Weapon_Pistol_45ACP_C:ExecuteUbergraph_Weapon_Pistol_45ACP
-[2019.01.10-12.28.04:505][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8b9e20a00, Size=768, Default__Weapon_Rifle_AK47_C Function /Game/_Weapons/Rifle/AK_47/Weapon_Rifle_AK47.Weapon_Rifle_AK47_C:ExecuteUbergraph_Weapon_Rifle_AK47
-[2019.01.10-12.28.04:577][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a887018800, Size=856, Default__EDIT_Main_Anim_C Function /Game/_Character/EDIT_Main_Anim.EDIT_Main_Anim_C:ExecuteUbergraph_EDIT_Main_Anim
-[2019.01.10-12.28.04:587][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8bb6a4480, Size=216, Default__HUD_CharacterState_C Function /Game/_UI/HUD_CharacterState.HUD_CharacterState_C:ExecuteUbergraph_HUD_CharacterState
-[2019.01.10-12.28.04:714][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8bb33d1a0, Size=216, Default__Weapon_Melee_Axe_C Function /Game/_Weapons/Melee/Axe/Weapon_Melee_Axe.Weapon_Melee_Axe_C:ExecuteUbergraph_Weapon_Melee_Axe
-[2019.01.10-12.28.04:823][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8bb2cb040, Size=216, Default__Weapon_Melee_BaseballBat_C Function /Game/_Weapons/Melee/BaseballBat/Weapon_Melee_BaseballBat.Weapon_Melee_BaseballBat_C:ExecuteUbergraph_Weapon_Melee_BaseballBat
-[2019.01.10-12.28.04:916][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8bb2c9520, Size=216, Default__Weapon_Melee_CrowBar_C Function /Game/_Weapons/Melee/CrowBar/Weapon_Melee_CrowBar.Weapon_Melee_CrowBar_C:ExecuteUbergraph_Weapon_Melee_CrowBar
-[2019.01.10-12.28.05:008][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8baf1b580, Size=216, Default__Weapon_Melee_HeavyCleaver_C Function /Game/_Weapons/Melee/HeavyCleaver/Weapon_Melee_HeavyCleaver.Weapon_Melee_HeavyCleaver_C:ExecuteUbergraph_Weapon_Melee_HeavyCleaver
-[2019.01.10-12.28.05:105][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8baf19a60, Size=216, Default__Weapon_Melee_M9Bayonet_C Function /Game/_Weapons/Melee/M9Bayonet/Weapon_Melee_M9Bayonet.Weapon_Melee_M9Bayonet_C:ExecuteUbergraph_Weapon_Melee_M9Bayonet
-[2019.01.10-12.28.05:203][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8bbb57e40, Size=216, Default__Weapon_Melee_PipeWrench_C Function /Game/_Weapons/Melee/PipeWrench/Weapon_Melee_PipeWrench.Weapon_Melee_PipeWrench_C:ExecuteUbergraph_Weapon_Melee_PipeWrench
-[2019.01.10-12.28.05:321][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8baee9300, Size=272, Default__Weapon_Pistol_ANACONDA_C Function /Game/_Weapons/Pistol/Anaconda/Weapon_Pistol_ANACONDA.Weapon_Pistol_ANACONDA_C:ExecuteUbergraph_Weapon_Pistol_ANACONDA
-[2019.01.10-12.28.05:439][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8baee8400, Size=272, Default__Weapon_Pistol_Python_C Function /Game/_Weapons/Pistol/Python/Weapon_Pistol_Python.Weapon_Pistol_Python_C:ExecuteUbergraph_Weapon_Pistol_Python
-[2019.01.10-12.28.05:547][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8bbaa2fc0, Size=272, Default__Weapon_Rifle_M4a1_C Function /Game/_Weapons/Rifle/M4a1/Weapon_Rifle_M4a1.Weapon_Rifle_M4a1_C:ExecuteUbergraph_Weapon_Rifle_M4a1
-[2019.01.10-12.28.05:712][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8bc34e400, Size=1272, Default__Weapon_SMG_MAC11_C Function /Game/_Weapons/SMG/MAC11/Weapon_SMG_MAC11.Weapon_SMG_MAC11_C:ExecuteUbergraph_Weapon_SMG_MAC11
-[2019.01.10-12.28.05:863][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8bb65f600, Size=272, Default__Weapon_SMG_Skorpion_C Function /Game/_Weapons/SMG/Skorpion/Weapon_SMG_Skorpion.Weapon_SMG_Skorpion_C:ExecuteUbergraph_Weapon_SMG_Skorpion
-[2019.01.10-12.28.05:883][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8bc2b9600, Size=1616, Default__UI_Inventory_C Function /Game/_UI/GameSubUI/UI_Inventory.UI_Inventory_C:ExecuteUbergraph_UI_Inventory
-[2019.01.10-12.28.05:884][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8bb673350, Size=112, Default__UI_GameUI_C Function /Game/_UI/UI_GameUI.UI_GameUI_C:ExecuteUbergraph_UI_GameUI
-[2019.01.10-12.28.07:253][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a887087600, Size=512
-[2019.01.10-12.28.07:253][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8adc90c00, Size=512, Default__BP_FieldItem_C Function /Engine/Transient.REINST_BP_FieldItem_C_6:ExecuteUbergraph_BP_FieldItem
-[2019.01.10-12.28.07:254][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a887018800, Size=856
-[2019.01.10-12.28.07:254][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8ae7e4100, Size=856, Default__EDIT_Main_Anim_C Function /Engine/Transient.REINST_EDIT_Main_Anim_C_0:ExecuteUbergraph_EDIT_Main_Anim
-[2019.01.10-12.28.07:254][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8bb33d1a0, Size=216
-[2019.01.10-12.28.07:254][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8ae0f98a0, Size=216, Default__Weapon_Melee_Axe_C Function /Engine/Transient.REINST_Weapon_Melee_Axe_C_7:ExecuteUbergraph_Weapon_Melee_Axe
-[2019.01.10-12.28.07:255][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8bb2cb040, Size=216
-[2019.01.10-12.28.07:255][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8ae0f8e20, Size=216, Default__Weapon_Melee_BaseballBat_C Function /Engine/Transient.REINST_Weapon_Melee_BaseballBat_C_8:ExecuteUbergraph_Weapon_Melee_BaseballBat
-[2019.01.10-12.28.07:255][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8bb2c9520, Size=216
-[2019.01.10-12.28.07:255][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8ae0f83a0, Size=216, Default__Weapon_Melee_CrowBar_C Function /Engine/Transient.REINST_Weapon_Melee_CrowBar_C_9:ExecuteUbergraph_Weapon_Melee_CrowBar
-[2019.01.10-12.28.07:255][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8baf1b580, Size=216
-[2019.01.10-12.28.07:255][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8ae0e7820, Size=216, Default__Weapon_Melee_HeavyCleaver_C Function /Engine/Transient.REINST_Weapon_Melee_HeavyCleaver_C_10:ExecuteUbergraph_Weapon_Melee_HeavyCleaver
-[2019.01.10-12.28.07:255][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8baf19a60, Size=216
-[2019.01.10-12.28.07:255][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8ae0e6da0, Size=216, Default__Weapon_Melee_M9Bayonet_C Function /Engine/Transient.REINST_Weapon_Melee_M9Bayonet_C_11:ExecuteUbergraph_Weapon_Melee_M9Bayonet
-[2019.01.10-12.28.07:255][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8bbb57e40, Size=216
-[2019.01.10-12.28.07:255][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8ae0e6320, Size=216, Default__Weapon_Melee_PipeWrench_C Function /Engine/Transient.REINST_Weapon_Melee_PipeWrench_C_12:ExecuteUbergraph_Weapon_Melee_PipeWrench
-[2019.01.10-12.28.07:256][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a88701ab00, Size=776
-[2019.01.10-12.28.07:256][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8ae0dfc80, Size=776, Default__Weapon_Pistol_45ACP_C Function /Engine/Transient.REINST_Weapon_Pistol_45ACP_C_13:ExecuteUbergraph_Weapon_Pistol_45ACP
-[2019.01.10-12.28.07:256][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8baee9300, Size=272
-[2019.01.10-12.28.07:256][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8bc1960c0, Size=272, Default__Weapon_Pistol_ANACONDA_C Function /Engine/Transient.REINST_Weapon_Pistol_ANACONDA_C_14:ExecuteUbergraph_Weapon_Pistol_ANACONDA
-[2019.01.10-12.28.07:256][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8baee8400, Size=272
-[2019.01.10-12.28.07:256][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8bc195300, Size=272, Default__Weapon_Pistol_Python_C Function /Engine/Transient.REINST_Weapon_Pistol_Python_C_15:ExecuteUbergraph_Weapon_Pistol_Python
-[2019.01.10-12.28.07:257][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8b9e20a00, Size=768
-[2019.01.10-12.28.07:257][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8ae0ca200, Size=768, Default__Weapon_Rifle_AK47_C Function /Engine/Transient.REINST_Weapon_Rifle_AK47_C_16:ExecuteUbergraph_Weapon_Rifle_AK47
-[2019.01.10-12.28.07:257][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8bbaa2fc0, Size=272
-[2019.01.10-12.28.07:257][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8bc196340, Size=272, Default__Weapon_Rifle_M4a1_C Function /Engine/Transient.REINST_Weapon_Rifle_M4a1_C_17:ExecuteUbergraph_Weapon_Rifle_M4a1
-[2019.01.10-12.28.07:257][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8bc34e400, Size=1272
-[2019.01.10-12.28.07:257][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8ae0d4100, Size=1272, Default__Weapon_SMG_MAC11_C Function /Engine/Transient.REINST_Weapon_SMG_MAC11_C_18:ExecuteUbergraph_Weapon_SMG_MAC11
-[2019.01.10-12.28.07:257][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8bb65f600, Size=272
-[2019.01.10-12.28.07:258][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8bc1956c0, Size=272, Default__Weapon_SMG_Skorpion_C Function /Engine/Transient.REINST_Weapon_SMG_Skorpion_C_19:ExecuteUbergraph_Weapon_SMG_Skorpion
-[2019.01.10-12.28.07:264][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8ba70dbc0, Size=8600
-[2019.01.10-12.28.07:264][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8ba70d2c0, Size=8600, Default__AWWA_MainCharacter_C Function /Engine/Transient.REINST_AWWA_MainCharacter_C_20:ExecuteUbergraph_AWWA_MainCharacter
-[2019.01.10-12.28.07:265][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8bb6a4480, Size=216
-[2019.01.10-12.28.07:265][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8ad59f040, Size=216, Default__HUD_CharacterState_C Function /Engine/Transient.REINST_HUD_CharacterState_C_0:ExecuteUbergraph_HUD_CharacterState
-[2019.01.10-12.28.07:265][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8bb673350, Size=112
-[2019.01.10-12.28.07:265][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8aebf9c90, Size=112, Default__UI_GameUI_C Function /Engine/Transient.REINST_UI_GameUI_C_2:ExecuteUbergraph_UI_GameUI
-[2019.01.10-12.28.07:266][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8bc2b9600, Size=1616
-[2019.01.10-12.28.07:266][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8ab23ab00, Size=1616, Default__UI_Inventory_C Function /Engine/Transient.REINST_UI_Inventory_C_3:ExecuteUbergraph_UI_Inventory
-[2019.01.10-12.28.07:524][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8bdcbd800, Size=512, Default__BP_FieldItem_C Function /Game/_Item/BP_FieldItem.BP_FieldItem_C:ExecuteUbergraph_BP_FieldItem
-[2019.01.10-12.28.07:531][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8af2fc800, Size=848, Default__EDIT_Main_Anim_C Function /Game/_Character/EDIT_Main_Anim.EDIT_Main_Anim_C:ExecuteUbergraph_EDIT_Main_Anim
-[2019.01.10-12.28.07:535][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8be3173c0, Size=216, Default__Weapon_Melee_Axe_C Function /Game/_Weapons/Melee/Axe/Weapon_Melee_Axe.Weapon_Melee_Axe_C:ExecuteUbergraph_Weapon_Melee_Axe
-[2019.01.10-12.28.07:536][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8be3172e0, Size=216, Default__Weapon_Melee_BaseballBat_C Function /Game/_Weapons/Melee/BaseballBat/Weapon_Melee_BaseballBat.Weapon_Melee_BaseballBat_C:ExecuteUbergraph_Weapon_Melee_BaseballBat
-[2019.01.10-12.28.07:536][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8be317200, Size=216, Default__Weapon_Melee_CrowBar_C Function /Game/_Weapons/Melee/CrowBar/Weapon_Melee_CrowBar.Weapon_Melee_CrowBar_C:ExecuteUbergraph_Weapon_Melee_CrowBar
-[2019.01.10-12.28.07:537][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8be317120, Size=216, Default__Weapon_Melee_HeavyCleaver_C Function /Game/_Weapons/Melee/HeavyCleaver/Weapon_Melee_HeavyCleaver.Weapon_Melee_HeavyCleaver_C:ExecuteUbergraph_Weapon_Melee_HeavyCleaver
-[2019.01.10-12.28.07:538][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8be316f60, Size=216, Default__Weapon_Melee_M9Bayonet_C Function /Game/_Weapons/Melee/M9Bayonet/Weapon_Melee_M9Bayonet.Weapon_Melee_M9Bayonet_C:ExecuteUbergraph_Weapon_Melee_M9Bayonet
-[2019.01.10-12.28.07:539][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8be316e80, Size=216, Default__Weapon_Melee_PipeWrench_C Function /Game/_Weapons/Melee/PipeWrench/Weapon_Melee_PipeWrench.Weapon_Melee_PipeWrench_C:ExecuteUbergraph_Weapon_Melee_PipeWrench
-[2019.01.10-12.28.07:540][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8be220b80, Size=776, Default__Weapon_Pistol_45ACP_C Function /Game/_Weapons/Pistol/45ACPSmithandWesson/Weapon_Pistol_45ACP.Weapon_Pistol_45ACP_C:ExecuteUbergraph_Weapon_Pistol_45ACP
-[2019.01.10-12.28.07:542][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8bdc98e00, Size=272, Default__Weapon_Pistol_ANACONDA_C Function /Game/_Weapons/Pistol/Anaconda/Weapon_Pistol_ANACONDA.Weapon_Pistol_ANACONDA_C:ExecuteUbergraph_Weapon_Pistol_ANACONDA
-[2019.01.10-12.28.07:544][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8bdc98f40, Size=272, Default__Weapon_Pistol_Python_C Function /Game/_Weapons/Pistol/Python/Weapon_Pistol_Python.Weapon_Pistol_Python_C:ExecuteUbergraph_Weapon_Pistol_Python
-[2019.01.10-12.28.07:546][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8be134400, Size=768, Default__Weapon_Rifle_AK47_C Function /Game/_Weapons/Rifle/AK_47/Weapon_Rifle_AK47.Weapon_Rifle_AK47_C:ExecuteUbergraph_Weapon_Rifle_AK47
-[2019.01.10-12.28.07:547][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8bdc98b80, Size=272, Default__Weapon_Rifle_M4a1_C Function /Game/_Weapons/Rifle/M4a1/Weapon_Rifle_M4a1.Weapon_Rifle_M4a1_C:ExecuteUbergraph_Weapon_Rifle_M4a1
-[2019.01.10-12.28.07:550][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8be057900, Size=1272, Default__Weapon_SMG_MAC11_C Function /Game/_Weapons/SMG/MAC11/Weapon_SMG_MAC11.Weapon_SMG_MAC11_C:ExecuteUbergraph_Weapon_SMG_MAC11
-[2019.01.10-12.28.07:551][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8bdc98a40, Size=272, Default__Weapon_SMG_Skorpion_C Function /Game/_Weapons/SMG/Skorpion/Weapon_SMG_Skorpion.Weapon_SMG_Skorpion_C:ExecuteUbergraph_Weapon_SMG_Skorpion
-[2019.01.10-12.28.07:605][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8beba9480, Size=8576, Default__AWWA_MainCharacter_C Function /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter_C:ExecuteUbergraph_AWWA_MainCharacter
-[2019.01.10-12.28.07:619][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8be3165c0, Size=216, Default__HUD_CharacterState_C Function /Game/_UI/HUD_CharacterState.HUD_CharacterState_C:ExecuteUbergraph_HUD_CharacterState
-[2019.01.10-12.28.07:622][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8be8a3430, Size=112, Default__UI_GameUI_C Function /Game/_UI/UI_GameUI.UI_GameUI_C:ExecuteUbergraph_UI_GameUI
-[2019.01.10-12.28.07:634][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8be6cdd00, Size=1608, Default__UI_Inventory_C Function /Game/_UI/GameSubUI/UI_Inventory.UI_Inventory_C:ExecuteUbergraph_UI_Inventory
-[2019.01.10-12.28.07:980][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [1.437922ms] /Game/_Character/Buffer/EDIT_MarkerMan/EDIT_passive_marker_man.EDIT_passive_marker_man
-[2019.01.10-12.28.08:233][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2019.01.10-12.28.08:233][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2019.01.10-12.28.08:247][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2019.01.10-12.28.08:260][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2019.01.10-12.28.08:636][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.01.10-12.28.08:819][  0]LogOcInput: OculusInput pre-init called
-[2019.01.10-12.28.08:900][  0]LogEngine: Initializing Engine...
-[2019.01.10-12.28.08:902][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.01.10-12.28.08:903][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.10-12.28.08:903][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.10-12.28.09:048][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.01.10-12.28.09:092][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.01.10-12.28.09:133][  0]LogInit: FAudioDevice initialized.
-[2019.01.10-12.28.09:236][  0]LogDerivedDataCache: Saved boot cache 0.10s 102MB C:/Users/korea/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2019.01.10-12.28.09:256][  0]LogInit: Texture streaming: Enabled
-[2019.01.10-12.28.09:268][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.01.10-12.28.09:276][  0]LogInit: Transaction tracking system initialized
-[2019.01.10-12.28.09:291][  0]BlueprintLog: New page: 에디터 로드
-[2019.01.10-12.28.10:395][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
-[2019.01.10-12.28.10:470][  0]LogConsoleResponse: Display: 
-[2019.01.10-12.28.10:651][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.01.10-12.28.10:651][  0]LogCook: Display: Mobile HDR setting 1
-[2019.01.10-12.28.10:651][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.01.10-12.28.10:651][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.10-12.28.10:651][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.10-12.28.10:914][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/' took 0.06s
-[2019.01.10-12.28.10:914][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2019.01.10-12.28.10:914][  0]Cmd: MAP LOAD FILE="C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.10-12.28.10:914][  0]LightingResults: New page: 라이팅 빌드
-[2019.01.10-12.28.10:915][  0]MapCheck: New page: 맵 체크
-[2019.01.10-12.28.10:916][  0]LightingResults: New page: 라이팅 빌드
-[2019.01.10-12.28.10:934][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8ba70d2c0, Size=8600
-[2019.01.10-12.28.10:934][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8adc90c00, Size=512
-[2019.01.10-12.28.10:934][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8ae0dfc80, Size=776
-[2019.01.10-12.28.10:934][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8ae0ca200, Size=768
-[2019.01.10-12.28.10:934][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8ae7e4100, Size=856
-[2019.01.10-12.28.10:934][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8ad59f040, Size=216
-[2019.01.10-12.28.10:934][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8ae0f98a0, Size=216
-[2019.01.10-12.28.10:934][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8ae0f8e20, Size=216
-[2019.01.10-12.28.10:934][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8ae0f83a0, Size=216
-[2019.01.10-12.28.10:934][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8ae0e7820, Size=216
-[2019.01.10-12.28.10:934][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8ae0e6da0, Size=216
-[2019.01.10-12.28.10:934][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8ae0e6320, Size=216
-[2019.01.10-12.28.10:934][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8bc1960c0, Size=272
-[2019.01.10-12.28.10:934][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8bc195300, Size=272
-[2019.01.10-12.28.10:934][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8bc196340, Size=272
-[2019.01.10-12.28.10:934][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8ae0d4100, Size=1272
-[2019.01.10-12.28.10:934][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8bc1956c0, Size=272
-[2019.01.10-12.28.10:934][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8ab23ab00, Size=1616
-[2019.01.10-12.28.10:934][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8aebf9c90, Size=112
-[2019.01.10-12.28.10:995][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8af5c6f30, Size=4, Default__AnimBP_DefaultZombie_C Function /Game/_Zombie/AnimBP_DefaultZombie.AnimBP_DefaultZombie_C:ExecuteUbergraph_AnimBP_DefaultZombie
-[2019.01.10-12.28.10:996][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8af5c6f30, Size=4
-[2019.01.10-12.28.10:996][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8af5c6f30, Size=4, Default__AnimBP_DefaultZombie_C Function /Engine/Transient.REINST_AnimBP_DefaultZombie_C_1:ExecuteUbergraph_AnimBP_DefaultZombie
-[2019.01.10-12.28.10:996][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8af5c6e88, Size=4, Default__AnimBP_DefaultZombie_C Function /Game/_Zombie/AnimBP_DefaultZombie.AnimBP_DefaultZombie_C:ExecuteUbergraph_AnimBP_DefaultZombie
-[2019.01.10-12.28.11:019][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8aeedc218, Size=56, Default__AIController_DefaultZombie_C Function /Game/_Zombie/AI/AIController_DefaultZombie.AIController_DefaultZombie_C:ExecuteUbergraph_AIController_DefaultZombie
-[2019.01.10-12.28.11:030][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8bcd12480, Size=576, Default__BP_DefaultZombie_C Function /Game/_Zombie/BP_DefaultZombie.BP_DefaultZombie_C:ExecuteUbergraph_BP_DefaultZombie
-[2019.01.10-12.28.11:288][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8ab1b9300, Size=720, Default__BTService_AgroCheck_C Function /Game/_Zombie/AI/BTService_AgroCheck.BTService_AgroCheck_C:ExecuteUbergraph_BTService_AgroCheck
-[2019.01.10-12.28.11:297][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8aee4e980, Size=120, Default__BTTask_RapidMoveTo_C Function /Game/_Zombie/AI/BTTask_RapidMoveTo.BTTask_RapidMoveTo_C:ExecuteUbergraph_BTTask_RapidMoveTo
-[2019.01.10-12.28.11:305][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8aeedc218, Size=56
-[2019.01.10-12.28.11:305][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8aeedc218, Size=56, Default__AIController_DefaultZombie_C Function /Engine/Transient.REINST_AIController_DefaultZombie_C_48:ExecuteUbergraph_AIController_DefaultZombie
-[2019.01.10-12.28.11:306][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8aee4e980, Size=120
-[2019.01.10-12.28.11:306][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8af0fe480, Size=120, Default__BTTask_RapidMoveTo_C Function /Engine/Transient.REINST_BTTask_RapidMoveTo_C_49:ExecuteUbergraph_BTTask_RapidMoveTo
-[2019.01.10-12.28.11:306][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8bcd12480, Size=576
-[2019.01.10-12.28.11:306][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8aee21300, Size=576, Default__BP_DefaultZombie_C Function /Engine/Transient.REINST_BP_DefaultZombie_C_50:ExecuteUbergraph_BP_DefaultZombie
-[2019.01.10-12.28.11:307][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8ab1b9300, Size=720
-[2019.01.10-12.28.11:307][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8bc1f8700, Size=720, Default__BTService_AgroCheck_C Function /Engine/Transient.REINST_BTService_AgroCheck_C_52:ExecuteUbergraph_BTService_AgroCheck
-[2019.01.10-12.28.11:319][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8aeeddd70, Size=56, Default__AIController_DefaultZombie_C Function /Game/_Zombie/AI/AIController_DefaultZombie.AIController_DefaultZombie_C:ExecuteUbergraph_AIController_DefaultZombie
-[2019.01.10-12.28.11:320][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8aedb7200, Size=120, Default__BTTask_RapidMoveTo_C Function /Game/_Zombie/AI/BTTask_RapidMoveTo.BTTask_RapidMoveTo_C:ExecuteUbergraph_BTTask_RapidMoveTo
-[2019.01.10-12.28.11:323][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8bdcb3380, Size=576, Default__BP_DefaultZombie_C Function /Game/_Zombie/BP_DefaultZombie.BP_DefaultZombie_C:ExecuteUbergraph_BP_DefaultZombie
-[2019.01.10-12.28.11:325][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8ae0ca200, Size=720, Default__BTService_AgroCheck_C Function /Game/_Zombie/AI/BTService_AgroCheck.BTService_AgroCheck_C:ExecuteUbergraph_BTService_AgroCheck
-[2019.01.10-12.28.11:584][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8af3c5900, Size=376, Default__Door_C Function /Game/DesertTown/BluePrints/Door.Door_C:ExecuteUbergraph_Door
-[2019.01.10-12.28.11:588][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8af3c5900, Size=376
-[2019.01.10-12.28.11:588][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8afb0a080, Size=376, Default__Door_C Function /Engine/Transient.REINST_Door_C_58:ExecuteUbergraph_Door
-[2019.01.10-12.28.11:591][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8bcd61600, Size=384, Default__Door_C Function /Game/DesertTown/BluePrints/Door.Door_C:ExecuteUbergraph_Door
-[2019.01.10-12.28.11:735][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8af2810c0, Size=168, Default__AirConUnit_C Function /Game/DesertTown/BluePrints/AirConUnit.AirConUnit_C:ExecuteUbergraph_AirConUnit
-[2019.01.10-12.28.11:738][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8af2810c0, Size=168
-[2019.01.10-12.28.11:738][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8af2810c0, Size=168, Default__AirConUnit_C Function /Engine/Transient.REINST_AirConUnit_C_62:ExecuteUbergraph_AirConUnit
-[2019.01.10-12.28.11:739][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8af280940, Size=168, Default__AirConUnit_C Function /Game/DesertTown/BluePrints/AirConUnit.AirConUnit_C:ExecuteUbergraph_AirConUnit
-[2019.01.10-12.28.12:196][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8bc2ab740, Size=400, Default__Garage_Door_BP2_C Function /Game/ModularNeighborhoodPack/Assets/Building/Doors_BP/Garage_Door_BP2.Garage_Door_BP2_C:ExecuteUbergraph_Garage_Door_BP2
-[2019.01.10-12.28.12:200][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8bc2ab740, Size=400
-[2019.01.10-12.28.12:200][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8bc2ab740, Size=400, Default__Garage_Door_BP2_C Function /Engine/Transient.REINST_Garage_Door_BP2_C_68:ExecuteUbergraph_Garage_Door_BP2
-[2019.01.10-12.28.12:203][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8bc2a97c0, Size=416, Default__Garage_Door_BP2_C Function /Game/ModularNeighborhoodPack/Assets/Building/Doors_BP/Garage_Door_BP2.Garage_Door_BP2_C:ExecuteUbergraph_Garage_Door_BP2
-[2019.01.10-12.28.12:229][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8afafbc80, Size=400, Default__Garage_Door_Half_BP_C Function /Game/ModularNeighborhoodPack/Assets/Building/Doors_BP/Garage_Door_Half_BP.Garage_Door_Half_BP_C:ExecuteUbergraph_Garage_Door_Half_BP
-[2019.01.10-12.28.12:234][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8afafbc80, Size=400
-[2019.01.10-12.28.12:234][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8afafbc80, Size=400, Default__Garage_Door_Half_BP_C Function /Engine/Transient.REINST_Garage_Door_Half_BP_C_70:ExecuteUbergraph_Garage_Door_Half_BP
-[2019.01.10-12.28.12:236][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8afafa080, Size=416, Default__Garage_Door_Half_BP_C Function /Game/ModularNeighborhoodPack/Assets/Building/Doors_BP/Garage_Door_Half_BP.Garage_Door_Half_BP_C:ExecuteUbergraph_Garage_Door_Half_BP
-[2019.01.10-12.28.12:648][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8aede3580, Size=400, Default__Outer_Door_BP_C Function /Game/ModularNeighborhoodPack/Assets/Building/Doors_BP/Outer_Door_BP.Outer_Door_BP_C:ExecuteUbergraph_Outer_Door_BP
-[2019.01.10-12.28.12:652][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8aede3580, Size=400
-[2019.01.10-12.28.12:652][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8aede3580, Size=400, Default__Outer_Door_BP_C Function /Engine/Transient.REINST_Outer_Door_BP_C_74:ExecuteUbergraph_Outer_Door_BP
-[2019.01.10-12.28.12:655][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8aede1b40, Size=416, Default__Outer_Door_BP_C Function /Game/ModularNeighborhoodPack/Assets/Building/Doors_BP/Outer_Door_BP.Outer_Door_BP_C:ExecuteUbergraph_Outer_Door_BP
-[2019.01.10-12.28.13:129][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8bcd439c0, Size=152, Default__BP_Fan_01_C Function /Game/ModularNeighborhoodPack/Assets/Electronic_Props/BP_Fan_01.BP_Fan_01_C:ExecuteUbergraph_BP_Fan_01
-[2019.01.10-12.28.13:131][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8bcd439c0, Size=152
-[2019.01.10-12.28.13:131][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8bcd42660, Size=152, Default__BP_Fan_01_C Function /Engine/Transient.REINST_BP_Fan_01_C_80:ExecuteUbergraph_BP_Fan_01
-[2019.01.10-12.28.13:132][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a8bcd41f80, Size=152, Default__BP_Fan_01_C Function /Game/ModularNeighborhoodPack/Assets/Electronic_Props/BP_Fan_01.BP_Fan_01_C:ExecuteUbergraph_BP_Fan_01
-[2019.01.10-12.28.37:139][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [12.355321ms] /Game/_Zombie/MaleZombie_1/EDIT_Zombie.EDIT_Zombie
-[2019.01.10-12.28.37:800][  0]LogAIModule: Creating AISystem for world World
-[2019.01.10-12.28.51:684][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.10-12.28.52:236][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8bcd42660, Size=152
-[2019.01.10-12.28.52:237][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8aede3580, Size=400
-[2019.01.10-12.28.52:237][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8afafbc80, Size=400
-[2019.01.10-12.28.52:237][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8bc2ab740, Size=400
-[2019.01.10-12.28.52:237][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8af2810c0, Size=168
-[2019.01.10-12.28.52:237][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8afb0a080, Size=376
-[2019.01.10-12.28.52:237][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8af0fe480, Size=120
-[2019.01.10-12.28.52:237][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8bc1f8700, Size=720
-[2019.01.10-12.28.52:237][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8aeedc218, Size=56
-[2019.01.10-12.28.52:237][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8af5c6f30, Size=4
-[2019.01.10-12.28.52:262][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a8aee21300, Size=576
-[2019.01.10-12.28.52:268][  0]MapCheck: /Game/_Maps/World 레벨의 39 개 컴포넌트에 대해 칠해진 버텍스 컬러 수리에 0.0s 걸렸습니다. 맵을 다시 저장하면 확정됩니다. 
-[2019.01.10-12.28.52:268][  0]MapCheck: Warning: 스태틱 메시 리임포트로 인해 칠해진 버텍스 컬러를 고치는 데 시간이 0.0s 만큼 걸렸습니다. 맵을 다시 저장하기 전까지는 로드할 때마다 이 작업이 실행됩니다. 
-[2019.01.10-12.28.52:268][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.10-12.28.52:630][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 1 회, 소요 시간 361.879ms.
-[2019.01.10-12.28.52:649][  0]LogFileHelpers: Loading map 'World' took 41.735
-[2019.01.10-12.28.52:784][  0]LogCollectionManager: Loaded 0 collections in 0.000913 seconds
-[2019.01.10-12.28.52:825][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Collections/' took 0.01s
-[2019.01.10-12.28.52:825][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Developers/korea/Collections/' took 0.01s
-[2019.01.10-12.28.52:825][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Collections/' took 0.01s
-[2019.01.10-12.28.52:825][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.01.10-12.28.52:833][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2459 classes and 561 folders.
-[2019.01.10-12.28.52:838][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2019.01.10-12.28.53:898][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0031 seconds. Added 0 classes and 0 folders.
-[2019.01.10-12.28.53:997][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2019.01.10-12.28.54:167][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0031 seconds. Added 2 classes and 3 folders.
-[2019.01.10-12.28.54:192][  0]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.01.10-12.28.54:194][  0]LogSlate: Took 0.001823 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
-[2019.01.10-12.28.54:213][  0]LogSlate: Took 0.017409 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.01.10-12.28.54:215][  0]LogSlate: Took 0.001525 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
-[2019.01.10-12.28.54:215][  0]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.01.10-12.28.54:372][  0]LogRenderer: Reallocating scene render targets to support 1592x924 Format 10 NumSamples 1 (Frame:1).
-[2019.01.10-12.28.54:496][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0023 seconds. Added 0 classes and 0 folders.
-[2019.01.10-12.28.54:497][  0]LogLoad: (Engine Initialization) Total time: 58.47 seconds
-[2019.01.10-12.28.54:497][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.01.10-12.28.54:855][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.01.10-12.28.56:180][  4]LogAssetRegistry: Asset discovery search completed in 55.5724 seconds
-[2019.01.10-12.28.56:185][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.01.10-12.28.56:185][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000048 seconds (updated 0 objects)
-[2019.01.10-12.29.47:591][596]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.10-12.31.56:070][145]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.10-12.36.39:007][246]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
-[2019.01.10-12.36.39:142][246]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.10-12.36.40:165][350]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
-[2019.01.10-12.36.40:165][350]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.10-12.36.40:166][350]PIE: New page: PIE 세션: World (2019. 1. 11. 오전 6:36:40)
-[2019.01.10-12.36.40:166][350]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
-[2019.01.10-12.36.40:839][350]LogPlayLevel: PIE: StaticDuplicateObject took: (0.672796s)
-[2019.01.10-12.36.40:839][350]LogAIModule: Creating AISystem for world World
-[2019.01.10-12.36.40:839][350]LogPlayLevel: PIE: World Init took: (0.000598s)
-[2019.01.10-12.36.40:840][350]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.674403s)
-[2019.01.10-12.36.40:890][350]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.01.10-12.36.40:900][350]LogInit: FAudioDevice initialized.
-[2019.01.10-12.36.40:900][350]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.10-12.36.40:959][350]LogLoad: Game class is 'AWWAGameMode'
-[2019.01.10-12.36.41:106][350]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2019.01.10-21.36.41
-[2019.01.10-12.36.41:114][350]LogWorld: Bringing up level for play took: 0.152322
-[2019.01.10-12.36.41:117][350]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
-[2019.01.10-12.36.41:140][350]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 1.073
-[2019.01.10-12.36.41:141][350]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
-[2019.01.10-12.37.13:718][176]LogSlate: Took 0.001767 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
-[2019.01.10-12.38.31:719][524]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
-[2019.01.10-12.38.31:793][524]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
-[2019.01.10-12.38.57:199][474]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
-[2019.01.10-12.38.57:245][474]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.10-12.38.58:169][571]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
-[2019.01.10-12.38.58:169][571]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.10-12.38.58:170][571]PIE: New page: PIE 세션: World (2019. 1. 11. 오전 6:38:58)
-[2019.01.10-12.38.58:170][571]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
-[2019.01.10-12.38.58:597][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.427553s)
-[2019.01.10-12.38.58:598][571]LogAIModule: Creating AISystem for world World
-[2019.01.10-12.38.58:598][571]LogPlayLevel: PIE: World Init took: (0.000581s)
-[2019.01.10-12.38.58:599][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.428864s)
-[2019.01.10-12.38.58:649][571]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.01.10-12.38.58:658][571]LogInit: FAudioDevice initialized.
-[2019.01.10-12.38.58:659][571]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.10-12.38.58:688][571]LogLoad: Game class is 'AWWAGameMode'
-[2019.01.10-12.38.58:819][571]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2019.01.10-21.38.58
-[2019.01.10-12.38.58:826][571]LogWorld: Bringing up level for play took: 0.137020
-[2019.01.10-12.38.58:846][571]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.777
-[2019.01.10-12.38.58:847][571]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
-[2019.01.10-12.39.25:486][759]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
-[2019.01.10-12.39.25:559][759]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
-[2019.01.10-12.39.27:393][958]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.10-12.39.27:476][965]LogSlate: Took 0.015432 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.01.10-12.39.27:485][965]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Maps/World" FILE="C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.01.10-12.39.36:950][965]LogSavePackage: Save=9149.46ms
-[2019.01.10-12.39.36:950][965]LogSavePackage: Moving 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/World3564C8B040093C0209F310B94CB2EA67.tmp' to 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World.umap'
-[2019.01.10-12.39.36:968][965]LogSavePackage: Display: Finished SavePackage C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World.umap
-[2019.01.10-12.39.36:995][965]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Maps/World_BuiltData" FILE="C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World_BuiltData.uasset" SILENT=true
-[2019.01.10-12.39.37:003][965]LogSavePackage: Save=4.46ms
-[2019.01.10-12.39.37:003][965]LogSavePackage: Moving 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/World_BuiltData13987B9A4ADA3524F7CB25A616B59608.tmp' to 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World_BuiltData.uasset'
-[2019.01.10-12.39.37:004][965]LogSavePackage: Display: Finished SavePackage C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World_BuiltData.uasset
-[2019.01.10-12.46.53:128][579]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.10-12.46.58:685][668]LogAIModule: Creating AISystem for world MakeLevel
-[2019.01.10-12.46.58:767][668]Cmd: MAP LOAD FILE="C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/MakeLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.10-12.46.58:767][668]LightingResults: New page: 라이팅 빌드
-[2019.01.10-12.46.58:768][668]LoadErrors: New page: 맵 로드중: MakeLevel.umap
-[2019.01.10-12.46.58:854][668]MapCheck: New page: 맵 체크
-[2019.01.10-12.46.58:854][668]LightingResults: New page: 라이팅 빌드
-[2019.01.10-12.46.59:734][668]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.10-12.46.59:795][668]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.10-12.47.00:200][668]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 405.102ms.
-[2019.01.10-12.47.00:204][668]LogFileHelpers: Loading map 'MakeLevel' took 1.438
-[2019.01.10-12.47.15:199][679]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.10-12.48.29:299][567]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.10-12.48.30:749][580]LogAIModule: Creating AISystem for world World
-[2019.01.10-12.48.31:143][580]Cmd: MAP LOAD FILE="C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.10-12.48.31:143][580]LightingResults: New page: 라이팅 빌드
-[2019.01.10-12.48.31:144][580]LoadErrors: New page: 맵 로드중: World.umap
-[2019.01.10-12.48.31:158][580]MapCheck: New page: 맵 체크
-[2019.01.10-12.48.31:158][580]LightingResults: New page: 라이팅 빌드
-[2019.01.10-12.48.32:319][580]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
-[2019.01.10-12.48.32:866][580]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.10-12.48.33:222][580]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 355.647ms.
-[2019.01.10-12.48.33:225][580]LogFileHelpers: Loading map 'World' took 2.081
+[2019.01.10-13.06.29:249][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.10-13.06.29:249][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.10-13.06.29:259][  0]LogInit: Computer: DESKTOP-SFT0388
+[2019.01.10-13.06.29:259][  0]LogInit: User: korea
+[2019.01.10-13.06.29:259][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.01.10-13.06.29:259][  0]LogInit: High frequency timer resolution =3.609376 MHz
+[2019.01.10-13.06.29:259][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.01.10-13.06.29:259][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.10-13.06.29:259][  0]LogMemory: Process Physical Memory: 276.06 MB used, 276.06 MB peak
+[2019.01.10-13.06.29:259][  0]LogMemory: Process Virtual Memory: 271.60 MB used, 271.60 MB peak
+[2019.01.10-13.06.29:259][  0]LogMemory: Physical Memory: 5129.70 MB used,  11188.31 MB free, 16318.00 MB total
+[2019.01.10-13.06.29:259][  0]LogMemory: Virtual Memory: 4811.51 MB used,  11188.31 MB free, 134217728.00 MB total
+[2019.01.10-13.06.29:277][  0]LogInit: Using OS detected language (ko-KR).
+[2019.01.10-13.06.29:277][  0]LogInit: Using OS detected locale (ko-KR).
+[2019.01.10-13.06.29:279][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2019.01.10-13.06.29:567][  0]LogStreaming: Display: Took  0.290s to EndInitTextLocalization.
+[2019.01.10-13.06.29:567][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.10-13.06.29:609][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.10-13.06.29:609][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.10-13.06.29:790][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.10-13.06.29:855][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070 Ti' (Feature Level 11_0)
+[2019.01.10-13.06.29:855][  0]LogD3D11RHI:       8080/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.01.10-13.06.29:857][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.10-13.06.29:857][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.10-13.06.29:857][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.10-13.06.29:862][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.10-13.06.29:862][  0]LogD3D11RHI:     GPU DeviceId: 0x1b82 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.10-13.06.29:862][  0]LogWindows: EnumDisplayDevices:
+[2019.01.10-13.06.29:862][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070 Ti' (P:1 D:1)
+[2019.01.10-13.06.29:863][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:1)
+[2019.01.10-13.06.29:863][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2019.01.10-13.06.29:864][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2019.01.10-13.06.29:864][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.01.10-13.06.29:864][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070 Ti
+[2019.01.10-13.06.29:864][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.01.10-13.06.29:864][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.01.10-13.06.29:864][  0]LogRHI: Texture pool is 5656 MB (70% of 8080 MB)
+[2019.01.10-13.06.29:896][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.01.10-13.06.29:896][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.01.10-13.06.29:896][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.10-13.06.29:913][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.10-13.06.30:021][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Intermediate/Shaders/WorkingDirectory/8288/).
+[2019.01.10-13.06.30:021][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/korea/AppData/Local/Temp/UnrealShaderWorkingDir/303B10F3432FA40503A404BEBFE4A8A7/'.
+[2019.01.10-13.06.30:186][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.10-13.06.30:197][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.10-13.06.30:208][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.10-13.06.30:218][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.10-13.06.30:228][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.10-13.06.30:239][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.10-13.06.30:251][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.10-13.06.30:261][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.10-13.06.30:266][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.10-13.06.30:276][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.01.10-13.06.30:286][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.01.10-13.06.30:295][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.01.10-13.06.30:305][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2019.01.10-13.06.30:315][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.01.10-13.06.30:325][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.01.10-13.06.30:344][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.01.10-13.06.30:344][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.01.10-13.06.30:354][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.10-13.06.30:355][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.10-13.06.30:389][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.10-13.06.30:402][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.10-13.06.30:412][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.10-13.06.30:421][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.10-13.06.30:431][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.10-13.06.30:441][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.10-13.06.30:441][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.10-13.06.30:519][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.10-13.06.30:519][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.10-13.06.30:519][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.10-13.06.31:010][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.10-13.06.31:077][  0]LogDerivedDataCache: Loaded boot cache 0.07s 102MB C:/Users/korea/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.01.10-13.06.31:078][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/korea/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2019.01.10-13.06.31:078][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.10-13.06.31:078][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.10-13.06.31:078][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.10-13.06.31:078][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.10-13.06.31:090][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.10-13.06.31:102][  0]LogDerivedDataCache: Using Local data cache path C:/Users/korea/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.10-13.06.31:102][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.10-13.06.31:102][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.10-13.06.31:111][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.10-13.06.31:111][  0]LogSlate: Using Freetype 2.6.0
+[2019.01.10-13.06.31:112][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.10-13.06.31:112][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.10-13.06.31:209][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
+[2019.01.10-13.06.31:473][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.10-13.06.31:573][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.10-13.06.31:574][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.10-13.06.31:574][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.10-13.06.31:574][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.10-13.06.31:574][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.01.10-13.06.31:574][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.01.10-13.06.31:603][  0]LogNetVersion: AWWA , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2117285862)
+[2019.01.10-13.06.31:947][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.060261 seconds
+[2019.01.10-13.06.31:952][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2019.01.10-13.06.31:952][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2019.01.10-13.06.31:952][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.10-13.06.33:222][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.10-13.06.33:265][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.10-13.06.33:856][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156553e5ac0, Size=8600, Default__AWWA_MainCharacter_C Function /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter_C:ExecuteUbergraph_AWWA_MainCharacter
+[2019.01.10-13.06.33:877][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001565196fc00, Size=512, Default__BP_FieldItem_C Function /Game/_Item/BP_FieldItem.BP_FieldItem_C:ExecuteUbergraph_BP_FieldItem
+[2019.01.10-13.06.33:909][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001566389eb00, Size=776, Default__Weapon_Pistol_45ACP_C Function /Game/_Weapons/Pistol/45ACPSmithandWesson/Weapon_Pistol_45ACP.Weapon_Pistol_45ACP_C:ExecuteUbergraph_Weapon_Pistol_45ACP
+[2019.01.10-13.06.33:938][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001566453e500, Size=768, Default__Weapon_Rifle_AK47_C Function /Game/_Weapons/Rifle/AK_47/Weapon_Rifle_AK47.Weapon_Rifle_AK47_C:ExecuteUbergraph_Weapon_Rifle_AK47
+[2019.01.10-13.06.34:007][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001566389c800, Size=856, Default__EDIT_Main_Anim_C Function /Game/_Character/EDIT_Main_Anim.EDIT_Main_Anim_C:ExecuteUbergraph_EDIT_Main_Anim
+[2019.01.10-13.06.34:012][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156640391a0, Size=216, Default__HUD_CharacterState_C Function /Game/_UI/HUD_CharacterState.HUD_CharacterState_C:ExecuteUbergraph_HUD_CharacterState
+[2019.01.10-13.06.34:118][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015663dd1ec0, Size=216, Default__Weapon_Melee_Axe_C Function /Game/_Weapons/Melee/Axe/Weapon_Melee_Axe.Weapon_Melee_Axe_C:ExecuteUbergraph_Weapon_Melee_Axe
+[2019.01.10-13.06.34:208][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015663dd01e0, Size=216, Default__Weapon_Melee_BaseballBat_C Function /Game/_Weapons/Melee/BaseballBat/Weapon_Melee_BaseballBat.Weapon_Melee_BaseballBat_C:ExecuteUbergraph_Weapon_Melee_BaseballBat
+[2019.01.10-13.06.34:278][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001565418a5c0, Size=216, Default__Weapon_Melee_CrowBar_C Function /Game/_Weapons/Melee/CrowBar/Weapon_Melee_CrowBar.Weapon_Melee_CrowBar_C:ExecuteUbergraph_Weapon_Melee_CrowBar
+[2019.01.10-13.06.34:347][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156541888e0, Size=216, Default__Weapon_Melee_HeavyCleaver_C Function /Game/_Weapons/Melee/HeavyCleaver/Weapon_Melee_HeavyCleaver.Weapon_Melee_HeavyCleaver_C:ExecuteUbergraph_Weapon_Melee_HeavyCleaver
+[2019.01.10-13.06.34:426][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015664982b00, Size=216, Default__Weapon_Melee_M9Bayonet_C Function /Game/_Weapons/Melee/M9Bayonet/Weapon_Melee_M9Bayonet.Weapon_Melee_M9Bayonet_C:ExecuteUbergraph_Weapon_Melee_M9Bayonet
+[2019.01.10-13.06.34:495][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015664980fe0, Size=216, Default__Weapon_Melee_PipeWrench_C Function /Game/_Weapons/Melee/PipeWrench/Weapon_Melee_PipeWrench.Weapon_Melee_PipeWrench_C:ExecuteUbergraph_Weapon_Melee_PipeWrench
+[2019.01.10-13.06.34:511][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015664979300, Size=272, Default__Weapon_Pistol_ANACONDA_C Function /Game/_Weapons/Pistol/Anaconda/Weapon_Pistol_ANACONDA.Weapon_Pistol_ANACONDA_C:ExecuteUbergraph_Weapon_Pistol_ANACONDA
+[2019.01.10-13.06.34:529][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015664978400, Size=272, Default__Weapon_Pistol_Python_C Function /Game/_Weapons/Pistol/Python/Weapon_Pistol_Python.Weapon_Pistol_Python_C:ExecuteUbergraph_Weapon_Pistol_Python
+[2019.01.10-13.06.34:547][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156654fefc0, Size=272, Default__Weapon_Rifle_M4a1_C Function /Game/_Weapons/Rifle/M4a1/Weapon_Rifle_M4a1.Weapon_Rifle_M4a1_C:ExecuteUbergraph_Weapon_Rifle_M4a1
+[2019.01.10-13.06.34:577][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015664dd6400, Size=1272, Default__Weapon_SMG_MAC11_C Function /Game/_Weapons/SMG/MAC11/Weapon_SMG_MAC11.Weapon_SMG_MAC11_C:ExecuteUbergraph_Weapon_SMG_MAC11
+[2019.01.10-13.06.34:604][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015664d67600, Size=272, Default__Weapon_SMG_Skorpion_C Function /Game/_Weapons/SMG/Skorpion/Weapon_SMG_Skorpion.Weapon_SMG_Skorpion_C:ExecuteUbergraph_Weapon_SMG_Skorpion
+[2019.01.10-13.06.34:617][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015664d01600, Size=1616, Default__UI_Inventory_C Function /Game/_UI/GameSubUI/UI_Inventory.UI_Inventory_C:ExecuteUbergraph_UI_Inventory
+[2019.01.10-13.06.34:618][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015664d6f350, Size=112, Default__UI_GameUI_C Function /Game/_UI/UI_GameUI.UI_GameUI_C:ExecuteUbergraph_UI_GameUI
+[2019.01.10-13.06.35:821][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001565196fc00, Size=512
+[2019.01.10-13.06.35:821][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015657501200, Size=512, Default__BP_FieldItem_C Function /Engine/Transient.REINST_BP_FieldItem_C_6:ExecuteUbergraph_BP_FieldItem
+[2019.01.10-13.06.35:822][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001566389c800, Size=856
+[2019.01.10-13.06.35:822][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015652810100, Size=856, Default__EDIT_Main_Anim_C Function /Engine/Transient.REINST_EDIT_Main_Anim_C_0:ExecuteUbergraph_EDIT_Main_Anim
+[2019.01.10-13.06.35:823][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015663dd1ec0, Size=216
+[2019.01.10-13.06.35:823][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156575a6a20, Size=216, Default__Weapon_Melee_Axe_C Function /Engine/Transient.REINST_Weapon_Melee_Axe_C_7:ExecuteUbergraph_Weapon_Melee_Axe
+[2019.01.10-13.06.35:823][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015663dd01e0, Size=216
+[2019.01.10-13.06.35:823][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156575a5fa0, Size=216, Default__Weapon_Melee_BaseballBat_C Function /Engine/Transient.REINST_Weapon_Melee_BaseballBat_C_8:ExecuteUbergraph_Weapon_Melee_BaseballBat
+[2019.01.10-13.06.35:823][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001565418a5c0, Size=216
+[2019.01.10-13.06.35:823][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156575a5520, Size=216, Default__Weapon_Melee_CrowBar_C Function /Engine/Transient.REINST_Weapon_Melee_CrowBar_C_9:ExecuteUbergraph_Weapon_Melee_CrowBar
+[2019.01.10-13.06.35:823][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000156541888e0, Size=216
+[2019.01.10-13.06.35:823][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156575a4aa0, Size=216, Default__Weapon_Melee_HeavyCleaver_C Function /Engine/Transient.REINST_Weapon_Melee_HeavyCleaver_C_10:ExecuteUbergraph_Weapon_Melee_HeavyCleaver
+[2019.01.10-13.06.35:824][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015664982b00, Size=216
+[2019.01.10-13.06.35:824][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156575bff20, Size=216, Default__Weapon_Melee_M9Bayonet_C Function /Engine/Transient.REINST_Weapon_Melee_M9Bayonet_C_11:ExecuteUbergraph_Weapon_Melee_M9Bayonet
+[2019.01.10-13.06.35:824][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015664980fe0, Size=216
+[2019.01.10-13.06.35:824][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156575bf4a0, Size=216, Default__Weapon_Melee_PipeWrench_C Function /Engine/Transient.REINST_Weapon_Melee_PipeWrench_C_12:ExecuteUbergraph_Weapon_Melee_PipeWrench
+[2019.01.10-13.06.35:824][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001566389eb00, Size=776
+[2019.01.10-13.06.35:824][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156575c7c80, Size=776, Default__Weapon_Pistol_45ACP_C Function /Engine/Transient.REINST_Weapon_Pistol_45ACP_C_13:ExecuteUbergraph_Weapon_Pistol_45ACP
+[2019.01.10-13.06.35:824][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015664979300, Size=272
+[2019.01.10-13.06.35:824][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015664bea0c0, Size=272, Default__Weapon_Pistol_ANACONDA_C Function /Engine/Transient.REINST_Weapon_Pistol_ANACONDA_C_14:ExecuteUbergraph_Weapon_Pistol_ANACONDA
+[2019.01.10-13.06.35:825][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015664978400, Size=272
+[2019.01.10-13.06.35:825][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015664be9300, Size=272, Default__Weapon_Pistol_Python_C Function /Engine/Transient.REINST_Weapon_Pistol_Python_C_15:ExecuteUbergraph_Weapon_Pistol_Python
+[2019.01.10-13.06.35:825][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001566453e500, Size=768
+[2019.01.10-13.06.35:825][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156575dfa00, Size=768, Default__Weapon_Rifle_AK47_C Function /Engine/Transient.REINST_Weapon_Rifle_AK47_C_16:ExecuteUbergraph_Weapon_Rifle_AK47
+[2019.01.10-13.06.35:825][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000156654fefc0, Size=272
+[2019.01.10-13.06.35:825][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015664bea340, Size=272, Default__Weapon_Rifle_M4a1_C Function /Engine/Transient.REINST_Weapon_Rifle_M4a1_C_17:ExecuteUbergraph_Weapon_Rifle_M4a1
+[2019.01.10-13.06.35:826][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015664dd6400, Size=1272
+[2019.01.10-13.06.35:826][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156575cc100, Size=1272, Default__Weapon_SMG_MAC11_C Function /Engine/Transient.REINST_Weapon_SMG_MAC11_C_18:ExecuteUbergraph_Weapon_SMG_MAC11
+[2019.01.10-13.06.35:826][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015664d67600, Size=272
+[2019.01.10-13.06.35:826][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015664be96c0, Size=272, Default__Weapon_SMG_Skorpion_C Function /Engine/Transient.REINST_Weapon_SMG_Skorpion_C_19:ExecuteUbergraph_Weapon_SMG_Skorpion
+[2019.01.10-13.06.35:833][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000156553e5ac0, Size=8600
+[2019.01.10-13.06.35:833][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156553e5240, Size=8600, Default__AWWA_MainCharacter_C Function /Engine/Transient.REINST_AWWA_MainCharacter_C_20:ExecuteUbergraph_AWWA_MainCharacter
+[2019.01.10-13.06.35:833][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000156640391a0, Size=216
+[2019.01.10-13.06.35:833][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015654fe82c0, Size=216, Default__HUD_CharacterState_C Function /Engine/Transient.REINST_HUD_CharacterState_C_0:ExecuteUbergraph_HUD_CharacterState
+[2019.01.10-13.06.35:834][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015664d6f350, Size=112
+[2019.01.10-13.06.35:834][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015656201c90, Size=112, Default__UI_GameUI_C Function /Engine/Transient.REINST_UI_GameUI_C_2:ExecuteUbergraph_UI_GameUI
+[2019.01.10-13.06.35:835][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015664d01600, Size=1616
+[2019.01.10-13.06.35:835][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001565508eb00, Size=1616, Default__UI_Inventory_C Function /Engine/Transient.REINST_UI_Inventory_C_3:ExecuteUbergraph_UI_Inventory
+[2019.01.10-13.06.36:097][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015666f55400, Size=512, Default__BP_FieldItem_C Function /Game/_Item/BP_FieldItem.BP_FieldItem_C:ExecuteUbergraph_BP_FieldItem
+[2019.01.10-13.06.36:105][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001566610c800, Size=848, Default__EDIT_Main_Anim_C Function /Game/_Character/EDIT_Main_Anim.EDIT_Main_Anim_C:ExecuteUbergraph_EDIT_Main_Anim
+[2019.01.10-13.06.36:109][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015667e08560, Size=216, Default__Weapon_Melee_Axe_C Function /Game/_Weapons/Melee/Axe/Weapon_Melee_Axe.Weapon_Melee_Axe_C:ExecuteUbergraph_Weapon_Melee_Axe
+[2019.01.10-13.06.36:110][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015667e08480, Size=216, Default__Weapon_Melee_BaseballBat_C Function /Game/_Weapons/Melee/BaseballBat/Weapon_Melee_BaseballBat.Weapon_Melee_BaseballBat_C:ExecuteUbergraph_Weapon_Melee_BaseballBat
+[2019.01.10-13.06.36:110][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015667e083a0, Size=216, Default__Weapon_Melee_CrowBar_C Function /Game/_Weapons/Melee/CrowBar/Weapon_Melee_CrowBar.Weapon_Melee_CrowBar_C:ExecuteUbergraph_Weapon_Melee_CrowBar
+[2019.01.10-13.06.36:111][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015667e082c0, Size=216, Default__Weapon_Melee_HeavyCleaver_C Function /Game/_Weapons/Melee/HeavyCleaver/Weapon_Melee_HeavyCleaver.Weapon_Melee_HeavyCleaver_C:ExecuteUbergraph_Weapon_Melee_HeavyCleaver
+[2019.01.10-13.06.36:112][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015667c53f20, Size=216, Default__Weapon_Melee_M9Bayonet_C Function /Game/_Weapons/Melee/M9Bayonet/Weapon_Melee_M9Bayonet.Weapon_Melee_M9Bayonet_C:ExecuteUbergraph_Weapon_Melee_M9Bayonet
+[2019.01.10-13.06.36:113][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015667c53e40, Size=216, Default__Weapon_Melee_PipeWrench_C Function /Game/_Weapons/Melee/PipeWrench/Weapon_Melee_PipeWrench.Weapon_Melee_PipeWrench_C:ExecuteUbergraph_Weapon_Melee_PipeWrench
+[2019.01.10-13.06.36:114][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015667cd8b80, Size=776, Default__Weapon_Pistol_45ACP_C Function /Game/_Weapons/Pistol/45ACPSmithandWesson/Weapon_Pistol_45ACP.Weapon_Pistol_45ACP_C:ExecuteUbergraph_Weapon_Pistol_45ACP
+[2019.01.10-13.06.36:116][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015666f80e00, Size=272, Default__Weapon_Pistol_ANACONDA_C Function /Game/_Weapons/Pistol/Anaconda/Weapon_Pistol_ANACONDA.Weapon_Pistol_ANACONDA_C:ExecuteUbergraph_Weapon_Pistol_ANACONDA
+[2019.01.10-13.06.36:118][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015666f80f40, Size=272, Default__Weapon_Pistol_Python_C Function /Game/_Weapons/Pistol/Python/Weapon_Pistol_Python.Weapon_Pistol_Python_C:ExecuteUbergraph_Weapon_Pistol_Python
+[2019.01.10-13.06.36:120][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156660c0400, Size=768, Default__Weapon_Rifle_AK47_C Function /Game/_Weapons/Rifle/AK_47/Weapon_Rifle_AK47.Weapon_Rifle_AK47_C:ExecuteUbergraph_Weapon_Rifle_AK47
+[2019.01.10-13.06.36:122][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015666f80b80, Size=272, Default__Weapon_Rifle_M4a1_C Function /Game/_Weapons/Rifle/M4a1/Weapon_Rifle_M4a1.Weapon_Rifle_M4a1_C:ExecuteUbergraph_Weapon_Rifle_M4a1
+[2019.01.10-13.06.36:124][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015667b07900, Size=1272, Default__Weapon_SMG_MAC11_C Function /Game/_Weapons/SMG/MAC11/Weapon_SMG_MAC11.Weapon_SMG_MAC11_C:ExecuteUbergraph_Weapon_SMG_MAC11
+[2019.01.10-13.06.36:126][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015666f80a40, Size=272, Default__Weapon_SMG_Skorpion_C Function /Game/_Weapons/SMG/Skorpion/Weapon_SMG_Skorpion.Weapon_SMG_Skorpion_C:ExecuteUbergraph_Weapon_SMG_Skorpion
+[2019.01.10-13.06.36:180][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015663895440, Size=8576, Default__AWWA_MainCharacter_C Function /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter_C:ExecuteUbergraph_AWWA_MainCharacter
+[2019.01.10-13.06.36:195][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015667c534a0, Size=216, Default__HUD_CharacterState_C Function /Game/_UI/HUD_CharacterState.HUD_CharacterState_C:ExecuteUbergraph_HUD_CharacterState
+[2019.01.10-13.06.36:198][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015667387430, Size=112, Default__UI_GameUI_C Function /Game/_UI/UI_GameUI.UI_GameUI_C:ExecuteUbergraph_UI_GameUI
+[2019.01.10-13.06.36:210][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156681add00, Size=1608, Default__UI_Inventory_C Function /Game/_UI/GameSubUI/UI_Inventory.UI_Inventory_C:ExecuteUbergraph_UI_Inventory
+[2019.01.10-13.06.36:557][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [1.912242ms] /Game/_Character/Buffer/EDIT_MarkerMan/EDIT_passive_marker_man.EDIT_passive_marker_man
+[2019.01.10-13.06.36:789][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2019.01.10-13.06.36:789][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2019.01.10-13.06.36:803][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2019.01.10-13.06.36:816][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2019.01.10-13.06.37:200][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.10-13.06.37:384][  0]LogOcInput: OculusInput pre-init called
+[2019.01.10-13.06.37:466][  0]LogEngine: Initializing Engine...
+[2019.01.10-13.06.37:467][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.10-13.06.37:468][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.10-13.06.37:468][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.10-13.06.37:618][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.10-13.06.37:695][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.10-13.06.37:713][  0]LogInit: FAudioDevice initialized.
+[2019.01.10-13.06.37:814][  0]LogDerivedDataCache: Saved boot cache 0.10s 102MB C:/Users/korea/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.01.10-13.06.37:830][  0]LogInit: Texture streaming: Enabled
+[2019.01.10-13.06.37:843][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.10-13.06.37:852][  0]LogInit: Transaction tracking system initialized
+[2019.01.10-13.06.37:866][  0]BlueprintLog: New page: 에디터 로드
+[2019.01.10-13.06.38:939][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2019.01.10-13.06.39:021][  0]LogConsoleResponse: Display: 
+[2019.01.10-13.06.39:139][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.10-13.06.39:139][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.10-13.06.39:139][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.10-13.06.39:139][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.10-13.06.39:139][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.10-13.06.39:401][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/' took 0.06s
+[2019.01.10-13.06.39:402][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2019.01.10-13.06.39:402][  0]Cmd: MAP LOAD FILE="C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Maps/World.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.10-13.06.39:402][  0]LightingResults: New page: 라이팅 빌드
+[2019.01.10-13.06.39:403][  0]MapCheck: New page: 맵 체크
+[2019.01.10-13.06.39:403][  0]LightingResults: New page: 라이팅 빌드
+[2019.01.10-13.06.39:423][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000156553e5240, Size=8600
+[2019.01.10-13.06.39:423][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015657501200, Size=512
+[2019.01.10-13.06.39:423][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000156575c7c80, Size=776
+[2019.01.10-13.06.39:423][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000156575dfa00, Size=768
+[2019.01.10-13.06.39:423][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015652810100, Size=856
+[2019.01.10-13.06.39:423][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015654fe82c0, Size=216
+[2019.01.10-13.06.39:423][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000156575a6a20, Size=216
+[2019.01.10-13.06.39:423][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000156575a5fa0, Size=216
+[2019.01.10-13.06.39:423][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000156575a5520, Size=216
+[2019.01.10-13.06.39:423][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000156575a4aa0, Size=216
+[2019.01.10-13.06.39:423][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000156575bff20, Size=216
+[2019.01.10-13.06.39:423][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000156575bf4a0, Size=216
+[2019.01.10-13.06.39:423][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015664bea0c0, Size=272
+[2019.01.10-13.06.39:423][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015664be9300, Size=272
+[2019.01.10-13.06.39:423][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015664bea340, Size=272
+[2019.01.10-13.06.39:423][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000156575cc100, Size=1272
+[2019.01.10-13.06.39:424][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015664be96c0, Size=272
+[2019.01.10-13.06.39:424][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001565508eb00, Size=1616
+[2019.01.10-13.06.39:424][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015656201c90, Size=112
+[2019.01.10-13.06.39:456][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156670eaf38, Size=4, Default__AnimBP_DefaultZombie_C Function /Game/_Zombie/AnimBP_DefaultZombie.AnimBP_DefaultZombie_C:ExecuteUbergraph_AnimBP_DefaultZombie
+[2019.01.10-13.06.39:457][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000156670eaf38, Size=4
+[2019.01.10-13.06.39:457][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156670eaf38, Size=4, Default__AnimBP_DefaultZombie_C Function /Engine/Transient.REINST_AnimBP_DefaultZombie_C_1:ExecuteUbergraph_AnimBP_DefaultZombie
+[2019.01.10-13.06.39:458][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156670eae90, Size=4, Default__AnimBP_DefaultZombie_C Function /Game/_Zombie/AnimBP_DefaultZombie.AnimBP_DefaultZombie_C:ExecuteUbergraph_AnimBP_DefaultZombie
+[2019.01.10-13.06.39:466][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156583c0218, Size=56, Default__AIController_DefaultZombie_C Function /Game/_Zombie/AI/AIController_DefaultZombie.AIController_DefaultZombie_C:ExecuteUbergraph_AIController_DefaultZombie
+[2019.01.10-13.06.39:473][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015665ed0b80, Size=576, Default__BP_DefaultZombie_C Function /Game/_Zombie/BP_DefaultZombie.BP_DefaultZombie_C:ExecuteUbergraph_BP_DefaultZombie
+[2019.01.10-13.06.39:513][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015658550100, Size=720, Default__BTService_AgroCheck_C Function /Game/_Zombie/AI/BTService_AgroCheck.BTService_AgroCheck_C:ExecuteUbergraph_BTService_AgroCheck
+[2019.01.10-13.06.39:517][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001565844e980, Size=120, Default__BTTask_RapidMoveTo_C Function /Game/_Zombie/AI/BTTask_RapidMoveTo.BTTask_RapidMoveTo_C:ExecuteUbergraph_BTTask_RapidMoveTo
+[2019.01.10-13.06.39:525][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000156583c0218, Size=56
+[2019.01.10-13.06.39:525][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156583c0218, Size=56, Default__AIController_DefaultZombie_C Function /Engine/Transient.REINST_AIController_DefaultZombie_C_48:ExecuteUbergraph_AIController_DefaultZombie
+[2019.01.10-13.06.39:526][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001565844e980, Size=120
+[2019.01.10-13.06.39:526][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156584e9e00, Size=120, Default__BTTask_RapidMoveTo_C Function /Engine/Transient.REINST_BTTask_RapidMoveTo_C_49:ExecuteUbergraph_BTTask_RapidMoveTo
+[2019.01.10-13.06.39:526][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015665ed0b80, Size=576
+[2019.01.10-13.06.39:526][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156584bbd80, Size=576, Default__BP_DefaultZombie_C Function /Engine/Transient.REINST_BP_DefaultZombie_C_50:ExecuteUbergraph_BP_DefaultZombie
+[2019.01.10-13.06.39:527][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015658550100, Size=720
+[2019.01.10-13.06.39:527][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156575c1600, Size=720, Default__BTService_AgroCheck_C Function /Engine/Transient.REINST_BTService_AgroCheck_C_52:ExecuteUbergraph_BTService_AgroCheck
+[2019.01.10-13.06.39:540][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156583c1d70, Size=56, Default__AIController_DefaultZombie_C Function /Game/_Zombie/AI/AIController_DefaultZombie.AIController_DefaultZombie_C:ExecuteUbergraph_AIController_DefaultZombie
+[2019.01.10-13.06.39:540][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156584eaa80, Size=120, Default__BTTask_RapidMoveTo_C Function /Game/_Zombie/AI/BTTask_RapidMoveTo.BTTask_RapidMoveTo_C:ExecuteUbergraph_BTTask_RapidMoveTo
+[2019.01.10-13.06.39:543][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015666f71d00, Size=576, Default__BP_DefaultZombie_C Function /Game/_Zombie/BP_DefaultZombie.BP_DefaultZombie_C:ExecuteUbergraph_BP_DefaultZombie
+[2019.01.10-13.06.39:545][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156557b4400, Size=720, Default__BTService_AgroCheck_C Function /Game/_Zombie/AI/BTService_AgroCheck.BTService_AgroCheck_C:ExecuteUbergraph_BTService_AgroCheck
+[2019.01.10-13.06.39:706][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015658389c00, Size=376, Default__Door_C Function /Game/DesertTown/BluePrints/Door.Door_C:ExecuteUbergraph_Door
+[2019.01.10-13.06.39:711][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015658389c00, Size=376
+[2019.01.10-13.06.39:711][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015666087e80, Size=376, Default__Door_C Function /Engine/Transient.REINST_Door_C_58:ExecuteUbergraph_Door
+[2019.01.10-13.06.39:713][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156587a5300, Size=384, Default__Door_C Function /Game/DesertTown/BluePrints/Door.Door_C:ExecuteUbergraph_Door
+[2019.01.10-13.06.39:818][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156587b1cc0, Size=168, Default__AirConUnit_C Function /Game/DesertTown/BluePrints/AirConUnit.AirConUnit_C:ExecuteUbergraph_AirConUnit
+[2019.01.10-13.06.39:820][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000156587b1cc0, Size=168
+[2019.01.10-13.06.39:820][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156587b1cc0, Size=168, Default__AirConUnit_C Function /Engine/Transient.REINST_AirConUnit_C_62:ExecuteUbergraph_AirConUnit
+[2019.01.10-13.06.39:822][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156587b0dc0, Size=168, Default__AirConUnit_C Function /Game/DesertTown/BluePrints/AirConUnit.AirConUnit_C:ExecuteUbergraph_AirConUnit
+[2019.01.10-13.06.40:177][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156569573c0, Size=400, Default__Garage_Door_BP2_C Function /Game/ModularNeighborhoodPack/Assets/Building/Doors_BP/Garage_Door_BP2.Garage_Door_BP2_C:ExecuteUbergraph_Garage_Door_BP2
+[2019.01.10-13.06.40:181][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000156569573c0, Size=400
+[2019.01.10-13.06.40:181][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156569573c0, Size=400, Default__Garage_Door_BP2_C Function /Engine/Transient.REINST_Garage_Door_BP2_C_68:ExecuteUbergraph_Garage_Door_BP2
+[2019.01.10-13.06.40:184][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015656955440, Size=416, Default__Garage_Door_BP2_C Function /Game/ModularNeighborhoodPack/Assets/Building/Doors_BP/Garage_Door_BP2.Garage_Door_BP2_C:ExecuteUbergraph_Garage_Door_BP2
+[2019.01.10-13.06.40:192][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156638d3900, Size=400, Default__Garage_Door_Half_BP_C Function /Game/ModularNeighborhoodPack/Assets/Building/Doors_BP/Garage_Door_Half_BP.Garage_Door_Half_BP_C:ExecuteUbergraph_Garage_Door_Half_BP
+[2019.01.10-13.06.40:197][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000156638d3900, Size=400
+[2019.01.10-13.06.40:197][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156638d3900, Size=400, Default__Garage_Door_Half_BP_C Function /Engine/Transient.REINST_Garage_Door_Half_BP_C_70:ExecuteUbergraph_Garage_Door_Half_BP
+[2019.01.10-13.06.40:199][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156638d1d00, Size=416, Default__Garage_Door_Half_BP_C Function /Game/ModularNeighborhoodPack/Assets/Building/Doors_BP/Garage_Door_Half_BP.Garage_Door_Half_BP_C:ExecuteUbergraph_Garage_Door_Half_BP
+[2019.01.10-13.06.40:492][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156586c3200, Size=400, Default__Outer_Door_BP_C Function /Game/ModularNeighborhoodPack/Assets/Building/Doors_BP/Outer_Door_BP.Outer_Door_BP_C:ExecuteUbergraph_Outer_Door_BP
+[2019.01.10-13.06.40:496][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000156586c3200, Size=400
+[2019.01.10-13.06.40:496][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156586c3200, Size=400, Default__Outer_Door_BP_C Function /Engine/Transient.REINST_Outer_Door_BP_C_74:ExecuteUbergraph_Outer_Door_BP
+[2019.01.10-13.06.40:499][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156586c17c0, Size=416, Default__Outer_Door_BP_C Function /Game/ModularNeighborhoodPack/Assets/Building/Doors_BP/Outer_Door_BP.Outer_Door_BP_C:ExecuteUbergraph_Outer_Door_BP
+[2019.01.10-13.06.40:866][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000156589739c0, Size=152, Default__BP_Fan_01_C Function /Game/ModularNeighborhoodPack/Assets/Electronic_Props/BP_Fan_01.BP_Fan_01_C:ExecuteUbergraph_BP_Fan_01
+[2019.01.10-13.06.40:868][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000156589739c0, Size=152
+[2019.01.10-13.06.40:868][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015658972660, Size=152, Default__BP_Fan_01_C Function /Engine/Transient.REINST_BP_Fan_01_C_80:ExecuteUbergraph_BP_Fan_01
+[2019.01.10-13.06.40:869][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015658971f80, Size=152, Default__BP_Fan_01_C Function /Game/ModularNeighborhoodPack/Assets/Electronic_Props/BP_Fan_01.BP_Fan_01_C:ExecuteUbergraph_BP_Fan_01
+[2019.01.10-13.06.55:367][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [2.624276ms] /Game/_Zombie/MaleZombie_1/EDIT_Zombie.EDIT_Zombie
+[2019.01.10-13.06.55:813][  0]LogAIModule: Creating AISystem for world World
+[2019.01.10-13.06.57:144][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.10-13.06.57:703][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015658972660, Size=152
+[2019.01.10-13.06.57:703][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000156586c3200, Size=400
+[2019.01.10-13.06.57:703][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000156638d3900, Size=400
+[2019.01.10-13.06.57:703][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000156569573c0, Size=400
+[2019.01.10-13.06.57:703][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000156587b1cc0, Size=168
+[2019.01.10-13.06.57:704][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015666087e80, Size=376
+[2019.01.10-13.06.57:704][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000156584e9e00, Size=120
+[2019.01.10-13.06.57:704][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000156575c1600, Size=720
+[2019.01.10-13.06.57:704][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000156583c0218, Size=56
+[2019.01.10-13.06.57:704][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000156670eaf38, Size=4
+[2019.01.10-13.06.57:729][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000156584bbd80, Size=576
+[2019.01.10-13.06.57:735][  0]MapCheck: /Game/_Maps/World 레벨의 39 개 컴포넌트에 대해 칠해진 버텍스 컬러 수리에 0.0s 걸렸습니다. 맵을 다시 저장하면 확정됩니다. 
+[2019.01.10-13.06.57:735][  0]MapCheck: Warning: 스태틱 메시 리임포트로 인해 칠해진 버텍스 컬러를 고치는 데 시간이 0.0s 만큼 걸렸습니다. 맵을 다시 저장하기 전까지는 로드할 때마다 이 작업이 실행됩니다. 
+[2019.01.10-13.06.57:735][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.10-13.06.58:083][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 1 회, 소요 시간 348.689ms.
+[2019.01.10-13.06.58:106][  0]LogFileHelpers: Loading map 'World' took 18.704
+[2019.01.10-13.06.58:205][  0]LogCollectionManager: Loaded 0 collections in 0.000923 seconds
+[2019.01.10-13.06.58:248][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Collections/' took 0.01s
+[2019.01.10-13.06.58:248][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Developers/korea/Collections/' took 0.01s
+[2019.01.10-13.06.58:248][  0]LogFileCache: Scanning file cache for directory 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/Collections/' took 0.01s
+[2019.01.10-13.06.58:248][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.10-13.06.58:255][  0]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2459 classes and 561 folders.
+[2019.01.10-13.06.58:261][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.01.10-13.06.58:298][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.01.10-13.06.58:336][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2019.01.10-13.06.58:432][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0009 seconds. Added 2 classes and 3 folders.
+[2019.01.10-13.06.58:445][  0]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.10-13.06.58:448][  0]LogSlate: Took 0.001853 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.01.10-13.06.58:450][  0]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.10-13.06.58:451][  0]LogSlate: Took 0.001711 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2019.01.10-13.06.58:452][  0]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.10-13.06.58:536][  0]LogRenderer: Reallocating scene render targets to support 1592x924 Format 10 NumSamples 1 (Frame:1).
+[2019.01.10-13.06.58:685][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2019.01.10-13.06.58:685][  0]LogLoad: (Engine Initialization) Total time: 31.98 seconds
+[2019.01.10-13.06.58:685][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.10-13.06.59:041][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.10-13.07.00:710][  5]LogAssetRegistry: Asset discovery search completed in 29.5236 seconds
+[2019.01.10-13.07.00:715][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.10-13.07.00:715][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000047 seconds (updated 0 objects)
+[2019.01.10-13.10.05:280][429]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.10-13.10.05:423][440]LogRenderer: Reallocating scene render targets to support 1600x924 Format 10 NumSamples 1 (Frame:935).
+[2019.01.10-13.10.05:465][441]LogRenderer: Reallocating scene render targets to support 1604x924 Format 10 NumSamples 1 (Frame:937).
+[2019.01.10-13.10.05:469][441]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.10-13.10.05:532][442]LogRenderer: Reallocating scene render targets to support 1612x924 Format 10 NumSamples 1 (Frame:939).
+[2019.01.10-13.10.08:594][787]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.10-13.10.10:359][787]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 116 classes and 0 folders.
+[2019.01.10-13.10.10:767][787]LogUObjectGlobals: Created PersistentFrame Addr=0x000001570ecf7940, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2019.01.10-13.10.10:769][787]LogUObjectGlobals: Created PersistentFrame Addr=0x000001570ecf7908, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2019.01.10-13.10.11:381][787]LogMaterial: Missing cached shader map for material PersonaFloorMat, compiling. 
+[2019.01.10-13.10.11:957][787]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.01.10-13.10.11:957][787]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.01.10-13.10.12:017][787]LogSlate: Took 0.014917 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.10-13.10.15:588][788]LogSlate: Took 0.016687 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.10-13.10.17:457][882]LogSlate: Window 'AWWA_MainCharacter' being destroyed
+[2019.01.10-13.17.02:706][591]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/World' took 0.025
+[2019.01.10-13.17.03:150][591]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_Character/AWWA_MainCharacter] ([1] browsable assets)...
+[2019.01.10-13.17.03:184][591]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter]
+[2019.01.10-13.17.03:184][591]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Character/AWWA_MainCharacter]
+[2019.01.10-13.17.04:907][591]LogSavePackage: Save=1711.16ms
+[2019.01.10-13.17.04:907][591]LogSavePackage: Moving 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter_Auto1F1F424EE484C2E43918DE597F23CCE81.tmp' to 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Character/AWWA_MainCharacter_Auto1.uasset'
+[2019.01.10-13.17.04:909][591]LogSavePackage: Display: Finished SavePackage C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Character/AWWA_MainCharacter_Auto1.uasset
+[2019.01.10-13.17.04:909][591]LogFileHelpers: Auto-saving content packages took 2.203
+[2019.01.10-13.30.43:418][ 29]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/korea/Downloads/EDIT_HM_Braced Hang Drop.fbx)
+[2019.01.10-13.30.43:545][ 29]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2019.01.10-13.30.43:545][ 29]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2019.01.10-13.30.43:545][ 29]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2019.01.10-13.30.43:545][ 29]LogFbx: ItemName: NodeAttribute, ItemCount : 114
+[2019.01.10-13.30.43:545][ 29]LogFbx: ItemName: Model, ItemCount : 114
+[2019.01.10-13.30.43:545][ 29]LogFbx: ItemName: AnimationCurveNode, ItemCount : 278
+[2019.01.10-13.30.43:545][ 29]LogFbx: ItemName: AnimationCurve, ItemCount : 180
+[2019.01.10-13.30.43:550][ 29]LogFbx: Loading FBX Scene from C:/Users/korea/Downloads/EDIT_HM_Braced Hang Drop.fbx
+[2019.01.10-13.30.43:580][ 29]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.10-13.30.54:356][ 29]LogSlate: Window 'FBX 임포트 옵션' being destroyed
+[2019.01.10-13.30.59:694][638]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0045 seconds. Added 1 classes and 2 folders.
+[2019.01.10-13.31.00:286][638]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.01.10-13.31.00:318][638]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0025 seconds. Added 1 classes and 0 folders.
+[2019.01.10-13.31.00:480][638]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.01.10-13.31.00:995][638]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0009 seconds. Added 1 classes and 0 folders.
+[2019.01.10-13.31.14:601][900]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/korea/Downloads/EDIT_HM_Braced Hang Drop.fbx)
+[2019.01.10-13.31.14:606][900]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2019.01.10-13.31.14:606][900]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2019.01.10-13.31.14:606][900]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2019.01.10-13.31.14:606][900]LogFbx: ItemName: NodeAttribute, ItemCount : 114
+[2019.01.10-13.31.14:606][900]LogFbx: ItemName: Model, ItemCount : 114
+[2019.01.10-13.31.14:606][900]LogFbx: ItemName: AnimationCurveNode, ItemCount : 278
+[2019.01.10-13.31.14:606][900]LogFbx: ItemName: AnimationCurve, ItemCount : 180
+[2019.01.10-13.31.14:610][900]LogFbx: Loading FBX Scene from C:/Users/korea/Downloads/EDIT_HM_Braced Hang Drop.fbx
+[2019.01.10-13.31.14:639][900]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.10-13.31.52:429][900]LogSlate: Window 'FBX 임포트 옵션' being destroyed
+[2019.01.10-13.31.52:468][900]LogFbx: Loading FBX Scene from C:/Users/korea/Downloads/EDIT_HM_Braced Hang Drop.fbx
+[2019.01.10-13.31.52:497][900]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.10-13.31.52:541][900]LogFbx: SortedLinks :(0) Root
+[2019.01.10-13.31.52:541][900]LogFbx: SortedLinks :(1) Hips
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(2) Spine
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(3) Spine1
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(4) Spine2
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(5) Neck
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(6) Neck1
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(7) Head
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(8) HeadTop_End
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(9) L_Ear
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(10) Jaw
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(11) TongueBack
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(12) TongueMid
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(13) TongueTip
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(14) Chin
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(15) LowerChin
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(16) L_Temple
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(17) L_IOuterBrow
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(18) L_MidBrow
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(19) L_InnerBrow
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(20) L_Eye
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(21) L_EyelidLower
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(22) L_EyelidUpper
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(23) L_InnerCheek
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(24) L_LowerCheek
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(25) L_LipLower
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(26) L_LipUpper
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(27) LipMidLower
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(28) LipMidUpper
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(29) L_CheekFold
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(30) L_Nostril
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(31) Scalp
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(32) L_OuterCheek
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(33) R_LipLower
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(34) RightNostril
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(35) R_CheekFold
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(36) R_LowerCheek
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(37) R_LipUpper
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(38) R_OuterCheek
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(39) MidBrows
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(40) R_InnerBrow
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(41) R_MidBrow
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(42) R_IOuterBrow
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(43) R_Eye
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(44) R_EyelidLower
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(45) R_EyelidUpper
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(46) R_Temple
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(47) R_Ear
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(48) R_InnerCheek
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(49) L_LipCorner
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(50) L_LipCornerLowTweak
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(51) L_LipCornerUpTweak
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(52) R_gLipCorner
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(53) R_gLipCornerUpTweak
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(54) R_gLipCornerLowTweak
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(55) Throat
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(56) LeftShoulder
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(57) LeftArm
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(58) LeftForeArm
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(59) LeftHand
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(60) LeftHandThumb1
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(61) LeftHandThumb2
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(62) LeftHandThumb3
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(63) LeftHandThumb4
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(64) LeftHandMiddle1
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(65) LeftHandMiddle2
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(66) LeftHandMiddle3
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(67) LeftHandMiddle4
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(68) LeftHandIndex1
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(69) LeftHandIndex2
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(70) LeftHandIndex3
+[2019.01.10-13.31.52:542][900]LogFbx: SortedLinks :(71) LeftHandIndex4
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(72) LeftHandRing1
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(73) LeftHandRing2
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(74) LeftHandRing3
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(75) LeftHandRing4
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(76) LeftHandPinky1
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(77) LeftHandPinky2
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(78) LeftHandPinky3
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(79) LeftHandPinky4
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(80) RightShoulder
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(81) RightArm
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(82) RightForeArm
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(83) RightHand
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(84) RightHandThumb1
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(85) RightHandThumb2
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(86) RightHandThumb3
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(87) RightHandThumb4
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(88) RightHandIndex1
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(89) RightHandIndex2
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(90) RightHandIndex3
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(91) RightHandIndex4
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(92) RightHandMiddle1
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(93) RightHandMiddle2
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(94) RightHandMiddle3
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(95) RightHandMiddle4
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(96) RightHandRing1
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(97) RightHandRing2
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(98) RightHandRing3
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(99) RightHandRing4
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(100) RightHandPinky1
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(101) RightHandPinky2
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(102) RightHandPinky3
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(103) RightHandPinky4
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(104) LeftUpLeg
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(105) LeftLeg
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(106) LeftFoot
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(107) LeftToeBase
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(108) LeftFootToeBase_End
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(109) RightUpLeg
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(110) RightLeg
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(111) RightFoot
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(112) RightToeBase
+[2019.01.10-13.31.52:543][900]LogFbx: SortedLinks :(113) RightFootToeBase_End
+[2019.01.10-13.31.52:544][900]LogFbx: Parsing AnimStack Take 001
+[2019.01.10-13.31.52:570][900]LogLinker: '/Game/_Character/MainSkeletonAnimation/FreeRunning/EDIT_HM_Braced_Hang_Drop' 파일을 찾을 수 없습니다.
+[2019.01.10-13.31.52:570][900]LogLinker: '/Game/_Character/MainSkeletonAnimation/FreeRunning/EDIT_HM_Braced_Hang_Drop' 파일을 찾을 수 없습니다.
+[2019.01.10-13.31.52:984][900]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/_Character/MainSkeletonAnimation/FreeRunning/EDIT_HM_Braced_Hang_Drop.EDIT_HM_Braced_Hang_Drop
+[2019.01.10-13.31.52:995][900]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.EDIT_HM_Braced_Hang_Drop) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.01.10-13.31.55:435][106]LogSavePackage: Save=13.52ms
+[2019.01.10-13.31.55:435][106]LogSavePackage: Moving 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_HM_Braced_Hang_DropDB61A9D543F07A4A1BD17B80044BA18C.tmp' to 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/MainSkeletonAnimation/FreeRunning/EDIT_HM_Braced_Hang_Drop.uasset'
+[2019.01.10-13.31.55:439][106]LogSavePackage: Display: Finished SavePackage C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/MainSkeletonAnimation/FreeRunning/EDIT_HM_Braced_Hang_Drop.uasset
+[2019.01.10-13.33.28:581][362]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.01.10-13.33.28:777][362]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2019.01.10-13.33.29:443][362]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.01.10-13.34.47:123][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Character/AWWA_MainCharacter" FILE="C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset" SILENT=true
+[2019.01.10-13.34.48:757][211]LogSavePackage: Save=1622.76ms
+[2019.01.10-13.34.48:757][211]LogSavePackage: Moving 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter147990584D4F892B551D4FB0CEB5F87B.tmp' to 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
+[2019.01.10-13.34.48:763][211]LogSavePackage: Display: Finished SavePackage C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
+[2019.01.10-13.38.18:539][275]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2019.01.10-13.38.19:694][275]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015663895440, Size=8576
+[2019.01.10-13.38.19:694][275]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015663894640, Size=8576, Default__AWWA_MainCharacter_C Function /Engine/Transient.REINST_AWWA_MainCharacter_C_108:ExecuteUbergraph_AWWA_MainCharacter
+[2019.01.10-13.38.19:887][275]LogUObjectGlobals: Created PersistentFrame Addr=0x00000157715e7040, Size=8584, Default__AWWA_MainCharacter_C Function /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter_C:ExecuteUbergraph_AWWA_MainCharacter
+[2019.01.10-13.41.04:952][732]LogSavePackage: Save=9691.53ms
+[2019.01.10-13.41.04:952][732]LogSavePackage: Moving 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/World_Auto22A43F73D4CC53579CB2C7EA83530957A.tmp' to 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Maps/World_Auto2.umap'
+[2019.01.10-13.41.04:959][732]LogSavePackage: Display: Finished SavePackage C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Maps/World_Auto2.umap
+[2019.01.10-13.41.04:964][732]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/World' took 10.013
+[2019.01.10-13.41.04:964][732]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 10.013
+[2019.01.10-13.41.04:969][732]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_Character/AWWA_MainCharacter] ([1] browsable assets)...
+[2019.01.10-13.41.04:984][732]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter]
+[2019.01.10-13.41.04:984][732]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Character/AWWA_MainCharacter]
+[2019.01.10-13.41.06:708][732]LogSavePackage: Save=1637.09ms
+[2019.01.10-13.41.06:708][732]LogSavePackage: Moving 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter_Auto290DF5F864E0869D7649A5083290E7ACD.tmp' to 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Character/AWWA_MainCharacter_Auto2.uasset'
+[2019.01.10-13.41.06:710][732]LogSavePackage: Display: Finished SavePackage C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Character/AWWA_MainCharacter_Auto2.uasset
+[2019.01.10-13.41.06:711][732]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_Character/EDIT_Main_Anim] ([1] browsable assets)...
+[2019.01.10-13.41.06:724][732]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/_Character/EDIT_Main_Anim.EDIT_Main_Anim]
+[2019.01.10-13.41.06:724][732]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Character/EDIT_Main_Anim]
+[2019.01.10-13.41.07:113][732]LogSavePackage: Save=382.29ms
+[2019.01.10-13.41.07:113][732]LogSavePackage: Moving 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Main_Anim_Auto2C42236C04968AE762E4C5F918ED25813.tmp' to 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Character/EDIT_Main_Anim_Auto2.uasset'
+[2019.01.10-13.41.07:114][732]LogSavePackage: Display: Finished SavePackage C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Character/EDIT_Main_Anim_Auto2.uasset
+[2019.01.10-13.41.07:114][732]LogFileHelpers: Auto-saving content packages took 2.149
+[2019.01.10-13.42.04:346][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Character/EDIT_Main_Anim" FILE="C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/EDIT_Main_Anim.uasset" SILENT=true
+[2019.01.10-13.42.04:720][421]LogSavePackage: Save=370.56ms
+[2019.01.10-13.42.04:720][421]LogSavePackage: Moving 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_Main_Anim8A50F8FD46A3AA262524799A60869353.tmp' to 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/EDIT_Main_Anim.uasset'
+[2019.01.10-13.42.04:724][421]LogSavePackage: Display: Finished SavePackage C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/EDIT_Main_Anim.uasset
+[2019.01.10-13.42.24:708][718]LogSavePackage: Save=10.76ms
+[2019.01.10-13.42.24:708][718]LogSavePackage: Moving 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_HM_Braced_Hang_Drop_Montage003A7ADA44D7222246A6BE8C1CAE01C8.tmp' to 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/MainSkeletonAnimation/FreeRunning/EDIT_HM_Braced_Hang_Drop_Montage.uasset'
+[2019.01.10-13.42.24:710][718]LogSavePackage: Display: Finished SavePackage C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/MainSkeletonAnimation/FreeRunning/EDIT_HM_Braced_Hang_Drop_Montage.uasset
+[2019.01.10-13.42.33:221][380]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2019.01.10-13.42.34:364][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000157715e7040, Size=8584
+[2019.01.10-13.42.34:364][380]LogUObjectGlobals: Created PersistentFrame Addr=0x00000157715e6140, Size=8584, AWWA_MainCharacter_C_115 Function /Engine/Transient.REINST_AWWA_MainCharacter_C_120:ExecuteUbergraph_AWWA_MainCharacter
+[2019.01.10-13.42.34:552][380]LogUObjectGlobals: Created PersistentFrame Addr=0x000001560776a9c0, Size=8584, Default__AWWA_MainCharacter_C Function /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter_C:ExecuteUbergraph_AWWA_MainCharacter
+[2019.01.10-13.42.40:579][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Character/AWWA_MainCharacter" FILE="C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset" SILENT=true
+[2019.01.10-13.42.42:208][456]LogSavePackage: Save=1626.02ms
+[2019.01.10-13.42.42:208][456]LogSavePackage: Moving 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter5682E9984E5183AE66A60DBFF1B7ACBC.tmp' to 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
+[2019.01.10-13.42.42:214][456]LogSavePackage: Display: Finished SavePackage C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
+[2019.01.10-13.42.43:639][608]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2019.01.10-13.42.43:711][608]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.10-13.42.44:607][680]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.42.44:607][680]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.10-13.42.44:608][680]PIE: New page: PIE 세션: World (2019. 1. 11. 오전 7:42:44)
+[2019.01.10-13.42.44:608][680]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2019.01.10-13.42.45:040][680]LogPlayLevel: PIE: StaticDuplicateObject took: (0.432010s)
+[2019.01.10-13.42.45:040][680]LogAIModule: Creating AISystem for world World
+[2019.01.10-13.42.45:041][680]LogPlayLevel: PIE: World Init took: (0.000582s)
+[2019.01.10-13.42.45:041][680]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.433560s)
+[2019.01.10-13.42.45:071][680]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000157715e6140, Size=8584
+[2019.01.10-13.42.45:112][680]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.10-13.42.45:123][680]LogInit: FAudioDevice initialized.
+[2019.01.10-13.42.45:123][680]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.10-13.42.45:183][680]LogLoad: Game class is 'AWWAGameMode'
+[2019.01.10-13.42.45:348][680]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2019.01.10-22.42.45
+[2019.01.10-13.42.45:357][680]LogWorld: Bringing up level for play took: 0.172531
+[2019.01.10-13.42.45:361][680]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2019.01.10-13.42.45:381][680]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 1.313
+[2019.01.10-13.42.45:382][680]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.42.49:098][ 83]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-17.07 Y=-0.00 Z=0.00 Location: X=121316.67 Y=40399.50 Z=47880.65 Normal: X=0.00 Y=0.00 Z=1.00 PenetrationDepth:14.996 Actor:Cube74 Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
+[2019.01.10-13.42.50:098][200]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-430.15 Y=-176.38 Z=0.00 Location: X=121316.67 Y=40399.50 Z=47880.65 Normal: X=0.00 Y=0.00 Z=1.00 PenetrationDepth:14.996 Actor:Cube74 Component:StaticMeshComponent0 BoneName:None (116 other events since notify)
+[2019.01.10-13.42.51:103][309]LogCharacterMovement: AWWA_MainCharacter_C_0 is stuck and failed to move! Velocity: X=309.61 Y=147.81 Z=0.00 Location: X=121316.67 Y=40399.50 Z=47880.65 Normal: X=0.00 Y=0.00 Z=1.00 PenetrationDepth:14.996 Actor:Cube74 Component:StaticMeshComponent0 BoneName:None (108 other events since notify)
+[2019.01.10-13.42.51:290][331]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.42.51:378][331]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.42.52:323][418]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2019.01.10-13.42.52:371][418]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.10-13.42.53:469][513]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.42.53:469][513]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.10-13.42.53:469][513]PIE: New page: PIE 세션: World (2019. 1. 11. 오전 7:42:53)
+[2019.01.10-13.42.53:469][513]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2019.01.10-13.42.53:880][513]LogPlayLevel: PIE: StaticDuplicateObject took: (0.412186s)
+[2019.01.10-13.42.53:881][513]LogAIModule: Creating AISystem for world World
+[2019.01.10-13.42.53:881][513]LogPlayLevel: PIE: World Init took: (0.000586s)
+[2019.01.10-13.42.53:882][513]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.413508s)
+[2019.01.10-13.42.53:941][513]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.10-13.42.53:951][513]LogInit: FAudioDevice initialized.
+[2019.01.10-13.42.53:951][513]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.10-13.42.53:986][513]LogLoad: Game class is 'AWWAGameMode'
+[2019.01.10-13.42.54:118][513]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2019.01.10-22.42.54
+[2019.01.10-13.42.54:125][513]LogWorld: Bringing up level for play took: 0.138301
+[2019.01.10-13.42.54:144][513]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.076
+[2019.01.10-13.42.54:145][513]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.43.00:941][318]LogSlate: Took 0.002065 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.01.10-13.43.23:426][  1]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.43.23:510][  1]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.43.44:583][402]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane2)
+[2019.01.10-13.43.44:631][402]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.10-13.44.59:342][906]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.10-13.46.05:486][540]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2019.01.10-13.46.06:642][540]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001560776a9c0, Size=8584
+[2019.01.10-13.46.06:642][540]LogUObjectGlobals: Created PersistentFrame Addr=0x000001560776ae00, Size=8584, AWWA_MainCharacter_C_229 Function /Engine/Transient.REINST_AWWA_MainCharacter_C_128:ExecuteUbergraph_AWWA_MainCharacter
+[2019.01.10-13.46.06:828][540]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015643fb37c0, Size=8584, Default__AWWA_MainCharacter_C Function /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter_C:ExecuteUbergraph_AWWA_MainCharacter
+[2019.01.10-13.46.09:356][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Character/AWWA_MainCharacter" FILE="C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset" SILENT=true
+[2019.01.10-13.46.10:996][599]LogSavePackage: Save=1627.20ms
+[2019.01.10-13.46.10:996][599]LogSavePackage: Moving 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacterC4103616424A753C7B031FB8E81BAD09.tmp' to 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
+[2019.01.10-13.46.10:999][599]LogSavePackage: Display: Finished SavePackage C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
+[2019.01.10-13.46.12:330][733]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane2)
+[2019.01.10-13.46.12:362][733]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.10-13.46.13:549][820]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.46.13:549][820]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.10-13.46.13:549][820]PIE: New page: PIE 세션: World (2019. 1. 11. 오전 7:46:13)
+[2019.01.10-13.46.13:549][820]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2019.01.10-13.46.13:969][820]LogPlayLevel: PIE: StaticDuplicateObject took: (0.419894s)
+[2019.01.10-13.46.13:970][820]LogAIModule: Creating AISystem for world World
+[2019.01.10-13.46.13:970][820]LogPlayLevel: PIE: World Init took: (0.000515s)
+[2019.01.10-13.46.13:970][820]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.421055s)
+[2019.01.10-13.46.14:000][820]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001560776ae00, Size=8584
+[2019.01.10-13.46.14:040][820]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.10-13.46.14:050][820]LogInit: FAudioDevice initialized.
+[2019.01.10-13.46.14:050][820]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.10-13.46.14:085][820]LogLoad: Game class is 'AWWAGameMode'
+[2019.01.10-13.46.14:219][820]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2019.01.10-22.46.14
+[2019.01.10-13.46.14:227][820]LogWorld: Bringing up level for play took: 0.140681
+[2019.01.10-13.46.14:247][820]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.178
+[2019.01.10-13.46.14:248][820]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.46.19:206][404]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] 뭐야?
+[2019.01.10-13.46.21:929][727]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.46.22:028][727]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.46.22:607][770]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.10-13.47.21:155][527]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2019.01.10-13.47.21:175][527]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_15:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) - call TermArticulated first.
+[2019.01.10-13.47.39:162][575]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane2)
+[2019.01.10-13.47.39:222][575]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.10-13.47.39:860][626]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.47.39:860][626]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.10-13.47.39:860][626]PIE: New page: PIE 세션: World (2019. 1. 11. 오전 7:47:39)
+[2019.01.10-13.47.39:860][626]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2019.01.10-13.47.40:290][626]LogPlayLevel: PIE: StaticDuplicateObject took: (0.429859s)
+[2019.01.10-13.47.40:291][626]LogAIModule: Creating AISystem for world World
+[2019.01.10-13.47.40:291][626]LogPlayLevel: PIE: World Init took: (0.000628s)
+[2019.01.10-13.47.40:292][626]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.431141s)
+[2019.01.10-13.47.40:352][626]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.10-13.47.40:362][626]LogInit: FAudioDevice initialized.
+[2019.01.10-13.47.40:362][626]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.10-13.47.40:413][626]LogLoad: Game class is 'AWWAGameMode'
+[2019.01.10-13.47.40:571][626]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2019.01.10-22.47.40
+[2019.01.10-13.47.40:579][626]LogWorld: Bringing up level for play took: 0.164325
+[2019.01.10-13.47.40:600][626]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.532
+[2019.01.10-13.47.40:601][626]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.47.44:185][ 42]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] 뭐야?
+[2019.01.10-13.47.49:839][718]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.47.50:164][718]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.47.50:880][774]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.10-13.48.29:851][580]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2019.01.10-13.48.31:008][580]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015643fb37c0, Size=8584
+[2019.01.10-13.48.31:009][580]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015643fb3100, Size=8584, AWWA_MainCharacter_C_343 Function /Engine/Transient.REINST_AWWA_MainCharacter_C_136:ExecuteUbergraph_AWWA_MainCharacter
+[2019.01.10-13.48.31:198][580]LogUObjectGlobals: Created PersistentFrame Addr=0x00000157b448ddc0, Size=8584, Default__AWWA_MainCharacter_C Function /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter_C:ExecuteUbergraph_AWWA_MainCharacter
+[2019.01.10-13.48.33:370][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Character/AWWA_MainCharacter" FILE="C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset" SILENT=true
+[2019.01.10-13.48.35:003][609]LogSavePackage: Save=1629.73ms
+[2019.01.10-13.48.35:003][609]LogSavePackage: Moving 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacterEFEED86C45677BD9D21A7A8C7193203B.tmp' to 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
+[2019.01.10-13.48.35:007][609]LogSavePackage: Display: Finished SavePackage C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
+[2019.01.10-13.48.35:994][692]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane2)
+[2019.01.10-13.48.36:042][692]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.10-13.48.37:087][768]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.48.37:087][768]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.10-13.48.37:088][768]PIE: New page: PIE 세션: World (2019. 1. 11. 오전 7:48:37)
+[2019.01.10-13.48.37:088][768]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2019.01.10-13.48.37:507][768]LogPlayLevel: PIE: StaticDuplicateObject took: (0.419468s)
+[2019.01.10-13.48.37:508][768]LogAIModule: Creating AISystem for world World
+[2019.01.10-13.48.37:508][768]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2019.01.10-13.48.37:509][768]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.420772s)
+[2019.01.10-13.48.37:538][768]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015643fb3100, Size=8584
+[2019.01.10-13.48.37:578][768]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.10-13.48.37:588][768]LogInit: FAudioDevice initialized.
+[2019.01.10-13.48.37:588][768]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.10-13.48.37:630][768]LogLoad: Game class is 'AWWAGameMode'
+[2019.01.10-13.48.37:778][768]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2019.01.10-22.48.37
+[2019.01.10-13.48.37:785][768]LogWorld: Bringing up level for play took: 0.153197
+[2019.01.10-13.48.37:805][768]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 1.737
+[2019.01.10-13.48.37:806][768]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.48.41:468][197]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] 뭐야?
+[2019.01.10-13.48.50:985][335]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.48.51:072][335]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.49.15:658][642]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.10-13.49.35:319][767]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane2)
+[2019.01.10-13.49.35:367][767]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.10-13.49.36:125][840]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.49.36:126][840]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.10-13.49.36:126][840]PIE: New page: PIE 세션: World (2019. 1. 11. 오전 7:49:36)
+[2019.01.10-13.49.36:126][840]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2019.01.10-13.49.36:545][840]LogPlayLevel: PIE: StaticDuplicateObject took: (0.418870s)
+[2019.01.10-13.49.36:545][840]LogAIModule: Creating AISystem for world World
+[2019.01.10-13.49.36:546][840]LogPlayLevel: PIE: World Init took: (0.000585s)
+[2019.01.10-13.49.36:546][840]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.420294s)
+[2019.01.10-13.49.36:607][840]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.10-13.49.36:617][840]LogInit: FAudioDevice initialized.
+[2019.01.10-13.49.36:617][840]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.10-13.49.36:651][840]LogLoad: Game class is 'AWWAGameMode'
+[2019.01.10-13.49.36:789][840]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2019.01.10-22.49.36
+[2019.01.10-13.49.36:796][840]LogWorld: Bringing up level for play took: 0.145156
+[2019.01.10-13.49.36:816][840]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.748
+[2019.01.10-13.49.36:817][840]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.49.40:833][310]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] 뭐야?
+[2019.01.10-13.50.04:762][169]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] 뭐야?
+[2019.01.10-13.50.19:931][985]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] 뭐야?
+[2019.01.10-13.50.26:939][825]LogActor: Warning: TireFull51_309 is outside the world bounds!
+[2019.01.10-13.50.28:032][955]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.50.28:355][955]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.50.30:037][132]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.10-13.50.43:024][982]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane2)
+[2019.01.10-13.50.43:085][982]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.10-13.50.44:116][ 65]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.50.44:116][ 65]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2019.01.10-13.50.44:673][ 65]LogPlayLevel: [PlayLevel] Compiling AWWA_MainCharacter before play...
+[2019.01.10-13.50.45:210][ 65]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000157b448ddc0, Size=8584
+[2019.01.10-13.50.45:210][ 65]LogUObjectGlobals: Created PersistentFrame Addr=0x00000157b448c600, Size=8584, AWWA_MainCharacter_C_457 Function /Engine/Transient.REINST_AWWA_MainCharacter_C_144:ExecuteUbergraph_AWWA_MainCharacter
+[2019.01.10-13.50.45:396][ 65]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015771643040, Size=8584, Default__AWWA_MainCharacter_C Function /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter_C:ExecuteUbergraph_AWWA_MainCharacter
+[2019.01.10-13.50.46:263][ 65]LogPlayLevel: PlayLevel: Blueprint regeneration took 2146 ms (1 blueprints)
+[2019.01.10-13.50.46:263][ 65]PIE: New page: PIE 세션: World (2019. 1. 11. 오전 7:50:46)
+[2019.01.10-13.50.46:263][ 65]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2019.01.10-13.50.46:676][ 65]LogPlayLevel: PIE: StaticDuplicateObject took: (0.413498s)
+[2019.01.10-13.50.46:677][ 65]LogAIModule: Creating AISystem for world World
+[2019.01.10-13.50.46:677][ 65]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2019.01.10-13.50.46:677][ 65]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.414722s)
+[2019.01.10-13.50.46:736][ 65]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.10-13.50.46:746][ 65]LogInit: FAudioDevice initialized.
+[2019.01.10-13.50.46:746][ 65]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.10-13.50.46:781][ 65]LogLoad: Game class is 'AWWAGameMode'
+[2019.01.10-13.50.46:913][ 65]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2019.01.10-22.50.46
+[2019.01.10-13.50.46:920][ 65]LogWorld: Bringing up level for play took: 0.138243
+[2019.01.10-13.50.46:939][ 65]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 2.872
+[2019.01.10-13.50.46:940][ 65]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.50.51:995][647]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] 뭐야?
+[2019.01.10-13.50.54:743][975]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.50.54:825][975]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.50.55:623][ 42]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.10-13.51.01:773][428]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2019.01.10-13.51.02:871][428]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015771643040, Size=8584
+[2019.01.10-13.51.02:871][428]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015771642b40, Size=8584, AWWA_MainCharacter_C_599 Function /Engine/Transient.REINST_AWWA_MainCharacter_C_152:ExecuteUbergraph_AWWA_MainCharacter
+[2019.01.10-13.51.03:064][428]LogUObjectGlobals: Created PersistentFrame Addr=0x000001571dbe9680, Size=8584, Default__AWWA_MainCharacter_C Function /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter_C:ExecuteUbergraph_AWWA_MainCharacter
+[2019.01.10-13.52.02:735][181]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2019.01.10-13.52.02:783][181]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.10-13.52.03:770][253]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.52.03:770][253]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.10-13.52.03:770][253]PIE: New page: PIE 세션: World (2019. 1. 11. 오전 7:52:03)
+[2019.01.10-13.52.03:770][253]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2019.01.10-13.52.04:186][253]LogPlayLevel: PIE: StaticDuplicateObject took: (0.416092s)
+[2019.01.10-13.52.04:187][253]LogAIModule: Creating AISystem for world World
+[2019.01.10-13.52.04:187][253]LogPlayLevel: PIE: World Init took: (0.000568s)
+[2019.01.10-13.52.04:188][253]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.417351s)
+[2019.01.10-13.52.04:217][253]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000157b448c600, Size=8584
+[2019.01.10-13.52.04:217][253]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015771642b40, Size=8584
+[2019.01.10-13.52.04:259][253]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.10-13.52.04:270][253]LogInit: FAudioDevice initialized.
+[2019.01.10-13.52.04:270][253]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.10-13.52.04:304][253]LogLoad: Game class is 'AWWAGameMode'
+[2019.01.10-13.52.04:442][253]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2019.01.10-22.52.04
+[2019.01.10-13.52.04:450][253]LogWorld: Bringing up level for play took: 0.145307
+[2019.01.10-13.52.04:470][253]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.401
+[2019.01.10-13.52.04:471][253]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.52.12:145][161]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] 뭐야?
+[2019.01.10-13.52.15:325][541]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] 뭐야?
+[2019.01.10-13.52.26:288][855]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.52.26:375][855]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.53.40:834][631]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2019.01.10-13.53.40:899][631]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.10-13.53.41:634][685]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.53.41:634][685]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.10-13.53.41:634][685]PIE: New page: PIE 세션: World (2019. 1. 11. 오전 7:53:41)
+[2019.01.10-13.53.41:634][685]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2019.01.10-13.53.42:057][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.424136s)
+[2019.01.10-13.53.42:058][685]LogAIModule: Creating AISystem for world World
+[2019.01.10-13.53.42:058][685]LogPlayLevel: PIE: World Init took: (0.000639s)
+[2019.01.10-13.53.42:059][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.425455s)
+[2019.01.10-13.53.42:119][685]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.10-13.53.42:129][685]LogInit: FAudioDevice initialized.
+[2019.01.10-13.53.42:129][685]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.10-13.53.42:159][685]LogLoad: Game class is 'AWWAGameMode'
+[2019.01.10-13.53.42:290][685]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2019.01.10-22.53.42
+[2019.01.10-13.53.42:297][685]LogWorld: Bringing up level for play took: 0.137514
+[2019.01.10-13.53.42:317][685]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.249
+[2019.01.10-13.53.42:318][685]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.53.45:243][ 22]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] 뭐야?
+[2019.01.10-13.53.49:698][555]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] 뭐야?
+[2019.01.10-13.53.54:518][133]LogBlueprintUserMessages: [AWWA_MainCharacter_C_0] 뭐야?
+[2019.01.10-13.53.56:978][428]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.53.57:070][428]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.53.58:331][553]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.10-13.55.07:774][219]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2019.01.10-13.55.08:875][219]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001571dbe9680, Size=8584
+[2019.01.10-13.55.08:875][219]LogUObjectGlobals: Created PersistentFrame Addr=0x000001571dbe8640, Size=8584, AWWA_MainCharacter_C_741 Function /Engine/Transient.REINST_AWWA_MainCharacter_C_160:ExecuteUbergraph_AWWA_MainCharacter
+[2019.01.10-13.55.09:061][219]LogUObjectGlobals: Created PersistentFrame Addr=0x00000157ad0d3100, Size=8592, Default__AWWA_MainCharacter_C Function /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter_C:ExecuteUbergraph_AWWA_MainCharacter
+[2019.01.10-13.55.14:580][465]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2019.01.10-13.55.15:675][465]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000157ad0d3100, Size=8592
+[2019.01.10-13.55.15:675][465]LogUObjectGlobals: Created PersistentFrame Addr=0x00000157ad0d2b80, Size=8592, AWWA_MainCharacter_C_855 Function /Engine/Transient.REINST_AWWA_MainCharacter_C_168:ExecuteUbergraph_AWWA_MainCharacter
+[2019.01.10-13.55.15:861][465]LogUObjectGlobals: Created PersistentFrame Addr=0x000001564fa2d7c0, Size=8592, Default__AWWA_MainCharacter_C Function /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter_C:ExecuteUbergraph_AWWA_MainCharacter
+[2019.01.10-13.55.16:435][465]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001571dbe8640, Size=8584
+[2019.01.10-13.55.18:389][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Character/AWWA_MainCharacter" FILE="C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset" SILENT=true
+[2019.01.10-13.55.20:019][518]LogSavePackage: Save=1619.07ms
+[2019.01.10-13.55.20:020][518]LogSavePackage: Moving 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter3059AAF94190A80AFF56609DECE4889C.tmp' to 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset'
+[2019.01.10-13.55.20:024][518]LogSavePackage: Display: Finished SavePackage C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Content/_Character/AWWA_MainCharacter.uasset
+[2019.01.10-13.55.21:106][625]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2019.01.10-13.55.21:154][625]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.10-13.55.22:073][688]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.55.22:073][688]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.10-13.55.22:073][688]PIE: New page: PIE 세션: World (2019. 1. 11. 오전 7:55:22)
+[2019.01.10-13.55.22:073][688]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2019.01.10-13.55.22:487][688]LogPlayLevel: PIE: StaticDuplicateObject took: (0.413760s)
+[2019.01.10-13.55.22:488][688]LogAIModule: Creating AISystem for world World
+[2019.01.10-13.55.22:488][688]LogPlayLevel: PIE: World Init took: (0.000611s)
+[2019.01.10-13.55.22:488][688]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.415104s)
+[2019.01.10-13.55.22:518][688]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000157ad0d2b80, Size=8592
+[2019.01.10-13.55.22:558][688]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.10-13.55.22:567][688]LogInit: FAudioDevice initialized.
+[2019.01.10-13.55.22:567][688]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.10-13.55.22:598][688]LogLoad: Game class is 'AWWAGameMode'
+[2019.01.10-13.55.22:730][688]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2019.01.10-22.55.22
+[2019.01.10-13.55.22:738][688]LogWorld: Bringing up level for play took: 0.139088
+[2019.01.10-13.55.22:758][688]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 0.69
+[2019.01.10-13.55.22:759][688]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.55.31:615][737]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.55.31:702][737]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.55.32:630][820]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.10-13.55.38:228][132]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2019.01.10-13.55.39:324][132]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001564fa2d7c0, Size=8592
+[2019.01.10-13.55.39:324][132]LogUObjectGlobals: Created PersistentFrame Addr=0x000001564fa2d800, Size=8592, AWWA_MainCharacter_C_969 Function /Engine/Transient.REINST_AWWA_MainCharacter_C_176:ExecuteUbergraph_AWWA_MainCharacter
+[2019.01.10-13.55.39:511][132]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015606160400, Size=8592, Default__AWWA_MainCharacter_C Function /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter_C:ExecuteUbergraph_AWWA_MainCharacter
+[2019.01.10-13.55.42:327][239]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2019.01.10-13.55.42:375][239]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.10-13.55.43:303][300]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.55.43:303][300]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.10-13.55.43:303][300]PIE: New page: PIE 세션: World (2019. 1. 11. 오전 7:55:43)
+[2019.01.10-13.55.43:303][300]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_World
+[2019.01.10-13.55.43:716][300]LogPlayLevel: PIE: StaticDuplicateObject took: (0.412752s)
+[2019.01.10-13.55.43:717][300]LogAIModule: Creating AISystem for world World
+[2019.01.10-13.55.43:717][300]LogPlayLevel: PIE: World Init took: (0.000526s)
+[2019.01.10-13.55.43:717][300]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/World.World to /Game/_Maps/UEDPIE_0_World.World (0.413959s)
+[2019.01.10-13.55.43:747][300]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001564fa2d800, Size=8592
+[2019.01.10-13.55.43:786][300]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.10-13.55.43:795][300]LogInit: FAudioDevice initialized.
+[2019.01.10-13.55.43:795][300]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.10-13.55.43:837][300]LogLoad: Game class is 'AWWAGameMode'
+[2019.01.10-13.55.43:990][300]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_World.World up for play (max tick rate 0) at 2019.01.10-22.55.43
+[2019.01.10-13.55.43:997][300]LogWorld: Bringing up level for play took: 0.157275
+[2019.01.10-13.55.44:017][300]PIE: /Game/_Maps/UEDPIE_0_World 에 대한 에디터에서 플레이 시작 시간: 1.949
+[2019.01.10-13.55.44:018][300]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.56.32:348][ 71]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.56.32:433][ 71]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/World.World:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/World.World:PersistentLevel.World' with GeneratedClass '/Game/_Maps/World.World_C' with ClassGeneratedBy '/Game/_Maps/World.World:PersistentLevel.World'
+[2019.01.10-13.56.33:302][150]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.10-13.57.48:905][ 20]BlueprintLog: New page: AWWA_MainCharacter 컴파일
+[2019.01.10-13.57.50:010][ 20]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015606160400, Size=8592
+[2019.01.10-13.57.50:010][ 20]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015606161340, Size=8592, AWWA_MainCharacter_C_1083 Function /Engine/Transient.REINST_AWWA_MainCharacter_C_184:ExecuteUbergraph_AWWA_MainCharacter
+[2019.01.10-13.57.50:200][ 20]LogUObjectGlobals: Created PersistentFrame Addr=0x000001574be380c0, Size=8592, Default__AWWA_MainCharacter_C Function /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter_C:ExecuteUbergraph_AWWA_MainCharacter
+[2019.01.10-13.58.35:552][518]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015606161340, Size=8592
+[2019.01.10-13.58.44:450][518]LogSavePackage: Save=8830.78ms
+[2019.01.10-13.58.44:450][518]LogSavePackage: Moving 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/World_Auto3E30F8B264CA34FCE4C4615BF95909B0B.tmp' to 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Maps/World_Auto3.umap'
+[2019.01.10-13.58.44:458][518]LogSavePackage: Display: Finished SavePackage C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Maps/World_Auto3.umap
+[2019.01.10-13.58.44:462][518]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/World' took 8.938
+[2019.01.10-13.58.44:463][518]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 8.938
+[2019.01.10-13.58.44:467][518]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_Character/AWWA_MainCharacter] ([1] browsable assets)...
+[2019.01.10-13.58.44:483][518]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/_Character/AWWA_MainCharacter.AWWA_MainCharacter]
+[2019.01.10-13.58.44:483][518]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Character/AWWA_MainCharacter]
+[2019.01.10-13.58.46:149][518]LogSavePackage: Save=1640.32ms
+[2019.01.10-13.58.46:149][518]LogSavePackage: Moving 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter_Auto36BF26A3241503C84571C91AB1AACC0B1.tmp' to 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Character/AWWA_MainCharacter_Auto3.uasset'
+[2019.01.10-13.58.46:151][518]LogSavePackage: Display: Finished SavePackage C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Character/AWWA_MainCharacter_Auto3.uasset
+[2019.01.10-13.58.46:152][518]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_Character/MainSkeletonAnimation/FreeRunning/EDIT_HM_Braced_Hang_Drop_Montage] ([1] browsable assets)...
+[2019.01.10-13.58.46:165][518]OBJ SavePackage:     Rendered thumbnail for [AnimMontage /Game/_Character/MainSkeletonAnimation/FreeRunning/EDIT_HM_Braced_Hang_Drop_Montage.EDIT_HM_Braced_Hang_Drop_Montage]
+[2019.01.10-13.58.46:165][518]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Character/MainSkeletonAnimation/FreeRunning/EDIT_HM_Braced_Hang_Drop_Montage]
+[2019.01.10-13.58.46:184][518]LogSavePackage: Save=12.74ms
+[2019.01.10-13.58.46:184][518]LogSavePackage: Moving 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/EDIT_HM_Braced_Hang_Drop_MontageF050D9724170062511A5DA9D31E24BD8.tmp' to 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Character/MainSkeletonAnimation/FreeRunning/EDIT_HM_Braced_Hang_Drop_Montage_Auto3.uasset'
+[2019.01.10-13.58.46:186][518]LogSavePackage: Display: Finished SavePackage C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Character/MainSkeletonAnimation/FreeRunning/EDIT_HM_Braced_Hang_Drop_Montage_Auto3.uasset
+[2019.01.10-13.58.46:186][518]LogFileHelpers: Auto-saving content packages took 1.722
+[2019.01.10-14.08.50:167][786]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/World' took 0.026
+[2019.01.10-14.08.50:170][786]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Character/AWWA_MainCharacter] ([1] browsable assets)...
+[2019.01.10-14.08.50:171][786]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Character/AWWA_MainCharacter]
+[2019.01.10-14.08.51:800][786]LogSavePackage: Save=1618.59ms
+[2019.01.10-14.08.51:800][786]LogSavePackage: Moving 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/AWWA_MainCharacter_Auto4C13D2A3F488B9E919D44AABC399723ED.tmp' to 'C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Character/AWWA_MainCharacter_Auto4.uasset'
+[2019.01.10-14.08.51:802][786]LogSavePackage: Display: Finished SavePackage C:/Users/korea/Documents/GitHub/AndWhenWeAdvance/NewAWWA/AWWA/Saved/Autosaves/Game/_Character/AWWA_MainCharacter_Auto4.uasset
+[2019.01.10-14.08.51:803][786]LogFileHelpers: Auto-saving content packages took 1.635
