@@ -38,17 +38,35 @@ public:
 	int32 m_State;
 	// Zombie's HP
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Stat")
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Stat")	
 	int32 m_hp;
 	// Zombie's HP
 
-	//UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Stat")
-	//int32 m_speed;
-	//// Zombie's Speed
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Stat")
+	float m_walkSpeed;
+	// Zombie's Walk Speed
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Stat")
+	float m_runSpeed;
+	// Zombie's Run Speed
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Stat")
 	int32 m_damage;
 	// Zombie's Damage
+
+	/*
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "AnimType")
+	uint8 m_walkType;
+	// Zombie's walk anim type
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "AnimType")
+	uint8 m_runType;
+	// Zombie's run anim type
+	*/
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "AnimType")
+	uint8 m_attackType;
+	// Zombie's attack anim type
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "PhysAnim")
 	FName m_hitBoneName;
