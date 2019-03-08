@@ -26,9 +26,12 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	/*
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "ZombieType")
 	int32 m_ZombieType;
 	// It Use Zombie Stat Define???? -> Not Use
+	// use Editor Variable
+	*/
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "ZombieType")
 	int32 m_MeshBuild;

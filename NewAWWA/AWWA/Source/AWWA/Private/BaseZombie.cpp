@@ -18,7 +18,7 @@ void ABaseZombie::BeginPlay()
 }
 
 // Called every frame
-void ABaseZombie::Tick(float DeltaTime)
+void ABaseZombie::Tick (float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
