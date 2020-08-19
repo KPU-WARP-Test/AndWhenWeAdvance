@@ -8,6 +8,7 @@ __Welcome to the Project AndWhenWeAdvance Repository!__
 >This project, Created with ___Unreal Engine 4___, is a ___one person development project___ about  ___open world___, ___zombie___, ___TPS genre game___.
 And it is also a graduation piece of the ___Korea Polytechnic University's Game Engineering Department___.
 
+>[![Video Label](http://img.youtube.com/vi/1TGFmPkQZ74/0.jpg)](https://youtu.be/1TGFmPkQZ74?t=0s) <- Click to watch the video.:)
 
 about New Tech
 --------
